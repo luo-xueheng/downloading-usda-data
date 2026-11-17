@@ -1,0 +1,79 @@
+[
+  {
+    "name": "proxy-2010",
+    "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip",
+    "proxy_disabled": false,
+    "utc": "2026-11-17T05:41:23.213136+00:00",
+    "status": 504,
+    "headers": {
+      "Server": "awselb/2.0",
+      "Content-Type": "text/html",
+      "Content-Length": "132"
+    },
+    "body": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n",
+    "seconds": 12.32
+  },
+  {
+    "name": "direct-2010",
+    "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip",
+    "proxy_disabled": true,
+    "utc": "2026-11-17T05:41:23.213660+00:00",
+    "status": 502,
+    "headers": {
+      "Server": "awselb/2.0",
+      "Content-Type": "text/html",
+      "Content-Length": "122"
+    },
+    "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n",
+    "seconds": 2.29
+  },
+  {
+    "name": "direct-2025",
+    "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2025.zip",
+    "proxy_disabled": true,
+    "utc": "2026-11-17T05:41:23.213796+00:00",
+    "status": 504,
+    "headers": {
+      "Server": "awselb/2.0",
+      "Content-Type": "text/html",
+      "Content-Length": "132"
+    },
+    "body": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n",
+    "seconds": 12.21
+  },
+  {
+    "name": "direct-root",
+    "url": "https://pubfs-rma.fpac.usda.gov/",
+    "proxy_disabled": true,
+    "utc": "2026-11-17T05:41:23.213927+00:00",
+    "status": 502,
+    "headers": {
+      "Server": "awselb/2.0",
+      "Content-Type": "text/html",
+      "Content-Length": "122"
+    },
+    "body": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n",
+    "seconds": 2.18
+  },
+  {
+    "name": "proxy-page",
+    "url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+    "proxy_disabled": false,
+    "utc": "2026-11-17T05:41:23.214042+00:00",
+    "status": 200,
+    "bytes": 89666,
+    "sha256": "05d9196a01ab22e7e4b1cf6806943f23cf51353a447f8b3b87f85af916d9f4f1",
+    "signature": "3c21444f43545950",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "89666",
+      "Via": "1.1 varnish-v4"
+    },
+    "seconds": 2.39
+  },
+  {
+    "name": "official-page-download-links",
+    "url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+    "links": []
+  }
+]
