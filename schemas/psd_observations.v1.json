@@ -1,0 +1,278 @@
+{
+  "name": "psd_observations",
+  "version": "1",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "commodityCode",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original seven-digit commodity code, leading zeros retained",
+      "source_mapping": "commodityCode",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "countryCode",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original country/aggregate code; 00 denotes source world endpoint",
+      "source_mapping": "countryCode",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "aggregation_level",
+      "type": "string",
+      "nullable": false,
+      "meaning": "country, region, residual_aggregate or world",
+      "source_mapping": "verified endpoint and country dictionary",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "marketYear",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source marketing-year identifier, not converted to calendar year",
+      "source_mapping": "marketYear",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "attributeId",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official attribute code",
+      "source_mapping": "attributeId",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unitId",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official original unit/scale code",
+      "source_mapping": "unitId",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "calendarYear",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source record update year; not original report vintage",
+      "source_mapping": "calendarYear",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "month",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source update month, retaining leading zero",
+      "source_mapping": "month",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "commodity_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official commodity description",
+      "source_mapping": "commodities.commodityName",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "geography_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official geography description",
+      "source_mapping": "countries.countryName or world endpoint",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "region_code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Membership metadata; not an additional total",
+      "source_mapping": "countries.regionCode or R00",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "region_name",
+      "type": "string",
+      "nullable": true,
+      "meaning": "Official region name; null when source countries refer to an absent region dictionary row",
+      "source_mapping": "regions.regionName",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "region_mapping_status",
+      "type": "string",
+      "nullable": false,
+      "meaning": "resolved or absent_in_source_dictionary; original region code is always retained",
+      "source_mapping": "dictionary cross-reference",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "genc_code",
+      "type": "string",
+      "nullable": true,
+      "meaning": "Optional source geography code",
+      "source_mapping": "countries.gencCode",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "attribute_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official attribute label",
+      "source_mapping": "commodityAttributes.attributeName",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source unit description with surrounding whitespace trimmed only",
+      "source_mapping": "unitsOfMeasure.unitDescription",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unit_raw",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original unit descriptor including lexical padding",
+      "source_mapping": "unitsOfMeasure.unitDescription",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "value",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Exact numeric value in original source unit; missing not zero",
+      "source_mapping": "value",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_value",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original numeric or null representation",
+      "source_mapping": "value",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_period",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source year-month update label, not invented exact date",
+      "source_mapping": "calendarYear and month",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_date",
+      "type": "date",
+      "nullable": true,
+      "meaning": "Exact publication day unavailable",
+      "source_mapping": "source does not provide day",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_at_utc",
+      "type": "datetime",
+      "nullable": true,
+      "meaning": "Exact publication instant unavailable",
+      "source_mapping": "source does not provide time",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "release_time_precision",
+      "type": "string",
+      "nullable": false,
+      "meaning": "month; no day or clock inferred",
+      "source_mapping": "source year-month metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "retrieved_at_utc",
+      "type": "datetime",
+      "nullable": false,
+      "meaning": "UTC capture timestamp",
+      "source_mapping": "receipt",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_artifact_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Exact response hash",
+      "source_mapping": "raw archive",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "snapshot_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Version-aware snapshot identity",
+      "source_mapping": "normalized manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "vintage_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "current_revised; never historic report vintage",
+      "source_mapping": "PSD API semantics",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

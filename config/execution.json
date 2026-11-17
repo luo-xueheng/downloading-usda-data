@@ -1,0 +1,18 @@
+{
+  "authorized_at": "2026-11-15",
+  "authorized_phases": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+  ],
+  "gate_policy": "Strict numeric order; do not begin the next phase until the current phase passes.",
+  "frozen_scope_note": "scope.json authorized_phases records authorization at its Phase 00 freeze; this file records the superseding user instruction."
+}

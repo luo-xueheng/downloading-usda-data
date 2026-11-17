@@ -1,0 +1,12 @@
+{
+  "id": "wasde-holdout",
+  "url": "https://www.usda.gov/oce/commodity/wasde/wasde1026.xml",
+  "path": "tests/fixtures/raw/wasde-holdout.xml",
+  "checked_at_utc": "2026-11-12T14:23:10.711729+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/oce/commodity/wasde/wasde1026.xml",
+  "content_type": "application/xml",
+  "last_modified": "Fri, 09 Oct 2026 15:44:23 GMT",
+  "sha256": "85e67ec8e8ec8eb98462596a4e784c170534630108cd51f4f42037756a9e50b9",
+  "bytes": 3569419
+}

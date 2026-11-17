@@ -1,0 +1,95 @@
+{
+  "tasks": [
+    {
+      "task_id": "wasde-nov2026",
+      "dataset": "wasde",
+      "options": {
+        "start": "2026-11-10",
+        "end": "2026-11-10"
+      },
+      "required": true
+    },
+    {
+      "task_id": "ers-corn2025",
+      "dataset": "costs-returns",
+      "options": {
+        "years": [
+          2025
+        ],
+        "commodities": "Corn"
+      },
+      "required": true
+    },
+    {
+      "task_id": "esr-corn2026",
+      "dataset": "export-sales",
+      "options": {
+        "commodities": [
+          "401"
+        ],
+        "market_years": [
+          2026
+        ]
+      },
+      "required": true
+    },
+    {
+      "task_id": "production-nov2026",
+      "dataset": "world-production",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "Corn"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "required": true
+    },
+    {
+      "task_id": "grain-nov2026",
+      "dataset": "grain-trade",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "Corn"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "required": true
+    },
+    {
+      "task_id": "oilseed-nov2026",
+      "dataset": "oilseed-trade",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "2222000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "required": true
+    },
+    {
+      "task_id": "rma-2025",
+      "dataset": "rma-sob",
+      "options": {
+        "commodity_years": [
+          2025
+        ],
+        "chunk_size": 5000
+      },
+      "required": true
+    }
+  ],
+  "numeric_downloads": false,
+  "task_count": 7
+}

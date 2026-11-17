@@ -1,0 +1,12 @@
+{
+  "id": "wasde-history-discovery",
+  "url": "https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report/historical-wasde-report-data",
+  "path": "artifacts/acceptance/phase-02/discovery/history.html",
+  "checked_at_utc": "2026-11-15T07:10:00.535245+00:00",
+  "status": 200,
+  "final_url": "https://usda.azureedge.us/historical-wasde-report-data-3",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 15 Nov 2026 06:55:35 GMT",
+  "sha256": "22b201e998b6c9db4d7be6dc2d58766f78c395187d773010b2eff1aa8bd78df6",
+  "bytes": 160417
+}

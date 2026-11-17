@@ -1,0 +1,68 @@
+{
+  "name": "roundtrip",
+  "version": "1",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Synthetic geographic code",
+      "source_mapping": "synthetic fixture",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "count",
+      "type": "integer",
+      "nullable": false,
+      "meaning": "Synthetic count",
+      "source_mapping": "synthetic fixture",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "missing",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Synthetic unavailable value",
+      "source_mapping": "synthetic fixture",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "date",
+      "type": "date",
+      "nullable": false,
+      "meaning": "Synthetic report date",
+      "source_mapping": "synthetic fixture",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "amount",
+      "type": "decimal",
+      "nullable": false,
+      "meaning": "Synthetic signed amount",
+      "source_mapping": "synthetic fixture",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Synthetic quoted string",
+      "source_mapping": "synthetic fixture",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

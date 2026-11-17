@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:32:14.662652+00:00",
+  "completed_at_utc": "2026-11-16T16:34:47.353497+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/validate_backfill.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 152.69292591599515,
+  "output": "artifacts/acceptance/phase-09/full-task-validation.txt",
+  "child_peak_rss_mib": 168.03125
+}

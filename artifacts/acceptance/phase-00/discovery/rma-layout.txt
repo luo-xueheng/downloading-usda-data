@@ -1,0 +1,92 @@
+PAGE 1
+Crop Insurance Experience with Coverage Level - (1989 Forward) 
+ 
+Page 1 of 3  5/28/2026 
+ 
+The crop insurance experience file contains Summary of Business data summarized to the State/County/Crop level and includes the 
+Coverage Level for commodity years from 1989 forward.  The files are created in a delimited format using the | symbol as the 
+delimiter (commas are frequently part of some of the fields) and can be easily used to create EXCEL spreadsheets.  The format 
+identified in the layout below uses a 9 to indicate a numeric value with the maximum characters or decimal layout (V) in the 
+parenthesis following while an X will indicate an alpha-numeric value with the maximum characters following. 
+ 
+ Element Name Format Definition 
+1 Commodity Year 9(04) The identifier that represents  the year in which the crop/commodity is normally 
+harvested and indicates the policy year for which coverage was provided. 
+2 Location State Code 9(02) The FIPS code that denote s the State in which the insured farm is located. 
+3 Location State 
+Abbreviation 
+X(02) USPS state abbreviation 
+4 Location Count y Code 9(03) A FIPS code indicatin g the county in which the insured farm is located 
+5 Location Count y Name X(35) Name of the count y 
+6 Commodity Code 9(04) The Risk Management Agency  (RMA) code that denotes the crop/commodity for 
+which the policy is issued. 
+7 Commodit y Name X(30) Name of the crop /commodity 
+8 Insurance Plan Code 9(02) Code that  denotes the type of insurance coverage is selected for the insured crop 
+(e.g.APH, Revenue, Dollar, etc.) 
+9 Insurance Plan Name 
+Abbreviation 
+X(05) Abbreviation of the Insurance Plan Name 
+10 Coverage Category X(05) Code that identi fies the category of coverage elected : 
+   A = Buyup ; C = CAT ; E = Existing Coverage Policy ; L = Limited Coverage 
+11 Delivery Type X(04) RCAT – Reinsured CAT coverage 
+RBUP – Reinsured Buyup coverage 
+FCAT – Federal CAT coverage (RMA or FSA) 
+FBUP – Federal Buyup coverage (RMA or FSA) 
+12 Coverage Level 9(01)V9(04) Elected by the insured, its complement is the deductible.  The base to which it 
+applies differs by insurance plan (e.g. - yield, revenue, dollar, or inventory).  
+Expressed as a decimal 
+PAGE 2
+Crop Insurance Experience with Coverage Level - (1989 Forward) 
+ 
+Page 2 of 3  5/28/2026 
+ 
+ Element Name Format Definition 
+13 Policies Sold Count 9(08) The number of policies reported to RMA as being sold. 
+NOTE: Policy Counts are not available for the CLIP Insurance Plan because 
+CLIP can insure multiple commodities on a single policy. 
+14 Policies Earning 
+Premium Count 
+9(08) The number of policies for which acreage has been reported to RMA. 
+NOTE: Policy Counts are not available for the CLIP Insurance Plan because 
+CLIP can insure multiple commodities on a single policy. 
+15 Policies Indemnified 
+Count 
+9(08) The number of policies for which losses have been reported to RMA. 
+NOTE: Policy Counts are not available for the CLIP Insurance Plan because 
+CLIP can insure multiple commodities on a single policy. 
+16 Units Earning Premium 
+Count 
+9(12) The number of units for which acreage has been reported to RMA. 
+NOTE: Unit Counts are not available for the CLIP Insurance Plan because CLIP 
+can insure multiple commodities on a single policy. 
+17 Units Indemnified Count 9(12) The number of units  for which losses have been reported to RMA. 
+NOTE: Unit Counts are not available for the CLIP Insurance Plan because CLIP 
+can insure multiple commodities on a single policy. 
+18 Quantit y Type X(25) Identifies the t ype of quantity (e.g. Acres, Tons, Pounds, etc.) 
+19 Net Reported Quantity 9(10) Number of acres, tons, pounds, etc. reported as being planted adjusted by the 
+insured’s share in the commodity. (e.g. reported acres * insured’s share) 
+20 Endorsed/Companion 
+Acres 
+9(15) Number of acres insured under an endorsement and/or companion option (e.g. 
+SCO, STAX, Margin Protection) 
+21 Liabilit y Amount ($) 9(15) The maximum dollar amount of insurance for this crop unit line item 
+22 Total Premium Amount 
+($) 
+9(15) Premium before applicati on of any subsidies.  In general, the base premium rate 
+times liability.  Also called base premium 
+23 Subsid y Amount ($) 9(15) Amount of  subsidized premium. 
+24 State/Private Subsid y ($) 9(15) Subsid y provided by a state or private entity 
+25 Additional Subsidy ($) 9(15) An additional subsi dy from a program or other process. 2021 and 2022 
+Additional Subsidy represents Pandemic Cover Crop Program amount. 
+26 EFA Premium Discount 
+($) 
+9(15)  
+PAGE 3
+Crop Insurance Experience with Coverage Level - (1989 Forward) 
+ 
+Page 3 of 3  5/28/2026 
+ 
+ Element Name Format Definition 
+27 Indemnit y Amount ($) S9(15) The total amount of the loss. 
+28 Loss Ratio 9(04)V9(02) Ratio of  losses to premium (indemnity / total premium) 
+ 

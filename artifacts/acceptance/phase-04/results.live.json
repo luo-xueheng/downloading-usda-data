@@ -1,0 +1,107 @@
+[
+  {
+    "phase_id": "04",
+    "test_id": "P04-A1",
+    "mode": "live",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_04/test_esr.py::test_authenticated_dictionaries_numeric_and_completeness: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Authenticated live dictionary and numeric requests succeed; actual JSON field names and response completeness are documented. Missing access produces a blocked result, not an empty successful DataFrame.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A2",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "At least 30 independently read metric values cover at least three commodities, two destinations, and two marketing years; all dimensions, units, and values match pinned official responses.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A3",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A week near a marketing-year boundary maps to the correct source marketing year and week-ending date; report release date remains separate.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A4",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A real negative net-sales example is retained if available; an explicitly synthetic cancellation case also verifies signed values are not clamped to zero.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A5",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "Full fixture record counts match the API payload after documented filtering. Unknown codes and truncated/incomplete responses fail visibly.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A6",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A holdout commodity/year response passes without changing expectations. Function/CLI results and CSV reload are equal.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  },
+  {
+    "phase_id": "04",
+    "test_id": "P04-A7",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A simulated earlier-year revision causes the entire affected configured partition to be refreshed; a deleted source row disappears only from the latest view, while the previous snapshot survives.",
+    "evidence_path": "artifacts/acceptance/phase-04",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "2d2163aab25b40dfd67cc01ed0c54f9d39d4bc9c91f7504a6a07294560a4fa99"
+    },
+    "configuration_hash": "c4aa07b51dc3167f2c3a76b34d99b6611ccf8c13096f9468d9a4411fe0910763",
+    "executed_at_utc": "2026-11-15T13:14:48.049562+00:00"
+  }
+]

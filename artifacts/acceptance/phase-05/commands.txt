@@ -1,0 +1,28 @@
+UTC: 2026-11-15T13:42:26.011599+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: '/Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python' -m pytest tests/phase_05 -m 'not live' -q
+Exit code: 0
+
+UTC: 2026-11-15T13:43:17.298495+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: '/Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python' -m pytest tests/phase_05 -m live -q
+Exit code: 0
+
+UTC: 2026-11-15T13:48:00.879978+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: '/Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python' -m pytest tests/phase_05 -m 'not live' -q
+Exit code: 0
+
+UTC: 2026-11-15T14:15:37.355030+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: '/Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python' -m pytest tests/phase_05 -m live -q
+Exit code: 0
+
+
+Recorded UTC: 2026-11-15T14:26:03.297145+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python -m usda_data fetch --dataset psd --commodities Corn --market-years 2025 --data-dir artifacts/acceptance/phase-05/sample/data --output-dir artifacts/acceptance/phase-05/sample/exports
+Exit code: 0; 1890 rows
+
+Command: .venv/bin/python -m pytest tests/phase_01 tests/phase_02 tests/phase_03 tests/phase_04 -m 'not live' -q
+Exit code: 0; 42 passed, 3 live tests deselected

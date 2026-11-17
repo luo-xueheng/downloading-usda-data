@@ -1,0 +1,66 @@
+
+UTC: 2026-11-12T14:42:20.761789+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: python3 scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-00
+Interpreter: /opt/homebrew/opt/python@3.14/bin/python3.14
+Exit code: 0
+
+UTC: 2026-11-12T14:45:28.623137+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: python3 scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-00
+Interpreter: /opt/homebrew/opt/python@3.14/bin/python3.14
+Exit code: 0
+
+UTC: 2026-11-12T14:46:04.357939+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: python3 scripts/verify_phase00.py --mode live --evidence-dir artifacts/acceptance/phase-00
+Interpreter: /opt/homebrew/opt/python@3.14/bin/python3.14
+Exit code: 0
+
+ACQUISITION AND AUXILIARY COMMANDS
+Working directory for every command:
+/Users/tinaluo/Documents/nexus实习/downloading-usda-data
+
+Acquisition commands executed on 2026-11-12 (UTC timestamps are in each .acquisition.json):
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/landing_jobs.json
+Exit code: 0 (HTTP errors are preserved individually; not interpreted as successful endpoints)
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round2_jobs.json
+Exit code: 0
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round3_jobs.json
+Exit code: 0
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round4_jobs.json
+Exit code: 0
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round5_jobs.json
+Exit code: 0
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round6_jobs.json
+Exit code: 0
+python3 scripts/acquire_phase00.py artifacts/acceptance/phase-00/discovery/round7_jobs.json
+Exit code: 0
+
+python3 scripts/inventory_phase00.py
+Exit code: 0
+Observed: 14 artifacts; 926 source links/report candidates.
+
+python3 artifacts/acceptance/phase-00/author_references.py
+Exit code: 0
+Observed: 38 manually transcribed expectations, independent of source adapters.
+
+python3 -B scripts/test_verify_phase00.py
+Initial exit code: 1
+Reason: macOS /var versus /private/var temporary-root path alias in the test harness.
+Fix: Resolve the temporary root before running isolated checks; no acceptance expectation changed.
+python3 -B scripts/test_verify_phase00.py
+Exit code: 0
+Observed: 9 checks, including offline network prohibition and eight deliberately corrupted cases.
+
+PDF page rendering subprocesses (all exit code 0):
+pdftoppm -f 1 -l 1 -scale-to 1600 -singlefile -png tests/fixtures/raw/world-production-development.pdf tests/fixtures/references/pages/world-production-development
+pdftoppm -f 1 -l 1 -scale-to 1600 -singlefile -png tests/fixtures/raw/world-production-holdout.pdf tests/fixtures/references/pages/world-production-holdout
+pdftoppm -f 18 -l 18 -scale-to 1600 -singlefile -png tests/fixtures/raw/grain-trade-development.pdf tests/fixtures/references/pages/grain-trade-development
+pdftoppm -f 20 -l 20 -scale-to 1600 -singlefile -png tests/fixtures/raw/grain-trade-holdout.pdf tests/fixtures/references/pages/grain-trade-holdout
+pdftoppm -f 10 -l 10 -scale-to 1600 -singlefile -png tests/fixtures/raw/oilseed-trade-development.pdf tests/fixtures/references/pages/oilseed-trade-development
+pdftoppm -f 10 -l 10 -scale-to 1600 -singlefile -png tests/fixtures/raw/oilseed-trade-holdout.pdf tests/fixtures/references/pages/oilseed-trade-holdout
+
+Acquisition-time PDF text reading used the bundled Python pypdf PdfReader.extract_text(extraction_mode="layout"). Full text is saved in discovery; selected pages and render hashes are pinned in observations.json. pdftotext was unavailable (process not started, FileNotFoundError); generic pypdf text plus visual page reading was used instead. No dependency was installed.
+
+Initial direct urllib read was denied by the filesystem/network sandbox; authorized rerun reached the official FAS page and returned HTTP 403. Subsequent acquisition above preserves the actual HTTP response bodies. No access rejection is represented as a successful page.

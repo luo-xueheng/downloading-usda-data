@@ -1,0 +1,107 @@
+[
+  {
+    "phase_id": "07",
+    "test_id": "P07-A1",
+    "mode": "offline",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "Live discovery fetches a valid ZIP and applicable layout; every data member has the expected fields or a documented supported layout.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A2",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_independent_numeric_fields: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "At least 30 independent field values across two years, two geographic areas, and multiple plan/coverage categories match the official text/layout. Include quantities, money, and counts.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A3",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_codes_and_nonacre_types: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Leading-zero geographic codes and source quantity types are preserved. At least one non-acre type is verified if present in scope; otherwise a synthetic case tests the branch without claiming real-source coverage.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A4",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_row_accounting_and_cross_chunk_keys: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Source rows and normalized rows reconcile with documented filters; full business keys are unique or source duplicates are explicitly investigated, never silently dropped.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A5",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_disjoint_independent_subtotals: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "At least two independently calculated, non-overlapping partition subtotals for money and quantity agree with normalized output at source precision. State-level totals must not be added to member-county rows.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A6",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_holdout_signed_adjustments_missing_and_bad_layout: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "A holdout older layout/year passes; malformed row width and unknown layout fail before publication; signed monetary adjustments are preserved where permitted.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  },
+  {
+    "phase_id": "07",
+    "test_id": "P07-A7",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_07/test_rma.py::test_chunk_size_and_public_cli_equality: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "A small Python/CLI request and schema-guided CSV round-trip match; a deliberately bounded chunk size produces the same result as a small in-memory reference.",
+    "evidence_path": "artifacts/acceptance/phase-07",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "0784ae10a6c2252e5a25ffeebe12227c2638fe5bce84a4d5bb2834a40b7854ab"
+    },
+    "configuration_hash": "1cc506213f5b1ad6226e06db26468bbc99def462853e82103075e549c5999e4a",
+    "executed_at_utc": "2026-11-16T03:30:31.687216+00:00"
+  }
+]

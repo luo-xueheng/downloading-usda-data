@@ -1,0 +1,12 @@
+{
+  "id": "4960-west-1975-88-1989-97.xls",
+  "url": "https://www.ers.usda.gov/media/4960/west-1975-88-1989-97.xls?v=82923",
+  "path": "tests/fixtures/phase_03/4960-west-1975-88-1989-97.xls",
+  "checked_at_utc": "2026-11-15T11:12:28.995772+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4960/west-1975-88-1989-97.xls?v=82923",
+  "content_type": "application/vnd.ms-excel",
+  "last_modified": null,
+  "sha256": "432a8de24c3922b34a878c94b7ca5481a6d0a80a696fce1bb9917ba35d27fc43",
+  "bytes": 44032
+}

@@ -1,0 +1,19 @@
+{
+  "started_at_utc": "2026-11-16T22:39:22.919222+00:00",
+  "completed_at_utc": "2026-11-16T22:42:10.029959+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "artifacts/acceptance/phase-10/clean-venv/bin/python",
+    "-m",
+    "pytest",
+    "-m",
+    "not live",
+    "-q",
+    "-rs",
+    "--junitxml=artifacts/acceptance/phase-10/all-offline.xml"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 167.11315054100123,
+  "output": "artifacts/acceptance/phase-10/all-offline.txt",
+  "child_peak_rss_mib": 1251.09375
+}

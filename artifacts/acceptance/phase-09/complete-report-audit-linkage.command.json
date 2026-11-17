@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:35:14.697217+00:00",
+  "completed_at_utc": "2026-11-16T16:35:38.363017+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/link_report_audits.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 23.666079292001086,
+  "output": "artifacts/acceptance/phase-09/complete-report-audit-linkage.txt",
+  "child_peak_rss_mib": 30.546875
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ers",
+  "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+  "path": "artifacts/acceptance/phase-00/discovery/ers.html",
+  "checked_at_utc": "2026-11-12T14:21:58.272654+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "sha256": "0f0462136d24a7d01783baa77e4ee7077aecb48edea198b28104c692263462f6",
+  "bytes": 88021
+}

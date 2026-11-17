@@ -1,0 +1,57 @@
+{
+  "collected": {
+    "tests/phase_05/test_psd.py::test_independent_values_and_dimensions": {
+      "test_id": "P05-A2",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_family_union_once_and_explicit_geographic_levels": {
+      "test_id": "P05-A3",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_codes_units_scales_and_csv_exact": {
+      "test_id": "P05-A4",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_source_local_year_balances": {
+      "test_id": "P05-A5",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_holdout_and_missing_attribute_first_run": {
+      "test_id": "P05-A6",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_provenance_not_false_historical_vintages": {
+      "test_id": "P05-A7",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_public_cli_roundtrip_and_revision_retention": {
+      "test_id": "P05-A8",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_unknown_attributes_and_out_of_scope_rejected": {
+      "test_id": "P05-A6",
+      "mode": "offline"
+    },
+    "tests/phase_05/test_psd.py::test_live_authenticated_psd_and_independent_country": {
+      "test_id": "P05-A1",
+      "mode": "live"
+    }
+  },
+  "reports": {
+    "tests/phase_05/test_psd.py::test_live_authenticated_psd_and_independent_country": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ]
+  },
+  "exit_code": 0
+}

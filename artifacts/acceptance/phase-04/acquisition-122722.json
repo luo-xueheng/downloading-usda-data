@@ -1,0 +1,24 @@
+[
+  {
+    "id": "country-401-1220-2026",
+    "url": "https://api.fas.usda.gov/api/esr/exports/commodityCode/401/countryCode/1220/marketYear/2026",
+    "checked_at_utc": "2026-11-15T12:27:19.984635+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "d1f80fc4c4be2392b76688941a274b597b4195d314e2f3d6eaa23d1ce85b71e0",
+    "bytes": 15600,
+    "record_count": 53
+  },
+  {
+    "id": "country-801-2010-2025",
+    "url": "https://api.fas.usda.gov/api/esr/exports/commodityCode/801/countryCode/2010/marketYear/2025",
+    "checked_at_utc": "2026-11-15T12:27:21.748748+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "d983e0ea105bdf9487d726b18d036d653f4270b01ce55d9a4703cd3b79607471",
+    "bytes": 16029,
+    "record_count": 53
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "4956-west-1981-91-1992-99.xls",
+  "url": "https://www.ers.usda.gov/media/4956/west-1981-91-1992-99.xls?v=24687",
+  "path": "tests/fixtures/phase_03/4956-west-1981-91-1992-99.xls",
+  "checked_at_utc": "2026-11-15T11:03:10.419690+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 1] Operation not permitted>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

@@ -1,0 +1,12 @@
+{
+  "id": "api-portal",
+  "url": "https://apps.fas.usda.gov/opendataweb/home",
+  "path": "artifacts/acceptance/phase-00/discovery/api-portal.html",
+  "checked_at_utc": "2026-11-12T14:22:00.043008+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/opendatawebv2/#/home",
+  "content_type": "text/html",
+  "last_modified": "Mon, 29 Jun 2026 12:39:01 GMT",
+  "sha256": "767e0489cc5617ba9d82f0df0f5144f38669a4a3edb04d4948a4eed89e30e9de",
+  "bytes": 1510
+}

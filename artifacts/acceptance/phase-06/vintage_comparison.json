@@ -1,0 +1,9 @@
+{
+  "report_artifact": "world-production-holdout",
+  "report_period": "2026-10",
+  "report_world_wheat_production_million_tons": "822.39",
+  "later_report_period": "2026-11",
+  "later_report_world_wheat_production_million_tons": "827.51",
+  "status": "demonstrated_report_vintage_difference",
+  "api_comparison_policy": "Do not claim a same-publication API match from a month-only source update timestamp."
+}

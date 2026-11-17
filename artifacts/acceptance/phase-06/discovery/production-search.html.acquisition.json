@@ -1,0 +1,13 @@
+{
+  "id": "production-archive-search",
+  "url": "https://www.fas.usda.gov/data/search?keyword=world%20agricultural%20production",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-06/discovery/production-search.html",
+  "checked_at_utc": "2026-11-16T02:14:59.479763+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Mon, 16 Nov 2026 02:14:59 GMT",
+  "sha256": "2e7b3bb1b933fedee3713c5c140e21e850b3b7b80c245b80bf31e52b630ede1a",
+  "bytes": 166970,
+  "final_url": "https://www.fas.usda.gov/data/search"
+}

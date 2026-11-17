@@ -1,0 +1,12 @@
+{
+  "id": "4962-corn.csv",
+  "url": "https://www.ers.usda.gov/media/4962/corn.csv?v=35217",
+  "path": "tests/fixtures/phase_03/4962-corn.csv",
+  "checked_at_utc": "2026-11-15T11:11:50.489131+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4962/corn.csv?v=35217",
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+  "bytes": 926106
+}

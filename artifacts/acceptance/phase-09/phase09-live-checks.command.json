@@ -1,0 +1,18 @@
+{
+  "started_at_utc": "2026-11-16T16:08:54.319840+00:00",
+  "completed_at_utc": "2026-11-16T16:09:01.605743+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/phase_09/test_live_backfill.py",
+    "-m",
+    "live",
+    "-q"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 7.285566082995501,
+  "output": "artifacts/acceptance/phase-09/phase09-live-checks.txt",
+  "child_peak_rss_mib": 155.453125
+}

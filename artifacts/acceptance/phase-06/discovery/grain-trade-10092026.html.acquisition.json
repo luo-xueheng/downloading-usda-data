@@ -1,0 +1,13 @@
+{
+  "id": "grain-trade-10092026",
+  "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-10092026",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-06/discovery/grain-trade-10092026.html",
+  "checked_at_utc": "2026-11-15T15:03:17.670428+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 15 Nov 2026 14:39:07 GMT",
+  "sha256": "7fb6da8f82c7b28e8819f4cc05470da1e61aecc5125ecaa66722e5603d40bed9",
+  "bytes": 33209,
+  "final_url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-10092026"
+}

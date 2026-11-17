@@ -1,0 +1,2 @@
+grain-trade-2018-06 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'grain-trade', 'report_period': '2018-06', 'table_title': 'COARSE GRAINS | TRADE CHANGES IN 2017/18 (1,000 MT)', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'Ukraine', 'column_commodity': 'Barley Corn', 'indicator': 'Exports', 'period_label': '2017/18', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 4900/20000
+{'fail': 1}

@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-11-16T17:10:22.189818+00:00",
+  "completed_at_utc": "2026-11-16T17:15:08.777921+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "usda_data",
+    "validate",
+    "--input-dir",
+    "data/exports/datasets"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 286.5912717500032,
+  "output": "artifacts/acceptance/phase-09/aggregate-validation.txt",
+  "child_peak_rss_mib": 197.421875
+}

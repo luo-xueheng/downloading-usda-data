@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T15:23:26.743237+00:00",
+  "completed_at_utc": "2026-11-16T15:23:30.844073+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "scripts/reconcile_source_accounting.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 4.100771583005553,
+  "output": "artifacts/acceptance/phase-09/source-accounting-v2.txt",
+  "child_peak_rss_mib": 122.015625
+}

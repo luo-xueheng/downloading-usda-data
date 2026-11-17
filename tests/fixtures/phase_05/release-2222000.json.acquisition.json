@@ -1,0 +1,11 @@
+{
+  "id": "release-2222000",
+  "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/dataReleaseDates",
+  "checked_at_utc": "2026-11-15T13:25:00.068815+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "b408db044fc5150c2bfd08c87c6f39ed5e7a50341d0cb66e29ae7132400abaad",
+  "bytes": 411265,
+  "record_count": 3808
+}

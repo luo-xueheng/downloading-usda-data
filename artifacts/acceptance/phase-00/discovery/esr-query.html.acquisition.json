@@ -1,0 +1,12 @@
+{
+  "id": "esr-query",
+  "url": "https://apps.fas.usda.gov/esrqs/",
+  "path": "artifacts/acceptance/phase-00/discovery/esr-query.html",
+  "checked_at_utc": "2026-11-12T14:27:13.904736+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/esrqs/",
+  "content_type": "text/html",
+  "last_modified": "Wed, 03 Jun 2026 18:19:53 GMT",
+  "sha256": "ee61014d3f16cd333f4e18d257d358812fd172fc5031400a95e30a53d40cedff",
+  "bytes": 8517
+}

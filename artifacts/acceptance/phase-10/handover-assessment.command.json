@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T22:43:26.524588+00:00",
+  "completed_at_utc": "2026-11-16T22:43:26.559905+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "scripts/complete_phase10.py"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.035284333003801294,
+  "output": "artifacts/acceptance/phase-10/handover-assessment.txt",
+  "child_peak_rss_mib": 17.140625
+}

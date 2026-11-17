@@ -1,0 +1,13 @@
+{
+  "id": "oilseed-trade-10092026",
+  "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-10092026",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-06/discovery/oilseed-trade-10092026.html",
+  "checked_at_utc": "2026-11-15T15:03:18.210667+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 15 Nov 2026 14:13:41 GMT",
+  "sha256": "9646ff377471c7fb22510df0e03297c2006161a12f53063b50e87bb5bf9accf8",
+  "bytes": 33432,
+  "final_url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-10092026"
+}

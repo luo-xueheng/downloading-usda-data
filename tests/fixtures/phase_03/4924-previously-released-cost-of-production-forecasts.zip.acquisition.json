@@ -1,0 +1,12 @@
+{
+  "id": "4924-previously-released-cost-of-production-forecasts.zip",
+  "url": "https://www.ers.usda.gov/media/4924/previously-released-cost-of-production-forecasts.zip?v=66727",
+  "path": "tests/fixtures/phase_03/4924-previously-released-cost-of-production-forecasts.zip",
+  "checked_at_utc": "2026-11-15T11:12:26.119708+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4924/previously-released-cost-of-production-forecasts.zip?v=66727",
+  "content_type": "application/zip",
+  "last_modified": null,
+  "sha256": "45331528801c8d67c5f1b60ba28b6a7b26b230143eb9d841f304f6b4565d5e1b",
+  "bytes": 364317
+}

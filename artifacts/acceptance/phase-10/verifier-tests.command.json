@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-11-16T18:05:46.860677+00:00",
+  "completed_at_utc": "2026-11-16T18:05:49.893747+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "-B",
+    "scripts/test_verify_phase00.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.0328184590034653,
+  "output": "artifacts/acceptance/phase-10/verifier-tests.txt",
+  "child_peak_rss_mib": 108.328125
+}

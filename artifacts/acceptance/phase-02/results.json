@@ -1,0 +1,128 @@
+[
+  {
+    "phase_id": "02",
+    "test_id": "P02-A1",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "live: 1 selected tests; tests/phase_02/test_wasde.py::test_live_discovery_current_artifact: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Live discovery fetches and validates a real current artifact; the artifact hash and report date agree with its saved manifest.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "live"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A2",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 1 selected tests; tests/phase_02/test_wasde.py::test_independent_source_observations: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "At least 30 independently read observations across an early report, a recent report, and a marketing-year transition match values, dimensions, and units exactly at source precision. Include multiple tables and a non-crop table when in scope.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A3",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 1 selected tests; tests/phase_02/test_wasde.py::test_cross_format_overlap_and_conflict_blocking: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Historical/current-format overlap for the same report is reconciled for at least 10 observations. Any true source conflict remains separately preserved and blocks an unexplained merged result.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A4",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 1 selected tests; tests/phase_02/test_wasde.py::test_report_vintages_remain_distinct: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "The same commodity/year/indicator from two report dates remains two observations; neither is overwritten as a duplicate.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A5",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 4 selected tests; tests/phase_02/test_wasde.py::test_complete_csv_table_cell_accounting: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]; tests/phase_02/test_wasde.py::test_invalid_layout_missing_dimensions_and_markers: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]; tests/phase_02/test_wasde.py::test_exact_source_dimension_repairs_and_conflict_provenance: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]; tests/phase_02/test_wasde.py::test_discovery_preserves_official_fallback_evidence: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Fixture row/cell accounting balances, all required table families are mapped, and missing/suppressed values are not converted to zero.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A6",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 1 selected tests; tests/phase_02/test_wasde.py::test_public_cli_exact_bounds_and_csv: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Boundary-date filters are inclusive and operate on report dates; public-function and CLI outputs match after canonical sorting.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  },
+  {
+    "phase_id": "02",
+    "test_id": "P02-A7",
+    "mode": "combined",
+    "status": "pass",
+    "observed_result": "offline: 1 selected tests; tests/phase_02/test_wasde.py::test_holdout_first_run: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "An additional holdout release passes without changed expected values; its schema/layout is explicitly identified.",
+    "evidence_path": "artifacts/acceptance/phase-02",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "1b466d5e17281727ced749ffadf0e3743ce2fc3a79d4637d59ad46e97ef7033d"
+    },
+    "configuration_hash": "7cc75dbde49589182d422df8b54bf40b088ca1b894e76d59afaffaf5370fcace",
+    "executed_at_utc": "2026-11-15T11:01:31.443640+00:00",
+    "required_modes": [
+      "offline"
+    ]
+  }
+]

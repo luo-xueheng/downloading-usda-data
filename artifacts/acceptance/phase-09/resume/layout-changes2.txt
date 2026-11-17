@@ -1,0 +1,3 @@
+oilseed-trade-2020-07 pass 10236
+oilseed-trade-2020-08 fail Unresolved changes-table merged labels: 2019/20 OUTLOOK CHANGES, page=7, row=9, labels={'Country': 'United Arab Emirates Questions may Bill George Amy Caldwell Tani Lee Matt Snyder To download (PSD Online): the plus sign [+] The Foreign database for Demand Estimates FAS Reports Current World Archives World', 'Commodity': 'Meal, Rapeseed be directed to: (202) 720-6234 (202) 378-2560 (202) 720-9180 (202) 378-1068 the tables in the', 'Attribute': 'Exports publication, go (http://apps.fas.usda.gov/psdonline/psdHome.aspx),'}
+{'pass': 1, 'fail': 1}

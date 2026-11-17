@@ -1,0 +1,137 @@
+[
+  {
+    "phase_id": "08",
+    "test_id": "P08-A1",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A version-B fixture adds a row, changes a value, and removes a row. Latest output equals B exactly; version A remains reproducible.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A2",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "An earlier-year revision is detected within the configured refresh policy and a changed source at an unchanged URL is not missed.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A3",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "Repeating a successful unchanged job creates no duplicate business records or redundant normalized snapshot; the check itself is still logged.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A4",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "Inject failures before download completion, after normalization, and before manifest publication. Resume completes correctly without exposing partial output or advancing a failed partition's watermark.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A5",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "If one required partition fails, the run is partial/nonzero; the previous complete export remains selected. Resume produces the same result as a clean full run.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A6",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "For fixed clock tests, 2026-01-15 12:00 America/New_York converts to 17:00 UTC, and 2026-07-15 12:00 converts to 16:00 UTC. A date-only source produces no invented timestamp. These dates are timezone tests, not asserted USDA release dates.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A7",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "A shifted holiday release and a delayed artifact follow the saved official event, not a hard-coded weekday; a stale calendar is labeled stale.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A8",
+    "mode": "live",
+    "status": "blocked",
+    "observed_result": "0 selected tests; No test executed",
+    "expected_result": "An API partition can be available while its report is pending; the manifests preserve both statuses. Unknown freshness is never reported as confirmed up to date.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  },
+  {
+    "phase_id": "08",
+    "test_id": "P08-A9",
+    "mode": "live",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_08/test_sync.py::test_real_bounded_revision_check_and_finite_unavailable_failure: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Real small-source checks exercise update discovery; finite retries and clear failure status remain intact when a source is unavailable.",
+    "evidence_path": "artifacts/acceptance/phase-08",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "367551d5a141fc53971f47faf8508a9aa6a488330c0f9559bf47686da555a518"
+    },
+    "configuration_hash": "27f0de7c999737619803fe670ccb257cf53bbb2a9a827507c6aee87067ef2c51",
+    "executed_at_utc": "2026-11-16T04:19:15.140812+00:00"
+  }
+]

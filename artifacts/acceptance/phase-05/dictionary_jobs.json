@@ -1,0 +1,22 @@
+[
+  {
+    "id": "commodities",
+    "path": "/api/psd/commodities"
+  },
+  {
+    "id": "countries",
+    "path": "/api/psd/countries"
+  },
+  {
+    "id": "regions",
+    "path": "/api/psd/regions"
+  },
+  {
+    "id": "unitsOfMeasure",
+    "path": "/api/psd/unitsOfMeasure"
+  },
+  {
+    "id": "commodityAttributes",
+    "path": "/api/psd/commodityAttributes"
+  }
+]

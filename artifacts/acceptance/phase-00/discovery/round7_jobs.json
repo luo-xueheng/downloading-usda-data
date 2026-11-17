@@ -1,0 +1,22 @@
+[
+  {
+    "id": "wap-cdn",
+    "url": "https://fas-prod.azureedge.us/data/world-agricultural-production",
+    "path": "artifacts/acceptance/phase-00/discovery/wap-cdn.html"
+  },
+  {
+    "id": "grain-cdn",
+    "url": "https://fas-prod.azureedge.us/data/grain-world-markets-and-trade",
+    "path": "artifacts/acceptance/phase-00/discovery/grain-cdn.html"
+  },
+  {
+    "id": "oilseed-cdn",
+    "url": "https://fas-prod.azureedge.us/data/oilseeds-world-markets-and-trade",
+    "path": "artifacts/acceptance/phase-00/discovery/oilseed-cdn.html"
+  },
+  {
+    "id": "wasde-csv",
+    "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-11.csv",
+    "path": "tests/fixtures/raw/wasde-supplemental.csv"
+  }
+]

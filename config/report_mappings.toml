@@ -1,0 +1,9 @@
+schema_version = 1
+status = "implemented_verified_2026_10_2026_11_layouts"
+families = ["world-production", "grain-trade", "oilseed-trade"]
+psd_commodity_attribute_mapping = "config/psd_scope.json"
+required_table_inventory = "config/report_table_inventory.json"
+actual_table_coverage = "config/report_coverage.csv"
+report_schema = "schemas/fas_report_observations.v1.json"
+dataset_schema = "schemas/fas_dataset_observations.v1.json"
+report_only_policy = "Extract all required tables from original PDF, retaining vintage and classifications. Current PSD never substitutes for old report data."

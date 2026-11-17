@@ -1,0 +1,49 @@
+{
+  "collected": {
+    "tests/phase_07/test_rma.py::test_independent_numeric_fields": {
+      "test_id": "P07-A2",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_codes_and_nonacre_types": {
+      "test_id": "P07-A3",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_row_accounting_and_cross_chunk_keys": {
+      "test_id": "P07-A4",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_disjoint_independent_subtotals": {
+      "test_id": "P07-A5",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_holdout_signed_adjustments_missing_and_bad_layout": {
+      "test_id": "P07-A6",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_chunk_size_and_public_cli_equality": {
+      "test_id": "P07-A7",
+      "mode": "offline"
+    },
+    "tests/phase_07/test_rma.py::test_live_discovery_zip_and_layout": {
+      "test_id": "P07-A1",
+      "mode": "live"
+    }
+  },
+  "reports": {
+    "tests/phase_07/test_rma.py::test_live_discovery_zip_and_layout": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ]
+  },
+  "exit_code": 0
+}

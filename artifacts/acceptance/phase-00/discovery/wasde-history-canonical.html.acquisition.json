@@ -1,0 +1,11 @@
+{
+  "id": "wasde-history-canonical",
+  "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report/historical-wasde-report-data",
+  "path": "artifacts/acceptance/phase-00/discovery/wasde-history-canonical.html",
+  "checked_at_utc": "2026-11-12T14:24:10.661202+00:00",
+  "status": 403,
+  "final_url": "https://www.usda.gov/historical-wasde-report-data-3",
+  "error": "HTTP 403",
+  "sha256": "6f5e32f6138a1543028b249a5de4cdec20266efb939105618ec1278ceef1a09f",
+  "bytes": 412
+}

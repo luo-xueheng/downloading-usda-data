@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.fas.usda.gov/data/world-agricultural-production-10092025",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/resume/wap-oct2025-article.html"
+  },
+  {
+    "url": "https://www.fas.usda.gov/data/world-agricultural-production-11142025",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/resume/wap-nov2025-article.html"
+  },
+  {
+    "url": "https://www.fas.usda.gov/data/world-agricultural-production-12092025",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/resume/wap-dec2025-article.html"
+  }
+]

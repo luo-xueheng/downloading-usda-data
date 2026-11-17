@@ -1,0 +1,17 @@
+# Frozen full scope: source phases will add verified range and refresh policies.
+# No development sample is a full-backfill configuration.
+schema_version = 1
+start_year = 2010
+end = "latest_available"
+data_dir = "data"
+
+[http]
+timeout_seconds = 30.0
+max_attempts = 3
+backoff_seconds = 0.5
+max_retry_delay = 30.0
+max_response_bytes = 100000000
+
+# On this workstation the proxy fails for api.fas.usda.gov; direct TLS was verified.
+[fas_http]
+trust_environment = false

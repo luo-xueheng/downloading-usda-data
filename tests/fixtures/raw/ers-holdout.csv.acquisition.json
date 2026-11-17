@@ -1,0 +1,12 @@
+{
+  "id": "ers-holdout",
+  "url": "https://www.ers.usda.gov/media/4976/soybeans.csv?v=58761",
+  "path": "tests/fixtures/raw/ers-holdout.csv",
+  "checked_at_utc": "2026-11-12T14:23:11.767742+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4976/soybeans.csv?v=58761",
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "sha256": "c917b5f19620d1b82c289ce6cca5df270b004e5cd35368c13181efe7c55e1b86",
+  "bytes": 1002125
+}

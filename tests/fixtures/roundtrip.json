@@ -1,0 +1,29 @@
+{
+  "kind": "synthetic_shared_contract_not_official_source",
+  "records": [
+    {
+      "code": "001",
+      "count": 0,
+      "missing": null,
+      "date": "2026-01-15",
+      "amount": "-12.3400",
+      "text": "A \"quoted\", value\nwith newline"
+    },
+    {
+      "code": "002",
+      "count": 1,
+      "missing": null,
+      "date": "2026-07-15",
+      "amount": "0.00",
+      "text": "\\N"
+    },
+    {
+      "code": "003",
+      "count": 2,
+      "missing": null,
+      "date": "2026-07-16",
+      "amount": "10000000000000000000.01",
+      "text": ""
+    }
+  ]
+}

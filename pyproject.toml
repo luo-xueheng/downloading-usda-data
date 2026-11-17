@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usda-data"
+version = "0.1.0"
+description = "Versioned USDA observations and source evidence"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<3.0", "httpx[socks]>=0.27,<1.0", "beautifulsoup4>=4.12,<5", "openpyxl>=3.1,<4", "xlrd>=2,<3", "pdfplumber>=0.11,<0.12", "pypdf>=5,<8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+usda-data = "usda_data.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: read-only real-source requests; never enabled by the offline suite", "acceptance(id): mandatory acceptance-test identifier"]
+
+[tool.setuptools.package-data]
+usda_data = ["sources/*.json"]

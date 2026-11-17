@@ -1,0 +1,308 @@
+{
+  "name": "wasde_observations",
+  "version": "2",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "WasdeNumber",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "WasdeNumber",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ReportDate",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ReportDate",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ReportTitle",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ReportTitle",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "Attribute",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "Attribute",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ReliabilityProjection",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ReliabilityProjection",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "Commodity",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "Commodity",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "Region",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "Region",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "MarketYear",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "MarketYear",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ProjEstFlag",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ProjEstFlag",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "AnnualQuarterFlag",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "AnnualQuarterFlag",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "Value",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Exact reported numeric value; source markers remain in raw_value",
+      "source_mapping": "Value",
+      "unit": "Unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "Unit",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "Unit",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ReleaseDate",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ReleaseDate",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ReleaseTime",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ReleaseTime",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ForecastYear",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ForecastYear",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "ForecastMonth",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source label; explicit sentinels only for documented empty optional dimensions",
+      "source_mapping": "ForecastMonth",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_date",
+      "type": "date",
+      "nullable": false,
+      "meaning": "Report publication date, inclusive request filter",
+      "source_mapping": "ReleaseDate",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_at_utc",
+      "type": "datetime",
+      "nullable": true,
+      "meaning": "Exact publication instant only when timezone independently verified",
+      "source_mapping": "not inferred from time-only CSV",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "release_time_precision",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Precision of confirmed UTC publication information",
+      "source_mapping": "date",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "retrieved_at_utc",
+      "type": "datetime",
+      "nullable": false,
+      "meaning": "First receipt time for this snapshot",
+      "source_mapping": "acquisition manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_artifact_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "SHA-256 of original file or ZIP bytes",
+      "source_mapping": "raw storage",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "snapshot_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Version-aware normalized identity",
+      "source_mapping": "storage manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "vintage_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Report-vintage rather than current-revised API series",
+      "source_mapping": "WASDE report date",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_value",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Exact original numeric lexical value or marker",
+      "source_mapping": "Value",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "value_status",
+      "type": "string",
+      "nullable": false,
+      "meaning": "reported/missing/suppressed/unavailable/not_applicable",
+      "source_mapping": "Value marker",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_optional_dimensions",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original empty/label values for optional classifications",
+      "source_mapping": "ReliabilityProjection,MarketYear,ProjEstFlag",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_member",
+      "type": "string",
+      "nullable": false,
+      "meaning": "ZIP member or empty string for standalone CSV",
+      "source_mapping": "ZIP inventory",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_dimension_repair",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Evidence ID for an exact-source dimension repair; empty if none",
+      "source_mapping": "versioned repair registry",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_original_dimensions",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original dimension values before an independently evidenced repair",
+      "source_mapping": "original CSV record",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_conflict",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Known cross-format numeric discrepancy; CSV value retained",
+      "source_mapping": "versioned repair registry",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

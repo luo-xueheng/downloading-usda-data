@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:35:41.620087+00:00",
+  "completed_at_utc": "2026-11-16T16:35:56.337375+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/publish_backfill_exports.py"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 14.773127958003897,
+  "output": "artifacts/acceptance/phase-09/publish-seven-exports.txt",
+  "child_peak_rss_mib": 38.703125
+}

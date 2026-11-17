@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2025/10/production.pdf",
+    "format": "pdf",
+    "path": "artifacts/acceptance/phase-09/resume/downloads/2025-10-production.pdf"
+  },
+  {
+    "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2025/10/Grain.pdf",
+    "format": "pdf",
+    "path": "artifacts/acceptance/phase-09/resume/downloads/2025-10-Grain.pdf"
+  },
+  {
+    "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2025/10/Oilseeds.pdf",
+    "format": "pdf",
+    "path": "artifacts/acceptance/phase-09/resume/downloads/2025-10-Oilseeds.pdf"
+  }
+]

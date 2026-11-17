@@ -1,0 +1,231 @@
+{
+  "status": "pass",
+  "executed_at_utc": "2026-11-16T22:25:26.340905+00:00",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "checks": [
+    {
+      "dataset": "wasde",
+      "rows": 5054,
+      "options": {
+        "start": "2026-11-10",
+        "end": "2026-11-10"
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "wasde",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--start",
+        "2026-11-10",
+        "--end",
+        "2026-11-10"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "e8b5bceb8eccb5a15333ea6e541658d7f8d072a798b3e33468fcf195294da4c2",
+      "status": "pass"
+    },
+    {
+      "dataset": "costs-returns",
+      "rows": 257,
+      "options": {
+        "years": [
+          2025
+        ],
+        "commodities": "Corn"
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "costs-returns",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--years",
+        "2025",
+        "--commodities",
+        "Corn"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "620c89e17bf959da1b324e46a16990f6504c6728ca8fe42f62976d351f2bcd55",
+      "status": "pass"
+    },
+    {
+      "dataset": "export-sales",
+      "rows": 553,
+      "options": {
+        "commodities": [
+          "701"
+        ],
+        "market_years": [
+          2026
+        ]
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "export-sales",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--commodities",
+        "701",
+        "--market-years",
+        "2026"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "939af5b8bdf9f53848f492eaf101154ded4013222ac9305a2dbc6b7fb0111564",
+      "status": "pass"
+    },
+    {
+      "dataset": "rma-sob",
+      "rows": 155676,
+      "options": {
+        "commodity_years": [
+          2025
+        ]
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "rma-sob",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--commodity-years",
+        "2025"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "559ef2b71e01287639d10217800416592aefdb6fa79ecad24a2f1fbdbde6d3f3",
+      "status": "pass"
+    },
+    {
+      "dataset": "world-production",
+      "rows": 7967,
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "0440000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "world-production",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--market-years",
+        "2025",
+        "--commodities",
+        "0440000",
+        "--report-start",
+        "2026-11-01",
+        "--report-end",
+        "2026-11-30"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "b919700e00dd4f208ef7c6b51a96d7214b9aa6d936741b3218d222b00bc8eeaf",
+      "status": "pass"
+    },
+    {
+      "dataset": "grain-trade",
+      "rows": 8643,
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "0440000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "grain-trade",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--market-years",
+        "2025",
+        "--commodities",
+        "0440000",
+        "--report-start",
+        "2026-11-01",
+        "--report-end",
+        "2026-11-30"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "a25806e77a854ddfd122cd126144e10bd0b43ab920290e0c09299e930845ed91",
+      "status": "pass"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "rows": 9947,
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "2222000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "command": [
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/clean-venv/bin/python",
+        "-m",
+        "usda_data",
+        "fetch",
+        "--dataset",
+        "oilseed-trade",
+        "--data-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/data",
+        "--output-dir",
+        "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/artifacts/acceptance/phase-10/examples/exports",
+        "--market-years",
+        "2025",
+        "--commodities",
+        "2222000",
+        "--report-start",
+        "2026-11-01",
+        "--report-end",
+        "2026-11-30"
+      ],
+      "exit_code": 0,
+      "csv_sha256": "a185935b15e43f66f47b7a0878a864332043abdcc49daccfd11c92b29e1a1216",
+      "status": "pass"
+    }
+  ]
+}

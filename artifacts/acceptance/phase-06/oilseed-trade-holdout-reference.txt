@@ -1,0 +1,57 @@
+Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)
+Million Metric Tons
+Sep Oct
+2022/23 2023/24 2024/25 2025/26 2026/27 2026/27
+none
+Production none
+Oilseed, Copra 6.05 6.27 6.12 5.92 5.96 5.96
+Oilseed, Cottonseed 40.31 39.53 41.24 42.19 39.58 39.77
+Oilseed, Palm Kernel 19.78 19.59 20.36 21.15 20.97 20.47
+Oilseed, Peanut 49.81 50.00 51.85 51.18 50.98 50.11
+Oilseed, Rapeseed 89.86 89.97 86.28 96.04 99.97 99.57
+Oilseed, Soybean 378.21 396.45 428.11 429.19 442.35 442.70
+Oilseed, Sunflowerseed 52.78 55.93 53.01 55.35 63.65 63.62
+Total 636.79 657.75 686.96 701.01 723.46 722.20
+none
+Imports none
+Oilseed, Copra 0.08 0.08 0.09 0.11 0.10 0.10
+Oilseed, Cottonseed 1.37 1.19 0.93 0.86 0.89 0.89
+Oilseed, Palm Kernel 0.16 0.19 0.22 0.27 0.21 0.21
+Oilseed, Peanut 4.18 4.10 3.73 4.01 4.10 4.16
+Oilseed, Rapeseed 20.07 18.26 20.06 18.36 19.66 19.66
+Oilseed, Soybean 168.50 178.50 179.15 188.53 190.42 190.82
+Oilseed, Sunflowerseed 3.77 2.54 2.61 4.38 3.50 3.50
+Total 198.12 204.85 206.78 216.52 218.87 219.33
+none
+Exports none
+Oilseed, Copra 0.10 0.09 0.08 0.10 0.08 0.08
+Oilseed, Cottonseed 1.11 1.21 0.92 1.32 0.89 0.89
+Oilseed, Palm Kernel 0.06 0.09 0.17 0.14 0.10 0.11
+Oilseed, Peanut 4.85 4.80 4.66 4.96 4.61 4.60
+Oilseed, Rapeseed 19.84 18.56 19.82 19.35 19.94 19.98
+Oilseed, Soybean 171.76 177.85 184.33 186.42 191.58 192.00
+Oilseed, Sunflowerseed 4.02 2.72 3.37 4.29 3.96 3.96
+Total 201.74 205.31 213.34 216.58 221.16 221.62
+none
+Crush none
+Oilseed, Copra 5.90 6.18 6.06 5.87 5.91 5.91
+Oilseed, Cottonseed 30.21 31.43 31.27 31.26 29.90 30.00
+Oilseed, Palm Kernel 19.77 19.46 20.22 21.03 21.02 20.51
+Oilseed, Peanut 19.08 18.44 19.35 19.34 19.43 19.42
+Oilseed, Rapeseed 82.11 84.68 84.63 90.09 93.61 93.81
+Oilseed, Soybean 315.77 331.25 359.16 375.84 385.22 385.71
+Oilseed, Sunflowerseed 51.36 52.26 48.26 49.97 56.53 56.53
+Total 524.19 543.70 568.95 593.40 611.62 611.89
+none
+Ending Stocks none
+Oilseed, Copra 0.07 0.06 0.06 0.05 0.05 0.05
+Oilseed, Cottonseed 1.47 1.65 1.58 1.50 1.49 1.51
+Oilseed, Palm Kernel 0.29 0.32 0.32 0.41 0.31 0.31
+Oilseed, Peanut 4.32 3.85 4.04 4.56 4.06 4.05
+Oilseed, Rapeseed 10.91 11.87 9.93 10.91 12.35 11.60
+Oilseed, Soybean 101.84 115.10 125.97 124.93 124.02 124.28
+Oilseed, Sunflowerseed 4.12 3.20 2.54 3.13 4.38 4.51
+Total 123.01 136.04 144.44 145.49 146.64 146.31
+Totals may not add due to rounding
+Foreign Agricultural Service/USDA 10 October 2026
+Global Market Analysis

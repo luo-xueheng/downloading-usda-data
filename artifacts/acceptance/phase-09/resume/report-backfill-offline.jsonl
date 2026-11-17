@@ -1,0 +1,607 @@
+Frozen report candidates 606
+{"completed": 1, "family": "world-production", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 2, "family": "grain-trade", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 3, "family": "world-production", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 4, "family": "oilseed-trade", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 5, "family": "grain-trade", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 6, "family": "oilseed-trade", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 7, "family": "world-production", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 8, "family": "grain-trade", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 9, "family": "oilseed-trade", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 10, "family": "world-production", "period": "2026-08", "status": "succeeded", "error": null}
+{"completed": 11, "family": "grain-trade", "period": "2026-08", "status": "succeeded", "error": null}
+{"completed": 12, "family": "oilseed-trade", "period": "2026-08", "status": "succeeded", "error": null}
+{"completed": 13, "family": "world-production", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 14, "family": "grain-trade", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 15, "family": "world-production", "period": "2026-06", "status": "succeeded", "error": null}
+{"completed": 16, "family": "oilseed-trade", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 17, "family": "grain-trade", "period": "2026-06", "status": "succeeded", "error": null}
+{"completed": 18, "family": "oilseed-trade", "period": "2026-06", "status": "succeeded", "error": null}
+{"completed": 19, "family": "world-production", "period": "2026-05", "status": "succeeded", "error": null}
+{"completed": 20, "family": "grain-trade", "period": "2026-05", "status": "succeeded", "error": null}
+{"completed": 21, "family": "oilseed-trade", "period": "2026-05", "status": "succeeded", "error": null}
+{"completed": 22, "family": "world-production", "period": "2026-04", "status": "succeeded", "error": null}
+{"completed": 23, "family": "grain-trade", "period": "2026-04", "status": "succeeded", "error": null}
+{"completed": 24, "family": "oilseed-trade", "period": "2026-04", "status": "succeeded", "error": null}
+{"completed": 25, "family": "world-production", "period": "2026-03", "status": "succeeded", "error": null}
+{"completed": 26, "family": "grain-trade", "period": "2026-03", "status": "succeeded", "error": null}
+{"completed": 27, "family": "world-production", "period": "2026-02", "status": "succeeded", "error": null}
+{"completed": 28, "family": "oilseed-trade", "period": "2026-03", "status": "succeeded", "error": null}
+{"completed": 29, "family": "grain-trade", "period": "2026-02", "status": "succeeded", "error": null}
+{"completed": 30, "family": "oilseed-trade", "period": "2026-02", "status": "succeeded", "error": null}
+{"completed": 31, "family": "world-production", "period": "2026-01", "status": "succeeded", "error": null}
+{"completed": 32, "family": "grain-trade", "period": "2026-01", "status": "succeeded", "error": null}
+{"completed": 33, "family": "oilseed-trade", "period": "2026-01", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 34, "family": "world-production", "period": "2025-12", "status": "succeeded", "error": null}
+{"completed": 35, "family": "grain-trade", "period": "2025-12", "status": "succeeded", "error": null}
+{"completed": 36, "family": "world-production", "period": "2025-11", "status": "source_unavailable", "error": null}
+{"completed": 37, "family": "oilseed-trade", "period": "2025-12", "status": "succeeded", "error": null}
+{"completed": 38, "family": "grain-trade", "period": "2025-11", "status": "succeeded", "error": null}
+{"completed": 39, "family": "oilseed-trade", "period": "2025-11", "status": "succeeded", "error": null}
+{"completed": 40, "family": "world-production", "period": "2025-09", "status": "succeeded", "error": null}
+{"completed": 41, "family": "grain-trade", "period": "2025-09", "status": "succeeded", "error": null}
+{"completed": 42, "family": "oilseed-trade", "period": "2025-09", "status": "succeeded", "error": null}
+{"completed": 43, "family": "world-production", "period": "2025-08", "status": "succeeded", "error": null}
+{"completed": 44, "family": "grain-trade", "period": "2025-08", "status": "succeeded", "error": null}
+{"completed": 45, "family": "oilseed-trade", "period": "2025-08", "status": "succeeded", "error": null}
+{"completed": 46, "family": "world-production", "period": "2025-07", "status": "succeeded", "error": null}
+{"completed": 47, "family": "grain-trade", "period": "2025-07", "status": "succeeded", "error": null}
+{"completed": 48, "family": "oilseed-trade", "period": "2025-07", "status": "succeeded", "error": null}
+{"completed": 49, "family": "world-production", "period": "2025-06", "status": "succeeded", "error": null}
+{"completed": 50, "family": "grain-trade", "period": "2025-06", "status": "succeeded", "error": null}
+{"completed": 51, "family": "oilseed-trade", "period": "2025-06", "status": "succeeded", "error": null}
+{"completed": 52, "family": "world-production", "period": "2025-05", "status": "succeeded", "error": null}
+{"completed": 53, "family": "oilseed-trade", "period": "2025-05", "status": "succeeded", "error": null}
+{"completed": 54, "family": "grain-trade", "period": "2025-05", "status": "succeeded", "error": null}
+{"completed": 55, "family": "world-production", "period": "2025-04", "status": "succeeded", "error": null}
+{"completed": 56, "family": "grain-trade", "period": "2025-04", "status": "succeeded", "error": null}
+{"completed": 57, "family": "oilseed-trade", "period": "2025-04", "status": "succeeded", "error": null}
+{"completed": 58, "family": "world-production", "period": "2025-03", "status": "succeeded", "error": null}
+{"completed": 59, "family": "grain-trade", "period": "2025-03", "status": "succeeded", "error": null}
+{"completed": 60, "family": "oilseed-trade", "period": "2025-03", "status": "succeeded", "error": null}
+{"completed": 61, "family": "world-production", "period": "2025-02", "status": "succeeded", "error": null}
+{"completed": 62, "family": "grain-trade", "period": "2025-02", "status": "succeeded", "error": null}
+{"completed": 63, "family": "world-production", "period": "2025-01", "status": "succeeded", "error": null}
+{"completed": 64, "family": "oilseed-trade", "period": "2025-02", "status": "succeeded", "error": null}
+{"completed": 65, "family": "oilseed-trade", "period": "2025-01", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 66, "family": "grain-trade", "period": "2025-01", "status": "succeeded", "error": null}
+{"completed": 67, "family": "world-production", "period": "2024-12", "status": "succeeded", "error": null}
+{"completed": 68, "family": "oilseed-trade", "period": "2024-12", "status": "failed", "error": "Missing report period header"}
+{"completed": 69, "family": "grain-trade", "period": "2024-12", "status": "succeeded", "error": null}
+{"completed": 70, "family": "world-production", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 71, "family": "grain-trade", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 72, "family": "oilseed-trade", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 73, "family": "world-production", "period": "2024-10", "status": "succeeded", "error": null}
+{"completed": 74, "family": "oilseed-trade", "period": "2024-10", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 75, "family": "grain-trade", "period": "2024-10", "status": "succeeded", "error": null}
+{"completed": 76, "family": "world-production", "period": "2024-09", "status": "succeeded", "error": null}
+{"completed": 77, "family": "oilseed-trade", "period": "2024-09", "status": "failed", "error": "Missing report period header"}
+{"completed": 78, "family": "grain-trade", "period": "2024-09", "status": "succeeded", "error": null}
+{"completed": 79, "family": "world-production", "period": "2024-08", "status": "succeeded", "error": null}
+{"completed": 80, "family": "grain-trade", "period": "2024-08", "status": "succeeded", "error": null}
+{"completed": 81, "family": "oilseed-trade", "period": "2024-08", "status": "succeeded", "error": null}
+{"completed": 82, "family": "world-production", "period": "2024-07", "status": "succeeded", "error": null}
+{"completed": 83, "family": "grain-trade", "period": "2024-07", "status": "succeeded", "error": null}
+{"completed": 84, "family": "oilseed-trade", "period": "2024-07", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2024-07', 'table_title': '2024/25 OUTLOOK CHANGES (All figures are in thousand metric tons)', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'India Malaysia Russia', 'column_commodity': 'Oil, Sunflowerseed Oil, Palm Oil, Sunflowerseed', 'indicator': 'Exports', 'period_label': '2024/25', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 15900/4350"}
+{"completed": 85, "family": "world-production", "period": "2024-06", "status": "succeeded", "error": null}
+{"completed": 86, "family": "grain-trade", "period": "2024-06", "status": "succeeded", "error": null}
+{"completed": 87, "family": "oilseed-trade", "period": "2024-06", "status": "succeeded", "error": null}
+{"completed": 88, "family": "world-production", "period": "2024-05", "status": "succeeded", "error": null}
+{"completed": 89, "family": "grain-trade", "period": "2024-05", "status": "failed", "error": "Incomplete changes-table numeric columns: WHEAT | TRADE CHANGES IN 2023/24 (1,000 MT), page=12, row={'top': 595.40448, 'bottom': 606.44448, 'values': {'Previous': '48.0'}}"}
+{"completed": 90, "family": "world-production", "period": "2024-04", "status": "failed", "error": "Required report table produced no cells: [('Table 01 World Crop Production Summary', 17)]"}
+{"completed": 91, "family": "oilseed-trade", "period": "2024-05", "status": "succeeded", "error": null}
+{"completed": 92, "family": "grain-trade", "period": "2024-04", "status": "succeeded", "error": null}
+{"completed": 93, "family": "oilseed-trade", "period": "2024-04", "status": "succeeded", "error": null}
+{"completed": 94, "family": "world-production", "period": "2024-03", "status": "succeeded", "error": null}
+{"completed": 95, "family": "oilseed-trade", "period": "2024-03", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 96, "family": "grain-trade", "period": "2024-03", "status": "succeeded", "error": null}
+{"completed": 97, "family": "world-production", "period": "2024-02", "status": "succeeded", "error": null}
+{"completed": 98, "family": "grain-trade", "period": "2024-02", "status": "succeeded", "error": null}
+{"completed": 99, "family": "oilseed-trade", "period": "2024-02", "status": "succeeded", "error": null}
+{"completed": 100, "family": "world-production", "period": "2024-01", "status": "succeeded", "error": null}
+{"completed": 101, "family": "grain-trade", "period": "2024-01", "status": "succeeded", "error": null}
+{"completed": 102, "family": "oilseed-trade", "period": "2024-01", "status": "succeeded", "error": null}
+{"completed": 103, "family": "world-production", "period": "2023-12", "status": "succeeded", "error": null}
+{"completed": 104, "family": "grain-trade", "period": "2023-12", "status": "succeeded", "error": null}
+{"completed": 105, "family": "oilseed-trade", "period": "2023-12", "status": "succeeded", "error": null}
+{"completed": 106, "family": "world-production", "period": "2023-11", "status": "succeeded", "error": null}
+{"completed": 107, "family": "grain-trade", "period": "2023-11", "status": "succeeded", "error": null}
+{"completed": 108, "family": "oilseed-trade", "period": "2023-11", "status": "succeeded", "error": null}
+{"completed": 109, "family": "world-production", "period": "2023-10", "status": "succeeded", "error": null}
+{"completed": 110, "family": "grain-trade", "period": "2023-10", "status": "succeeded", "error": null}
+{"completed": 111, "family": "oilseed-trade", "period": "2023-10", "status": "succeeded", "error": null}
+{"completed": 112, "family": "world-production", "period": "2023-09", "status": "succeeded", "error": null}
+{"completed": 113, "family": "grain-trade", "period": "2023-09", "status": "succeeded", "error": null}
+{"completed": 114, "family": "oilseed-trade", "period": "2023-09", "status": "failed", "error": "Unresolved changes-table merged labels: 2023/24 OUTLOOK CHANGES (All figures are in thousand metric tons), page=7, row=1, labels={'Country': '', 'Commodity': 'Oil, Sunflowerseed', 'Attribute': 'Exports'}"}
+{"completed": 115, "family": "world-production", "period": "2023-08", "status": "succeeded", "error": null}
+{"completed": 116, "family": "grain-trade", "period": "2023-08", "status": "succeeded", "error": null}
+{"completed": 117, "family": "world-production", "period": "2023-07", "status": "succeeded", "error": null}
+{"completed": 118, "family": "oilseed-trade", "period": "2023-08", "status": "succeeded", "error": null}
+{"completed": 119, "family": "oilseed-trade", "period": "2023-07", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 120, "family": "grain-trade", "period": "2023-07", "status": "succeeded", "error": null}
+{"completed": 121, "family": "world-production", "period": "2023-06", "status": "succeeded", "error": null}
+{"completed": 122, "family": "oilseed-trade", "period": "2023-06", "status": "failed", "error": "Missing monthly price change value"}
+{"completed": 123, "family": "grain-trade", "period": "2023-06", "status": "succeeded", "error": null}
+{"completed": 124, "family": "world-production", "period": "2023-05", "status": "succeeded", "error": null}
+{"completed": 125, "family": "grain-trade", "period": "2023-05", "status": "succeeded", "error": null}
+{"completed": 126, "family": "oilseed-trade", "period": "2023-05", "status": "succeeded", "error": null}
+{"completed": 127, "family": "world-production", "period": "2023-04", "status": "succeeded", "error": null}
+{"completed": 128, "family": "oilseed-trade", "period": "2023-04", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 129, "family": "grain-trade", "period": "2023-04", "status": "succeeded", "error": null}
+{"completed": 130, "family": "world-production", "period": "2023-03", "status": "succeeded", "error": null}
+{"completed": 131, "family": "grain-trade", "period": "2023-03", "status": "succeeded", "error": null}
+{"completed": 132, "family": "oilseed-trade", "period": "2023-03", "status": "succeeded", "error": null}
+{"completed": 133, "family": "world-production", "period": "2023-02", "status": "succeeded", "error": null}
+{"completed": 134, "family": "grain-trade", "period": "2023-02", "status": "failed", "error": "Unresolved changes-table merged labels: RICE | TRADE CHANGES IN 2022 (1,000 MT), page=11, row=5, labels={'Country': 'United Arab', 'Commodity': 'Rice', 'Attribute': 'Emirates'}"}
+{"completed": 135, "family": "oilseed-trade", "period": "2023-02", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 136, "family": "world-production", "period": "2023-01", "status": "succeeded", "error": null}
+{"completed": 137, "family": "oilseed-trade", "period": "2023-01", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 138, "family": "grain-trade", "period": "2023-01", "status": "succeeded", "error": null}
+{"completed": 139, "family": "world-production", "period": "2022-12", "status": "succeeded", "error": null}
+{"completed": 140, "family": "grain-trade", "period": "2022-12", "status": "succeeded", "error": null}
+{"completed": 141, "family": "oilseed-trade", "period": "2022-12", "status": "failed", "error": "Printed changes-table header has no numeric rows"}
+{"completed": 142, "family": "world-production", "period": "2022-11", "status": "succeeded", "error": null}
+{"completed": 143, "family": "oilseed-trade", "period": "2022-11", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 144, "family": "grain-trade", "period": "2022-11", "status": "succeeded", "error": null}
+{"completed": 145, "family": "world-production", "period": "2022-10", "status": "succeeded", "error": null}
+{"completed": 146, "family": "grain-trade", "period": "2022-10", "status": "succeeded", "error": null}
+{"completed": 147, "family": "oilseed-trade", "period": "2022-10", "status": "succeeded", "error": null}
+{"completed": 148, "family": "world-production", "period": "2022-09", "status": "succeeded", "error": null}
+{"completed": 149, "family": "grain-trade", "period": "2022-09", "status": "succeeded", "error": null}
+{"completed": 150, "family": "oilseed-trade", "period": "2022-09", "status": "succeeded", "error": null}
+{"completed": 151, "family": "world-production", "period": "2022-08", "status": "succeeded", "error": null}
+{"completed": 152, "family": "grain-trade", "period": "2022-08", "status": "succeeded", "error": null}
+{"completed": 153, "family": "world-production", "period": "2022-07", "status": "succeeded", "error": null}
+{"completed": 154, "family": "oilseed-trade", "period": "2022-08", "status": "succeeded", "error": null}
+{"completed": 155, "family": "grain-trade", "period": "2022-07", "status": "succeeded", "error": null}
+{"completed": 156, "family": "oilseed-trade", "period": "2022-07", "status": "succeeded", "error": null}
+{"completed": 157, "family": "world-production", "period": "2022-06", "status": "succeeded", "error": null}
+{"completed": 158, "family": "grain-trade", "period": "2022-06", "status": "succeeded", "error": null}
+{"completed": 159, "family": "oilseed-trade", "period": "2022-06", "status": "succeeded", "error": null}
+{"completed": 160, "family": "world-production", "period": "2022-05", "status": "succeeded", "error": null}
+{"completed": 161, "family": "oilseed-trade", "period": "2022-05", "status": "succeeded", "error": null}
+{"completed": 162, "family": "grain-trade", "period": "2022-05", "status": "succeeded", "error": null}
+{"completed": 163, "family": "world-production", "period": "2022-04", "status": "succeeded", "error": null}
+{"completed": 164, "family": "grain-trade", "period": "2022-04", "status": "succeeded", "error": null}
+{"completed": 165, "family": "oilseed-trade", "period": "2022-04", "status": "succeeded", "error": null}
+{"completed": 166, "family": "world-production", "period": "2022-03", "status": "succeeded", "error": null}
+{"completed": 167, "family": "oilseed-trade", "period": "2022-03", "status": "failed", "error": "Ambiguous embedded publication month"}
+{"completed": 168, "family": "world-production", "period": "2022-02", "status": "succeeded", "error": null}
+{"completed": 169, "family": "grain-trade", "period": "2022-03", "status": "succeeded", "error": null}
+{"completed": 170, "family": "grain-trade", "period": "2022-02", "status": "succeeded", "error": null}
+{"completed": 171, "family": "oilseed-trade", "period": "2022-02", "status": "succeeded", "error": null}
+{"completed": 172, "family": "world-production", "period": "2022-01", "status": "succeeded", "error": null}
+{"completed": 173, "family": "grain-trade", "period": "2022-01", "status": "succeeded", "error": null}
+{"completed": 174, "family": "oilseed-trade", "period": "2022-01", "status": "succeeded", "error": null}
+{"completed": 175, "family": "world-production", "period": "2021-12", "status": "succeeded", "error": null}
+{"completed": 176, "family": "grain-trade", "period": "2021-12", "status": "succeeded", "error": null}
+{"completed": 177, "family": "oilseed-trade", "period": "2021-12", "status": "succeeded", "error": null}
+{"completed": 178, "family": "world-production", "period": "2021-11", "status": "succeeded", "error": null}
+{"completed": 179, "family": "grain-trade", "period": "2021-11", "status": "succeeded", "error": null}
+{"completed": 180, "family": "oilseed-trade", "period": "2021-11", "status": "succeeded", "error": null}
+{"completed": 181, "family": "world-production", "period": "2021-10", "status": "succeeded", "error": null}
+{"completed": 182, "family": "grain-trade", "period": "2021-10", "status": "succeeded", "error": null}
+{"completed": 183, "family": "oilseed-trade", "period": "2021-10", "status": "succeeded", "error": null}
+{"completed": 184, "family": "world-production", "period": "2021-09", "status": "succeeded", "error": null}
+{"completed": 185, "family": "grain-trade", "period": "2021-09", "status": "succeeded", "error": null}
+{"completed": 186, "family": "oilseed-trade", "period": "2021-09", "status": "succeeded", "error": null}
+{"completed": 187, "family": "world-production", "period": "2021-08", "status": "succeeded", "error": null}
+{"completed": 188, "family": "grain-trade", "period": "2021-08", "status": "succeeded", "error": null}
+{"completed": 189, "family": "oilseed-trade", "period": "2021-08", "status": "succeeded", "error": null}
+{"completed": 190, "family": "world-production", "period": "2021-07", "status": "succeeded", "error": null}
+{"completed": 191, "family": "grain-trade", "period": "2021-07", "status": "succeeded", "error": null}
+{"completed": 192, "family": "oilseed-trade", "period": "2021-07", "status": "succeeded", "error": null}
+{"completed": 193, "family": "world-production", "period": "2021-06", "status": "succeeded", "error": null}
+{"completed": 194, "family": "grain-trade", "period": "2021-06", "status": "succeeded", "error": null}
+{"completed": 195, "family": "oilseed-trade", "period": "2021-06", "status": "succeeded", "error": null}
+{"completed": 196, "family": "world-production", "period": "2021-05", "status": "succeeded", "error": null}
+{"completed": 197, "family": "grain-trade", "period": "2021-05", "status": "succeeded", "error": null}
+{"completed": 198, "family": "oilseed-trade", "period": "2021-05", "status": "succeeded", "error": null}
+{"completed": 199, "family": "world-production", "period": "2021-04", "status": "succeeded", "error": null}
+{"completed": 200, "family": "grain-trade", "period": "2021-04", "status": "succeeded", "error": null}
+{"completed": 201, "family": "oilseed-trade", "period": "2021-04", "status": "succeeded", "error": null}
+{"completed": 202, "family": "grain-trade", "period": "2021-03", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 203, "family": "world-production", "period": "2021-03", "status": "succeeded", "error": null}
+{"completed": 204, "family": "world-production", "period": "2021-02", "status": "succeeded", "error": null}
+{"completed": 205, "family": "oilseed-trade", "period": "2021-03", "status": "succeeded", "error": null}
+{"completed": 206, "family": "grain-trade", "period": "2021-02", "status": "succeeded", "error": null}
+{"completed": 207, "family": "oilseed-trade", "period": "2021-02", "status": "succeeded", "error": null}
+{"completed": 208, "family": "world-production", "period": "2021-01", "status": "succeeded", "error": null}
+{"completed": 209, "family": "grain-trade", "period": "2021-01", "status": "succeeded", "error": null}
+{"completed": 210, "family": "oilseed-trade", "period": "2021-01", "status": "succeeded", "error": null}
+{"completed": 211, "family": "world-production", "period": "2020-12", "status": "succeeded", "error": null}
+{"completed": 212, "family": "grain-trade", "period": "2020-12", "status": "succeeded", "error": null}
+{"completed": 213, "family": "oilseed-trade", "period": "2020-12", "status": "succeeded", "error": null}
+{"completed": 214, "family": "world-production", "period": "2020-11", "status": "succeeded", "error": null}
+{"completed": 215, "family": "grain-trade", "period": "2020-11", "status": "succeeded", "error": null}
+{"completed": 216, "family": "oilseed-trade", "period": "2020-11", "status": "succeeded", "error": null}
+{"completed": 217, "family": "world-production", "period": "2020-10", "status": "succeeded", "error": null}
+{"completed": 218, "family": "grain-trade", "period": "2020-10", "status": "succeeded", "error": null}
+{"completed": 219, "family": "oilseed-trade", "period": "2020-10", "status": "succeeded", "error": null}
+{"completed": 220, "family": "world-production", "period": "2020-09", "status": "succeeded", "error": null}
+{"completed": 221, "family": "grain-trade", "period": "2020-09", "status": "succeeded", "error": null}
+{"completed": 222, "family": "oilseed-trade", "period": "2020-09", "status": "succeeded", "error": null}
+{"completed": 223, "family": "world-production", "period": "2020-08", "status": "succeeded", "error": null}
+{"completed": 224, "family": "grain-trade", "period": "2020-08", "status": "failed", "error": "Incomplete changes-table numeric columns: WHEAT | TRADE CHANGES IN 2019/20 (1,000 MT), page=7, row={'top': 344.60015999999996, 'bottom': 355.64016, 'values': {'Change': '4.0'}}"}
+{"completed": 225, "family": "world-production", "period": "2020-07", "status": "succeeded", "error": null}
+{"completed": 226, "family": "oilseed-trade", "period": "2020-08", "status": "succeeded", "error": null}
+{"completed": 227, "family": "grain-trade", "period": "2020-07", "status": "succeeded", "error": null}
+{"completed": 228, "family": "oilseed-trade", "period": "2020-07", "status": "succeeded", "error": null}
+{"completed": 229, "family": "world-production", "period": "2020-06", "status": "succeeded", "error": null}
+{"completed": 230, "family": "grain-trade", "period": "2020-06", "status": "succeeded", "error": null}
+{"completed": 231, "family": "oilseed-trade", "period": "2020-06", "status": "succeeded", "error": null}
+{"completed": 232, "family": "world-production", "period": "2020-05", "status": "succeeded", "error": null}
+{"completed": 233, "family": "oilseed-trade", "period": "2020-05", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=7, row={'top': 132.68981789999998, 'bottom': 144.66709289999994, 'values': {'Change': '362.8'}}"}
+{"completed": 234, "family": "world-production", "period": "2020-04", "status": "succeeded", "error": null}
+{"completed": 235, "family": "grain-trade", "period": "2020-05", "status": "succeeded", "error": null}
+{"completed": 236, "family": "oilseed-trade", "period": "2020-04", "status": "failed", "error": "Missing historical table unit caption"}
+{"completed": 237, "family": "grain-trade", "period": "2020-04", "status": "succeeded", "error": null}
+{"completed": 238, "family": "world-production", "period": "2020-03", "status": "succeeded", "error": null}
+{"completed": 239, "family": "grain-trade", "period": "2020-03", "status": "failed", "error": "Incomplete changes-table numeric columns: WHEAT | TRADE CHANGES IN 2019/20 (1,000 MT), page=7, row={'top': 710.50836, 'bottom': 720.46836, 'values': {'Previous': '1.0'}}"}
+{"completed": 240, "family": "world-production", "period": "2020-02", "status": "succeeded", "error": null}
+{"completed": 241, "family": "oilseed-trade", "period": "2020-03", "status": "succeeded", "error": null}
+{"completed": 242, "family": "grain-trade", "period": "2020-02", "status": "succeeded", "error": null}
+{"completed": 243, "family": "oilseed-trade", "period": "2020-02", "status": "succeeded", "error": null}
+{"completed": 244, "family": "world-production", "period": "2020-01", "status": "succeeded", "error": null}
+{"completed": 245, "family": "grain-trade", "period": "2020-01", "status": "succeeded", "error": null}
+{"completed": 246, "family": "oilseed-trade", "period": "2020-01", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 151.32299999999998, 'bottom': 160.32299999999998, 'values': {'Previous': '7,100', 'Current': '7,375'}}"}
+{"completed": 247, "family": "grain-trade", "period": "2019-12", "status": "failed", "error": "Incomplete changes-table numeric columns: RICE | TRADE CHANGES IN 2020 (1,000 MT), page=11, row={'top': 341.832, 'bottom': 353.832, 'values': {'Previous': '2019'}}"}
+{"completed": 248, "family": "oilseed-trade", "period": "2019-12", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 151.32299999999998, 'bottom': 160.32299999999998, 'values': {'Previous': '30,300', 'Current': '30,850'}}"}
+{"completed": 249, "family": "world-production", "period": "2019-12", "status": "succeeded", "error": null}
+{"completed": 250, "family": "world-production", "period": "2019-11", "status": "succeeded", "error": null}
+{"completed": 251, "family": "grain-trade", "period": "2019-11", "status": "succeeded", "error": null}
+{"completed": 252, "family": "oilseed-trade", "period": "2019-11", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 129.524, 'bottom': 138.524, 'values': {'Previous': '8,000', 'Current': '8,800'}}"}
+{"completed": 253, "family": "world-production", "period": "2019-10", "status": "succeeded", "error": null}
+{"completed": 254, "family": "oilseed-trade", "period": "2019-10", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 151.72399999999993, 'bottom': 160.72399999999993, 'values': {'Previous': '5,850', 'Current': '5,950'}}"}
+{"completed": 255, "family": "grain-trade", "period": "2019-10", "status": "succeeded", "error": null}
+{"completed": 256, "family": "world-production", "period": "2019-09", "status": "succeeded", "error": null}
+{"completed": 257, "family": "oilseed-trade", "period": "2019-09", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 115.50991999999997, 'bottom': 124.62991999999997, 'values': {'Previous': '800', 'Current': '900'}}"}
+{"completed": 258, "family": "grain-trade", "period": "2019-09", "status": "succeeded", "error": null}
+{"completed": 259, "family": "world-production", "period": "2019-08", "status": "succeeded", "error": null}
+{"completed": 260, "family": "grain-trade", "period": "2019-08", "status": "succeeded", "error": null}
+{"completed": 261, "family": "oilseed-trade", "period": "2019-08", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=4, row={'top': 669.003, 'bottom': 678.003, 'values': {'Previous': '800', 'Current': '1,050'}}"}
+{"completed": 262, "family": "world-production", "period": "2019-07", "status": "succeeded", "error": null}
+{"completed": 263, "family": "oilseed-trade", "period": "2019-07", "status": "failed", "error": "Incomplete changes-table numeric columns: 2019/20 OUTLOOK CHANGES, page=5, row={'top': 158.44399999999996, 'bottom': 167.44399999999996, 'values': {'Previous': '7,000', 'Current': '8,000'}}"}
+{"completed": 264, "family": "grain-trade", "period": "2019-07", "status": "succeeded", "error": null}
+{"completed": 265, "family": "world-production", "period": "2019-06", "status": "succeeded", "error": null}
+{"completed": 266, "family": "oilseed-trade", "period": "2019-06", "status": "failed", "error": "Incomplete changes-table numeric columns: 2018/19 OUTLOOK CHANGES, page=17, row={'top': 158.44399999999996, 'bottom': 167.44399999999996, 'values': {'Previous': '6,300', 'Current': '7,750'}}"}
+{"completed": 267, "family": "grain-trade", "period": "2019-06", "status": "succeeded", "error": null}
+{"completed": 268, "family": "world-production", "period": "2019-05", "status": "succeeded", "error": null}
+{"completed": 269, "family": "oilseed-trade", "period": "2019-05", "status": "failed", "error": "Incomplete changes-table numeric columns: 2018/19 OUTLOOK CHANGES, page=5, row={'top': 144.60300000000007, 'bottom': 153.60300000000007, 'values': {'Previous': '5,350', 'Current': '6,350'}}"}
+{"completed": 270, "family": "grain-trade", "period": "2019-05", "status": "succeeded", "error": null}
+{"completed": 271, "family": "world-production", "period": "2019-04", "status": "succeeded", "error": null}
+{"completed": 272, "family": "oilseed-trade", "period": "2019-04", "status": "failed", "error": "Incomplete changes-table numeric columns: 2018/19 OUTLOOK CHANGES, page=5, row={'top': 445.29400000000004, 'bottom': 454.29400000000004, 'values': {'Previous': '650', 'Current': '950'}}"}
+{"completed": 273, "family": "grain-trade", "period": "2019-04", "status": "succeeded", "error": null}
+{"completed": 274, "family": "world-production", "period": "2019-03", "status": "succeeded", "error": null}
+{"completed": 275, "family": "oilseed-trade", "period": "2019-03", "status": "failed", "error": "Incomplete changes-table numeric columns: 2018/19 OUTLOOK CHANGES, page=5, row={'top': 433.80400000000003, 'bottom': 442.80400000000003, 'values': {'Previous': '15,225', 'Current': '15,700'}}"}
+{"completed": 276, "family": "grain-trade", "period": "2019-03", "status": "succeeded", "error": null}
+{"completed": 277, "family": "grain-trade", "period": "2019-02", "status": "failed", "error": "Unresolved changes-table merged labels: WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT), page=5, row=0, labels={'Country': 'Australia', 'Commodity': 'Wheat', 'Attribute': 'E'}"}
+{"completed": 278, "family": "world-production", "period": "2019-02", "status": "succeeded", "error": null}
+{"completed": 279, "family": "world-production", "period": "2019-01", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 280, "family": "grain-trade", "period": "2019-01", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 281, "family": "oilseed-trade", "period": "2019-01", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 282, "family": "oilseed-trade", "period": "2019-02", "status": "failed", "error": "Incomplete changes-table numeric columns: 2018/19 OUTLOOK CHANGES, page=6, row={'top': 388.323, 'bottom': 397.323, 'values': {'Previous': '5,000', 'Current': '6,300'}}"}
+{"completed": 283, "family": "world-production", "period": "2018-12", "status": "succeeded", "error": null}
+{"completed": 284, "family": "grain-trade", "period": "2018-12", "status": "succeeded", "error": null}
+{"completed": 285, "family": "oilseed-trade", "period": "2018-12", "status": "succeeded", "error": null}
+{"completed": 286, "family": "world-production", "period": "2018-11", "status": "succeeded", "error": null}
+{"completed": 287, "family": "grain-trade", "period": "2018-11", "status": "failed", "error": "Unresolved changes-table merged labels: WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT), page=6, row=0, labels={'Country': 'Algeria', 'Commodity': 'Wheat', 'Attribute': 'I'}"}
+{"completed": 288, "family": "world-production", "period": "2018-10", "status": "succeeded", "error": null}
+{"completed": 289, "family": "oilseed-trade", "period": "2018-11", "status": "succeeded", "error": null}
+{"completed": 290, "family": "grain-trade", "period": "2018-10", "status": "failed", "error": "Unresolved changes-table merged labels: WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT), page=8, row=0, labels={'Country': 'Australia', 'Commodity': 'Wheat', 'Attribute': 'E'}"}
+{"completed": 291, "family": "world-production", "period": "2018-09", "status": "succeeded", "error": null}
+{"completed": 292, "family": "oilseed-trade", "period": "2018-10", "status": "succeeded", "error": null}
+{"completed": 293, "family": "grain-trade", "period": "2018-09", "status": "failed", "error": "Unresolved changes-table merged labels: WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT), page=7, row=0, labels={'Country': 'Australia', 'Commodity': 'Wheat', 'Attribute': 'E'}"}
+{"completed": 294, "family": "oilseed-trade", "period": "2018-09", "status": "failed", "error": "Unresolved changes-table merged labels: 2018/19 OUTLOOK CHANGES, page=4, row=1, labels={'Country': 'Canada', 'Commodity': 'Oilseed, Soybean', 'Attribute': 'E'}"}
+{"completed": 295, "family": "world-production", "period": "2018-08", "status": "succeeded", "error": null}
+{"completed": 296, "family": "grain-trade", "period": "2018-08", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'grain-trade', 'report_period': '2018-08', 'table_title': 'WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT)', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'Algeria Australia Euopean Union Mexico Pakistan Russia United States', 'column_commodity': 'Wheat', 'indicator': 'Exports', 'period_label': '2018/19', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 16500/27500"}
+{"completed": 297, "family": "oilseed-trade", "period": "2018-08", "status": "failed", "error": "Unresolved changes-table merged labels: 2017/18 OUTLOOK CHANGES, page=6, row=2, labels={'Country': 'Argentina', 'Commodity': 'Meal, Soybean', 'Attribute': 'E'}"}
+{"completed": 298, "family": "grain-trade", "period": "2018-07", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 299, "family": "world-production", "period": "2018-07", "status": "succeeded", "error": null}
+{"completed": 300, "family": "oilseed-trade", "period": "2018-07", "status": "failed", "error": "Unresolved changes-table merged labels: 2018/19 OUTLOOK CHANGES, page=7, row=1, labels={'Country': '', 'Commodity': 'Meal, Soybean', 'Attribute': 'Imports'}"}
+{"completed": 301, "family": "grain-trade", "period": "2018-06", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 302, "family": "world-production", "period": "2018-06", "status": "succeeded", "error": null}
+{"completed": 303, "family": "oilseed-trade", "period": "2018-06", "status": "succeeded", "error": null}
+{"completed": 304, "family": "world-production", "period": "2018-05", "status": "succeeded", "error": null}
+{"completed": 305, "family": "grain-trade", "period": "2018-05", "status": "failed", "error": "Ambiguous repeated changes-table numeric column"}
+{"completed": 306, "family": "oilseed-trade", "period": "2018-05", "status": "succeeded", "error": null}
+{"completed": 307, "family": "world-production", "period": "2018-04", "status": "succeeded", "error": null}
+{"completed": 308, "family": "grain-trade", "period": "2018-04", "status": "failed", "error": "Unresolved changes-table merged labels:  | TRADE CHANGES IN 2017/18 (1,000 MT), page=7, row=0, labels={'Country': 'Algeria', 'Commodity': '', 'Attribute': 'Imports'}"}
+{"completed": 309, "family": "oilseed-trade", "period": "2018-04", "status": "succeeded", "error": null}
+{"completed": 310, "family": "world-production", "period": "2018-03", "status": "succeeded", "error": null}
+{"completed": 311, "family": "grain-trade", "period": "2018-03", "status": "failed", "error": "Unresolved changes-table merged labels:  | TRADE CHANGES IN 2017/18 (1,000 MT), page=6, row=0, labels={'Country': 'Argentina', 'Commodity': '', 'Attribute': 'Exports'}"}
+{"completed": 312, "family": "world-production", "period": "2018-02", "status": "succeeded", "error": null}
+{"completed": 313, "family": "oilseed-trade", "period": "2018-03", "status": "succeeded", "error": null}
+{"completed": 314, "family": "oilseed-trade", "period": "2018-02", "status": "failed", "error": "Unresolved changes-table merged labels: 2017/18 OUTLOOK CHANGES, page=5, row=9, labels={'Country': 'Moldova', 'Commodity': 'Sunflowerseed', 'Attribute': 'Oilseed'}"}
+{"completed": 315, "family": "grain-trade", "period": "2018-02", "status": "failed", "error": "Unresolved changes-table merged labels:  | TRADE CHANGES IN 2017/18 (1,000 MT), page=7, row=0, labels={'Country': 'Argentina', 'Commodity': '', 'Attribute': 'Exports'}"}
+{"completed": 316, "family": "grain-trade", "period": "2018-01", "status": "failed", "error": "Unresolved changes-table merged labels:  | TRADE CHANGES IN 2017/18, page=8, row=0, labels={'Country': 'Algeria', 'Commodity': '', 'Attribute': 'Imports'}"}
+{"completed": 317, "family": "world-production", "period": "2018-01", "status": "succeeded", "error": null}
+{"completed": 318, "family": "oilseed-trade", "period": "2018-01", "status": "succeeded", "error": null}
+{"completed": 319, "family": "world-production", "period": "2017-12", "status": "succeeded", "error": null}
+{"completed": 320, "family": "oilseed-trade", "period": "2017-12", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2017-12', 'table_title': '2017/18 OUTLOOK CHANGES', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'Argentina', 'column_commodity': 'Sunflowerseed Oil', 'indicator': 'Exports', 'period_label': '2017/18', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 625/620"}
+{"completed": 321, "family": "grain-trade", "period": "2017-12", "status": "succeeded", "error": null}
+{"completed": 322, "family": "world-production", "period": "2017-11", "status": "succeeded", "error": null}
+{"completed": 323, "family": "oilseed-trade", "period": "2017-11", "status": "failed", "error": "Changes table header lacks a source period/title on page: 2016/17 TRADE CHANGES\nCountry Commodity Attribute Previous Current Change\nAlgeria Soybean Meal Imports 1,500 1,400 -100\nArgentina Soybean Oilseed Exports 6,900 7,020 120\nBurma Palm Oil Imports 671 780 109\nPalm Oil Imports 4,650 4,881 231\nChina Rapeseed Oilseed Imports 4,150 4,260 110\nSoybean Oilseed"}
+{"completed": 324, "family": "world-production", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 325, "family": "grain-trade", "period": "2017-11", "status": "succeeded", "error": null}
+{"completed": 326, "family": "oilseed-trade", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 327, "family": "grain-trade", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 328, "family": "world-production", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 329, "family": "grain-trade", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 330, "family": "oilseed-trade", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 331, "family": "world-production", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 332, "family": "grain-trade", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 333, "family": "oilseed-trade", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 334, "family": "world-production", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 335, "family": "grain-trade", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 336, "family": "oilseed-trade", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 337, "family": "world-production", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 338, "family": "grain-trade", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 339, "family": "oilseed-trade", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 340, "family": "world-production", "period": "2017-05", "status": "succeeded", "error": null}
+{"completed": 341, "family": "grain-trade", "period": "2017-05", "status": "succeeded", "error": null}
+{"completed": 342, "family": "oilseed-trade", "period": "2017-05", "status": "succeeded", "error": null}
+{"completed": 343, "family": "world-production", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 344, "family": "grain-trade", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 345, "family": "oilseed-trade", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 346, "family": "world-production", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 347, "family": "grain-trade", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 348, "family": "oilseed-trade", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 349, "family": "world-production", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 350, "family": "grain-trade", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 351, "family": "oilseed-trade", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 352, "family": "world-production", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 353, "family": "grain-trade", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 354, "family": "oilseed-trade", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 355, "family": "world-production", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 356, "family": "grain-trade", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 357, "family": "oilseed-trade", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 358, "family": "world-production", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 359, "family": "grain-trade", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 360, "family": "oilseed-trade", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 361, "family": "world-production", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 362, "family": "grain-trade", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 363, "family": "oilseed-trade", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 364, "family": "world-production", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 365, "family": "grain-trade", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 366, "family": "oilseed-trade", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 367, "family": "world-production", "period": "2016-08", "status": "failed", "error": "Incomplete historical WAP numbered tables"}
+{"completed": 368, "family": "grain-trade", "period": "2016-08", "status": "succeeded", "error": null}
+{"completed": 369, "family": "oilseed-trade", "period": "2016-08", "status": "succeeded", "error": null}
+{"completed": 370, "family": "world-production", "period": "2016-07", "status": "succeeded", "error": null}
+{"completed": 371, "family": "grain-trade", "period": "2016-07", "status": "succeeded", "error": null}
+{"completed": 372, "family": "oilseed-trade", "period": "2016-07", "status": "succeeded", "error": null}
+{"completed": 373, "family": "world-production", "period": "2016-06", "status": "failed", "error": "Incomplete historical WAP numbered tables"}
+{"completed": 374, "family": "grain-trade", "period": "2016-06", "status": "succeeded", "error": null}
+{"completed": 375, "family": "oilseed-trade", "period": "2016-06", "status": "succeeded", "error": null}
+{"completed": 376, "family": "world-production", "period": "2016-05", "status": "succeeded", "error": null}
+{"completed": 377, "family": "grain-trade", "period": "2016-05", "status": "succeeded", "error": null}
+{"completed": 378, "family": "oilseed-trade", "period": "2016-05", "status": "succeeded", "error": null}
+{"completed": 379, "family": "world-production", "period": "2016-04", "status": "succeeded", "error": null}
+{"completed": 380, "family": "grain-trade", "period": "2016-04", "status": "succeeded", "error": null}
+{"completed": 381, "family": "oilseed-trade", "period": "2016-04", "status": "succeeded", "error": null}
+{"completed": 382, "family": "world-production", "period": "2016-03", "status": "succeeded", "error": null}
+{"completed": 383, "family": "grain-trade", "period": "2016-03", "status": "succeeded", "error": null}
+{"completed": 384, "family": "oilseed-trade", "period": "2016-03", "status": "succeeded", "error": null}
+{"completed": 385, "family": "world-production", "period": "2016-02", "status": "succeeded", "error": null}
+{"completed": 386, "family": "grain-trade", "period": "2016-02", "status": "succeeded", "error": null}
+{"completed": 387, "family": "oilseed-trade", "period": "2016-02", "status": "succeeded", "error": null}
+{"completed": 388, "family": "world-production", "period": "2016-01", "status": "succeeded", "error": null}
+{"completed": 389, "family": "grain-trade", "period": "2016-01", "status": "succeeded", "error": null}
+{"completed": 390, "family": "oilseed-trade", "period": "2016-01", "status": "succeeded", "error": null}
+{"completed": 391, "family": "world-production", "period": "2015-12", "status": "succeeded", "error": null}
+{"completed": 392, "family": "grain-trade", "period": "2015-12", "status": "succeeded", "error": null}
+{"completed": 393, "family": "oilseed-trade", "period": "2015-12", "status": "succeeded", "error": null}
+{"completed": 394, "family": "world-production", "period": "2015-11", "status": "succeeded", "error": null}
+{"completed": 395, "family": "grain-trade", "period": "2015-11", "status": "succeeded", "error": null}
+{"completed": 396, "family": "oilseed-trade", "period": "2015-11", "status": "succeeded", "error": null}
+{"completed": 397, "family": "world-production", "period": "2015-10", "status": "succeeded", "error": null}
+{"completed": 398, "family": "grain-trade", "period": "2015-10", "status": "succeeded", "error": null}
+{"completed": 399, "family": "oilseed-trade", "period": "2015-10", "status": "succeeded", "error": null}
+{"completed": 400, "family": "world-production", "period": "2015-09", "status": "succeeded", "error": null}
+{"completed": 401, "family": "grain-trade", "period": "2015-09", "status": "succeeded", "error": null}
+{"completed": 402, "family": "oilseed-trade", "period": "2015-09", "status": "succeeded", "error": null}
+{"completed": 403, "family": "world-production", "period": "2015-08", "status": "succeeded", "error": null}
+{"completed": 404, "family": "grain-trade", "period": "2015-08", "status": "succeeded", "error": null}
+{"completed": 405, "family": "oilseed-trade", "period": "2015-08", "status": "succeeded", "error": null}
+{"completed": 406, "family": "world-production", "period": "2015-07", "status": "succeeded", "error": null}
+{"completed": 407, "family": "grain-trade", "period": "2015-07", "status": "succeeded", "error": null}
+{"completed": 408, "family": "oilseed-trade", "period": "2015-07", "status": "succeeded", "error": null}
+{"completed": 409, "family": "world-production", "period": "2015-06", "status": "succeeded", "error": null}
+{"completed": 410, "family": "grain-trade", "period": "2015-06", "status": "succeeded", "error": null}
+{"completed": 411, "family": "oilseed-trade", "period": "2015-06", "status": "succeeded", "error": null}
+{"completed": 412, "family": "grain-trade", "period": "2015-05", "status": "failed", "error": "Source artifact is not cached; live acquisition required"}
+{"completed": 413, "family": "world-production", "period": "2015-05", "status": "succeeded", "error": null}
+{"completed": 414, "family": "oilseed-trade", "period": "2015-05", "status": "succeeded", "error": null}
+{"completed": 415, "family": "world-production", "period": "2015-04", "status": "succeeded", "error": null}
+{"completed": 416, "family": "oilseed-trade", "period": "2015-04", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 417, "family": "world-production", "period": "2015-03", "status": "succeeded", "error": null}
+{"completed": 418, "family": "grain-trade", "period": "2015-04", "status": "succeeded", "error": null}
+{"completed": 419, "family": "grain-trade", "period": "2015-03", "status": "succeeded", "error": null}
+{"completed": 420, "family": "oilseed-trade", "period": "2015-03", "status": "succeeded", "error": null}
+{"completed": 421, "family": "world-production", "period": "2015-02", "status": "succeeded", "error": null}
+{"completed": 422, "family": "grain-trade", "period": "2015-02", "status": "succeeded", "error": null}
+{"completed": 423, "family": "oilseed-trade", "period": "2015-02", "status": "failed", "error": "Required report table produced no cells: [('Table 31: Vegetable Oil Prices', 36)]"}
+{"completed": 424, "family": "world-production", "period": "2015-01", "status": "succeeded", "error": null}
+{"completed": 425, "family": "grain-trade", "period": "2015-01", "status": "succeeded", "error": null}
+{"completed": 426, "family": "oilseed-trade", "period": "2015-01", "status": "succeeded", "error": null}
+{"completed": 427, "family": "world-production", "period": "2014-12", "status": "succeeded", "error": null}
+{"completed": 428, "family": "oilseed-trade", "period": "2014-12", "status": "succeeded", "error": null}
+{"completed": 429, "family": "grain-trade", "period": "2014-12", "status": "succeeded", "error": null}
+{"completed": 430, "family": "world-production", "period": "2014-11", "status": "succeeded", "error": null}
+{"completed": 431, "family": "grain-trade", "period": "2014-11", "status": "succeeded", "error": null}
+{"completed": 432, "family": "oilseed-trade", "period": "2014-11", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2014-11', 'table_title': 'Table 29: Oilseed Prices', 'section_label': 'price_quotes', 'section_product_type': 'not_applicable', 'row_label': 'Source quote 1/', 'column_commodity': 'not_applicable', 'indicator': 'Price', 'period_label': '2013/14', 'comparison_label': 'Nov', 'unit': 'U.S. Dollars per Metric Ton'} values 467/None"}
+{"completed": 433, "family": "world-production", "period": "2014-10", "status": "succeeded", "error": null}
+{"completed": 434, "family": "oilseed-trade", "period": "2014-10", "status": "failed", "error": "Source artifact is not cached; live acquisition required"}
+{"completed": 435, "family": "grain-trade", "period": "2014-10", "status": "succeeded", "error": null}
+{"completed": 436, "family": "world-production", "period": "2014-09", "status": "succeeded", "error": null}
+{"completed": 437, "family": "oilseed-trade", "period": "2014-09", "status": "failed", "error": "Source artifact is not cached; live acquisition required"}
+{"completed": 438, "family": "world-production", "period": "2014-08", "status": "succeeded", "error": null}
+{"completed": 439, "family": "grain-trade", "period": "2014-09", "status": "succeeded", "error": null}
+{"completed": 440, "family": "oilseed-trade", "period": "2014-08", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 441, "family": "world-production", "period": "2014-07", "status": "succeeded", "error": null}
+{"completed": 442, "family": "grain-trade", "period": "2014-08", "status": "succeeded", "error": null}
+{"completed": 443, "family": "oilseed-trade", "period": "2014-07", "status": "succeeded", "error": null}
+{"completed": 444, "family": "grain-trade", "period": "2014-07", "status": "succeeded", "error": null}
+{"completed": 445, "family": "world-production", "period": "2014-06", "status": "succeeded", "error": null}
+{"completed": 446, "family": "grain-trade", "period": "2014-06", "status": "succeeded", "error": null}
+{"completed": 447, "family": "oilseed-trade", "period": "2014-06", "status": "succeeded", "error": null}
+{"completed": 448, "family": "world-production", "period": "2014-05", "status": "succeeded", "error": null}
+{"completed": 449, "family": "oilseed-trade", "period": "2014-05", "status": "succeeded", "error": null}
+{"completed": 450, "family": "grain-trade", "period": "2014-05", "status": "succeeded", "error": null}
+{"completed": 451, "family": "world-production", "period": "2014-04", "status": "failed", "error": "Missing WAP summary geography header"}
+{"completed": 452, "family": "oilseed-trade", "period": "2014-04", "status": "succeeded", "error": null}
+{"completed": 453, "family": "grain-trade", "period": "2014-04", "status": "succeeded", "error": null}
+{"completed": 454, "family": "world-production", "period": "2014-03", "status": "succeeded", "error": null}
+{"completed": 455, "family": "oilseed-trade", "period": "2014-03", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 456, "family": "grain-trade", "period": "2014-03", "status": "succeeded", "error": null}
+{"completed": 457, "family": "world-production", "period": "2014-02", "status": "succeeded", "error": null}
+{"completed": 458, "family": "oilseed-trade", "period": "2014-02", "status": "succeeded", "error": null}
+{"completed": 459, "family": "grain-trade", "period": "2014-02", "status": "succeeded", "error": null}
+{"completed": 460, "family": "world-production", "period": "2014-01", "status": "succeeded", "error": null}
+{"completed": 461, "family": "grain-trade", "period": "2014-01", "status": "succeeded", "error": null}
+{"completed": 462, "family": "oilseed-trade", "period": "2014-01", "status": "succeeded", "error": null}
+{"completed": 463, "family": "world-production", "period": "2013-12", "status": "succeeded", "error": null}
+{"completed": 464, "family": "grain-trade", "period": "2013-12", "status": "succeeded", "error": null}
+{"completed": 465, "family": "oilseed-trade", "period": "2013-12", "status": "succeeded", "error": null}
+{"completed": 466, "family": "world-production", "period": "2013-11", "status": "succeeded", "error": null}
+{"completed": 467, "family": "grain-trade", "period": "2013-11", "status": "succeeded", "error": null}
+{"completed": 468, "family": "world-production", "period": "2013-10", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 469, "family": "grain-trade", "period": "2013-10", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 470, "family": "oilseed-trade", "period": "2013-11", "status": "succeeded", "error": null}
+{"completed": 471, "family": "oilseed-trade", "period": "2013-10", "status": "failed", "error": "Cannot verify embedded report month"}
+{"completed": 472, "family": "world-production", "period": "2013-09", "status": "succeeded", "error": null}
+{"completed": 473, "family": "grain-trade", "period": "2013-09", "status": "succeeded", "error": null}
+{"completed": 474, "family": "oilseed-trade", "period": "2013-09", "status": "succeeded", "error": null}
+{"completed": 475, "family": "world-production", "period": "2013-08", "status": "succeeded", "error": null}
+{"completed": 476, "family": "oilseed-trade", "period": "2013-08", "status": "succeeded", "error": null}
+{"completed": 477, "family": "grain-trade", "period": "2013-08", "status": "succeeded", "error": null}
+{"completed": 478, "family": "world-production", "period": "2013-07", "status": "succeeded", "error": null}
+{"completed": 479, "family": "grain-trade", "period": "2013-07", "status": "succeeded", "error": null}
+{"completed": 480, "family": "oilseed-trade", "period": "2013-07", "status": "succeeded", "error": null}
+{"completed": 481, "family": "world-production", "period": "2013-06", "status": "succeeded", "error": null}
+{"completed": 482, "family": "oilseed-trade", "period": "2013-06", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 483, "family": "grain-trade", "period": "2013-06", "status": "succeeded", "error": null}
+{"completed": 484, "family": "world-production", "period": "2013-05", "status": "succeeded", "error": null}
+{"completed": 485, "family": "oilseed-trade", "period": "2013-05", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 486, "family": "world-production", "period": "2013-04", "status": "succeeded", "error": null}
+{"completed": 487, "family": "grain-trade", "period": "2013-05", "status": "succeeded", "error": null}
+{"completed": 488, "family": "grain-trade", "period": "2013-04", "status": "succeeded", "error": null}
+{"completed": 489, "family": "oilseed-trade", "period": "2013-04", "status": "succeeded", "error": null}
+{"completed": 490, "family": "world-production", "period": "2013-03", "status": "succeeded", "error": null}
+{"completed": 491, "family": "grain-trade", "period": "2013-03", "status": "succeeded", "error": null}
+{"completed": 492, "family": "oilseed-trade", "period": "2013-03", "status": "succeeded", "error": null}
+{"completed": 493, "family": "world-production", "period": "2013-02", "status": "succeeded", "error": null}
+{"completed": 494, "family": "oilseed-trade", "period": "2013-02", "status": "succeeded", "error": null}
+{"completed": 495, "family": "grain-trade", "period": "2013-02", "status": "succeeded", "error": null}
+{"completed": 496, "family": "world-production", "period": "2013-01", "status": "succeeded", "error": null}
+{"completed": 497, "family": "grain-trade", "period": "2013-01", "status": "succeeded", "error": null}
+{"completed": 498, "family": "oilseed-trade", "period": "2013-01", "status": "succeeded", "error": null}
+{"completed": 499, "family": "world-production", "period": "2012-12", "status": "succeeded", "error": null}
+{"completed": 500, "family": "oilseed-trade", "period": "2012-12", "status": "succeeded", "error": null}
+{"completed": 501, "family": "grain-trade", "period": "2012-12", "status": "succeeded", "error": null}
+{"completed": 502, "family": "world-production", "period": "2012-11", "status": "succeeded", "error": null}
+{"completed": 503, "family": "grain-trade", "period": "2012-11", "status": "succeeded", "error": null}
+{"completed": 504, "family": "oilseed-trade", "period": "2012-11", "status": "succeeded", "error": null}
+{"completed": 505, "family": "world-production", "period": "2012-10", "status": "succeeded", "error": null}
+{"completed": 506, "family": "oilseed-trade", "period": "2012-10", "status": "succeeded", "error": null}
+{"completed": 507, "family": "grain-trade", "period": "2012-10", "status": "succeeded", "error": null}
+{"completed": 508, "family": "world-production", "period": "2012-09", "status": "succeeded", "error": null}
+{"completed": 509, "family": "grain-trade", "period": "2012-09", "status": "failed", "error": "Incomplete historical grain main tables"}
+{"completed": 510, "family": "oilseed-trade", "period": "2012-09", "status": "succeeded", "error": null}
+{"completed": 511, "family": "world-production", "period": "2012-08", "status": "succeeded", "error": null}
+{"completed": 512, "family": "oilseed-trade", "period": "2012-08", "status": "succeeded", "error": null}
+{"completed": 513, "family": "grain-trade", "period": "2012-08", "status": "failed", "error": "Incomplete historical grain main tables"}
+{"completed": 514, "family": "world-production", "period": "2012-07", "status": "succeeded", "error": null}
+{"completed": 515, "family": "grain-trade", "period": "2012-07", "status": "failed", "error": "Incomplete historical grain main tables"}
+{"completed": 516, "family": "oilseed-trade", "period": "2012-07", "status": "succeeded", "error": null}
+{"completed": 517, "family": "world-production", "period": "2012-06", "status": "succeeded", "error": null}
+{"completed": 518, "family": "oilseed-trade", "period": "2012-06", "status": "succeeded", "error": null}
+{"completed": 519, "family": "grain-trade", "period": "2012-06", "status": "succeeded", "error": null}
+{"completed": 520, "family": "world-production", "period": "2012-05", "status": "succeeded", "error": null}
+{"completed": 521, "family": "grain-trade", "period": "2012-05", "status": "succeeded", "error": null}
+{"completed": 522, "family": "oilseed-trade", "period": "2012-05", "status": "succeeded", "error": null}
+{"completed": 523, "family": "world-production", "period": "2012-04", "status": "succeeded", "error": null}
+{"completed": 524, "family": "grain-trade", "period": "2012-04", "status": "succeeded", "error": null}
+{"completed": 525, "family": "oilseed-trade", "period": "2012-04", "status": "succeeded", "error": null}
+{"completed": 526, "family": "world-production", "period": "2012-03", "status": "failed", "error": "Missing WAP summary geography header"}
+{"completed": 527, "family": "oilseed-trade", "period": "2012-03", "status": "succeeded", "error": null}
+{"completed": 528, "family": "grain-trade", "period": "2012-03", "status": "succeeded", "error": null}
+{"completed": 529, "family": "world-production", "period": "2012-02", "status": "succeeded", "error": null}
+{"completed": 530, "family": "grain-trade", "period": "2012-02", "status": "succeeded", "error": null}
+{"completed": 531, "family": "oilseed-trade", "period": "2012-02", "status": "succeeded", "error": null}
+{"completed": 532, "family": "world-production", "period": "2012-01", "status": "succeeded", "error": null}
+{"completed": 533, "family": "grain-trade", "period": "2012-01", "status": "succeeded", "error": null}
+{"completed": 534, "family": "oilseed-trade", "period": "2012-01", "status": "succeeded", "error": null}
+{"completed": 535, "family": "world-production", "period": "2011-12", "status": "succeeded", "error": null}
+{"completed": 536, "family": "grain-trade", "period": "2011-12", "status": "succeeded", "error": null}
+{"completed": 537, "family": "oilseed-trade", "period": "2011-12", "status": "succeeded", "error": null}
+{"completed": 538, "family": "world-production", "period": "2011-11", "status": "succeeded", "error": null}
+{"completed": 539, "family": "grain-trade", "period": "2011-11", "status": "succeeded", "error": null}
+{"completed": 540, "family": "oilseed-trade", "period": "2011-11", "status": "succeeded", "error": null}
+{"completed": 541, "family": "world-production", "period": "2011-10", "status": "succeeded", "error": null}
+{"completed": 542, "family": "grain-trade", "period": "2011-10", "status": "succeeded", "error": null}
+{"completed": 543, "family": "oilseed-trade", "period": "2011-10", "status": "succeeded", "error": null}
+{"completed": 544, "family": "world-production", "period": "2011-09", "status": "succeeded", "error": null}
+{"completed": 545, "family": "grain-trade", "period": "2011-09", "status": "succeeded", "error": null}
+{"completed": 546, "family": "oilseed-trade", "period": "2011-09", "status": "succeeded", "error": null}
+{"completed": 547, "family": "world-production", "period": "2011-08", "status": "succeeded", "error": null}
+{"completed": 548, "family": "grain-trade", "period": "2011-08", "status": "succeeded", "error": null}
+{"completed": 549, "family": "oilseed-trade", "period": "2011-08", "status": "succeeded", "error": null}
+{"completed": 550, "family": "world-production", "period": "2011-07", "status": "succeeded", "error": null}
+{"completed": 551, "family": "grain-trade", "period": "2011-07", "status": "succeeded", "error": null}
+{"completed": 552, "family": "oilseed-trade", "period": "2011-07", "status": "succeeded", "error": null}
+{"completed": 553, "family": "world-production", "period": "2011-06", "status": "succeeded", "error": null}
+{"completed": 554, "family": "grain-trade", "period": "2011-06", "status": "succeeded", "error": null}
+{"completed": 555, "family": "oilseed-trade", "period": "2011-06", "status": "succeeded", "error": null}
+{"completed": 556, "family": "world-production", "period": "2011-05", "status": "succeeded", "error": null}
+{"completed": 557, "family": "grain-trade", "period": "2011-05", "status": "succeeded", "error": null}
+{"completed": 558, "family": "oilseed-trade", "period": "2011-05", "status": "succeeded", "error": null}
+{"completed": 559, "family": "world-production", "period": "2011-04", "status": "succeeded", "error": null}
+{"completed": 560, "family": "grain-trade", "period": "2011-04", "status": "succeeded", "error": null}
+{"completed": 561, "family": "oilseed-trade", "period": "2011-04", "status": "succeeded", "error": null}
+{"completed": 562, "family": "world-production", "period": "2011-03", "status": "succeeded", "error": null}
+{"completed": 563, "family": "grain-trade", "period": "2011-03", "status": "succeeded", "error": null}
+{"completed": 564, "family": "oilseed-trade", "period": "2011-03", "status": "succeeded", "error": null}
+{"completed": 565, "family": "world-production", "period": "2011-02", "status": "succeeded", "error": null}
+{"completed": 566, "family": "grain-trade", "period": "2011-02", "status": "succeeded", "error": null}
+{"completed": 567, "family": "oilseed-trade", "period": "2011-02", "status": "succeeded", "error": null}
+{"completed": 568, "family": "world-production", "period": "2011-01", "status": "succeeded", "error": null}
+{"completed": 569, "family": "grain-trade", "period": "2011-01", "status": "succeeded", "error": null}
+{"completed": 570, "family": "oilseed-trade", "period": "2011-01", "status": "succeeded", "error": null}
+{"completed": 571, "family": "world-production", "period": "2010-12", "status": "succeeded", "error": null}
+{"completed": 572, "family": "grain-trade", "period": "2010-12", "status": "succeeded", "error": null}
+{"completed": 573, "family": "oilseed-trade", "period": "2010-12", "status": "succeeded", "error": null}
+{"completed": 574, "family": "world-production", "period": "2010-11", "status": "succeeded", "error": null}
+{"completed": 575, "family": "grain-trade", "period": "2010-11", "status": "succeeded", "error": null}
+{"completed": 576, "family": "oilseed-trade", "period": "2010-11", "status": "succeeded", "error": null}
+{"completed": 577, "family": "world-production", "period": "2010-10", "status": "succeeded", "error": null}
+{"completed": 578, "family": "grain-trade", "period": "2010-10", "status": "succeeded", "error": null}
+{"completed": 579, "family": "oilseed-trade", "period": "2010-10", "status": "succeeded", "error": null}
+{"completed": 580, "family": "world-production", "period": "2010-09", "status": "succeeded", "error": null}
+{"completed": 581, "family": "grain-trade", "period": "2010-09", "status": "succeeded", "error": null}
+{"completed": 582, "family": "oilseed-trade", "period": "2010-09", "status": "succeeded", "error": null}
+{"completed": 583, "family": "world-production", "period": "2010-08", "status": "succeeded", "error": null}
+{"completed": 584, "family": "grain-trade", "period": "2010-08", "status": "succeeded", "error": null}
+{"completed": 585, "family": "oilseed-trade", "period": "2010-08", "status": "succeeded", "error": null}
+{"completed": 586, "family": "world-production", "period": "2010-07", "status": "succeeded", "error": null}
+{"completed": 587, "family": "oilseed-trade", "period": "2010-07", "status": "succeeded", "error": null}
+{"completed": 588, "family": "grain-trade", "period": "2010-07", "status": "succeeded", "error": null}
+{"completed": 589, "family": "world-production", "period": "2010-06", "status": "succeeded", "error": null}
+{"completed": 590, "family": "grain-trade", "period": "2010-06", "status": "succeeded", "error": null}
+{"completed": 591, "family": "oilseed-trade", "period": "2010-06", "status": "succeeded", "error": null}
+{"completed": 592, "family": "world-production", "period": "2010-05", "status": "succeeded", "error": null}
+{"completed": 593, "family": "oilseed-trade", "period": "2010-05", "status": "succeeded", "error": null}
+{"completed": 594, "family": "grain-trade", "period": "2010-05", "status": "succeeded", "error": null}
+{"completed": 595, "family": "world-production", "period": "2010-04", "status": "succeeded", "error": null}
+{"completed": 596, "family": "grain-trade", "period": "2010-04", "status": "succeeded", "error": null}
+{"completed": 597, "family": "oilseed-trade", "period": "2010-04", "status": "succeeded", "error": null}
+{"completed": 598, "family": "world-production", "period": "2010-03", "status": "succeeded", "error": null}
+{"completed": 599, "family": "grain-trade", "period": "2010-03", "status": "succeeded", "error": null}
+{"completed": 600, "family": "oilseed-trade", "period": "2010-03", "status": "succeeded", "error": null}
+{"completed": 601, "family": "world-production", "period": "2010-02", "status": "succeeded", "error": null}
+{"completed": 602, "family": "grain-trade", "period": "2010-02", "status": "succeeded", "error": null}
+{"completed": 603, "family": "oilseed-trade", "period": "2010-02", "status": "succeeded", "error": null}
+{"completed": 604, "family": "world-production", "period": "2010-01", "status": "succeeded", "error": null}
+{"completed": 605, "family": "grain-trade", "period": "2010-01", "status": "succeeded", "error": null}
+{"completed": 606, "family": "oilseed-trade", "period": "2010-01", "status": "succeeded", "error": null}

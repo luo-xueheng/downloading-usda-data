@@ -1,0 +1,18 @@
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2014/09/Oilseeds.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2014-09-Oilseeds.pdf", "checked_at_utc": "2026-11-16T12:11:54.156110+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2014/09/oilseeds.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2014-09-oilseeds.pdf", "checked_at_utc": "2026-11-16T12:11:55.664472+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2014/10/Oilseeds.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2014-10-Oilseeds.pdf", "checked_at_utc": "2026-11-16T12:11:57.175537+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2014/10/oilseeds.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2014-10-oilseeds.pdf", "checked_at_utc": "2026-11-16T12:11:58.686544+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2015/05/Grain.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2015-05-Grain.pdf", "checked_at_utc": "2026-11-16T12:12:00.197848+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}
+Retry attempt 2/3 in 0.500s
+Retry attempt 3/3 in 1.000s
+{"url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2015/05/grain.pdf", "format": "pdf", "path": "artifacts/acceptance/phase-09/resume/downloads/2015-05-grain.pdf", "checked_at_utc": "2026-11-16T12:12:01.708973+00:00", "status": "blocked", "error_type": "DownloadError", "error": "Request failed after 3 attempts"}

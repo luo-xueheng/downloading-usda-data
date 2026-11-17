@@ -1,0 +1,11 @@
+{
+  "id": "datareleasedates",
+  "url": "https://api.fas.usda.gov/api/esr/datareleasedates",
+  "checked_at_utc": "2026-11-15T12:12:55.041154+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "5d876fadfb6207f3465dcfa39467e05fc717c9f9c13902a84758aad39fe8e13b",
+  "bytes": 7157,
+  "record_count": 44
+}

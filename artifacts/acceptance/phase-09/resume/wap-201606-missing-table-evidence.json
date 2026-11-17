@@ -1,0 +1,17 @@
+{
+  "family": "world-production",
+  "report_period": "2016-06",
+  "source_artifact_id": "f84427ccbea30948b864b189d42b85e6b6767c8182c90a661f70f31157b04ec2",
+  "missing_table_number": 10,
+  "missing_table_title": "Table 10 Total Oilseed Area, Yield, and Production",
+  "status": "source_unavailable",
+  "evidence": {
+    "official_circular_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2016/06/production.pdf",
+    "official_nal_url": "https://esmis.nal.usda.gov/sites/default/release-files/5q47rn72z/j96021078/ww72bb951/worldag-production-06-10-2016.pdf",
+    "nal_sha256": "f84427ccbea30948b864b189d42b85e6b6767c8182c90a661f70f31157b04ec2",
+    "nal_path": "artifacts/acceptance/phase-09/resume/downloads/esmis-world-production-2016-06.pdf",
+    "page_count": 27,
+    "locator": "Original PDF page 19 is Table 09 Rice; page 20 is Table 11 Soybean. Both independent official archive paths serve exactly the same 27-page PDF without Table 10.",
+    "meaning": "Table 10 is absent from this original report attachment; no replacement values from revised PSD or adjacent vintages are inserted."
+  }
+}

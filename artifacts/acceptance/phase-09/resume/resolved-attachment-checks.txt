@@ -1,0 +1,8 @@
+grain-trade 2015-05 resolved_verified
+oilseed-trade 2014-09 resolved_verified
+oilseed-trade 2014-10 resolved_verified
+oilseed-trade 2015-04 resolved_verified
+oilseed-trade 2014-08 resolved_verified
+oilseed-trade 2014-03 resolved_verified
+oilseed-trade 2013-06 resolved_verified
+oilseed-trade 2013-05 resolved_verified

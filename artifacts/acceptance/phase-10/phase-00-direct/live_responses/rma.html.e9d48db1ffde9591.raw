@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+<link rel="canonical" href="https://rma.usda.gov" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/rma/apple-touch-icon.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/themes/custom/rma/apple-touch-icon-precomposed.png" />
+<meta name="google-site-verification" content="3wIiKx89MJgoyjPxjaAvYYePcBUGujSg0ahlPSvzPMc" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/rma/USDA-icon.png" type="image/png" />
+
+  <title>State/County/Crop Summary of Business | Risk Management Agency</title>
+  <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_indentblock/css/plugins/indentblock/ckeditor.indentblock.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/uswds_paragraph_components/modules/uswds_paragraph_components_cards/css/uswds-paragraph-components-cards.css?tom5kq" />
+<link rel="stylesheet" media="all" href="/themes/custom/rma/css/styles.css?tom5kq" />
+
+  
+</head>
+<body>
+<a href="#main-content" class="usa-sr-only focusable">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+	<div class="header__top-banner">
+
+									<section class="usa-banner" aria-label="Official website of the United States government">
+					
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" aria-hidden="true" src="/themes/custom/rma/img/us_flag_small.png" alt="">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/rma/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/rma/img/icon-https.svg" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br>
+              A <strong>lock</strong> (   <span class="icon-lock">
+    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description" focusable="false">
+      <title id="banner-lock-title">Lock</title>
+      <desc id="banner-lock-description">Locked padlock</desc>
+      <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/>
+    </svg>
+  </span>
+ ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+				</section>
+					
+					<div class="display-none grid-container position-relative desktop:display-flex nav-secondary">
+				<div class="desktop:grid-row desktop:grid-gap">
+					<div class="usa-nav__secondary">
+						<div class="grid-col-fill desktop:grid-col-auto margin-left-auto">
+							<div class="grid-row banner-links">
+								<div class="grid-col desktop:flex-auto desktop:display-flex desktop:flex-row desktop:flex-align-center">
+									<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+										<use href="/themes/custom/rma/img/sprite.svg#language"></use>
+									</svg>
+									<span class="margin-right-1"></span>
+								</div>
+								<div class="grid-col flex-auto">
+									  
+    
+    <nav class="usa-nav__secondary-links">
+
+      
+                                
+                          
+        
+                        <a href="/about-rma" class="link" data-drupal-link-system-path="node/4158">About RMA</a>
+                                
+                          
+        
+                <span class="margin-top-2px">|</span>        <a href="/about-rma/fcic" class="link" data-drupal-link-system-path="node/4260">FCIC</a>
+                                
+                          
+        
+                <span class="margin-top-2px">|</span>        <a href="/tools-reports/agent-locator" target="_self" class="link" data-drupal-link-system-path="node/4283">Find an Agent</a>
+      
+    </nav>
+  
+
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+<div class="usa-overlay"></div>
+
+	<header class="usa-header usa-header--extended" id="header" role="banner">
+
+		
+		
+			<div class="region region-header usa-navbar">
+    <div id="block-rma-gtmheader" class="block block-block-content block-block-contentb72e9ebb-1d12-45ac-a3d8-2ec8305368c8">
+  
+    
+      
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MK9DSZ2');</script></div>
+      
+  </div>
+<div class="header-main">
+	<div class="agency-banner">
+		<div class="agency-logo">
+							<span class="agency-logo">
+					<a href="https://www.usda.gov/">
+						<img src="/themes/custom/rma/usda-symbol.svg" alt="USDA Logo">
+					</a>
+				</span>
+						<a class="agency-logo-text" href="/" accesskey="1" aria-label="Risk Management Agency - U.S. Department of Agriculture Home Page">
+				<div class="agency-identity">
+					<div class="agency-name">
+													Risk Management Agency					</div>
+					<div class="tagline">
+						U.S. Department of Agriculture
+											</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+</div>
+
+<button class="usa-menu-btn main-nav-toggle" type="button" aria-label="Open Main Menu">
+	<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+		<use href="/themes/custom/rma/img/sprite.svg#menu"></use>
+	</svg>
+</button>
+
+</div>
+
+
+			<nav class="usa-nav" role="navigation">
+				<button type="button" class="usa-nav__close">
+					<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+						<path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" / alt="close"></svg>
+					</button>
+
+											<div class="usa-nav__inner">
+						
+
+						
+						
+															
+	
+	<ul class="usa-accordion usa-nav__primary"  id="">
+														
+			<li class="usa-nav__primary-item ">
+
+																					<div class="link-container">
+							<div class="usa-nav__link " tabindex="-1">
+								<a href="/policy-procedure" class="usa-nav__link-title" tab-index="0">Policy &amp; Procedure</a>
+
+								<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-90518-1" tabindex="0">
+									<span class="visually-hidden">
+										Toggle sub menu for
+										Policy &amp; Procedure
+									</span>
+								</button>
+							</div>
+						</div>
+							
+	<ul class="usa-accordion usa-nav__submenu"  hidden="" id="basic-nav-section-90518-1">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/appendix-iiim-13-handbook-index" data-drupal-link-system-path="entity.node.canonical">
+							<span>Appendix III/M-13 Handbook Index</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/policy-procedure/bulletins-memos" class="usa-nav__link-title" tab-index="0">Bulletins and Memos</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-35423-2" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Bulletins and Memos
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-35423-2">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/bulletins-memos/actuarial-releases" data-drupal-link-system-path="view.actuarial_releases.page_actuarial_releases">
+							<span>Actuarial Releases</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/bulletins-memos/informational-memorandums" data-drupal-link-system-path="view.informational_memorandums.page_informational_memorandums">
+							<span>Informational Memorandums</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/bulletins-memos/managers-bulletins" data-drupal-link-system-path="view.managers_bulletins.page_managers_bulletins">
+							<span>Manager&#039;s Bulletins</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/bulletins-memos/product-management-bulletins" data-drupal-link-system-path="view.product_management_bulletins.page_product_management_bulletins">
+							<span>Product Management Bulletins</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/crop-loss-adjustment-standards" data-drupal-link-system-path="view.crop_loss_adjustment_standards.page_crop_loss_adjustment_standards">
+							<span>Crop Loss Adjustment Standards</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/crop-policies" data-drupal-link-system-path="view.crop_policies.crop_policies">
+							<span>Crop Policies</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/crop-underwriting-standards" data-drupal-link-system-path="view.crop_underwriting_standards.page_crop_underwriting">
+							<span>Crop Underwriting Standards</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/final-agency-determinations" data-drupal-link-system-path="entity.node.canonical">
+							<span>Final Agency Determinations</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-handbooks" data-drupal-link-system-path="view.handbooks.page_handbooks">
+							<span>General Handbooks</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/policy-procedure/general-policies" class="usa-nav__link-title" tab-index="0">General Policies</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-4045-8" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												General Policies
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-4045-8">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-policies/commodity-exchange-price-provisions" data-drupal-link-system-path="entity.node.canonical">
+							<span>Commodity Exchange Price Provisions</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-policies/livestock-insurance-plans" data-drupal-link-system-path="entity.node.canonical">
+							<span>Livestock Insurance Plans</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-policies/margin-insurance" data-drupal-link-system-path="entity.node.canonical">
+							<span>Margin Insurance</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-policies/rainfall-index" data-drupal-link-system-path="entity.node.canonical">
+							<span>Rainfall Index</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/general-policies/whole-farm-revenue-protection" data-drupal-link-system-path="entity.node.canonical">
+							<span>Whole-Farm Revenue Protection</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/policy-procedure/reinsurance-agreements" class="usa-nav__link-title" tab-index="0">Reinsurance Agreements</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-4739-9" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Reinsurance Agreements
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-4739-9">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/reinsurance-agreements/livestock-price-reinsurance-agreement-archive" data-drupal-link-system-path="entity.node.canonical">
+							<span>Livestock Price Reinsurance Agreement Archive</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/policy-procedure/reinsurance-agreements/standard-reinsurance-agreement-archive" data-drupal-link-system-path="entity.node.canonical">
+							<span>Standard Reinsurance Agreement Archive</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+			</ul>
+
+												</li>
+														
+			<li class="usa-nav__primary-item ">
+
+																					<div class="link-container">
+							<div class="usa-nav__link " tabindex="-1">
+								<a href="/rmalocal" class="usa-nav__link-title" tab-index="0">RMALocal</a>
+
+								<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-2777-2" tabindex="0">
+									<span class="visually-hidden">
+										Toggle sub menu for
+										RMALocal
+									</span>
+								</button>
+							</div>
+						</div>
+							
+	<ul class="usa-accordion usa-nav__submenu"  hidden="" id="basic-nav-section-2777-2">
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/rmalocal#compliance" class="usa-nav__link-title" tab-index="0">Compliance Offices</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-54995-1" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Compliance Offices
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-54995-1">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/special-investigations-branch" data-drupal-link-system-path="entity.node.canonical">
+							<span>Special Investigations Branch</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/central">
+							<span>Central </span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/eastern">
+							<span>Eastern</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/midwest">
+							<span>Midwest </span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/northern">
+							<span>Northern</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/southern">
+							<span>Southern</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/compliance-offices/western">
+							<span>Western</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/rmalocal" class="usa-nav__link-title" tab-index="0">Regional Offices</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-5263-2" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Regional Offices
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-5263-2">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/billings-montana" data-drupal-link-system-path="entity.node.canonical">
+							<span>Billings, MT</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/davis-california">
+							<span>Davis, CA</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/jackson-mississippi">
+							<span>Jackson, MS</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/oklahoma-city-ok">
+							<span>Oklahoma City, OK</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/raleigh-north-carolina">
+							<span>Raleigh, NC</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/spokane-washington" data-drupal-link-system-path="entity.node.canonical">
+							<span>Spokane, WA</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/springfield-illinois" data-drupal-link-system-path="entity.node.canonical">
+							<span>Springfield, IL</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/st-paul-minnesota" data-drupal-link-system-path="entity.node.canonical">
+							<span>St. Paul, MN</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/topeka-kansas" data-drupal-link-system-path="entity.node.canonical">
+							<span>Topeka, KS</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal/regional-offices/valdosta-georgia">
+							<span>Valdosta, GA</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/rmalocal#region-state" data-drupal-link-system-path="entity.node.canonical">
+							<span>States</span>
+						</a>
+																	</li>
+			</ul>
+
+												</li>
+														
+			<li class="usa-nav__primary-item usa-current">
+
+																					<div class="link-container">
+							<div class="usa-nav__link usa-current" tabindex="-1">
+								<a href="/tools-reports" class="usa-nav__link-title" tab-index="0">Tools &amp; Reports</a>
+
+								<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-53709-3" tabindex="0">
+									<span class="visually-hidden">
+										Toggle sub menu for
+										Tools &amp; Reports
+									</span>
+								</button>
+							</div>
+						</div>
+							
+	<ul class="usa-accordion usa-nav__submenu"  hidden="" id="basic-nav-section-53709-3">
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/tools-reports/actuarial-documents" class="usa-nav__link-title" tab-index="0">Actuarial Documents</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-37673-1" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Actuarial Documents
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-37673-1">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://aibpf-rma.fpac.usda.gov/apps/ActuarialInformationBrowser/CropCriteria.aspx">
+							<span>Actuarial Information Browser</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://webapp.rma.usda.gov/apps/RIRS/">
+							<span>RMA Information Reporting System</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/agent-locator" data-drupal-link-system-path="entity.node.canonical">
+							<span>Agent Locator</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/AipListing/InsuranceProviders">
+							<span>Approved Insurance Providers</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/associated-agencies-partners" data-drupal-link-system-path="entity.node.canonical">
+							<span>Associated Agencies and Partners</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://ewebapp.rma.usda.gov/apps/costestimator/">
+							<span>Cost Estimator</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/apps/MapViewer/index.html">
+							<span>County Crop Programs</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/tools-reports/crop-indemnity-maps" class="usa-nav__link-title" tab-index="0">Crop Indemnity Maps</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-3747-7" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Crop Indemnity Maps
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-3747-7">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2026" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2026</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2025" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2025</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2024" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2024</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-year-2023" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2023</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-year-2022" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2022</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2021" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2021</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2020" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2020</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2019" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2019</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2018" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2018</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2017" data-drupal-link-system-path="entity.node.canonical">
+							<span>Crop Year 2017</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://pubfs-rma.fpac.usda.gov/">
+							<span>FTP File Access</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/livestock-reports-lrp-lgm" data-drupal-link-system-path="entity.node.canonical">
+							<span>Livestock Reports (LRP and LGM)</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/nursery-software-eplpps" data-drupal-link-system-path="entity.node.canonical">
+							<span>Nursery Software (EPLPPS)</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/other-sites" data-drupal-link-system-path="entity.node.canonical">
+							<span>Other Sites</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/apps/PRF">
+							<span>PRF Rainfall</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/tools-reports/price-discovery-reporting" class="usa-nav__link-title" tab-index="0">Price Discovery Reporting</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-63774-13" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Price Discovery Reporting
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-63774-13">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/apps/PriceDiscovery">
+							<span>RMA&#039;s Price Discovery Application</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://www.agrilogicconsulting.com/en/tools-menu/forage-price-discovery">
+							<span>Forage Revenue Protection</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://www.margincoverageoption.com/">
+							<span>Margin Coverage Option</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://www.marginprotection.com/">
+							<span>Margin Protection</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/reinsurance-reports" data-drupal-link-system-path="view.summary_of_business.page_2">
+							<span>Reinsurance Reports</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/apps/MapViewer/index.html">
+							<span>RMA Map Viewer</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item usa-current">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link usa-current" tabindex="-1">
+										<a href="/tools-reports/summary-of-business" class="usa-nav__link-title" tab-index="0">Summary of Business</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-33290-16" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Summary of Business
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-33290-16">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/summary-of-business/cause-loss" data-drupal-link-system-path="view.summary_of_business.page_1">
+							<span>Cause of Loss</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/summary-of-business/livestock-dairy-participation" data-drupal-link-system-path="view.summary_of_business.page_4">
+							<span>Livestock &amp; Dairy Participation</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/summary-of-business/national-summary-of-business-reports" data-drupal-link-system-path="entity.node.canonical">
+							<span>National</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/summary-of-business/puerto-rico" data-drupal-link-system-path="view.summary_of_business.page_5">
+							<span>Puerto Rico</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item usa-current">
+
+																			
+																<a class="link is-active" href="/tools-reports/summary-of-business/state-county-crop-summary-business" data-drupal-link-system-path="view.summary_of_business.page_3">
+							<span>State/County/Crop</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="https://public-rma.fpac.usda.gov/apps/SummaryOfBusiness">
+							<span>Report Generator</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/summary-business/2019-prevented-planting-supplemental-payments" data-drupal-link-system-path="entity.node.canonical">
+							<span>2019 Prevented Planting Supplemental Payments</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/weather-resources" data-drupal-link-system-path="entity.node.canonical">
+							<span>Weather Resources</span>
+						</a>
+																	</li>
+			</ul>
+
+												</li>
+														
+			<li class="usa-nav__primary-item ">
+
+																					<div class="link-container">
+							<div class="usa-nav__link " tabindex="-1">
+								<a href="/about-crop-insurance" class="usa-nav__link-title" tab-index="0">About Crop Insurance</a>
+
+								<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-54043-4" tabindex="0">
+									<span class="visually-hidden">
+										Toggle sub menu for
+										About Crop Insurance
+									</span>
+								</button>
+							</div>
+						</div>
+							
+	<ul class="usa-accordion usa-nav__submenu"  hidden="" id="basic-nav-section-54043-4">
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/about-crop-insurance/basics-beginners" class="usa-nav__link-title" tab-index="0">Basics for Beginners</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-52114-1" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Basics for Beginners
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-52114-1">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/basics-beginners/beginners-guide-crop-insurance" data-drupal-link-system-path="entity.node.canonical">
+							<span>Beginners Guide to Crop Insurance</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/basics-beginners/policyholder-bill-rights" data-drupal-link-system-path="entity.node.canonical">
+							<span>Policyholder Bill of Rights</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/basics-beginners/educational-videos" data-drupal-link-system-path="entity.node.canonical">
+							<span>Educational Videos</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/basics-beginners/video-testimonials-farmers" data-drupal-link-system-path="entity.node.canonical">
+							<span>Video Testimonials from Farmers</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/basics-beginners/benefits-beginning-farmers-veterans" data-drupal-link-system-path="entity.node.canonical">
+							<span>Benefits for Beginning Farmers and Veterans</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/tools-reports/agent-locator" data-drupal-link-system-path="entity.node.canonical">
+							<span>How to Find an Agent</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-rma/contact-us" data-drupal-link-system-path="entity.node.canonical">
+							<span>How to Contact RMA</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/fact-sheets" data-drupal-link-system-path="view.fact_sheets.page_fact_sheets">
+							<span>Fact Sheets</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/farm-bill" data-drupal-link-system-path="entity.node.canonical">
+							<span>Farm Bill</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/frequently-asked-questions" data-drupal-link-system-path="view.faqs.page_landing">
+							<span>Frequently Asked Questions</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/about-crop-insurance/highlighted-initiatives-plans" class="usa-nav__link-title" tab-index="0">Highlighted Initiatives and Plans</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-49600-5" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Highlighted Initiatives and Plans
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-49600-5">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/conservation" data-drupal-link-system-path="entity.node.canonical">
+							<span>Conservation</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/controlled-environment" data-drupal-link-system-path="entity.node.canonical">
+							<span>Controlled Environment</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/cover-crops" data-drupal-link-system-path="entity.node.canonical">
+							<span>Cover Crops</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/double-cropping" data-drupal-link-system-path="entity.node.canonical">
+							<span>Double Cropping</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/emergency-natural-disaster-relief" data-drupal-link-system-path="entity.node.canonical">
+							<span>Emergency and Natural Disaster Relief</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/fire-insurance-protection-smoke-index-fip-si" data-drupal-link-system-path="entity.node.canonical">
+							<span>Fire Insurance Protection – Smoke Index</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/hemp" data-drupal-link-system-path="entity.node.canonical">
+							<span>Hemp</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/hurricane-insurance-protection-wind-index" data-drupal-link-system-path="entity.node.canonical">
+							<span>Hurricane Insurance Protection - Wind Index</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/nursery-value-select" data-drupal-link-system-path="entity.node.canonical">
+							<span>Nursery Value Select</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/organic-crops" data-drupal-link-system-path="entity.node.canonical">
+							<span>Organic Crops</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/prevented-planting" data-drupal-link-system-path="entity.node.canonical">
+							<span>Prevented Planting</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/seafood" data-drupal-link-system-path="entity.node.canonical">
+							<span>Seafood</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/specialty-crops" data-drupal-link-system-path="entity.node.canonical">
+							<span>Specialty Crops</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/turfgrass-value-select" data-drupal-link-system-path="entity.node.canonical">
+							<span>Turfgrass Value Select</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/highlighted-initiatives-plans/whole-farm-revenue-protection">
+							<span>Whole-Farm Revenue Protection</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/about-crop-insurance/managing-your-farm-risk" class="usa-nav__link-title" tab-index="0">Managing Your Farm Risk</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-85715-6" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Managing Your Farm Risk
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-85715-6">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/managing-farm-risk/insurance-plans" data-drupal-link-system-path="entity.node.canonical">
+							<span>Insurance Plans</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/managing-your-farm-risk/insurance-cycle" data-drupal-link-system-path="entity.node.canonical">
+							<span>Insurance Cycle</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/managing-your-farm-risk/obligations-expectations" data-drupal-link-system-path="entity.node.canonical">
+							<span>Obligations and Expectations</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/managing-your-farm-risk/resources" data-drupal-link-system-path="entity.node.canonical">
+							<span>Resources</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/about-crop-insurance/outreach-education" class="usa-nav__link-title" tab-index="0">Outreach and Education</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-37818-7" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Outreach and Education
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-37818-7">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/outreach-education/partnership-projects" data-drupal-link-system-path="entity.node.canonical">
+							<span>Partnership Projects</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/outreach-education/past-webinars" data-drupal-link-system-path="entity.node.canonical">
+							<span>Past Webinars</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/about-crop-insurance/urban-farmers" data-drupal-link-system-path="entity.node.canonical">
+							<span>Urban Farmers</span>
+						</a>
+																	</li>
+			</ul>
+
+												</li>
+														
+			<li class="usa-nav__primary-item ">
+
+																					<div class="link-container">
+							<div class="usa-nav__link " tabindex="-1">
+								<a href="/news-events" class="usa-nav__link-title" tab-index="0">News &amp; Events</a>
+
+								<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-67793-5" tabindex="0">
+									<span class="visually-hidden">
+										Toggle sub menu for
+										News &amp; Events
+									</span>
+								</button>
+							</div>
+						</div>
+							
+	<ul class="usa-accordion usa-nav__submenu"  hidden="" id="basic-nav-section-67793-5">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/news-events/news" data-drupal-link-system-path="view.news.page_news">
+							<span>News</span>
+						</a>
+																	</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																					<ul class="usa-nav__submenu">
+							<li class="usa-nav__submenu-item">
+								<div class="link-container">
+									<div class="usa-nav__link " tabindex="-1">
+										<a href="/news-events/events" class="usa-nav__link-title" tab-index="0">Events</a>
+
+										<button class="usa-accordion__button usa-nav__link-arrow" aria-expanded="false" aria-controls="basic-nav-section-55569-2" tabindex="0">
+											<span class="visually-hidden">
+												Toggle sub menu for
+												Events
+											</span>
+										</button>
+									</div>
+								</div>
+									
+	<ul class="usa-accordion usa-nav__submenu--third-level nested-3rd"  hidden="" id="basic-nav-section-55569-2">
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/news-events/events/past-events" data-drupal-link-system-path="view.events.page_events_past">
+							<span>Past Events</span>
+						</a>
+																	</li>
+			</ul>
+
+							</li>
+						</ul>
+												</li>
+														
+			<li class="usa-nav__submenu-item ">
+
+																			
+																<a class="link" href="/news-events/rma-latest-announcements" data-drupal-link-system-path="view.whats_new.page_whats_new">
+							<span>RMA Latest Announcements</span>
+						</a>
+																	</li>
+			</ul>
+
+												</li>
+			</ul>
+
+
+
+
+
+<form class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div role="search">
+    <label class="usa-sr-only" for="extended-search-field-small">Search</label>
+    <input class="usa-input" id="extended-search-field-small" type="search" name="query" placeholder="Search this site" />
+    <button class="usa-button" type="submit">
+      <img src="/themes/custom/rma/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search">
+    </button>
+        <input type="hidden" name="affiliate" id="affiliate" value="risk-management-agency_sandbox" autocomplete="off" />
+  </div>
+</form>
+
+							
+							
+												</div>
+																  
+    
+    <nav class="usa-nav__secondary-links">
+
+      
+                                
+                          
+        
+                        <a href="/about-rma" class="link" data-drupal-link-system-path="node/4158">About RMA</a>
+                                
+                          
+        
+                <span class="margin-top-2px">|</span>        <a href="/about-rma/fcic" class="link" data-drupal-link-system-path="node/4260">FCIC</a>
+                                
+                          
+        
+                <span class="margin-top-2px">|</span>        <a href="/tools-reports/agent-locator" target="_self" class="link" data-drupal-link-system-path="node/4283">Find an Agent</a>
+      
+    </nav>
+  
+
+
+
+
+									</nav>
+
+
+						</header>
+	
+		
+	
+			<main class="main-content usa-layout-docs usa-section  " role="main" id="main-content">
+			<div class="grid-container">
+
+															<div class="grid-row">
+							<div id="block-rma-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+          <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+        <div id="system-breadcrumb" class="usa-sr-only">Breadcrumb</div>
+        <ol class="usa-breadcrumb__list">
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/" class="usa-breadcrumb__link"><span>Home</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/tools-reports" class="usa-breadcrumb__link"><span>Tools &amp; Reports</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/tools-reports/summary-of-business" class="usa-breadcrumb__link"><span>Summary of B...</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <span>State/County/Crop Summary of Business</span>
+                                    </li>
+                    </ol>
+    </nav>
+
+  </div>
+ 
+
+						</div>
+					
+											<div class="">
+							<div data-drupal-messages-fallback class="hidden"></div>
+
+
+						</div>
+					
+																							<div class="grid-row ">
+								
+							</div>
+															
+				<div class="grid-row grid-gap">
+																		<div class="usa-layout-docs__sidenav desktop:grid-col-3 layout-sidebar-first">
+								
+
+<div class="current-main"><a href="/tools-reports" class="menu-item--active-trail" data-drupal-link-system-path="node/332">Tools &amp; Reports</a></div>
+
+
+
+
+
+    
+    
+            <ul id="side-nav-section-74761" class="usa-sidenav">
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item expanded dropdown first">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/actuarial-documents" class="link" data-drupal-link-system-path="node/331">Actuarial Documents</a>
+					</div>
+                                                
+    
+            <ul id="side-nav-section-74860" class="usa-sidenav__sublist">
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item first">
+                    <div class="sidenav-link-container">
+						<a href="https://aibpf-rma.fpac.usda.gov/apps/ActuarialInformationBrowser/CropCriteria.aspx" class="link">Actuarial Information Browser</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item last">
+                    <div class="sidenav-link-container">
+						<a href="https://webapp.rma.usda.gov/apps/RIRS/" class="link">RMA Information Reporting System</a>
+					</div>
+                                    </li>
+                    </ul>
+    
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/agent-locator" class="link" data-drupal-link-system-path="node/4283">Agent Locator</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/AipListing/InsuranceProviders" target="_blank" class="link">Approved Insurance Providers</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/associated-agencies-partners" class="link" data-drupal-link-system-path="node/4270">Associated Agencies and Partners</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://ewebapp.rma.usda.gov/apps/costestimator/" class="link">Cost Estimator</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/apps/MapViewer/index.html" class="link">County Crop Programs</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item expanded dropdown">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps" class="link" data-drupal-link-system-path="node/7077">Crop Indemnity Maps</a>
+					</div>
+                                                
+    
+            <ul id="side-nav-section-67865" class="usa-sidenav__sublist">
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item first">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2026" class="link" data-drupal-link-system-path="node/8035">Crop Year 2026</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2025" class="link" data-drupal-link-system-path="node/7309">Crop Year 2025</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2024" class="link" data-drupal-link-system-path="node/7088">Crop Year 2024</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-year-2023" class="link" data-drupal-link-system-path="node/4286">Crop Year 2023</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-year-2022" class="link" data-drupal-link-system-path="node/5372">Crop Year 2022</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2021" class="link" data-drupal-link-system-path="node/5375">Crop Year 2021</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2020" class="link" data-drupal-link-system-path="node/5376">Crop Year 2020</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2019" class="link" data-drupal-link-system-path="node/5377">Crop Year 2019</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2018" class="link" data-drupal-link-system-path="node/5378">Crop Year 2018</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item last">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/crop-indemnity-maps/crop-indemnity-maps-crop-year-2017" class="link" data-drupal-link-system-path="node/5379">Crop Year 2017</a>
+					</div>
+                                    </li>
+                    </ul>
+    
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://pubfs-rma.fpac.usda.gov/" class="link">FTP File Access</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/livestock-reports-lrp-lgm" class="link" data-drupal-link-system-path="node/4271">Livestock Reports (LRP and LGM)</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/nursery-software-eplpps" class="link" data-drupal-link-system-path="node/4285">Nursery Software (EPLPPS)</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/other-sites" class="link" data-drupal-link-system-path="node/4281">Other Sites</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/apps/PRF" class="link">PRF Rainfall</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item expanded dropdown">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/price-discovery-reporting" class="link" data-drupal-link-system-path="node/7985">Price Discovery Reporting</a>
+					</div>
+                                                
+    
+            <ul id="side-nav-section-98930" class="usa-sidenav__sublist">
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item first">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/apps/PriceDiscovery" class="link">RMA&#039;s Price Discovery Application</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://www.agrilogicconsulting.com/en/tools-menu/forage-price-discovery" class="link">Forage Revenue Protection</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://www.margincoverageoption.com/" class="link">Margin Coverage Option</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item last">
+                    <div class="sidenav-link-container">
+						<a href="https://www.marginprotection.com/" class="link">Margin Protection</a>
+					</div>
+                                    </li>
+                    </ul>
+    
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/reinsurance-reports" class="link" data-drupal-link-system-path="tools-reports/reinsurance-reports">Reinsurance Reports</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/apps/MapViewer/index.html" class="link">RMA Map Viewer</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                                                    
+                <li class="usa-sidenav__item expanded dropdown active active-trail">
+                    <div class="sidenav-link-container usa-current">
+						<a href="/tools-reports/summary-of-business" class="link" data-drupal-link-system-path="node/5370">Summary of Business</a>
+					</div>
+                                                
+    
+            <ul id="side-nav-section-33099" class="usa-sidenav__sublist">
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item first">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/summary-of-business/cause-loss" class="link" data-drupal-link-system-path="tools-reports/summary-of-business/cause-loss">Cause of Loss</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/summary-of-business/livestock-dairy-participation" class="link" data-drupal-link-system-path="tools-reports/summary-of-business/livestock-dairy-participation">Livestock &amp; Dairy Participation</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/summary-of-business/national-summary-of-business-reports" class="link" data-drupal-link-system-path="node/5373">National</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/summary-of-business/puerto-rico" class="link" data-drupal-link-system-path="tools-reports/summary-of-business/puerto-rico">Puerto Rico</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                                                    
+                <li class="usa-sidenav__item active active-trail">
+                    <div class="sidenav-link-container usa-current">
+						<a href="/tools-reports/summary-of-business/state-county-crop-summary-business" class="link is-active" data-drupal-link-system-path="tools-reports/summary-of-business/state-county-crop-summary-business" aria-current="page">State/County/Crop</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item">
+                    <div class="sidenav-link-container">
+						<a href="https://public-rma.fpac.usda.gov/apps/SummaryOfBusiness" target="_blank" class="ext link">Report Generator</a>
+					</div>
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item last">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/summary-business/2019-prevented-planting-supplemental-payments" class="link" data-drupal-link-system-path="node/4277">2019 Prevented Planting Supplemental Payments</a>
+					</div>
+                                    </li>
+                    </ul>
+    
+                                    </li>
+                            
+				
+                                                    
+                                                    
+                
+                
+                <li class="usa-sidenav__item last">
+                    <div class="sidenav-link-container">
+						<a href="/tools-reports/weather-resources" class="link" data-drupal-link-system-path="node/4278">Weather Resources</a>
+					</div>
+                                    </li>
+                    </ul>
+    
+
+
+
+							</div>
+											
+											<div class="usa-layout-docs__main desktop:grid-col-9">
+															  
+
+  <h1 class="margin-0">State/County/Crop Summary of Business</h1>
+
+<div id="block-rma-gtmbody" class="block block-block-content block-block-content2809970b-3c89-4127-bb56-d68fbddeb92d">
+  
+    
+      
+  </div>
+ 
+
+																					    <div id="block-rma-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="views-element-container">Summarized Summary of Business data files broken down by state/ county/crop and subsequent levels. Each link contains a ZIP file with compressed data containing pipe (|) delimited flat-files that can be imported into any spreadsheet and/or data for further analysis. Record description file(s) are located in each subfolder.<br />
+<br />
+Feedback? Send a message to <a href="mailto:rma.sob.feedback@rma.usda.gov?subject=Livestock and Dairy Participation">RMA – SummaryOfBusiness Feedback</a><h2>State/County/Crop Level 1948-1988 Data File and Record Layout</h2>
+<p><strong>Record layout (1948 - 1988):</strong> <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Commodity_1948_1988.doc">Word</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Commodity_1948_1988.pdf">PDF</a></p>
+<p><strong>Zip files:</strong><a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobscc_1948_1988.zip">1948-1988</a></p>\n<h2>State/County/Crop/Coverage Level 1989 - Present Data Files and Record Layout</h2>
+<p><strong>Record layout (1989 - present):</strong> <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Crop_with_Coverage_Level_1989_Forward.doc">Word</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Crop_with_Coverage_Level_1989_Forward.pdf">PDF</a></p>
+<p><strong>Zip files:</strong> <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2027.zip">2027</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2026.zip">2026</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2025.zip">2025</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2024.zip">2024</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2023.zip">2023</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2022.zip">2022</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2021.zip">2021</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2020.zip">2020</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2019.zip">2019</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2018.zip">2018</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2017.zip">2017</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2016.zip">2016</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2015.zip">2015</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2014.zip">2014</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2013.zip">2013</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2012.zip">2012</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2011.zip">2011</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip">2010</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2009.zip">2009</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2008.zip">2008</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2007.zip">2007</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2006.zip">2006</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2005.zip">2005</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2004.zip">2004</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2003.zip">2003</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2002.zip">2002</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2001.zip">2001</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2000.zip">2000</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1999.zip">1999</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1998.zip">1998</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1997.zip">1997</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1996.zip">1996</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1995.zip">1995</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1994.zip">1994</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1993.zip">1993</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1992.zip">1992</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1991.zip">1991</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1990.zip">1990</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_1989.zip">1989</a></p>
+<h2>Type/Practice/Unit Structure Data Files and Record Layout</h2>
+<p><strong>Record layout (All Years):</strong> <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOBTPU_External_All_Years.docx">Word</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOBTPU_External_All_Years.pdf">PDF</a></p>
+<p><strong>Zip files:</strong> <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2027.zip">2027</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2026.zip">2026</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2025.zip">2025</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2024.zip">2024</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2023.zip">2023</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2022.zip">2022</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2021.zip">2021</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2020.zip">2020</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2019.zip">2019</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2018.zip">2018</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2017.zip">2017</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2016.zip">2016</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2015.zip">2015</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2014.zip">2014</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2013.zip">2013</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2012.zip">2012</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2011.zip">2011</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2010.zip">2010</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2009.zip">2009</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2008.zip">2008</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2007.zip">2007</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2006.zip">2006</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2005.zip">2005</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2004.zip">2004</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2003.zip">2003</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2002.zip">2002</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2001.zip">2001</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_2000.zip">2000</a> | <a href="https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobtpu_1999.zip">1999</a></p>
+<h2>Yield Exclusion Summary of Business Report</h2><p>This report provides a summary of policy totals wherein producers have selected Yield Exclusion and are eligible for Yield Exclusion beginning with the 2015 reinsurance year. Policy totals that had Yield Exclusion available as a choice as filed in the actuarial documents is provided for comparison.</p><p><strong>Yield Exclusion data by year: </strong><a href="https://www.rma.usda.gov/sites/default/files/information-tools/2015yieldexclusion.pdf">2015</a></p></div>
+
+  </div>
+
+
+						</div>
+											
+									</div>
+			</div>
+		</main>
+	
+			<footer class="usa-footer usa-footer--big" role="contentinfo">
+			<div class="grid-container usa-footer__return-to-top margin-bottom-6">
+				<a href="#">
+					<div>Top</div>
+				</a>
+			</div>
+
+							<div class="usa-footer__primary-section">
+
+					<div class="usa-footer__primary-content">
+													<div class="grid-container">
+																	<div class="grid-row">
+										  <nav role="navigation" aria-labelledby="block-rma-footercolumnforproducers-menu" id="block-rma-footercolumnforproducers" class="desktop:grid-col-3 tablet:grid-col-6 grid-col-12 column-view">
+      
+  <h2 id="block-rma-footercolumnforproducers-menu">For Producers</h2>
+  
+
+        
+      <ul class="menu menu--footer-nav-producers nav">
+                              <li class="first">
+                                                  <a href="/about-crop-insurance/managing-your-farm-risk" class="first" data-drupal-link-system-path="node/4295">Managing Your Farm Risk</a>
+                  </li>
+                              <li>
+                                                  <a href="/tools-reports/agent-locator" data-drupal-link-system-path="node/4283">Find an Agent</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-crop-insurance/basics-beginners" data-drupal-link-system-path="node/4301">Beginning Farmer Resources</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="/about-crop-insurance/frequently-asked-questions" class="last" data-drupal-link-system-path="about-crop-insurance/frequently-asked-questions">Frequently Asked Questions</a>
+                  </li>
+          </ul>
+  
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-rma-footercolumnforinsuranceproviders-menu" id="block-rma-footercolumnforinsuranceproviders" class="desktop:grid-col-3 tablet:grid-col-6 grid-col-12 column-view">
+      
+  <h2 id="block-rma-footercolumnforinsuranceproviders-menu">For Insurance Providers </h2>
+  
+
+        
+      <ul class="menu menu--footer-nav-insurance-providers nav">
+                              <li class="active active-trail first">
+                                                  <a href="/tools-reports" class="active active-trail first active-trail" data-drupal-link-system-path="node/332">Tools &amp; Reports</a>
+                  </li>
+                              <li>
+                                                  <a href="/policy-procedure" data-drupal-link-system-path="node/329">Policy &amp; Procedure</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="https://rma.usda.gov/legacy" target="_blank" class="last">RMA Legacy Website</a>
+                  </li>
+          </ul>
+  
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-rma-footercolumncontactrma-menu" id="block-rma-footercolumncontactrma" class="desktop:grid-col-3 tablet:grid-col-6 grid-col-12 column-view">
+      
+  <h2 id="block-rma-footercolumncontactrma-menu">About RMA</h2>
+  
+
+        
+      <ul class="menu menu--footer-nav-contact-rma nav">
+                              <li class="first">
+                                                  <a href="/about-rma/fcic" class="first" data-drupal-link-system-path="node/4260">Federal Crop Insurance Corporation (FCIC)</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-rma/jobs-careers" data-drupal-link-system-path="node/4168">Careers</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="/about-rma/contact-us" class="last" data-drupal-link-system-path="node/314">Contact Us</a>
+                  </li>
+          </ul>
+  
+
+  </nav>
+<div id="block-rma-newslettersignup" class="desktop:grid-col-3 tablet:grid-col-6 grid-col-12 column-view block block-block-content block-block-content91f291e0-2a8e-450b-9ffc-12d0da5c4610">
+  
+    
+      
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><form action="https://public.govdelivery.com/accounts/USDAFARMERS/subscribers/qualify" accept-charset="UTF-8" method="post"><h2>Get RMA Updates</h2><div>Stay up to date on the latest RMA news and reports</div><ol class="email-fields padding-left-0"><li><label class="usa-sr-only" for="email">Email Address</label> <input type="email" name="email" id="email" placeholder="E-mail Address" value></li></ol><div class="button_panel"><input class="usa-button usa-button--outline small-btn" type="submit" value="Subscribe"></div></form></div>
+      
+  </div>
+<nav role="navigation" aria-labelledby="block-rma-footersocial-menu" id="block-rma-footersocial" class="footer-social">
+      
+  <h2 id="block-rma-footersocial-menu">Connect With Us</h2>
+  
+
+        
+      <ul class="menu menu--footer-social nav">
+                              <li class="first">
+                                                  <a href="https://www.facebook.com/USDA" class="facebook first">Facebook</a>
+                  </li>
+                              <li>
+                                                  <a href="https://public.govdelivery.com/accounts/USDAFARMERS/subscriber/new" class="mail">Mail</a>
+                  </li>
+                              <li>
+                                                  <a href="https://www.usda.gov/about-usda/policies-and-links/digital/rss-feeds" class="rss">Rss</a>
+                  </li>
+                              <li>
+                                                  <a href="https://twitter.com/usdaRMA" class="xsocial">Twitter</a>
+                  </li>
+                              <li>
+                                                  <a href="http://www.youtube.com/usda/" class="youtube">YouTube</a>
+                  </li>
+                              <li>
+                                                  <a href="http://www.flickr.com/photos/usdagov" class="flickr">flickr</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="https://www.linkedin.com/company/risk-management-agency/" class="linkedin last">LinkedIn</a>
+                  </li>
+          </ul>
+  
+
+  </nav>
+
+
+									</div>
+															</div>
+											</div>
+
+				</div>
+			
+							<div class="usa-footer__secondary-section">
+					<div class="grid-container">
+						<div class="grid-row grid-gap">
+													</div>
+
+													<nav role="navigation" aria-labelledby="block-rma-footersecondary-menu" id="block-rma-footersecondary">
+            
+  <h2 class="usa-sr-only" id="block-rma-footersecondary-menu">Footer Secondary</h2>
+  
+
+        
+      <ul class="menu menu--footer-secondary nav">
+                              <li class="first">
+                                                  <a href="https://www.usda.gov/" class="first" title="test">USDA.gov</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-rma/website-policies-important-links/foia" data-drupal-link-system-path="node/4246">FOIA</a>
+                  </li>
+                              <li>
+                                                  <a href="https://usdaoig.oversight.gov/">Report Fraud on USDA Contracts</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-rma/website-policies-important-links/no-fear-act" data-drupal-link-system-path="node/4255">No FEAR Report</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-rma/website-policies-important-links/nondiscrimination-statement" data-drupal-link-system-path="node/4253">Non-Discrimination Statement</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-rma/website-policies-important-links/privacy-policy" data-drupal-link-system-path="node/4251">Privacy Policy</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="https://www.usda.gov/accessibility-statement" class="last">Accessibility Statement</a>
+                  </li>
+          </ul>
+  
+
+  </nav>
+<div id="block-rma-sitewidecssfixes" class="block block-block-content block-block-content074e4d64-2f42-483f-a8f0-59980cec7f2a">
+  
+    
+      
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><style>
+    .form-item-field-fact-sheet-date-value { display: none !important; }
+    .simple-table:not(:first-of-type) {margin-top: 1rem};
+</style></div>
+      
+  </div>
+ 
+
+											</div>
+				</div>
+			
+			
+		</footer>
+	
+
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"tools-reports\/summary-of-business\/state-county-crop-summary-business","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"69b1c7e97de86e1813b5ab6010b894729bd8688d2c12cf29519887330b35c000"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_YU3d7M8S46IKK-F_cB6ERBDa3S6v866GYCRBEU6KSC8.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=rma&amp;include=eJwtytEKgDAIQNEfWu2p7xmmFtKaoI7o7xu0x8u5eDFJqG3l1R5951wleJmR7IYM7hyeuj_kBedfpAWfBiHa8k-AqEaj18N0aKMP0aAlWQ"></script>
+<script src="/modules/contrib/ckeditor5_youtube/js/vendor/lite-youtube.js?tom5kq" type="module"></script>
+<script src="/sites/default/files/js/js_4oanDUETp3MRTZA_EOFvfCLJr0E8SkzKh1zwqyekISU.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=rma&amp;include=eJwtytEKgDAIQNEfWu2p7xmmFtKaoI7o7xu0x8u5eDFJqG3l1R5951wleJmR7IYM7hyeuj_kBedfpAWfBiHa8k-AqEaj18N0aKMP0aAlWQ"></script>
+<script src="/modules/contrib/uswds_ckeditor_integration/js/aftermarket/uswds_accordion.js?tom5kq"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "dataset": "rma-sob",
+  "csv_path": "rma-sob/abd2504e72fd2e9956704d349466d867d2d767f0f106214ce9dee2918aece5ec/data.csv",
+  "csv_sha256": "abd2504e72fd2e9956704d349466d867d2d767f0f106214ce9dee2918aece5ec",
+  "rows": 155676,
+  "snapshot_ids": [
+    "8d0c19040ffc2d5c05016c316011165c87a78b17694b99f0360f2468d52819a3"
+  ],
+  "schema_path": "rma-sob/abd2504e72fd2e9956704d349466d867d2d767f0f106214ce9dee2918aece5ec/schema.json"
+}

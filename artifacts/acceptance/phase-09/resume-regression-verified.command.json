@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-11-16T15:18:09.570947+00:00",
+  "completed_at_utc": "2026-11-16T15:18:41.457706+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/phase_09/test_resume_regressions.py",
+    "tests/phase_06",
+    "tests/phase_08",
+    "-m",
+    "not live",
+    "-q"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 31.886410500002967,
+  "output": "artifacts/acceptance/phase-09/resume-regression-verified.txt",
+  "child_peak_rss_mib": 374.671875
+}

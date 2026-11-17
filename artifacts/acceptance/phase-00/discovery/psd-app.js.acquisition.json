@@ -1,0 +1,12 @@
+{
+  "id": "psd-app",
+  "url": "https://apps.fas.usda.gov/psdonline/app/applicationJs?v=05132016",
+  "path": "artifacts/acceptance/phase-00/discovery/psd-app.js",
+  "checked_at_utc": "2026-11-12T14:24:10.661867+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/psdonline/app/applicationJs?v=05132016",
+  "content_type": "text/javascript; charset=utf-8",
+  "last_modified": null,
+  "sha256": "d81754043206cfc5c1aa4bbb958d6071d60bb4ff832218db717d755ca1d3c262",
+  "bytes": 37838
+}

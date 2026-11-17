@@ -1,0 +1,12 @@
+{
+  "id": "4971-sorghum.xlsx",
+  "url": "https://www.ers.usda.gov/media/4971/sorghum.xlsx?v=62549",
+  "path": "tests/fixtures/phase_03/4971-sorghum.xlsx",
+  "status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:43.694914+00:00",
+  "sha256": "4aaa454dd5fa36d4cce04b2164433402d7d11127b3b6a994666505dc50d911ad",
+  "bytes": 236427,
+  "final_url": "https://www.ers.usda.gov/media/4971/sorghum.xlsx"
+}

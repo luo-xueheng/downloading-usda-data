@@ -1,0 +1,189 @@
+[
+  {
+    "id": "psd-0440000-2024",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "checked_at_utc": "2026-11-15T13:24:51.548362+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "bytes": 275788,
+    "record_count": 1875
+  },
+  {
+    "id": "psd-0440000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:52.794186+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "bytes": 275794,
+    "record_count": 1875
+  },
+  {
+    "id": "psd-2222000-2024",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "checked_at_utc": "2026-11-15T13:24:53.498706+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "bytes": 127825,
+    "record_count": 871
+  },
+  {
+    "id": "psd-2222000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:53.933600+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "bytes": 127846,
+    "record_count": 871
+  },
+  {
+    "id": "psd-0813100-2024",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "checked_at_utc": "2026-11-15T13:24:54.392361+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "bytes": 168754,
+    "record_count": 1148
+  },
+  {
+    "id": "psd-0813100-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:55.208547+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "bytes": 168779,
+    "record_count": 1148
+  },
+  {
+    "id": "psd-4232000-2024",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "checked_at_utc": "2026-11-15T13:24:55.733214+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "bytes": 148542,
+    "record_count": 1014
+  },
+  {
+    "id": "psd-4232000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:56.241041+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "bytes": 148551,
+    "record_count": 1014
+  },
+  {
+    "id": "psd-2631000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:56.779928+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "bytes": 220802,
+    "record_count": 1500
+  },
+  {
+    "id": "world-0440000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:57.143492+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "bytes": 2256,
+    "record_count": 15
+  },
+  {
+    "id": "world-2222000-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:57.909970+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "bytes": 1949,
+    "record_count": 13
+  },
+  {
+    "id": "country-0440000-US-2025",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/US/year/2025",
+    "checked_at_utc": "2026-11-15T13:24:58.526701+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "a76780997a2fc69e915f6d6961fd160a2398aa35dad6bbcc268088705f3b6a84",
+    "bytes": 2238,
+    "record_count": 15
+  },
+  {
+    "id": "release-0440000",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/dataReleaseDates",
+    "checked_at_utc": "2026-11-15T13:24:58.862847+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "be3a67b910ca96467f92987bc73b959566859401deb6ded7357ed8a050cddfe1",
+    "bytes": 819289,
+    "record_count": 7586
+  },
+  {
+    "id": "release-2222000",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/dataReleaseDates",
+    "checked_at_utc": "2026-11-15T13:25:00.068815+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "b408db044fc5150c2bfd08c87c6f39ed5e7a50341d0cb66e29ae7132400abaad",
+    "bytes": 411265,
+    "record_count": 3808
+  },
+  {
+    "id": "release-0813100",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/0813100/dataReleaseDates",
+    "checked_at_utc": "2026-11-15T13:25:01.680547+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "e2b819ba66dd94e81f60f59e5eb0e120c9372c8cfba559c358c827b2c2c0de71",
+    "bytes": 515161,
+    "record_count": 4770
+  },
+  {
+    "id": "release-4232000",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/4232000/dataReleaseDates",
+    "checked_at_utc": "2026-11-15T13:25:02.439313+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "a79cdecd332c16dbf86ccf32966b02cf54ad80d8b7f4be26d7ed48adde0e20db",
+    "bytes": 513973,
+    "record_count": 4759
+  },
+  {
+    "id": "release-2631000",
+    "url": "https://api.fas.usda.gov/api/psd/commodity/2631000/dataReleaseDates",
+    "checked_at_utc": "2026-11-15T13:25:03.073417+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "last_modified": null,
+    "sha256": "97a4be956891bb8b6bc8eeb8dd036d05ffbccc9ba929c85b7c908b012808d573",
+    "bytes": 839917,
+    "record_count": 7777
+  }
+]

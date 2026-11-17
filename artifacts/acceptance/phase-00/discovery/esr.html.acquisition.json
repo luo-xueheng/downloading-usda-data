@@ -1,0 +1,11 @@
+{
+  "id": "esr",
+  "url": "https://www.fas.usda.gov/programs/export-sales-reporting-program",
+  "path": "artifacts/acceptance/phase-00/discovery/esr.html",
+  "checked_at_utc": "2026-11-12T14:21:59.738168+00:00",
+  "status": 403,
+  "final_url": "https://www.fas.usda.gov/programs/export-sales-reporting-program",
+  "error": "HTTP 403",
+  "sha256": "c14926c7e3d20f981e911466ed2023d1eaa4a601f46b2826c680fa25dd0eff89",
+  "bytes": 429
+}

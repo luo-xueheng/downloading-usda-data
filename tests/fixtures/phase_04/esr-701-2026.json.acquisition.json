@@ -1,0 +1,11 @@
+{
+  "id": "esr-701-2026",
+  "url": "https://api.fas.usda.gov/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+  "checked_at_utc": "2026-11-15T12:14:58.393892+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+  "bytes": 154038,
+  "record_count": 553
+}

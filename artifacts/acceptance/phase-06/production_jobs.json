@@ -1,0 +1,20 @@
+[
+  {
+    "id": "production-11102026",
+    "url": "https://www.fas.usda.gov/data/world-agricultural-production-11102026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/production-11102026.html"
+  },
+  {
+    "id": "production-10092026",
+    "url": "https://www.fas.usda.gov/data/world-agricultural-production-10092026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/production-10092026.html"
+  },
+  {
+    "id": "production-archive-search",
+    "url": "https://www.fas.usda.gov/data/search?keyword=world%20agricultural%20production",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/production-search.html"
+  }
+]

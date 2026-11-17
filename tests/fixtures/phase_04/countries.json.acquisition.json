@@ -1,0 +1,11 @@
+{
+  "id": "countries",
+  "url": "https://api.fas.usda.gov/api/esr/countries",
+  "checked_at_utc": "2026-11-15T12:12:54.043291+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "97df0fa3983ef8d90fedee055f70f615bda15d41bd164c4193678e9b5b473c42",
+  "bytes": 27651,
+  "record_count": 211
+}

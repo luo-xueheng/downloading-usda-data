@@ -1,0 +1,5714 @@
+[
+  {
+    "file": "4961-corn.xlsx",
+    "source_sha256": "d3705c895e764f08ffb2db3d217ee850e8def6c89ce093d717be541ee93970a1",
+    "rows": 5665,
+    "accounting": {
+      "input_data_cells": 5665,
+      "mapped_rows": 5665,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Corn Pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4962-corn.csv",
+    "source_sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+    "rows": 5665,
+    "accounting": {
+      "input_data_cells": 5665,
+      "mapped_rows": 5665,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4963-cotton.xlsx",
+    "source_sha256": "ff9aea414e96785fa02d7114d93eb5947243145bb732598af230240ea34364d8",
+    "rows": 5550,
+    "accounting": {
+      "input_data_cells": 5550,
+      "mapped_rows": 5550,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Cotton pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4964-cotton.csv",
+    "source_sha256": "aa8d7e335cf02cf36d40cfd3238ae6b24d560cd509b3ca438527906c23b2daec",
+    "rows": 5550,
+    "accounting": {
+      "input_data_cells": 5550,
+      "mapped_rows": 5550,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4965-barley.xlsx",
+    "source_sha256": "e95c039a38700b7619c823ef5982bd19dce349728aa7afed68f9c6f97eb65bdc",
+    "rows": 3321,
+    "accounting": {
+      "input_data_cells": 3321,
+      "mapped_rows": 3321,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Barley pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4966-barley.csv",
+    "source_sha256": "c8d1c0cde0bbcb398ca52158941693a65bdb15c6380441d26049a94bba626bb7",
+    "rows": 3321,
+    "accounting": {
+      "input_data_cells": 3321,
+      "mapped_rows": 3321,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4967-peanuts.xlsx",
+    "source_sha256": "99e0b79e74bf8ee4de01e7195b9cedf9d1c7c3f9f8fa003fa58f3a518665b47d",
+    "rows": 4026,
+    "accounting": {
+      "input_data_cells": 4026,
+      "mapped_rows": 4026,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Peanuts pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4968-peanuts.csv",
+    "source_sha256": "5f60b7b4738e2d72693dc5bec6f946955b8fb18b3c67e1d382b2076affd66c49",
+    "rows": 4026,
+    "accounting": {
+      "input_data_cells": 4026,
+      "mapped_rows": 4026,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4969-rice.xlsx",
+    "source_sha256": "b372f8877990af5c3bad473b5a79d12abfdf66a0bc57ea9bc73028f168510f72",
+    "rows": 3220,
+    "accounting": {
+      "input_data_cells": 3220,
+      "mapped_rows": 3220,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Rice pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4970-rice.csv",
+    "source_sha256": "0303305c0bd3a0bde99b72e494dd607fdfa35363f1ccc389ecb4bf494833fefb",
+    "rows": 3220,
+    "accounting": {
+      "input_data_cells": 3220,
+      "mapped_rows": 3220,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4971-sorghum.xlsx",
+    "source_sha256": "4aaa454dd5fa36d4cce04b2164433402d7d11127b3b6a994666505dc50d911ad",
+    "rows": 3551,
+    "accounting": {
+      "input_data_cells": 3551,
+      "mapped_rows": 3551,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Sorghum pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4972-sorghum.csv",
+    "source_sha256": "5af85d43128fab49edc48e0bbaa30afdf0e4173970748b0a6ead6bba6873c7ee",
+    "rows": 3551,
+    "accounting": {
+      "input_data_cells": 3551,
+      "mapped_rows": 3551,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4973-oats.xlsx",
+    "source_sha256": "32c2ce2fa3f23a8c10b782b9e8dc01283adbb4edb5abcd52babd40b6dd86cb62",
+    "rows": 2940,
+    "accounting": {
+      "input_data_cells": 2940,
+      "mapped_rows": 2940,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Oats pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4974-oats.csv",
+    "source_sha256": "3e5eeb943f696b39da37bc2b06a294d4a0e4481b0e7a1718ea7aee7fcdd1fd87",
+    "rows": 2940,
+    "accounting": {
+      "input_data_cells": 2940,
+      "mapped_rows": 2940,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4975-soybeans.xlsx",
+    "source_sha256": "571adddd6382b9a44a1c15819c80f8f7fd82f15bd97710ad639566e98a668e8a",
+    "rows": 6026,
+    "accounting": {
+      "input_data_cells": 6026,
+      "mapped_rows": 6026,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Soybeans pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4976-soybeans.csv",
+    "source_sha256": "c917b5f19620d1b82c289ce6cca5df270b004e5cd35368c13181efe7c55e1b86",
+    "rows": 6026,
+    "accounting": {
+      "input_data_cells": 6026,
+      "mapped_rows": 6026,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4977-wheat.xlsx",
+    "source_sha256": "9eb8a6184191a0df1cb9659eaaf724989cc2c7a20c6d06b9989344618c485c53",
+    "rows": 6204,
+    "accounting": {
+      "input_data_cells": 6204,
+      "mapped_rows": 6204,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Wheat pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4978-wheat.csv",
+    "source_sha256": "dcb104291c9f34c1b53292fb19ef27e32f9f51eed66915ab35ef6ec6020a8df5",
+    "rows": 6204,
+    "accounting": {
+      "input_data_cells": 6204,
+      "mapped_rows": 6204,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4979-milk.xlsx",
+    "source_sha256": "b1d25ecb6a44446eed68f393f3c37977ea407d75bf9c0489995c0f51b505ea2e",
+    "rows": 5278,
+    "accounting": {
+      "input_data_cells": 5278,
+      "mapped_rows": 5278,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Milk pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4980-milk.csv",
+    "source_sha256": "a447f8d330894e954ad0ac08771dd3150f576e0410830ea91c9aee6380793607",
+    "rows": 5278,
+    "accounting": {
+      "input_data_cells": 5278,
+      "mapped_rows": 5278,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4981-cow-calf.xlsx",
+    "source_sha256": "42f0706bdfd60082b2f3167e53976ec94f91774b6da742fbbe6368b2b14743b2",
+    "rows": 7896,
+    "accounting": {
+      "input_data_cells": 7896,
+      "mapped_rows": 7896,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Cow-Calf pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4982-cow-calf.csv",
+    "source_sha256": "ffb3a159c1c65c445a5c8b5c1be53eaa7cb067d46a544928ef5f26fd5eaebc88",
+    "rows": 7896,
+    "accounting": {
+      "input_data_cells": 7896,
+      "mapped_rows": 7896,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4983-hogs-all.xlsx",
+    "source_sha256": "e17fd5c8f88d4881cb2909824458cb13160cb40b4988a079a3df22e0999f2d1e",
+    "rows": 5634,
+    "accounting": {
+      "input_data_cells": 5634,
+      "mapped_rows": 5634,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4984-hogs-all.csv",
+    "source_sha256": "8cf5560ace90f04eb70bc5c768d700a39cbeb5ca31619f25fbe5a19def82fae4",
+    "rows": 5634,
+    "accounting": {
+      "input_data_cells": 5634,
+      "mapped_rows": 5634,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4985-hogs-farrow-finish.xlsx",
+    "source_sha256": "aff3148b2e957ba54dc17c82d4345a86ae76cfd7af2cdd5bb9f0b63825333c76",
+    "rows": 3669,
+    "accounting": {
+      "input_data_cells": 3669,
+      "mapped_rows": 3669,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs farrow-finish pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4986-hogs-farrow-finish.csv",
+    "source_sha256": "a2cc17245d66ff97e1ac642246a5169a865cc59656384068b46cd35efc9d0c9e",
+    "rows": 3669,
+    "accounting": {
+      "input_data_cells": 3669,
+      "mapped_rows": 3669,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4987-hogs-farrow-feeder.xlsx",
+    "source_sha256": "f252250d01c33c3bb83a2df229e319a34042bd265cee33b2fdf6029c54a249d5",
+    "rows": 1155,
+    "accounting": {
+      "input_data_cells": 1155,
+      "mapped_rows": 1155,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs farrow-feeder pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4988-hogs-farrow-feeder.csv",
+    "source_sha256": "b7be100a36eecfe711199a3dfd7b65809325dd958b2a86f65bd948c477bff816",
+    "rows": 1155,
+    "accounting": {
+      "input_data_cells": 1155,
+      "mapped_rows": 1155,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4989-hogs-feeder-finish.xlsx",
+    "source_sha256": "af3b8cb1408179ec24cc3b96d83d39bcc697510d697bf82fa890c34ce1c69f14",
+    "rows": 4086,
+    "accounting": {
+      "input_data_cells": 4086,
+      "mapped_rows": 4086,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs feeder-finish Pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4990-hogs-feeder-finish.csv",
+    "source_sha256": "3b4514377c8cdcbc8e44b10997d6156396494e5b5fd1a747af2daacbd063eaeb",
+    "rows": 4086,
+    "accounting": {
+      "input_data_cells": 4086,
+      "mapped_rows": 4086,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4991-hogs-farrow-weanling.xlsx",
+    "source_sha256": "2258a13d534d9173c58859b540d506b70f4e9981a7ed91b11509cb8e4c282405",
+    "rows": 391,
+    "accounting": {
+      "input_data_cells": 391,
+      "mapped_rows": 391,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs farrow-weanling pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4992-hogs-farrow-weanling.csv",
+    "source_sha256": "ebbf05026ab1805db58baba7ae65f4561f69cdd8a9a774ceddaa063bc8085ded",
+    "rows": 391,
+    "accounting": {
+      "input_data_cells": 391,
+      "mapped_rows": 391,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4993-hogs-weanling-feeder.xlsx",
+    "source_sha256": "e30989dfd6df0dc4f50453a49af6b793213975b440e761d29a2f538e29012d1f",
+    "rows": 1142,
+    "accounting": {
+      "input_data_cells": 1142,
+      "mapped_rows": 1142,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Hogs weanling-feeder pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4994-hogs-weanling-feeder.csv",
+    "source_sha256": "e3282929a84568594433c0ab68e2bb0951f5e39f40fb6ea27c840183c395b12e",
+    "rows": 1142,
+    "accounting": {
+      "input_data_cells": 1142,
+      "mapped_rows": 1142,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4922-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.xlsx",
+    "source_sha256": "667a8d4a2f3e1b5e6fc87c0b6a30960358416e4d7e2a9e91ac9a9687ae866ea3",
+    "rows": 306,
+    "accounting": {
+      "input_data_cells": 306,
+      "mapped_rows": 306,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4923-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.csv",
+    "source_sha256": "2763e0e9310b75fffb7efecc35d61cdc4807505f9659d9b17365dfa71f0720fd",
+    "rows": 306,
+    "accounting": {
+      "input_data_cells": 306,
+      "mapped_rows": 306,
+      "excluded_year_rows": 0,
+      "excluded": [],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4924-previously-released-cost-of-production-forecasts.zip",
+    "source_sha256": "45331528801c8d67c5f1b60ba28b6a7b26b230143eb9d841f304f6b4565d5e1b",
+    "rows": 4284,
+    "accounting": {
+      "input_data_cells": 4284,
+      "mapped_rows": 4284,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "member": "Historical Forecast Zip Folder/",
+          "reason": "archive directory"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 37,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 38,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 39,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 29,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 30,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 31,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 32,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 33,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 34,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 35,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 36,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 37,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 38,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "row": 40,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        },
+        {
+          "sheet": "Forecasts",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4927-us-1975-95.xls",
+    "source_sha256": "06649221947362bccff7bdc16a5a1a3c09e896ce19d087625175310581571cc4",
+    "rows": 735,
+    "accounting": {
+      "input_data_cells": 735,
+      "mapped_rows": 735,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-95",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-95",
+          "row": 63,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4952-us-1975-96.xls",
+    "source_sha256": "d4d5ccf2aae7365e126bfd185fd79a6f5057a6c8aca98be0b716a3f3bc090abb",
+    "rows": 726,
+    "accounting": {
+      "input_data_cells": 726,
+      "mapped_rows": 726,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-96",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 10,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 34,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 36,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 38,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 39,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 59,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 60,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4953-southeast-1975-96.xls",
+    "source_sha256": "c028d64b53130df7431c9b2a9f34f5afba63ab633e874c339c22d7cc3672e3d2",
+    "rows": 726,
+    "accounting": {
+      "input_data_cells": 726,
+      "mapped_rows": 726,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 10,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 34,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 36,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 38,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 39,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 59,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 60,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4958-us-1975-88-1989-97.xls",
+    "source_sha256": "515e9578086a0dfce039701f9417c6c06b6ead14b1930e16b6ed027934927f4a",
+    "rows": 805,
+    "accounting": {
+      "input_data_cells": 805,
+      "mapped_rows": 805,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-88",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-88",
+          "row": 64,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1989-97",
+          "row": 63,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4959-southeast-1975-88-1989-97.xls",
+    "source_sha256": "d13d08ce7aa789ea340a021944b48039be1da079aed39d6b2e9032b363ce3038",
+    "rows": 805,
+    "accounting": {
+      "input_data_cells": 805,
+      "mapped_rows": 805,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-88",
+          "row": 64,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1989-97",
+          "row": 64,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4960-west-1975-88-1989-97.xls",
+    "source_sha256": "432a8de24c3922b34a878c94b7ca5481a6d0a80a696fce1bb9917ba35d27fc43",
+    "rows": 1295,
+    "accounting": {
+      "input_data_cells": 1295,
+      "mapped_rows": 1295,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-88",
+          "row": 64,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-88",
+          "row": 64,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1989-97",
+          "row": 64,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4929-us-1975-96.xls",
+    "source_sha256": "4d7cbd15ec6f0eb890c18c20136b983a8485589dfc40d69f316ac9c83b6f51ed",
+    "rows": 792,
+    "accounting": {
+      "input_data_cells": 792,
+      "mapped_rows": 792,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-96",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-96",
+          "row": 64,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4930-southeast-1975-96.xls",
+    "source_sha256": "271cbd2945165b8a99c1a23e276cc24dce4d11cfe4b1b1af3e6477de3247d848",
+    "rows": 792,
+    "accounting": {
+      "input_data_cells": 792,
+      "mapped_rows": 792,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-96",
+          "row": 64,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4931-west-1975-96.xls",
+    "source_sha256": "406c9a1ca372d58682a906b1eebeb1fbc464aaba1de5c281bbef7c124e4f62b7",
+    "rows": 792,
+    "accounting": {
+      "input_data_cells": 792,
+      "mapped_rows": 792,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 37,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 39,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 41,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1975-96",
+          "row": 64,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4950-us-1975-99.xls",
+    "source_sha256": "f5da5b28ed19dbea451cb1227e34469124572bfbc2cda4f833653c3b473067bd",
+    "rows": 850,
+    "accounting": {
+      "input_data_cells": 850,
+      "mapped_rows": 850,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-1999",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-1999",
+          "row": 62,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4951-west-1975-99.xls",
+    "source_sha256": "84cc76c1c7ed7f0a2f84fa2361469881c6decc0d7367da7b109555ed58c52170",
+    "rows": 850,
+    "accounting": {
+      "input_data_cells": 850,
+      "mapped_rows": 850,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "California 1975-99",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1975-99",
+          "row": 62,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4935-us-1975-94.xls",
+    "source_sha256": "a01499a7e4a4af340c4bc425499a7686ca8dd6ff2e311d6c1f2d208ad197531a",
+    "rows": 660,
+    "accounting": {
+      "input_data_cells": 660,
+      "mapped_rows": 660,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-94",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 35,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 37,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 39,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 40,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 61,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4925-us-1975-2002.xls",
+    "source_sha256": "2504a3eba2d5a77f915abdc005bf44ff8cc64074b2965222d97c7c794fe8243e",
+    "rows": 980,
+    "accounting": {
+      "input_data_cells": 980,
+      "mapped_rows": 980,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-2002",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2002",
+          "row": 63,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4926-west-1975-2002.xls",
+    "source_sha256": "bd2d03bec5855674eed8d3b207c4033afbace62f38a08161ace694fdaf1ef6be",
+    "rows": 1365,
+    "accounting": {
+      "input_data_cells": 1365,
+      "mapped_rows": 1365,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1975-2002",
+          "row": 63,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 42,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-2002",
+          "row": 63,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4947-us-1975-2004.xls",
+    "source_sha256": "83223bd1ab3c28ecb6cc6ef5f3f34c2561871790ce94ae47936e12c22ae7d498",
+    "rows": 1050,
+    "accounting": {
+      "input_data_cells": 1050,
+      "mapped_rows": 1050,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-2004",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 37,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 39,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 40,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-2004",
+          "row": 62,
+          "reason": "table title"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4954-us-and-regional-2000-2007.xlsx",
+    "source_sha256": "ef620d466432706b68a9f0ad47a858820c6ee22ee96958b13a5c7d5ee80ccc33",
+    "rows": 1240,
+    "accounting": {
+      "input_data_cells": 1240,
+      "mapped_rows": 1240,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Sugarbeets pivot",
+          "reason": "presentation of machine-readable observations"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4955-us-1981-91-1992-99.xls",
+    "source_sha256": "661d99c3854967fe39cf904f7eb85000742e4bb42c41ca77de6397e85eb0b823",
+    "rows": 752,
+    "accounting": {
+      "input_data_cells": 752,
+      "mapped_rows": 752,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1981-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 40,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 42,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 44,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1981-91",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 38,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 40,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 42,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 65,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 66,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-1999",
+          "row": 68,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4956-west-1981-91-1992-99.xls",
+    "source_sha256": "095217c03a4def685ab9daa3b8a6a77b9cb0e04508dedbf984614ce1656dd2f1",
+    "rows": 1944,
+    "accounting": {
+      "input_data_cells": 1944,
+      "mapped_rows": 1944,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 40,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 42,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 44,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Eastern ID 1981-91",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 40,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 42,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 44,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Western ID & OR 1981-91",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 38,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 40,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 42,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 65,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 66,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Northwest 1992-1999",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 40,
+          "reason": "table title"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 42,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 44,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "California 1981-91",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 38,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 40,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 42,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 43,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 65,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 66,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southwest 1992-1999",
+          "row": 68,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4948-us-1975-94.xls",
+    "source_sha256": "acf32132f19e3c826dc4feceef4a6816ae73ada4fc6c13be95db72d54d8aa184",
+    "rows": 740,
+    "accounting": {
+      "input_data_cells": 740,
+      "mapped_rows": 740,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1975-94",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 63,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1975-94",
+          "row": 64,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4949-southeast-1975-94.xls",
+    "source_sha256": "cd3083edd2f6be03df8c991ccbfe99d6e65a1405a15f0f05b338597ff7766984",
+    "rows": 1480,
+    "accounting": {
+      "input_data_cells": 1480,
+      "mapped_rows": 1480,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 63,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1975-94",
+          "row": 64,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 36,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 38,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 40,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 41,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 63,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Virginia-North Carolina 1975-94",
+          "row": 64,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4957-us-1996-2004.xls",
+    "source_sha256": "c2ab896e78f18434ac62dcdb09f9764c3f2da4ef238baafedf2612cadfef67e1",
+    "rows": 1452,
+    "accounting": {
+      "input_data_cells": 1452,
+      "mapped_rows": 1452,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1992-95",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 29,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 36,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 44,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 45,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 46,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 48,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-95",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 3,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 4,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 6,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 7,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 11,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 38,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 40,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 41,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 43,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 44,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1996-2004",
+          "row": 64,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4944-us-1980-92-1993-99.xls",
+    "source_sha256": "3bd37b26bfa755e88661c823c038afb2800e0136d347e661c42ba1046b641f98",
+    "rows": 1264,
+    "accounting": {
+      "input_data_cells": 1264,
+      "mapped_rows": 1264,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1980-92",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 55,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 68,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 100,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 101,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 102,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 103,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 104,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 105,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 111,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 112,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 118,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 140,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 142,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 145,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 146,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 147,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 148,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 149,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 150,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 156,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 168,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 170,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1980-92",
+          "row": 171,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 21,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 56,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1993-99",
+          "row": 70,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4945-southeast-1980-92-1993-99.xls",
+    "source_sha256": "942879fa763a41c55afb61c2ca58f229ae76c12f076d4e4c8e8dfaff3bcceef0",
+    "rows": 1893,
+    "accounting": {
+      "input_data_cells": 1893,
+      "mapped_rows": 1893,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 55,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 68,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 69,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 70,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 72,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 101,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 102,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 103,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 104,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 105,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 106,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 112,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 113,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 119,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 141,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 143,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 146,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 147,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 148,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 149,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 150,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 151,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 157,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 169,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 171,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1985-92",
+          "row": 172,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 55,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 68,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 100,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 101,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 102,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 103,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 104,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 105,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 111,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 112,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 118,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 140,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 142,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 145,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 146,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 147,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 148,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 149,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 150,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 156,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 168,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 170,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Appalachia 1980-92",
+          "row": 171,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 21,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 56,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Southeast 1993-99",
+          "row": 70,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4946-west-1980-92-1993-99.xls",
+    "source_sha256": "64fed41d7ae3a80735790ca5e7ccc3235c3600ad7d4690c386c3c9067e746e91",
+    "rows": 1350,
+    "accounting": {
+      "input_data_cells": 1350,
+      "mapped_rows": 1350,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 43,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 45,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 47,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 48,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 54,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 68,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 99,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 100,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 101,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 102,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 103,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 104,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 110,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 111,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 117,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 139,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 141,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 144,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 145,
+          "reason": "outside a defined observation block"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 146,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 147,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 148,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 149,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 155,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 167,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 169,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1980-92",
+          "row": 170,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 21,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 56,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 69,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "Pacific 1993-99",
+          "row": 70,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4936-us-1992-97.xls",
+    "source_sha256": "29b4a2b798185c71eb2dd88090f9d7a81572217338e003f6f01ef40d3ab45810",
+    "rows": 264,
+    "accounting": {
+      "input_data_cells": 264,
+      "mapped_rows": 264,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4937-southeast-1992-97.xls",
+    "source_sha256": "ae30ddf645628c8096c3b46af03108e142860f35f5a2b89a92428e59df710bcc",
+    "rows": 264,
+    "accounting": {
+      "input_data_cells": 264,
+      "mapped_rows": 264,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "South 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4940-us-1982-91-1992-97.xls",
+    "source_sha256": "47c273b9c05cc3e30006205e411177943b2b4e1c04c6384b88a6d0a2f9cf31ba",
+    "rows": 654,
+    "accounting": {
+      "input_data_cells": 654,
+      "mapped_rows": 654,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1982-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 41,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 43,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 53,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 66,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4941-southeast-1982-91-1992-97.xls",
+    "source_sha256": "c0a90a47d4059256f42c10b4dbed94502c767828292265adc81dc42dd5e0a98c",
+    "rows": 634,
+    "accounting": {
+      "input_data_cells": 634,
+      "mapped_rows": 634,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 40,
+          "reason": "table title"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 42,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 44,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 52,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "Southeast 1982-91",
+          "row": 65,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1992-98",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4938-us-1982-91-1992-97.xls",
+    "source_sha256": "efcb62cbee1cc5e231f53a3e4d1f45b292e40865c91a622f286672de4c928fcf",
+    "rows": 664,
+    "accounting": {
+      "input_data_cells": 664,
+      "mapped_rows": 664,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1982-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 19,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 42,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 44,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 46,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 47,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 54,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 67,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4939-southeast-1992-97.xls",
+    "source_sha256": "7187a432fe74a7cc39e4550586d68519a6599b12a5f780bc49157ffe6f33d5c2",
+    "rows": 264,
+    "accounting": {
+      "input_data_cells": 264,
+      "mapped_rows": 264,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "South 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4942-us-1982-91-1992-97.xls",
+    "source_sha256": "7ed1f2d2195194b4064c70753237ccc9ff1d6a15e716c547f8de83e274bda133",
+    "rows": 644,
+    "accounting": {
+      "input_data_cells": 644,
+      "mapped_rows": 644,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1982-91",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 12,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 13,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 18,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 41,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 43,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 45,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 46,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 52,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-91",
+          "row": 65,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4943-southeast-1992-97.xls",
+    "source_sha256": "c6dd676787a1a53c4c5a5e6b2f88081903235ad52cef81e36d647b999be76edd",
+    "rows": 264,
+    "accounting": {
+      "input_data_cells": 264,
+      "mapped_rows": 264,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "South 1992-97",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 22,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1992-97",
+          "row": 72,
+          "reason": "source footnote"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4932-us-1982-89-1990-95.xls",
+    "source_sha256": "1a8a8c9d8c4b37fe12df87cc9585fa2513034481495bf6be7681867e417db29d",
+    "rows": 624,
+    "accounting": {
+      "input_data_cells": 624,
+      "mapped_rows": 624,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "US 1982-89",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 25,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 46,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 48,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 50,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 51,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1982-89",
+          "row": 59,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 23,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "US 1990-95",
+          "row": 72,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4933-southeast-1982-89-1990-95.xls",
+    "source_sha256": "e1a292af6be0f8b91c66ae206bb42912f9f16a04f9810b66f90ac8d2abb71ec9",
+    "rows": 608,
+    "accounting": {
+      "input_data_cells": 608,
+      "mapped_rows": 608,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "South 1982-89",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 23,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1982-89",
+          "row": 57,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 23,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "South 1990-95",
+          "row": 72,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  },
+  {
+    "file": "4934-west-1982-89-1990-95.xls",
+    "source_sha256": "f7542abb21614c00ff1decc426d1277bce83b867c23288fa8a6ce27d2a8b42dd",
+    "rows": 608,
+    "accounting": {
+      "input_data_cells": 608,
+      "mapped_rows": 608,
+      "excluded_year_rows": 0,
+      "excluded": [
+        {
+          "sheet": "West 1982-89",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 15,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 24,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 44,
+          "reason": "table title"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 46,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 48,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 49,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1982-89",
+          "row": 57,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 1,
+          "reason": "table title"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 3,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 5,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 6,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 14,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 16,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 23,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 45,
+          "reason": "table title"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 47,
+          "reason": "year/header row"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 49,
+          "reason": "unit header"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 50,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 58,
+          "reason": "blank/section heading"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 71,
+          "reason": "source footnote"
+        },
+        {
+          "sheet": "West 1990-95",
+          "row": 72,
+          "reason": "blank/section heading"
+        }
+      ],
+      "quarantined_rows": 0
+    },
+    "status": "pass"
+  }
+]

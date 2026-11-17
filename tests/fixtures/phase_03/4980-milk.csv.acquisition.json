@@ -1,0 +1,12 @@
+{
+  "id": "4980-milk.csv",
+  "url": "https://www.ers.usda.gov/media/4980/milk.csv?v=83432",
+  "path": "tests/fixtures/phase_03/4980-milk.csv",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:55.960930+00:00",
+  "sha256": "a447f8d330894e954ad0ac08771dd3150f576e0410830ea91c9aee6380793607",
+  "bytes": 882151,
+  "final_url": "https://www.ers.usda.gov/media/4980/milk.csv"
+}

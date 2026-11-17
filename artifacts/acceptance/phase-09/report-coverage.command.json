@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:15:52.707512+00:00",
+  "completed_at_utc": "2026-11-16T16:15:56.618653+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/build_report_coverage.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.9111337079957593,
+  "output": "artifacts/acceptance/phase-09/report-coverage.txt",
+  "child_peak_rss_mib": 69.796875
+}

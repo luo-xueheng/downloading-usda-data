@@ -1,0 +1,349 @@
+{
+  "collected": {
+    "tests/phase_01/test_foundation.py::test_installed_import_help": {
+      "test_id": "P01-A1",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_csv_exact_roundtrip": {
+      "test_id": "P01-A2",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_content_and_snapshot_identity": {
+      "test_id": "P01-A3",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_failed_publication_preserves_selected_version": {
+      "test_id": "P01-A4",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_bounded_retries[429]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_bounded_retries[500]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_bounded_retries[502]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_bounded_retries[503]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_bounded_retries[504]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_retry_success_http_date_and_timeout": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_auth_fails_without_retry[401]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_auth_fails_without_retry[403]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_reject_html[csv]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_reject_html[json]": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_no_secret_in_logs_tracebacks_or_manifests": {
+      "test_id": "P01-A6",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_strict_layout_dimensions_and_keys": {
+      "test_id": "P01-A7",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_byte_bound_and_redirect_protection": {
+      "test_id": "P01-A5",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_corrupted_or_nondeterministic_snapshot_rejected": {
+      "test_id": "P01-A3",
+      "mode": "offline"
+    },
+    "tests/phase_01/test_foundation.py::test_credential_urls_are_rejected_without_logging": {
+      "test_id": "P01-A6",
+      "mode": "offline"
+    }
+  },
+  "reports": {
+    "tests/phase_01/test_foundation.py::test_installed_import_help": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_csv_exact_roundtrip": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_content_and_snapshot_identity": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_failed_publication_preserves_selected_version": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_bounded_retries[429]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_bounded_retries[500]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_bounded_retries[502]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_bounded_retries[503]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_bounded_retries[504]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_retry_success_http_date_and_timeout": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_auth_fails_without_retry[401]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_auth_fails_without_retry[403]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_reject_html[csv]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_reject_html[json]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_no_secret_in_logs_tracebacks_or_manifests": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_strict_layout_dimensions_and_keys": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_byte_bound_and_redirect_protection": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_corrupted_or_nondeterministic_snapshot_rejected": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_01/test_foundation.py::test_credential_urls_are_rejected_without_logging": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ]
+  },
+  "exit_code": 0
+}

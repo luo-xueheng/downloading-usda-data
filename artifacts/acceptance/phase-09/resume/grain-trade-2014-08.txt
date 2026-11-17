@@ -1,0 +1,28 @@
+All Grain Summary Comparison
+Wheat Rice, Milled Corn
+Marketing Year 2012/13 2013/14 2014/15 2012/13 2013/14 2014/15 2012/13 2013/14 2014/15
+Production
+United States (Jun-May) 61.7 58.0 55.2 6.3 6.1 7.3 273.8 353.7 356.4
+Other 596.5 656.1 660.9 465.4 469.7 470.0 594.9 630.7 629.0
+World Total 658.2 714.1 716.1 471.7 475.8 477.3 868.8 984.4 985.4
+Domestic Consumption
+United States (Jun-May) 38.1 34.0 32.4 3.8 3.9 4.3 263.6 296.7 297.4
+Other 648.4 663.2 672.5 461.9 469.9 475.3 605.9 648.9 669.6
+World Total 686.6 697.3 704.9 465.6 473.9 479.5 869.5 945.6 967.0
+Ending Stocks
+United States (Jun-May) 19.5 16.1 18.1 1.2 1.1 1.3 20.9 30.0 45.9
+Other 156.1 167.6 174.9 108.8 109.1 104.1 117.3 141.1 141.9
+World Total 175.6 183.7 193.0 109.9 110.1 105.4 138.1 171.1 187.8
+TY Imports
+United States (Jun-May) 3.4 4.8 4.1 0.7 0.7 0.7 4.3 0.7 0.8
+Other 140.1 153.6 144.9 35.8 38.0 38.1 94.6 118.6 113.7
+World Total 143.6 158.4 149.0 36.4 38.7 38.8 98.8 119.3 114.4
+TY Exports
+United States (Jun-May) 27.7 31.5 25.5 3.3 3.2 3.5 18.3 49.0 44.0
+Other 119.3 129.9 126.2 36.1 37.6 37.7 82.3 73.7 73.1
+World Total 147.0 161.4 151.7 39.4 40.7 41.2 100.5 122.7 117.1
+Note: Consumption in this table has not been adjusted for differences in marketing year imports and exports
+and therefore differs from global totals shown elsewhere.
+Marketing years for U.S. grains are: Wheat (Jun-May), Rice (Aug-Jul), Corn (Sep-Aug).
+'Marketing Year' column is germane for U.S. wheat only.
+August 2014

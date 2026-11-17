@@ -1,0 +1,87 @@
+[
+  {
+    "id": "psd-0440000-2024",
+    "path": "/api/psd/commodity/0440000/country/all/year/2024",
+    "role": "development"
+  },
+  {
+    "id": "psd-0440000-2025",
+    "path": "/api/psd/commodity/0440000/country/all/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "psd-2222000-2024",
+    "path": "/api/psd/commodity/2222000/country/all/year/2024",
+    "role": "development"
+  },
+  {
+    "id": "psd-2222000-2025",
+    "path": "/api/psd/commodity/2222000/country/all/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "psd-0813100-2024",
+    "path": "/api/psd/commodity/0813100/country/all/year/2024",
+    "role": "development"
+  },
+  {
+    "id": "psd-0813100-2025",
+    "path": "/api/psd/commodity/0813100/country/all/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "psd-4232000-2024",
+    "path": "/api/psd/commodity/4232000/country/all/year/2024",
+    "role": "development"
+  },
+  {
+    "id": "psd-4232000-2025",
+    "path": "/api/psd/commodity/4232000/country/all/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "psd-2631000-2025",
+    "path": "/api/psd/commodity/2631000/country/all/year/2025",
+    "role": "holdout"
+  },
+  {
+    "id": "world-0440000-2025",
+    "path": "/api/psd/commodity/0440000/world/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "world-2222000-2025",
+    "path": "/api/psd/commodity/2222000/world/year/2025",
+    "role": "development"
+  },
+  {
+    "id": "country-0440000-US-2025",
+    "path": "/api/psd/commodity/0440000/country/US/year/2025",
+    "role": "completeness"
+  },
+  {
+    "id": "release-0440000",
+    "path": "/api/psd/commodity/0440000/dataReleaseDates",
+    "role": "metadata"
+  },
+  {
+    "id": "release-2222000",
+    "path": "/api/psd/commodity/2222000/dataReleaseDates",
+    "role": "metadata"
+  },
+  {
+    "id": "release-0813100",
+    "path": "/api/psd/commodity/0813100/dataReleaseDates",
+    "role": "metadata"
+  },
+  {
+    "id": "release-4232000",
+    "path": "/api/psd/commodity/4232000/dataReleaseDates",
+    "role": "metadata"
+  },
+  {
+    "id": "release-2631000",
+    "path": "/api/psd/commodity/2631000/dataReleaseDates",
+    "role": "metadata"
+  }
+]

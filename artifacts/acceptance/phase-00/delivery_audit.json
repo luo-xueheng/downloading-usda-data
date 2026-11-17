@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "executed_at_utc": "2026-11-12T14:48:50.910154+00:00",
+  "required_deliverables": {
+    "config/scope.json": "2dc482041973696a23f174c2527622fc8431b8c5639227fb71b5c3181d93c55d",
+    "config/expected_coverage.json": "c918bc085ed8c259e6952cf1a677287704f8856763d72bab698fa395b4cdbdd5",
+    "docs/source_registry.md": "71169a05e373b2dc61a55e1a8aa547078ac280aa1ddb800c2f3998dd4d16eb6e",
+    "docs/execution_status.md": "2ab47cc3e0d9e3251b692859a5efe86468ec386e63f3b13f1d35e7c04088e144",
+    "docs/decisions.md": "849cb952ec4702359b94a6a092552e5d87b555cfd40f56eb7daec1b5a2470674",
+    "docs/credential_setup.md": "50b31287bef1b3eaa72ac7b3d4a5c7addb7f5ce318bcb0edc5c5eaf8d58b015d",
+    "tests/fixtures/catalog.json": "6206c41e8dfb2bf8a7a1a5e434ea882413a3033ed5499c78ddcb18afe7d06bc4",
+    "tests/fixtures/references/observations.json": "5911183ce899455226fad1160a7054037f70554f0af90187787ae55de8517b06",
+    "scripts/verify_phase00.py": "76e0e01b51b3d770bec12d8497de1ae36f968d891c0c9da1d0c551d0d165f034",
+    "artifacts/acceptance/phase-00/summary.md": "9b9b11fed50b40ed8a98727e7b7dc04873c7268fffd7d1da4e02c15ea642b585",
+    "artifacts/acceptance/phase-00/results.json": "0436355ecf28e185238b5b5ba1fddfc5fe5cbcbf871d6c151814d1c8beb566fe",
+    "artifacts/acceptance/phase-00/commands.txt": "92d4f13762b1d50018ab11b015794293c78cd39bb473589209983fe159b3262e",
+    "artifacts/acceptance/phase-00/source_checks.csv": "30be4001e84600e037e74d296812fe7fb36e90cf34ec21deaebf49a1ff43a03e"
+  },
+  "code_version": {
+    "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+    "source_tree_sha256": "153641c734d16c2b9d3c4b568e636f5c38fc5855dac4d3af6a53f3b780de8f68",
+    "scope": "scripts, config, stable docs, fixture catalog and independent references; raw bytes are pinned in catalog; mutable execution ledger/results excluded"
+  },
+  "configuration_hash": "2dc482041973696a23f174c2527622fc8431b8c5639227fb71b5c3181d93c55d",
+  "mandatory_results": 6,
+  "live_probes": 12,
+  "independent_comparisons": 38,
+  "later_phases": "all not_started",
+  "credential_scan": "143 delivered files scanned for credential assignments/private keys and any supplied environment secret; no matches. Authenticated API checks remain deferred."
+}

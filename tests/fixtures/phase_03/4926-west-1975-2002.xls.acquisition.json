@@ -1,0 +1,12 @@
+{
+  "id": "4926-west-1975-2002.xls",
+  "url": "https://www.ers.usda.gov/media/4926/west-1975-2002.xls?v=51837",
+  "path": "tests/fixtures/phase_03/4926-west-1975-2002.xls",
+  "checked_at_utc": "2026-11-15T11:12:32.262090+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4926/west-1975-2002.xls?v=51837",
+  "content_type": "application/vnd.ms-excel",
+  "last_modified": null,
+  "sha256": "bd2d03bec5855674eed8d3b207c4033afbace62f38a08161ace694fdaf1ef6be",
+  "bytes": 50688
+}

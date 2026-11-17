@@ -1,0 +1,13 @@
+{
+  "id": "directory",
+  "url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx",
+  "format": "json",
+  "path": "artifacts/acceptance/phase-06/discovery/directory.json",
+  "checked_at_utc": "2026-11-15T14:39:21.949657+00:00",
+  "status": 200,
+  "content_type": "text/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "2ce6dd503b4816c8788c4b8738d56614490b5bd8830ed702b6dab3c2b159f138",
+  "bytes": 8613,
+  "final_url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx"
+}

@@ -1,0 +1,448 @@
+State/County/Crop Summary of Business | Risk Management Agency
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+About RMA
+|
+FCIC
+|
+Find an Agent
+|
+En Español
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MK9DSZ2');
+Risk Management Agency
+U.S. Department of Agriculture
+Policy & Procedure
+Toggle sub menu for
+										Policy & Procedure
+Appendix III/M-13 Handbook Index
+Bulletins and Memos
+Toggle sub menu for
+												Bulletins and Memos
+Actuarial Releases
+Informational Memorandums
+Manager's Bulletins
+Product Management Bulletins
+Crop Loss Adjustment Standards
+Crop Policies
+Crop Underwriting Standards
+Final Agency Determinations
+General Handbooks
+General Policies
+Toggle sub menu for
+												General Policies
+Commodity Exchange Price Provisions
+Livestock Insurance Plans
+Margin Insurance
+Rainfall Index
+Whole-Farm Revenue Protection
+Reinsurance Agreements
+Toggle sub menu for
+												Reinsurance Agreements
+Livestock Price Reinsurance Agreement Archive
+Standard Reinsurance Agreement Archive
+RMALocal
+Toggle sub menu for
+										RMALocal
+Compliance Offices
+Toggle sub menu for
+												Compliance Offices
+Special Investigations Branch
+Central
+Eastern
+Midwest
+Northern
+Southern
+Western
+Regional Offices
+Toggle sub menu for
+												Regional Offices
+Billings, MT
+Davis, CA
+Jackson, MS
+Oklahoma City, OK
+Raleigh, NC
+Spokane, WA
+Springfield, IL
+St. Paul, MN
+Topeka, KS
+Valdosta, GA
+States
+Tools & Reports
+Toggle sub menu for
+										Tools & Reports
+Actuarial Documents
+Toggle sub menu for
+												Actuarial Documents
+Actuarial Information Browser
+RMA Information Reporting System
+Agent Locator
+Approved Insurance Providers
+Associated Agencies and Partners
+Cost Estimator
+County Crop Programs
+Crop Indemnity Maps
+Toggle sub menu for
+												Crop Indemnity Maps
+Crop Year 2026
+Crop Year 2025
+Crop Year 2024
+Crop Year 2023
+Crop Year 2022
+Crop Year 2021
+Crop Year 2020
+Crop Year 2019
+Crop Year 2018
+Crop Year 2017
+FTP File Access
+Livestock Reports (LRP and LGM)
+Nursery Software (EPLPPS)
+Other Sites
+PRF Rainfall
+Price Discovery Reporting
+Toggle sub menu for
+												Price Discovery Reporting
+RMA's Price Discovery Application
+Forage Revenue Protection
+Margin Coverage Option
+Margin Protection
+Reinsurance Reports
+RMA Map Viewer
+Summary of Business
+Toggle sub menu for
+												Summary of Business
+Cause of Loss
+Livestock & Dairy Participation
+National
+Puerto Rico
+State/County/Crop
+Report Generator
+2019 Prevented Planting Supplemental Payments
+Weather Resources
+About Crop Insurance
+Toggle sub menu for
+										About Crop Insurance
+Basics for Beginners
+Toggle sub menu for
+												Basics for Beginners
+Beginners Guide to Crop Insurance
+Policyholder Bill of Rights
+Educational Videos
+Video Testimonials from Farmers
+Benefits for Beginning Farmers and Veterans
+How to Find an Agent
+How to Contact RMA
+Fact Sheets
+Farm Bill
+Frequently Asked Questions
+Highlighted Initiatives and Plans
+Toggle sub menu for
+												Highlighted Initiatives and Plans
+Conservation
+Controlled Environment
+Cover Crops
+Double Cropping
+Emergency and Natural Disaster Relief
+Fire Insurance Protection – Smoke Index
+Hemp
+Hurricane Insurance Protection - Wind Index
+Nursery Value Select
+Organic Crops
+Prevented Planting
+Seafood
+Specialty Crops
+Turfgrass Value Select
+Whole-Farm Revenue Protection
+Managing Your Farm Risk
+Toggle sub menu for
+												Managing Your Farm Risk
+Insurance Plans
+Insurance Cycle
+Obligations and Expectations
+Resources
+Outreach and Education
+Toggle sub menu for
+												Outreach and Education
+Partnership Projects
+Past Webinars
+Urban Farmers
+News & Events
+Toggle sub menu for
+										News & Events
+News
+Events
+Toggle sub menu for
+												Events
+Past Events
+RMA Latest Announcements
+Search
+About RMA
+|
+FCIC
+|
+Find an Agent
+|
+En Español
+Breadcrumb
+Home
+Tools & Reports
+Summary of B...
+State/County/Crop Summary of Business
+Tools & Reports
+Actuarial Documents
+Actuarial Information Browser
+RMA Information Reporting System
+Agent Locator
+Approved Insurance Providers
+Associated Agencies and Partners
+Cost Estimator
+County Crop Programs
+Crop Indemnity Maps
+Crop Year 2026
+Crop Year 2025
+Crop Year 2024
+Crop Year 2023
+Crop Year 2022
+Crop Year 2021
+Crop Year 2020
+Crop Year 2019
+Crop Year 2018
+Crop Year 2017
+FTP File Access
+Livestock Reports (LRP and LGM)
+Nursery Software (EPLPPS)
+Other Sites
+PRF Rainfall
+Price Discovery Reporting
+RMA's Price Discovery Application
+Forage Revenue Protection
+Margin Coverage Option
+Margin Protection
+Reinsurance Reports
+RMA Map Viewer
+Summary of Business
+Cause of Loss
+Livestock & Dairy Participation
+National
+Puerto Rico
+State/County/Crop
+Report Generator
+2019 Prevented Planting Supplemental Payments
+Weather Resources
+State/County/Crop Summary of Business
+Summarized Summary of Business data files broken down by state/ county/crop and subsequent levels. Each link contains a ZIP file with compressed data containing pipe (|) delimited flat-files that can be imported into any spreadsheet and/or data for further analysis. Record description file(s) are located in each subfolder.
+Feedback? Send a message to
+RMA – SummaryOfBusiness Feedback
+State/County/Crop Level 1948-1988 Data File and Record Layout
+Record layout (1948 - 1988):
+Word
+|
+PDF
+Zip files:
+1948-1988
+\n
+State/County/Crop/Coverage Level 1989 - Present Data Files and Record Layout
+Record layout (1989 - present):
+Word
+|
+PDF
+Zip files:
+2027
+|
+2026
+|
+2025
+|
+2024
+|
+2023
+|
+2022
+|
+2021
+|
+2020
+|
+2019
+|
+2018
+|
+2017
+|
+2016
+|
+2015
+|
+2014
+|
+2013
+|
+2012
+|
+2011
+|
+2010
+|
+2009
+|
+2008
+|
+2007
+|
+2006
+|
+2005
+|
+2004
+|
+2003
+|
+2002
+|
+2001
+|
+2000
+|
+1999
+|
+1998
+|
+1997
+|
+1996
+|
+1995
+|
+1994
+|
+1993
+|
+1992
+|
+1991
+|
+1990
+|
+1989
+Type/Practice/Unit Structure Data Files and Record Layout
+Record layout (All Years):
+Word
+|
+PDF
+Zip files:
+2027
+|
+2026
+|
+2025
+|
+2024
+|
+2023
+|
+2022
+|
+2021
+|
+2020
+|
+2019
+|
+2018
+|
+2017
+|
+2016
+|
+2015
+|
+2014
+|
+2013
+|
+2012
+|
+2011
+|
+2010
+|
+2009
+|
+2008
+|
+2007
+|
+2006
+|
+2005
+|
+2004
+|
+2003
+|
+2002
+|
+2001
+|
+2000
+|
+1999
+Yield Exclusion Summary of Business Report
+This report provides a summary of policy totals wherein producers have selected Yield Exclusion and are eligible for Yield Exclusion beginning with the 2015 reinsurance year. Policy totals that had Yield Exclusion available as a choice as filed in the actuarial documents is provided for comparison.
+Yield Exclusion data by year:
+2015
+Top
+For Producers
+Managing Your Farm Risk
+Find an Agent
+Beginning Farmer Resources
+Frequently Asked Questions
+For Insurance Providers
+Tools & Reports
+Policy & Procedure
+RMA Legacy Website
+About RMA
+Federal Crop Insurance Corporation (FCIC)
+Careers
+En Español
+Contact Us
+Get RMA Updates
+Stay up to date on the latest RMA news and reports
+Email Address
+Connect With Us
+Facebook
+Mail
+Rss
+Twitter
+YouTube
+flickr
+LinkedIn
+Footer Secondary
+USDA.gov
+FOIA
+Report Fraud on USDA Contracts
+No FEAR Report
+Non-Discrimination Statement
+Privacy Policy
+Accessibility Statement
+.form-item-field-fact-sheet-date-value { display: none !important; }
+    .simple-table:not(:first-of-type) {margin-top: 1rem};
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"tools-reports\/summary-of-business\/state-county-crop-summary-business","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"69b1c7e97de86e1813b5ab6010b894729bd8688d2c12cf29519887330b35c000"}}

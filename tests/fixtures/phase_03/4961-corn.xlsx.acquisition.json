@@ -1,0 +1,12 @@
+{
+  "id": "4961-corn.xlsx",
+  "url": "https://www.ers.usda.gov/media/4961/corn.xlsx?v=70570",
+  "path": "tests/fixtures/phase_03/4961-corn.xlsx",
+  "checked_at_utc": "2026-11-15T11:11:50.489002+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4961/corn.xlsx?v=70570",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "sha256": "d3705c895e764f08ffb2db3d217ee850e8def6c89ce093d717be541ee93970a1",
+  "bytes": 364417
+}

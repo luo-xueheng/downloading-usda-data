@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-11-16T15:49:25.455464+00:00",
+  "completed_at_utc": "2026-11-16T16:14:00.323084+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "scripts/backfill_reports.py",
+    "--offline"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1474.8685356669885,
+  "output": "artifacts/acceptance/phase-09/full-report-replay.txt",
+  "child_peak_rss_mib": 217.734375
+}

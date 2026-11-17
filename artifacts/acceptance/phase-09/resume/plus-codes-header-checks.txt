@@ -1,0 +1,5 @@
+oilseed-trade-2019-10 fail Unresolved changes-table merged labels: 2018/19 OUTLOOK CHANGES, page=6, row=1, labels={'Country': 'Argentina', 'Commodity': '', 'Attribute': 'Exports'}
+oilseed-trade-2022-11 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2022-11', 'table_title': 'Table 31: Vegetable Oil Prices', 'section_label': 'price_quotes', 'section_product_type': 'not_applicable', 'row_label': 'Source quote 1/', 'column_commodity': 'not_applicable', 'indicator': 'Price', 'period_label': '2021/22', 'comparison_label': 'Nov', 'unit': 'U.S. Dollars per Metric Ton'} values 1465/None
+oilseed-trade-2022-12 fail Incomplete changes-table numeric columns: 2021/22 OUTLOOK CHANGES (All figures are in thousand metric tons), page=6, row={'top': 364.01000000000005, 'bottom': 375.05, 'values': {'Previous': '2304,230250,120810', 'Change': '1507'}}
+oilseed-trade-2023-01 pass 10255
+{'fail': 3, 'pass': 1}

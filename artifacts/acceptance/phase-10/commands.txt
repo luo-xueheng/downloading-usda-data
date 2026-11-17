@@ -1,0 +1,143 @@
+UTC: 2026-11-16T17:45:26.613187+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python -m pytest tests/phase_01 tests/phase_02 tests/phase_03 tests/phase_04 tests/phase_05 tests/phase_06 tests/phase_07 tests/phase_08 tests/phase_09 -m 'not live' -q
+Exit code: 0
+Output: artifacts/acceptance/phase-10/baseline-offline.txt
+
+UTC: 2026-11-16T17:48:25.743795+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python -m pip install '.[dev]'
+Exit code: 0
+Output: artifacts/acceptance/phase-10/clean-install.txt
+
+UTC: 2026-11-16T18:05:43.675675+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-10/phase-00
+Exit code: 0
+Output: artifacts/acceptance/phase-10/phase00-offline.txt
+
+UTC: 2026-11-16T18:05:46.860677+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python -B scripts/test_verify_phase00.py
+Exit code: 0
+Output: artifacts/acceptance/phase-10/verifier-tests.txt
+
+UTC: 2026-11-16T18:05:28.498353+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python -m pytest tests/phase_02 tests/phase_03 tests/phase_04 tests/phase_05 tests/phase_06 tests/phase_07 tests/phase_08 tests/phase_09 -m live -q --junitxml=artifacts/acceptance/phase-10/required-live.xml
+Exit code: 0
+Output: artifacts/acceptance/phase-10/required-live.txt
+
+UTC: 2026-11-16T17:48:37.793194+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/sql_roundtrip.py --database artifacts/acceptance/phase-10/sql/full.sqlite --output artifacts/acceptance/phase-10/sql_roundtrip.json
+Exit code: 1
+Output: artifacts/acceptance/phase-10/full-sql-roundtrip.txt
+
+UTC: 2026-11-16T22:22:13.865489+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode live --evidence-dir artifacts/acceptance/phase-10/phase-00
+Exit code: 1
+Output: artifacts/acceptance/phase-10/phase00-live.txt
+
+UTC: 2026-11-16T22:24:10.626184+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python -m pip install --force-reinstall --no-deps artifacts/acceptance/phase-10/dist/usda_data-0.1.0-py3-none-any.whl
+Exit code: 0
+Output: artifacts/acceptance/phase-10/final-wheel-install.txt
+
+UTC: 2026-11-16T22:24:10.945958+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/handover_examples.py --output-dir artifacts/acceptance/phase-10/examples
+Exit code: 0
+Output: artifacts/acceptance/phase-10/readme-examples.txt
+
+UTC: 2026-11-16T22:24:44.975252+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode live --evidence-dir artifacts/acceptance/phase-10/phase-00
+Exit code: 1
+Output: artifacts/acceptance/phase-10/phase00-live.txt
+
+UTC: 2026-11-16T22:30:13.845848+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: env NO_PROXY=pubfs-rma.fpac.usda.gov no_proxy=pubfs-rma.fpac.usda.gov .venv/bin/python scripts/verify_phase00.py --mode live --evidence-dir artifacts/acceptance/phase-10/phase-00-direct
+Exit code: 1
+Output: artifacts/acceptance/phase-10/phase00-live-direct.txt
+
+UTC: 2026-11-16T22:24:24.002156+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/sql_roundtrip.py --database artifacts/acceptance/phase-10/sql/verified.sqlite --output artifacts/acceptance/phase-10/sql_roundtrip.json
+Exit code: 0
+Output: artifacts/acceptance/phase-10/full-sql-roundtrip.txt
+
+UTC: 2026-11-16T22:33:25.421943+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/check_readme_examples.py
+Exit code: 0
+Output: artifacts/acceptance/phase-10/readme-cli.txt
+
+UTC: 2026-11-16T22:34:21.746437+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python -m pip install --force-reinstall --no-deps artifacts/acceptance/phase-10/dist/usda_data-0.1.0-py3-none-any.whl
+Exit code: 0
+Output: artifacts/acceptance/phase-10/final-wheel-install.txt
+
+UTC: 2026-11-16T22:34:22.033617+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/handover_examples.py --output-dir artifacts/acceptance/phase-10/examples
+Exit code: 1
+Output: artifacts/acceptance/phase-10/readme-examples.txt
+
+UTC: 2026-11-16T22:35:23.977260+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-10/phase-00-direct
+Exit code: 0
+Output: artifacts/acceptance/phase-10/phase00-offline-final.txt
+
+UTC: 2026-11-16T22:35:25.830980+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/check_readme_examples.py
+Exit code: 0
+Output: artifacts/acceptance/phase-10/readme-cli.txt
+
+UTC: 2026-11-16T22:36:16.821312+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/handover_examples.py --output-dir artifacts/acceptance/phase-10/examples
+Exit code: 0
+Output: artifacts/acceptance/phase-10/readme-examples.txt
+
+UTC: 2026-11-16T22:38:48.716858+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-10/phase-00-direct
+Exit code: 0
+Output: artifacts/acceptance/phase-10/phase00-offline-final.txt
+
+UTC: 2026-11-16T22:38:21.869805+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python scripts/handover_examples.py --output-dir artifacts/acceptance/phase-10/examples
+Exit code: 0
+Output: artifacts/acceptance/phase-10/repeated-readme-examples.txt
+
+UTC: 2026-11-16T22:40:20.188176+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/verify_phase00.py --mode offline --evidence-dir artifacts/acceptance/phase-10/phase-00-direct
+Exit code: 0
+Output: artifacts/acceptance/phase-10/phase00-offline-final.txt
+
+UTC: 2026-11-16T22:39:22.919222+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: artifacts/acceptance/phase-10/clean-venv/bin/python -m pytest -m 'not live' -q -rs --junitxml=artifacts/acceptance/phase-10/all-offline.xml
+Exit code: 0
+Output: artifacts/acceptance/phase-10/all-offline.txt
+
+UTC: 2026-11-16T22:42:10.130467+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: '/Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python' -m pytest tests/phase_10 -m 'not live' -q
+Exit code: 0
+
+UTC: 2026-11-16T22:43:26.524588+00:00
+Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
+Command: .venv/bin/python scripts/complete_phase10.py
+Exit code: 1
+Output: artifacts/acceptance/phase-10/handover-assessment.txt
+

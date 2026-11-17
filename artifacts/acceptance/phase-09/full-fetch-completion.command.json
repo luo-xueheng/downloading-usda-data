@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-11-16T16:15:56.646601+00:00",
+  "completed_at_utc": "2026-11-16T16:32:14.620928+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "-m",
+    "usda_data",
+    "fetch",
+    "--dataset",
+    "all",
+    "--config",
+    "config/full_backfill.json",
+    "--resume"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 833.3138220830006,
+  "output": "artifacts/acceptance/phase-09/full-fetch-completion.txt",
+  "child_peak_rss_mib": 726.84375
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4973-oats.xlsx",
+  "url": "https://www.ers.usda.gov/media/4973/oats.xlsx?v=97163",
+  "path": "tests/fixtures/phase_03/4973-oats.xlsx",
+  "checked_at_utc": "2026-11-15T11:12:03.222144+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 54] Connection reset by peer>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

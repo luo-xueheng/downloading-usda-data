@@ -1,0 +1,2 @@
+/opt/homebrew/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py:301: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-j6yu2t71', '/mp-0u2k2o9t', '/mp-kk6stqqp', '/mp-81qi9lz2', '/mp-qo4uuj27'}
+  warnings.warn(

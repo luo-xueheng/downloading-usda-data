@@ -1,0 +1,1592 @@
+{
+  "version": 1,
+  "status": "frozen_from_official_development_report_tables_and_verified_PSD_dictionaries",
+  "families": {
+    "world-production": {
+      "commodities": [
+        {
+          "commodityCode": "0430000",
+          "commodityName": "Barley"
+        },
+        {
+          "commodityCode": "0440000",
+          "commodityName": "Corn"
+        },
+        {
+          "commodityCode": "2631000",
+          "commodityName": "Cotton"
+        },
+        {
+          "commodityCode": "0459100",
+          "commodityName": "Millet"
+        },
+        {
+          "commodityCode": "0459900",
+          "commodityName": "Mixed Grain"
+        },
+        {
+          "commodityCode": "0452000",
+          "commodityName": "Oats"
+        },
+        {
+          "commodityCode": "4243000",
+          "commodityName": "Oil, Palm"
+        },
+        {
+          "commodityCode": "2231000",
+          "commodityName": "Oilseed, Copra"
+        },
+        {
+          "commodityCode": "2223000",
+          "commodityName": "Oilseed, Cottonseed"
+        },
+        {
+          "commodityCode": "2232000",
+          "commodityName": "Oilseed, Palm Kernel"
+        },
+        {
+          "commodityCode": "2221000",
+          "commodityName": "Oilseed, Peanut"
+        },
+        {
+          "commodityCode": "2226000",
+          "commodityName": "Oilseed, Rapeseed"
+        },
+        {
+          "commodityCode": "2222000",
+          "commodityName": "Oilseed, Soybean"
+        },
+        {
+          "commodityCode": "2224000",
+          "commodityName": "Oilseed, Sunflowerseed"
+        },
+        {
+          "commodityCode": "0422110",
+          "commodityName": "Rice, Milled"
+        },
+        {
+          "commodityCode": "0451000",
+          "commodityName": "Rye"
+        },
+        {
+          "commodityCode": "0459200",
+          "commodityName": "Sorghum"
+        },
+        {
+          "commodityCode": "0410000",
+          "commodityName": "Wheat"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeId": 4,
+          "attributeName": "Area Harvested"
+        },
+        {
+          "attributeId": 28,
+          "attributeName": "Production"
+        },
+        {
+          "attributeId": 54,
+          "attributeName": "Rough Production"
+        },
+        {
+          "attributeId": 184,
+          "attributeName": "Yield"
+        }
+      ],
+      "evidence": {
+        "artifact": "tests/fixtures/raw/world-production-development.pdf",
+        "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+        "tables": [
+          {
+            "page": 19,
+            "title": "Table 01 World Crop Production Summary"
+          },
+          {
+            "page": 20,
+            "title": "Table 02 Wheat Area, Yield, and Production"
+          },
+          {
+            "page": 21,
+            "title": "Table 03 Total Coarse Grain Area, Yield, and Production"
+          },
+          {
+            "page": 22,
+            "title": "Table 04 Corn Area, Yield, and Production"
+          },
+          {
+            "page": 23,
+            "title": "Table 05 Barley Area, Yield, and Production"
+          },
+          {
+            "page": 24,
+            "title": "Table 06 Oats Area, Yield, and Production"
+          },
+          {
+            "page": 25,
+            "title": "Table 07 Rye Area, Yield, and Production"
+          },
+          {
+            "page": 26,
+            "title": "Table 08 Sorghum Area, Yield, and Production"
+          },
+          {
+            "page": 27,
+            "title": "Table 09 Rice Area, Yield, and Production"
+          },
+          {
+            "page": 28,
+            "title": "Table 10 Total Oilseed Area, Yield, and Production"
+          },
+          {
+            "page": 29,
+            "title": "Table 11 Soybean Area, Yield, and Production"
+          },
+          {
+            "page": 30,
+            "title": "Table 12 Cottonseed Area, Yield, and Production"
+          },
+          {
+            "page": 31,
+            "title": "Table 13 Peanut Area, Yield, and Production"
+          },
+          {
+            "page": 32,
+            "title": "Table 14 Sunflowerseed Area, Yield, and Production"
+          },
+          {
+            "page": 33,
+            "title": "Table 15 Rapeseed Area, Yield, and Production"
+          },
+          {
+            "page": 34,
+            "title": "Table 16 Copra, Palm Kernel, and Palm Oil Production"
+          },
+          {
+            "page": 35,
+            "title": "Table 17 Cotton Area, Yield, and Production"
+          },
+          {
+            "page": 36,
+            "title": "TABLE 18"
+          }
+        ]
+      },
+      "explanation": "Millet and Mixed Grain are components of reported coarse grains; local soybean/meal/oil variants preserve local-marketing-year tables; world totals/regions remain distinct."
+    },
+    "grain-trade": {
+      "commodities": [
+        {
+          "commodityCode": "0430000",
+          "commodityName": "Barley"
+        },
+        {
+          "commodityCode": "0440000",
+          "commodityName": "Corn"
+        },
+        {
+          "commodityCode": "0459100",
+          "commodityName": "Millet"
+        },
+        {
+          "commodityCode": "0459900",
+          "commodityName": "Mixed Grain"
+        },
+        {
+          "commodityCode": "0452000",
+          "commodityName": "Oats"
+        },
+        {
+          "commodityCode": "0422110",
+          "commodityName": "Rice, Milled"
+        },
+        {
+          "commodityCode": "0451000",
+          "commodityName": "Rye"
+        },
+        {
+          "commodityCode": "0459200",
+          "commodityName": "Sorghum"
+        },
+        {
+          "commodityCode": "0410000",
+          "commodityName": "Wheat"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeId": 4,
+          "attributeName": "Area Harvested"
+        },
+        {
+          "attributeId": 20,
+          "attributeName": "Beginning Stocks"
+        },
+        {
+          "attributeId": 28,
+          "attributeName": "Production"
+        },
+        {
+          "attributeId": 54,
+          "attributeName": "Rough Production"
+        },
+        {
+          "attributeId": 57,
+          "attributeName": "Imports"
+        },
+        {
+          "attributeId": 63,
+          "attributeName": "MY Imp. from U.S."
+        },
+        {
+          "attributeId": 81,
+          "attributeName": "TY Imports"
+        },
+        {
+          "attributeId": 84,
+          "attributeName": "TY Imp. from U.S."
+        },
+        {
+          "attributeId": 86,
+          "attributeName": "Total Supply"
+        },
+        {
+          "attributeId": 88,
+          "attributeName": "Exports"
+        },
+        {
+          "attributeId": 113,
+          "attributeName": "TY Exports"
+        },
+        {
+          "attributeId": 125,
+          "attributeName": "Domestic Consumption"
+        },
+        {
+          "attributeId": 130,
+          "attributeName": "Feed Dom. Consumption"
+        },
+        {
+          "attributeId": 176,
+          "attributeName": "Ending Stocks"
+        },
+        {
+          "attributeId": 178,
+          "attributeName": "Total Distribution"
+        },
+        {
+          "attributeId": 184,
+          "attributeName": "Yield"
+        },
+        {
+          "attributeId": 192,
+          "attributeName": "FSI Consumption"
+        }
+      ],
+      "evidence": {
+        "artifact": "tests/fixtures/raw/grain-trade-development.pdf",
+        "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+        "tables": [
+          {
+            "page": 16,
+            "title": "All Grain Summary Comparison"
+          },
+          {
+            "page": 17,
+            "title": "World Wheat, Flour, and Products Trade"
+          },
+          {
+            "page": 18,
+            "title": "World Wheat Production, Consumption, and Stocks"
+          },
+          {
+            "page": 19,
+            "title": "Regional Wheat Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 20,
+            "title": "World Rice Trade"
+          },
+          {
+            "page": 21,
+            "title": "World Rice Production, Consumption, and Stocks"
+          },
+          {
+            "page": 22,
+            "title": "Regional Rice Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 23,
+            "title": "World Coarse Grain Trade"
+          },
+          {
+            "page": 24,
+            "title": "World Coarse Grains Production, Consumption, and Stocks"
+          },
+          {
+            "page": 25,
+            "title": "Regional Coarse Grains Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 26,
+            "title": "World Corn Trade"
+          },
+          {
+            "page": 27,
+            "title": "World Corn Production, Consumption, and Stocks"
+          },
+          {
+            "page": 28,
+            "title": "Regional Corn Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 29,
+            "title": "World Barley Trade"
+          },
+          {
+            "page": 30,
+            "title": "World Barley Production, Consumption, and Stocks"
+          },
+          {
+            "page": 31,
+            "title": "Regional Barley Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 32,
+            "title": "World Sorghum Trade"
+          },
+          {
+            "page": 33,
+            "title": "World Sorghum Production, Consumption, and Stocks"
+          },
+          {
+            "page": 34,
+            "title": "Regional Sorghum Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 35,
+            "title": "World Oats Trade"
+          },
+          {
+            "page": 36,
+            "title": "World Oats Production, Consumption, and Stocks"
+          },
+          {
+            "page": 37,
+            "title": "Regional Oats Imports, Production, Consumption, and Stocks"
+          },
+          {
+            "page": 38,
+            "title": "World Rye Trade"
+          },
+          {
+            "page": 39,
+            "title": "World Rye Production, Consumption, and Stocks"
+          },
+          {
+            "page": 40,
+            "title": "Regional Rye Imports, Production, Consumption, and Stocks"
+          }
+        ]
+      },
+      "explanation": "Millet and Mixed Grain are components of reported coarse grains; local soybean/meal/oil variants preserve local-marketing-year tables; world totals/regions remain distinct."
+    },
+    "oilseed-trade": {
+      "commodities": [
+        {
+          "commodityCode": "0813700",
+          "commodityName": "Meal, Copra"
+        },
+        {
+          "commodityCode": "0813300",
+          "commodityName": "Meal, Cottonseed"
+        },
+        {
+          "commodityCode": "0814200",
+          "commodityName": "Meal, Fish"
+        },
+        {
+          "commodityCode": "0813800",
+          "commodityName": "Meal, Palm Kernel"
+        },
+        {
+          "commodityCode": "0813200",
+          "commodityName": "Meal, Peanut"
+        },
+        {
+          "commodityCode": "0813600",
+          "commodityName": "Meal, Rapeseed"
+        },
+        {
+          "commodityCode": "0813100",
+          "commodityName": "Meal, Soybean"
+        },
+        {
+          "commodityCode": "0813101",
+          "commodityName": "Meal, Soybean (Local)"
+        },
+        {
+          "commodityCode": "0813500",
+          "commodityName": "Meal, Sunflowerseed"
+        },
+        {
+          "commodityCode": "4242000",
+          "commodityName": "Oil, Coconut"
+        },
+        {
+          "commodityCode": "4233000",
+          "commodityName": "Oil, Cottonseed"
+        },
+        {
+          "commodityCode": "4235000",
+          "commodityName": "Oil, Olive"
+        },
+        {
+          "commodityCode": "4243000",
+          "commodityName": "Oil, Palm"
+        },
+        {
+          "commodityCode": "4244000",
+          "commodityName": "Oil, Palm Kernel"
+        },
+        {
+          "commodityCode": "4234000",
+          "commodityName": "Oil, Peanut"
+        },
+        {
+          "commodityCode": "4239100",
+          "commodityName": "Oil, Rapeseed"
+        },
+        {
+          "commodityCode": "4232000",
+          "commodityName": "Oil, Soybean"
+        },
+        {
+          "commodityCode": "4232001",
+          "commodityName": "Oil, Soybean (Local)"
+        },
+        {
+          "commodityCode": "4236000",
+          "commodityName": "Oil, Sunflowerseed"
+        },
+        {
+          "commodityCode": "2231000",
+          "commodityName": "Oilseed, Copra"
+        },
+        {
+          "commodityCode": "2223000",
+          "commodityName": "Oilseed, Cottonseed"
+        },
+        {
+          "commodityCode": "2232000",
+          "commodityName": "Oilseed, Palm Kernel"
+        },
+        {
+          "commodityCode": "2221000",
+          "commodityName": "Oilseed, Peanut"
+        },
+        {
+          "commodityCode": "2226000",
+          "commodityName": "Oilseed, Rapeseed"
+        },
+        {
+          "commodityCode": "2222000",
+          "commodityName": "Oilseed, Soybean"
+        },
+        {
+          "commodityCode": "2222001",
+          "commodityName": "Oilseed, Soybean (Local)"
+        },
+        {
+          "commodityCode": "2224000",
+          "commodityName": "Oilseed, Sunflowerseed"
+        }
+      ],
+      "attributes": [
+        {
+          "attributeId": 4,
+          "attributeName": "Area Harvested"
+        },
+        {
+          "attributeId": 5,
+          "attributeName": "Catch For Reduction"
+        },
+        {
+          "attributeId": 7,
+          "attributeName": "Crush"
+        },
+        {
+          "attributeId": 20,
+          "attributeName": "Beginning Stocks"
+        },
+        {
+          "attributeId": 28,
+          "attributeName": "Production"
+        },
+        {
+          "attributeId": 57,
+          "attributeName": "Imports"
+        },
+        {
+          "attributeId": 63,
+          "attributeName": "MY Imp. from U.S."
+        },
+        {
+          "attributeId": 81,
+          "attributeName": "TY Imports"
+        },
+        {
+          "attributeId": 84,
+          "attributeName": "TY Imp. from U.S."
+        },
+        {
+          "attributeId": 86,
+          "attributeName": "Total Supply"
+        },
+        {
+          "attributeId": 88,
+          "attributeName": "Exports"
+        },
+        {
+          "attributeId": 113,
+          "attributeName": "TY Exports"
+        },
+        {
+          "attributeId": 125,
+          "attributeName": "Domestic Consumption"
+        },
+        {
+          "attributeId": 140,
+          "attributeName": "Industrial Dom. Cons."
+        },
+        {
+          "attributeId": 149,
+          "attributeName": "Food Use Dom. Cons."
+        },
+        {
+          "attributeId": 158,
+          "attributeName": "Feed Use Dom. Consum."
+        },
+        {
+          "attributeId": 161,
+          "attributeName": "Feed Waste Dom. Cons."
+        },
+        {
+          "attributeId": 176,
+          "attributeName": "Ending Stocks"
+        },
+        {
+          "attributeId": 178,
+          "attributeName": "Total Distribution"
+        },
+        {
+          "attributeId": 181,
+          "attributeName": "Extr. Rate, 999.9999"
+        },
+        {
+          "attributeId": 184,
+          "attributeName": "Yield"
+        },
+        {
+          "attributeId": 194,
+          "attributeName": "SME"
+        }
+      ],
+      "evidence": {
+        "artifact": "tests/fixtures/raw/oilseed-trade-development.pdf",
+        "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+        "tables": [
+          {
+            "page": 10,
+            "title": "Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)"
+          },
+          {
+            "page": 11,
+            "title": "Table 02: Major Protein Meals: World Supply and Distribution (Commodity View)"
+          },
+          {
+            "page": 12,
+            "title": "Table 03: Major Vegetable Oils: World Supply and Distribution (Commodity View)"
+          },
+          {
+            "page": 13,
+            "title": "Table 04: Major Oilseeds: World Supply and Distribution (Country View)"
+          },
+          {
+            "page": 14,
+            "title": "Table 05: Major Protein Meals: World Supply and Distribution (Country View)"
+          },
+          {
+            "page": 15,
+            "title": "Table 06: Major Vegetable Oils: World Supply and Distribution (Country View)"
+          },
+          {
+            "page": 16,
+            "title": "Table 07: Soybeans: World Supply and Distribution"
+          },
+          {
+            "page": 17,
+            "title": "Table 08: Soybean Meal: World Supply and Distribution"
+          },
+          {
+            "page": 18,
+            "title": "Table 09: Soybean Oil: World Supply and Distribution"
+          },
+          {
+            "page": 19,
+            "title": "Table 10: Soybeans and Products: World Trade"
+          },
+          {
+            "page": 20,
+            "title": "Table 11: Palm Oil: World Supply and Distribution"
+          },
+          {
+            "page": 21,
+            "title": "Table 12: Rapeseed and Products: World Supply and Distribution"
+          },
+          {
+            "page": 22,
+            "title": "Table 13: Sunflowerseed and Products: World Supply and Distribution"
+          },
+          {
+            "page": 23,
+            "title": "Table 14: Minor Vegetable Oils: World Supply and Distribution"
+          },
+          {
+            "page": 24,
+            "title": "Table 15: World Oilseeds and Products Supply and Distribution"
+          },
+          {
+            "page": 25,
+            "title": "Table 16: World Soybeans and Products Supply and Distribution"
+          },
+          {
+            "page": 26,
+            "title": "Table 17: World Rapeseed and Products Supply and Distribution"
+          },
+          {
+            "page": 27,
+            "title": "Table 18: World Sunflower and Products Supply and Distribution"
+          },
+          {
+            "page": 28,
+            "title": "Table 19: World Palm Oil, Coconut Oil, and Fish Meal Supply and Distribution"
+          },
+          {
+            "page": 29,
+            "title": "Table 20: United States Oilseeds and Products Supply and Distribution Local Marketing Year"
+          },
+          {
+            "page": 30,
+            "title": "Table 21: United States Soybeans and Products Supply and Distribution (Sep-Aug)"
+          },
+          {
+            "page": 31,
+            "title": "Table 22: Brazil Soybeans and Products Supply and Distribution Local Marketing Years (Jan-Dec)"
+          },
+          {
+            "page": 32,
+            "title": "Table 23: Argentina Soybeans and Products Supply and Distribution Local Marketing Years (Apr-Mar)"
+          },
+          {
+            "page": 33,
+            "title": "Table 24: South East Asia Oilseeds and Products Supply and Distribution"
+          },
+          {
+            "page": 34,
+            "title": "Table 25: Middle East Oilseeds and Products Supply and Distribution"
+          },
+          {
+            "page": 35,
+            "title": "Table 26: European Union Oilseeds and Products Supply and Distribution"
+          },
+          {
+            "page": 36,
+            "title": "Table 27: China Oilseeds and Products Supply and Distribution"
+          },
+          {
+            "page": 37,
+            "title": "Table 28: India Oilseeds and Products Supply and Distribution"
+          }
+        ]
+      },
+      "explanation": "Millet and Mixed Grain are components of reported coarse grains; local soybean/meal/oil variants preserve local-marketing-year tables; world totals/regions remain distinct."
+    }
+  },
+  "scope_note": "Only the three requested report families. Full report supplementary mapping and layout completeness are Phase 06 gates; reliability, prior-month deltas and report-only classifications are not fabricated from PSD.",
+  "commodity_union": [
+    "0410000",
+    "0422110",
+    "0430000",
+    "0440000",
+    "0451000",
+    "0452000",
+    "0459100",
+    "0459200",
+    "0459900",
+    "0813100",
+    "0813101",
+    "0813200",
+    "0813300",
+    "0813500",
+    "0813600",
+    "0813700",
+    "0813800",
+    "0814200",
+    "2221000",
+    "2222000",
+    "2222001",
+    "2223000",
+    "2224000",
+    "2226000",
+    "2231000",
+    "2232000",
+    "2631000",
+    "4232000",
+    "4232001",
+    "4233000",
+    "4234000",
+    "4235000",
+    "4236000",
+    "4239100",
+    "4242000",
+    "4243000",
+    "4244000"
+  ],
+  "attribute_union_by_commodity": {
+    "0410000": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0422110": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0430000": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0440000": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0451000": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0452000": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0459100": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0459200": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0459900": [
+      4,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      130,
+      176,
+      178,
+      184,
+      192
+    ],
+    "0813100": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813101": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813200": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813300": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813500": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813600": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813700": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0813800": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "0814200": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2221000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2222000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2222001": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2223000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2224000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2226000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2231000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2232000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "2631000": [
+      4,
+      28,
+      54,
+      184
+    ],
+    "4232000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4232001": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4233000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4234000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4235000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4236000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4239100": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4242000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4243000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      54,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ],
+    "4244000": [
+      4,
+      5,
+      7,
+      20,
+      28,
+      57,
+      63,
+      81,
+      84,
+      86,
+      88,
+      113,
+      125,
+      140,
+      149,
+      158,
+      161,
+      176,
+      178,
+      181,
+      184,
+      194
+    ]
+  }
+}

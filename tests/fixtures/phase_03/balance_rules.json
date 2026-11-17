@@ -1,0 +1,9 @@
+{
+  "definition": "ERS Operating costs and Allocated overhead category components sum to the published category total. Nested subtotal rows are excluded when present.",
+  "source_locator": "ERS documentation, Cost-of-Production Estimates; Corn U.S. total 2025 category/item labels in pinned CSV",
+  "rounding_rule": "Each component and total is published to cents; maximum difference (number of components + 1) * 0.005 dollars per planted acre, fixed before comparison execution.",
+  "groups": [
+    {"category":"Operating costs","total":"Total, operating costs","components":["Seed","Fertilizer","Chemicals","Custom services","Fuel, lube, and electricity","Repairs","Purchased irrigation water","Interest on operating capital"]},
+    {"category":"Allocated overhead","total":"Total, allocated overhead","components":["Hired labor","Opportunity cost of unpaid labor","Capital recovery of machinery and equipment","Opportunity cost of land","Taxes and insurance","General farm overhead"]}
+  ]
+}

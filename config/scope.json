@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "phase": "00",
+  "frozen_at_utc": "2026-11-12T14:30:53.626227+00:00",
+  "authorized_phases": [
+    "00"
+  ],
+  "datasets": [
+    {
+      "id": "wasde",
+      "source": "wasde",
+      "period_semantics": "report publication date",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "export-sales",
+      "source": "fas-esr",
+      "period_semantics": "source marketing-year identifier",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "world-production",
+      "source": "fas-psd + reports",
+      "period_semantics": "source marketing-year identifier; report archive uses publication date",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "grain-trade",
+      "source": "fas-psd + reports",
+      "period_semantics": "source marketing-year identifier; report archive uses publication date",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "oilseed-trade",
+      "source": "fas-psd + reports",
+      "period_semantics": "source marketing-year identifier; report archive uses publication date",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "costs-returns",
+      "source": "ers-costs-returns",
+      "period_semantics": "observation year",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    },
+    {
+      "id": "rma-sob",
+      "source": "rma-sob",
+      "period_semantics": "commodity year",
+      "coverage": "all in-scope commodities, geographies, indicators and actual classification dimensions"
+    }
+  ],
+  "defaults": {
+    "start_date": "2010-01-01",
+    "start_year": 2010,
+    "end": "latest available at run time",
+    "report_start": "2010-01-01",
+    "report_end": "latest available at run time",
+    "bounds": "inclusive",
+    "first_available": "discover per series; never manufacture January 2010 coverage",
+    "source_year_labels": "preserve original labels and meanings",
+    "all_history": "all available history supported by implemented layouts; explicitly report earlier unsupported layouts",
+    "development_samples_only": [
+      "corn",
+      "soybeans",
+      "wheat"
+    ]
+  },
+  "report_families": {
+    "world-production": {
+      "title": "World Agricultural Production",
+      "circular_code": "production",
+      "boundary": "All required numeric production, area and yield tables in this family, including non-grain crops. Report-specific metrics remain in scope even if PSD mapping is unavailable."
+    },
+    "grain-trade": {
+      "title": "Grain: World Markets and Trade",
+      "circular_code": "Grain",
+      "boundary": "All grain production, supply, consumption, trade and stock tables in this report family; preserve local marketing year versus trade year."
+    },
+    "oilseed-trade": {
+      "title": "Oilseeds: World Markets and Trade",
+      "circular_code": "Oilseeds",
+      "boundary": "All oilseed, protein meal and vegetable oil supply, production, processing, consumption, trade and stock tables in this report family."
+    }
+  },
+  "ers": {
+    "series": [
+      "Recent",
+      "Historical",
+      "forecast",
+      "previously released forecasts"
+    ],
+    "enterprise_types": "all linked enterprise types, including each hog enterprise separately",
+    "methods": "retain series family, survey base year, regional definitions and method differences",
+    "historical_products": "include all files linked in Historical, including discontinued products; default year filter may yield no observations for a series ending before 2010"
+  },
+  "rma": {
+    "product": "State/County/Crop/Coverage Level SOB",
+    "layout_policy": "1989-forward layout inventory; verify actual years in Phase 07; 1948-1988 is a distinct earlier layout requiring explicit unsupported-history reporting",
+    "quantity_types": "preserve source quantity type; never assume all quantities are acres"
+  },
+  "exclusions": [
+    "NASS Crop Progress & Condition",
+    "NASS Crop Production",
+    "ERS separately linked Organic products",
+    "ERS separately linked Milk Cost of Production Estimates product",
+    "RMA Cause of Loss",
+    "FSA prevented planting",
+    "RMA Type/Practice/Unit products",
+    "unrelated PSD report families",
+    "production database deployment",
+    "actual scheduler installation",
+    "service deployment",
+    "messages or repository publication"
+  ],
+  "version_policy": {
+    "raw": "preserve source bytes and later revisions",
+    "api_history": "current revised historical series and future captured snapshots; unavailable historical monthly API vintages are not promised",
+    "report_archives": "archive available reports within report-date interval; keep evidenced gaps visible"
+  },
+  "api_inventory_expansion": {
+    "phase_04": [
+      "/api/esr/commodities",
+      "/api/esr/countries",
+      "/api/esr/regions",
+      "/api/esr/unitsOfMeasure",
+      "/api/esr/datareleasedates"
+    ],
+    "phase_05": [
+      "/api/psd/commodities",
+      "/api/psd/countries",
+      "/api/psd/regions",
+      "/api/psd/commodityAttributes",
+      "/api/psd/unitsOfMeasure",
+      "/api/psd/commodity/{commodityCode}/dataReleaseDates"
+    ],
+    "rule": "Authenticated dictionaries expand all ESR commodities and only the three frozen PSD report families. Discover supported periods per series. Retain unmapped required report tables for Phase 06; never silently drop them. Dictionary codes and API response fields remain unverified until their source phases."
+  },
+  "inventory_path": "config/expected_coverage.json",
+  "scope_change_policy": "Log changes in docs/decisions.md, update expected coverage and run affected regression checks."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "family": "world-production",
+    "role": "development",
+    "page": 20,
+    "image": "artifacts/acceptance/phase-06/world-production-development-reference.png",
+    "source": "tests/fixtures/raw/world-production-development.pdf"
+  },
+  {
+    "family": "world-production",
+    "role": "holdout",
+    "page": 22,
+    "image": "artifacts/acceptance/phase-06/world-production-holdout-reference.png",
+    "source": "tests/fixtures/raw/world-production-holdout.pdf"
+  },
+  {
+    "family": "grain-trade",
+    "role": "development",
+    "page": 18,
+    "image": "artifacts/acceptance/phase-06/grain-trade-development-reference.png",
+    "source": "tests/fixtures/raw/grain-trade-development.pdf"
+  },
+  {
+    "family": "grain-trade",
+    "role": "holdout",
+    "page": 20,
+    "image": "artifacts/acceptance/phase-06/grain-trade-holdout-reference.png",
+    "source": "tests/fixtures/raw/grain-trade-holdout.pdf"
+  },
+  {
+    "family": "oilseed-trade",
+    "role": "development",
+    "page": 10,
+    "image": "artifacts/acceptance/phase-06/oilseed-trade-development-reference.png",
+    "source": "tests/fixtures/raw/oilseed-trade-development.pdf"
+  },
+  {
+    "family": "oilseed-trade",
+    "role": "holdout",
+    "page": 10,
+    "image": "artifacts/acceptance/phase-06/oilseed-trade-holdout-reference.png",
+    "source": "tests/fixtures/raw/oilseed-trade-holdout.pdf"
+  }
+]

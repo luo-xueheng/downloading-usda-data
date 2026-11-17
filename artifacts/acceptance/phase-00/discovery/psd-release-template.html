@@ -1,0 +1,58 @@
+﻿<div class="row">
+    <br /><br />
+    <div class="col-sm-2 well well-sm" style="margin-left:30px; line-height:2.0em;cursor:pointer">
+        <div><a ng-click="vm.getReleaseSchedule('all')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'all'"></i> All Commodities </a> </div>
+        <div><a ng-click="vm.getReleaseSchedule('Citrus')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Citrus'"></i> Citrus</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Coffee')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Coffee'"></i> Coffee</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Cotton')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Cotton'"></i> Cotton</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Dairy')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Dairy'"></i> Dairy</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Fresh')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Fresh'"></i> Fresh Deciduous Fruits</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Grains')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Grains'"></i> Grains</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Livestock')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Livestock'"></i> Livestock and Poultry</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Oilseeds')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Oilseeds'"></i> Oilseeds</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Peaches')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Peaches'"></i> Peaches and Cherries</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Raisins')"<i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Raisins'"></i> Raisins</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Sugar')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Sugar'"></i> Sugar</a></div>
+        <div><a ng-click="vm.getReleaseSchedule('Tree')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Tree'"></i> Tree Nuts</a></div>
+        <div style="line-height:1.4em;"><a ng-click="vm.getReleaseSchedule('World')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'World'"></i> World Agricultural Production</a></div>
+    </div>
+    <div class="col-sm-9">
+        <div><a ng-click="vm.download()" class="pull-right" style="cursor:pointer"><i class="glyphicon glyphicon-download">.Download.</i></a></div><br />
+        <div class="headerBox">
+            <div style="padding-left:10px;"><input type="radio" name="filter" value="1" ng-click="vm.regreshSchedule()" ng-model="vm.scheduleType" /> Display upcoming scheduled releases only</div>
+            <div style="padding-left:10px;"><input type="radio" name="filter" value="2" ng-click="vm.regreshSchedule()" ng-model="vm.scheduleType" /> Display all releases scheduled for this calendar year</div>
+        </div><br/>
+        
+        <div class="downloadable">
+            <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                    <tr>
+                        <th style="width:20%">Release Date</th>
+                        <th style="width:15%">Time (EST)</th>
+                        <th style="width:65%"> Release Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="schedule in vm.schedules" style="font-size:small">
+                        <td>{{::schedule.releaseDate | date:'MMM dd, yyyy'}}</td>
+                        <td>{{::schedule.releaseTime}}</td>
+                        <td>{{::schedule.releaseDescription}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

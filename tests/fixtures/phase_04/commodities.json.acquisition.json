@@ -1,0 +1,11 @@
+{
+  "id": "commodities",
+  "url": "https://api.fas.usda.gov/api/esr/commodities",
+  "checked_at_utc": "2026-11-15T12:12:52.961388+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "38449fd690f631f2cabc4cca7373e9923487680ae242efd0ec12a36de49b811b",
+  "bytes": 3264,
+  "record_count": 44
+}

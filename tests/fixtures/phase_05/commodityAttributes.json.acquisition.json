@@ -1,0 +1,11 @@
+{
+  "id": "commodityAttributes",
+  "url": "https://api.fas.usda.gov/api/psd/commodityAttributes",
+  "checked_at_utc": "2026-11-15T13:20:06.475451+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "79ecb2941fada69c78702794b83cd8d928d58fd7ac2b8118f80536c0185b3f3c",
+  "bytes": 4669,
+  "record_count": 85
+}

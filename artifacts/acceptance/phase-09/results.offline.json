@@ -1,0 +1,107 @@
+[
+  {
+    "phase_id": "09",
+    "test_id": "P09-A1",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_required_inventory_has_no_unresolved_partitions: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Expected partitions equal succeeded plus evidenced source-unavailable partitions. Pending, failed, unexplained missing, and silently dropped partitions are all zero.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A2",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_every_full_export_validated: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Full-table validation finds zero unexplained duplicate keys, missing required dimensions, unknown units, and unaccounted parser losses.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A3",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "2 selected tests; tests/phase_09/test_backfill_gates.py::test_frozen_independent_audits_and_complete_export_linkage: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]; tests/phase_09/test_backfill_gates.py::test_additional_references_are_distinct_from_development_cells: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "At least 20 additional independently checked numeric cells per dataset, distinct from development references, pass; minimum 140 checks across the seven datasets. Selection is stratified and frozen before inspecting results.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A4",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_source_coverage_boundaries_and_gaps_reconciled: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Earliest/latest coverage and every gap are reconciled with the source inventory. An API's lack of historical vintages is reported separately from availability of historical observation years.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A5",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_full_manifest_and_real_subset_resume: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Full exports reference exact partition hashes and versions; repeated unchanged processing and subset resume produce identical canonical business data, ignoring run timestamps.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A6",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_full_validation_memory_and_small_chunk_invariance: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "Memory use remains within a documented configured budget by partitioning/chunking; a deliberately small test chunk size changes neither counts nor values.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  },
+  {
+    "phase_id": "09",
+    "test_id": "P09-A7",
+    "mode": "offline",
+    "status": "pass",
+    "observed_result": "1 selected tests; tests/phase_09/test_backfill_gates.py::test_all_report_candidates_and_table_maps: [{'when': 'setup', 'outcome': 'passed'}, {'when': 'call', 'outcome': 'passed'}, {'when': 'teardown', 'outcome': 'passed'}]",
+    "expected_result": "All three FAS report families have attachment inventories and structured coverage maps across observed layout families; unresolved available required tables are zero.",
+    "evidence_path": "artifacts/acceptance/phase-09",
+    "code_version": {
+      "git_revision": "726fa52aab88f187fd28d742277b918a26821785",
+      "source_tree_sha256": "42fc05c3e0d2a60d7f2a4ffea33912fec39b805853da8b2793a191b2c68b2fd3"
+    },
+    "configuration_hash": "a42dbeefc47a177833442c757a2198b38b92e3dd334bfe76d78183b288fad26d",
+    "executed_at_utc": "2026-11-16T17:32:17.208503+00:00"
+  }
+]

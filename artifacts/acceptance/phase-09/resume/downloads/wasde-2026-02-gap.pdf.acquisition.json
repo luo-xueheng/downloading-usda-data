@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/795765/wasde0226.pdf",
+  "format": "pdf",
+  "path": "artifacts/acceptance/phase-09/resume/downloads/wasde-2026-02-gap.pdf",
+  "checked_at_utc": "2026-11-16T15:28:06.971763+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 10 Feb 2026 17:00:31 GMT",
+  "sha256": "9686e73678add1536d252e2c1245b722c4c9ca4fa9f3f7a8789494d2f2fd737b",
+  "bytes": 1420027,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/795765/wasde0226.pdf"
+}

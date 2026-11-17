@@ -1,0 +1,12 @@
+{
+  "id": "4987-hogs-farrow-feeder.xlsx",
+  "url": "https://www.ers.usda.gov/media/4987/hogs-farrow-feeder.xlsx?v=28043",
+  "path": "tests/fixtures/phase_03/4987-hogs-farrow-feeder.xlsx",
+  "checked_at_utc": "2026-11-15T11:12:20.834997+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4987/hogs-farrow-feeder.xlsx?v=28043",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "sha256": "f252250d01c33c3bb83a2df229e319a34042bd265cee33b2fdf6029c54a249d5",
+  "bytes": 100991
+}

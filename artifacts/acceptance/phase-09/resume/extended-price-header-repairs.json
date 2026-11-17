@@ -1,0 +1,13 @@
+{
+  "source_periods": [
+    "2022-11",
+    "2022-12",
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04"
+  ],
+  "independent_correct_header_source": "807f50c06b3bd83af318469e8cef313845a7069e0a18fb7c843e2c4fe9b87976",
+  "matching_original_october_values": "Oct 1,602 1,279 1,292 1,568 2,429 2,067 1,353 2,375 1,995 901 1,370 1,105 1,442",
+  "rule": "Only the exact defective artifact, repeated source header and exact full first-row match qualify; numeric values are never edited."
+}

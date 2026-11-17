@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/zs25x844t/p2676v85x/q524jp21g/grain-market-05-12-2015.pdf",
+  "format": "pdf",
+  "path": "artifacts/acceptance/phase-09/resume/downloads/esmis-grain-trade-2015-05.pdf",
+  "checked_at_utc": "2026-11-16T12:20:27.917818+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Thu, 13 Sep 2018 02:15:41 GMT",
+  "sha256": "ff9ed02160fdba9bca44712ba5b5384190f984d70be8f7a3aa343e3b653603d1",
+  "bytes": 1683855,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/zs25x844t/p2676v85x/q524jp21g/grain-market-05-12-2015.pdf"
+}

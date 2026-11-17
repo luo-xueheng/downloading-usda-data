@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wasde-history-canonical",
+    "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report/historical-wasde-report-data",
+    "path": "artifacts/acceptance/phase-00/discovery/wasde-history-canonical.html"
+  },
+  {
+    "id": "psd-app",
+    "url": "https://apps.fas.usda.gov/psdonline/app/applicationJs?v=05132016",
+    "path": "artifacts/acceptance/phase-00/discovery/psd-app.js"
+  },
+  {
+    "id": "psd-services",
+    "url": "https://apps.fas.usda.gov/psdonline/app/applicationServicesJs?v=05132016",
+    "path": "artifacts/acceptance/phase-00/discovery/psd-services.js"
+  }
+]

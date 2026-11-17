@@ -1,0 +1,21 @@
+{
+  "migrations": [
+    {
+      "id": "rma-raw-record-description-v3",
+      "dataset": "rma-sob",
+      "source_schema_sha256": [
+        "5debb9678c19b79dd53790d08b61b31ef0db032526906f35e72f01cecb99d643",
+        "85f3cf40b367b5350f2404d39f8535364c7adfd26b8622bb044d25115f7ab5bc"
+      ],
+      "target_schema_path": "schemas/rma_sob.v3.json",
+      "target_schema_sha256": "4bf8f395bfc592fc3994e04e433c670e4faae9879cd16b942d3551348a49f553",
+      "allowed_difference": {
+        "field": "raw_record",
+        "property": "meaning"
+      },
+      "reason": "Early annual exports predate the explicit documentation of source NUL escaping introduced for CLIP rows. Both schemas have identical types, keys, nullability, source mappings and units. Version 3 consolidates the description; original partition schemas and CSV bytes are retained unchanged. The source ZIP always preserves exact bytes.",
+      "value_transform": "none",
+      "input_snapshots_preserved": true
+    }
+  ]
+}

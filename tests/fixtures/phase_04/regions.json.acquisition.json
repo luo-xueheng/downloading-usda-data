@@ -1,0 +1,11 @@
+{
+  "id": "regions",
+  "url": "https://api.fas.usda.gov/api/esr/regions",
+  "checked_at_utc": "2026-11-15T12:12:54.360212+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "db298df4fe7e7407e4604d09149c3c88c9ffe540d33da9fd17bf38c75dc70985",
+  "bytes": 517,
+  "record_count": 12
+}

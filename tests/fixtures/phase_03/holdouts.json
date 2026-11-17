@@ -1,0 +1,8 @@
+{
+  "selected_before_adapter": true,
+  "artifacts": [
+    "tests/fixtures/phase_03/4928-southeast-1975-95.xls",
+    "tests/fixtures/raw/ers-holdout.csv"
+  ],
+  "first_adapter_run": "not_run"
+}

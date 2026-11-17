@@ -1,0 +1,12 @@
+{
+  "id": "4930-southeast-1975-96.xls",
+  "url": "https://www.ers.usda.gov/media/4930/southeast-1975-96.xls?v=45294",
+  "path": "tests/fixtures/phase_03/4930-southeast-1975-96.xls",
+  "checked_at_utc": "2026-11-15T11:12:29.936923+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4930/southeast-1975-96.xls?v=45294",
+  "content_type": "application/vnd.ms-excel",
+  "last_modified": null,
+  "sha256": "271cbd2945165b8a99c1a23e276cc24dce4d11cfe4b1b1af3e6477de3247d848",
+  "bytes": 34304
+}

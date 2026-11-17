@@ -1,0 +1,26 @@
+[
+  {
+    "id": "grain-trade-11102026",
+    "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-11102026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/grain-trade-11102026.html"
+  },
+  {
+    "id": "grain-trade-10092026",
+    "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-10092026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/grain-trade-10092026.html"
+  },
+  {
+    "id": "oilseed-trade-11102026",
+    "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-11102026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/oilseed-trade-11102026.html"
+  },
+  {
+    "id": "oilseed-trade-10092026",
+    "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-10092026",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-06/discovery/oilseed-trade-10092026.html"
+  }
+]

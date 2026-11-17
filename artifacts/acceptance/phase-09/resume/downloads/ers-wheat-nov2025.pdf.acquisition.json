@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/cz30ps64c/td96n225z/j9604179v/WHS-25i.pdf",
+  "format": "pdf",
+  "path": "artifacts/acceptance/phase-09/resume/downloads/ers-wheat-nov2025.pdf",
+  "checked_at_utc": "2026-11-16T15:57:33.942972+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 16 Sep 2025 20:00:53 GMT",
+  "sha256": "6ddd486b0d31e7e9caeafc7ac5ef4af8ae775e12585fe3a5436f57436a5a5fcb",
+  "bytes": 391544,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/cz30ps64c/td96n225z/j9604179v/WHS-25i.pdf"
+}

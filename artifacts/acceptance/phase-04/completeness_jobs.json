@@ -1,0 +1,10 @@
+[
+  {
+    "id": "country-401-1220-2026",
+    "path": "/api/esr/exports/commodityCode/401/countryCode/1220/marketYear/2026"
+  },
+  {
+    "id": "country-801-2010-2025",
+    "path": "/api/esr/exports/commodityCode/801/countryCode/2010/marketYear/2025"
+  }
+]

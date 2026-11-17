@@ -1,0 +1,11 @@
+{
+  "id": "country-0440000-US-2025",
+  "url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/US/year/2025",
+  "checked_at_utc": "2026-11-15T13:24:58.526701+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "a76780997a2fc69e915f6d6961fd160a2398aa35dad6bbcc268088705f3b6a84",
+  "bytes": 2238,
+  "record_count": 15
+}

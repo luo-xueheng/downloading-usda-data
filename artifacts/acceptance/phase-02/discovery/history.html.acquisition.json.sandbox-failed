@@ -1,0 +1,10 @@
+{
+  "id": "wasde-history-discovery",
+  "url": "https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report/historical-wasde-report-data",
+  "path": "artifacts/acceptance/phase-02/discovery/history.html",
+  "checked_at_utc": "2026-11-15T06:57:41.183571+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 1] Operation not permitted>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

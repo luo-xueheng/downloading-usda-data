@@ -1,0 +1,268 @@
+{
+  "name": "fas_report_observations",
+  "version": "1",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "report_family",
+      "type": "string",
+      "nullable": false,
+      "meaning": "report family",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "report_period",
+      "type": "string",
+      "nullable": false,
+      "meaning": "report period",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "table_title",
+      "type": "string",
+      "nullable": false,
+      "meaning": "table title",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "section_label",
+      "type": "string",
+      "nullable": false,
+      "meaning": "section label",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "section_product_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "section product type",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "row_label",
+      "type": "string",
+      "nullable": false,
+      "meaning": "row label",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "column_commodity",
+      "type": "string",
+      "nullable": false,
+      "meaning": "column commodity",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "indicator",
+      "type": "string",
+      "nullable": false,
+      "meaning": "indicator",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "period_label",
+      "type": "string",
+      "nullable": false,
+      "meaning": "period label",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "comparison_label",
+      "type": "string",
+      "nullable": false,
+      "meaning": "comparison label",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "nullable": false,
+      "meaning": "unit",
+      "source_mapping": "original report table labels / documented whitespace normalization",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "value",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Exact displayed report value",
+      "source_mapping": "numeric cell",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_value",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original displayed number or missing marker",
+      "source_mapping": "numeric cell",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "value_status",
+      "type": "string",
+      "nullable": false,
+      "meaning": "reported, not_reported or not_applicable",
+      "source_mapping": "source marker",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "period_basis",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original table period definition, including MY versus TY",
+      "source_mapping": "table caption and notes",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "table_metadata_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Hash of complete header/notes/mapping metadata; does not replace business dimensions",
+      "source_mapping": "table metadata archive",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_page",
+      "type": "integer",
+      "nullable": false,
+      "meaning": "First source page of this observation",
+      "source_mapping": "PDF page",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_occurrences",
+      "type": "integer",
+      "nullable": false,
+      "meaning": "Number of explicitly investigated identical repeated source cells",
+      "source_mapping": "source duplicate accounting",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_locations",
+      "type": "string",
+      "nullable": false,
+      "meaning": "All physical source locators and lexical values for repeated cells",
+      "source_mapping": "PDF table positions",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_date",
+      "type": "date",
+      "nullable": true,
+      "meaning": "Official exact publication date when independently verified; otherwise null",
+      "source_mapping": "report discovery metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_at_utc",
+      "type": "datetime",
+      "nullable": true,
+      "meaning": "No exact publication clock inferred",
+      "source_mapping": "source metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "release_time_precision",
+      "type": "string",
+      "nullable": false,
+      "meaning": "day when verified, otherwise month",
+      "source_mapping": "embedded month/date evidence",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "retrieved_at_utc",
+      "type": "datetime",
+      "nullable": false,
+      "meaning": "Artifact capture time",
+      "source_mapping": "acquisition receipt",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_artifact_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original PDF bytes SHA256",
+      "source_mapping": "raw archive",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "snapshot_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Parser/schema/config/source identity",
+      "source_mapping": "normalized manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "vintage_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "report_vintage, never current API relabelled as historical",
+      "source_mapping": "source PDF",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

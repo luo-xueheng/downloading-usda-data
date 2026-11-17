@@ -1,0 +1,38 @@
+{
+  "world-production": {
+    "2026-10": {
+      "url": "https://www.fas.usda.gov/data/world-agricultural-production-10092026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/production-10092026.html",
+      "sha256": "d1f4d90434b99aa3ca1be617e0ed225c273c32c3bc46a9681b97adbed38c5e37"
+    },
+    "2026-11": {
+      "url": "https://www.fas.usda.gov/data/world-agricultural-production-11102026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/production-11102026.html",
+      "sha256": "e73274fdc4553596d842c9a2ec428a9cb5554e8b55bbf403b5f6d0167d648b09"
+    }
+  },
+  "grain-trade": {
+    "2026-10": {
+      "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-10092026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/grain-trade-10092026.html",
+      "sha256": "7fb6da8f82c7b28e8819f4cc05470da1e61aecc5125ecaa66722e5603d40bed9"
+    },
+    "2026-11": {
+      "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-11102026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/grain-trade-11102026.html",
+      "sha256": "e51e9a206b9e86a90ea18118681c64b68992de8cf993500ba7ed5697477cc1e9"
+    }
+  },
+  "oilseed-trade": {
+    "2026-10": {
+      "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-10092026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/oilseed-trade-10092026.html",
+      "sha256": "9646ff377471c7fb22510df0e03297c2006161a12f53063b50e87bb5bf9accf8"
+    },
+    "2026-11": {
+      "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-11102026",
+      "discovery_evidence": "artifacts/acceptance/phase-06/discovery/oilseed-trade-11102026.html",
+      "sha256": "a9ce7bcfff192b4c098db5c0a00a3949602f49559e78c9b9e9224be1f30e1c4f"
+    }
+  }
+}

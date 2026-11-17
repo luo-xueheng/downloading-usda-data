@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://esmis.nal.usda.gov/publication/world-agricultural-production?date=2016-06",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/resume/esmis-world-production-2016-06.html"
+  },
+  {
+    "url": "https://esmis.nal.usda.gov/publication/world-agricultural-production?date=2025-10",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/resume/esmis-world-production-2025-10.html"
+  }
+]

@@ -1,0 +1,1815 @@
+{
+  "tables": [
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 4,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "trade-outlook-changes",
+      "input_cells": 15,
+      "metadata_id": "62e9764522be1de3f4f455c7c9cef7ad238795a4aa8d249dc701c3216177a8ef"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 5,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "trade-outlook-changes",
+      "input_cells": 21,
+      "metadata_id": "88f5ab4b538f33c28ee522268bacbc1f7d24ba15a5cdd79d83f42e9b8694fb07"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "2025/26 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 5,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "trade-outlook-changes",
+      "input_cells": 48,
+      "metadata_id": "c5273cf92e280e58a225d88963ad1914ec8c8ea4b1fe9419a9fdc6f5f2ff2c03"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)",
+      "source_page": 10,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 240,
+      "metadata_id": "5b013272b25709124eccb87ade4ca78f6981fa178c9a8c7f8d2df830314b5ffa"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 02: Major Protein Meals: World Supply and Distribution (Commodity View)",
+      "source_page": 11,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 270,
+      "metadata_id": "7ec23d75b89063a83593b4fa5c0228e1c23d052dd0103a67e0f9bc9124b7f1ef"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 03: Major Vegetable Oils: World Supply and Distribution (Commodity View)",
+      "source_page": 12,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 300,
+      "metadata_id": "7be9b5bf2ab9595385b4571b4d669bddeb091a3f634bec56a5bd979a8c265788"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 04: Major Oilseeds: World Supply and Distribution (Country View)",
+      "source_page": 13,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 312,
+      "metadata_id": "87c51931c1d2df71e94648b525c6b1f64b3d64005757d200da31512b7e8f218c"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 05: Major Protein Meals: World Supply and Distribution (Country View)",
+      "source_page": 14,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 318,
+      "metadata_id": "1da4c7067f4fc91ab4f950b37039b7ddc7e19169eee1126eb497041f958d7aaa"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 06: Major Vegetable Oils: World Supply and Distribution (Country View)",
+      "source_page": 15,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 324,
+      "metadata_id": "3d7b8a746b1edef48c5419f38e1b7ea0912e4c1263d112453b745f7c25b92b43"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 07: Soybeans: World Supply and Distribution",
+      "source_page": 16,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 312,
+      "metadata_id": "338f7e334c23167e8d4ca7313bb06879d480e20072995246340e4d309d73a90f"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 08: Soybean Meal: World Supply and Distribution",
+      "source_page": 17,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 312,
+      "metadata_id": "41ec6308f9215f0f73bf87c5591f7f4e4b1cff79fb1b75bbbd3af3648206fb0e"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 09: Soybean Oil: World Supply and Distribution",
+      "source_page": 18,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 324,
+      "metadata_id": "226210177ff2671a240a496ec5c9051e8c81c1e3b868631f08622dce4df5418a"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 10: Soybeans and Products: World Trade",
+      "source_page": 19,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-9",
+      "input_cells": 378,
+      "metadata_id": "2202d85f3d5efadbae00bda51e076012a9f8fc23894a498fa38f01a6f9ff30ca"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 11: Palm Oil: World Supply and Distribution",
+      "source_page": 20,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 300,
+      "metadata_id": "e7ad06c252309f9f109b9a5b02ddee3383c210d5c73283b47214cc554bd03ce6"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 12: Rapeseed and Products: World Supply and Distribution",
+      "source_page": 21,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-9",
+      "input_cells": 315,
+      "metadata_id": "638a1339cdf8b90cb0435f604919ae241749a3aa7bd4ce1a6e96f0a78eb46dba"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 13: Sunflowerseed and Products: World Supply and Distribution",
+      "source_page": 22,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-9",
+      "input_cells": 315,
+      "metadata_id": "520774349f20b18e14da3d83b2f54d3742d0af2a362cfd5404b810ff021fe9c2"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 14: Minor Vegetable Oils: World Supply and Distribution",
+      "source_page": 23,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-9",
+      "input_cells": 315,
+      "metadata_id": "5e41eee1318b8dd83a9ea228c55aafe370d7c0668db6654dececa5127c9b8564"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 15: World Oilseeds and Products Supply and Distribution",
+      "source_page": 24,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "9e11f0617693dba447f64051263a6f1c785eff743d57e788fe26259051ea70e9"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 16: World Soybeans and Products Supply and Distribution",
+      "source_page": 25,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "02495d51df05e451f5e4fda70f5e260b7d37372d22bf31147a6341e4e29e4675"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 17: World Rapeseed and Products Supply and Distribution",
+      "source_page": 26,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "edcb79756f33294adc6a05be9435a62df83be8be9704418776498bbf73c5126e"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 18: World Sunflower and Products Supply and Distribution",
+      "source_page": 27,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 336,
+      "metadata_id": "b86218e60dacc2c45879ee3f1a5db33d255c29895ccc49cc6dedf93e4b9c08ad"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 19: World Palm Oil, Coconut Oil, and Fish Meal Supply and Distribution",
+      "source_page": 28,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "cb1fe22d27a0954d4525e3384acc6fd9841d84e6ab017fac569ab6888b659f74"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 20: United States Oilseeds and Products Supply and Distribution Local Marketing Year",
+      "source_page": 29,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "386cc74d29232eb0fe552681370b60ed10f24a3f88b4649976d19e232f676441"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 21: United States Soybeans and Products Supply and Distribution (Sep-Aug)",
+      "source_page": 30,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "f421ef11160a531b4567bca2db45f7eaf3dfd5c694865f77332760aaea26729d"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 22: Brazil Soybeans and Products Supply and Distribution Local Marketing Years (Jan-Dec)",
+      "source_page": 31,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "7f4b51e259fbbd1ca891c1ccc2ef3c915e12caff28b18d82388d73482a4ee61b"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 23: Argentina Soybeans and Products Supply and Distribution Local Marketing Years (Apr-Mar)",
+      "source_page": 32,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "historical-attribute-columns",
+      "input_cells": 378,
+      "metadata_id": "475d04e1762a6e92610051dd0a52cfd12fe7e945f72e3bee49b7ade4247cf9b5"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 24: South East Asia Oilseeds and Products Supply and Distribution",
+      "source_page": 33,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 264,
+      "metadata_id": "edb372b7de2f31a6c86a2f63204e668432db79ebcbf5b2e627631f69a31e4b4f"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 25: Middle East Oilseeds and Products Supply and Distribution",
+      "source_page": 34,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 270,
+      "metadata_id": "8edc1c096a88b92d1a953b1bd57bba1d13b1665a4c1922a2818b68b621042ab1"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 26: European Union Oilseeds and Products Supply and Distribution",
+      "source_page": 35,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 264,
+      "metadata_id": "74bf7dbc7b792379bb685e30124121cd12e421fcec1ad935114cfe954ca2e930"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 27: China Oilseeds and Products Supply and Distribution",
+      "source_page": 36,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 258,
+      "metadata_id": "29b6b6d575ac0c3bce73d86a902add44c3f65d382e1966f0d70e136f92445383"
+    },
+    {
+      "report_family": "oilseed-trade",
+      "report_period": "2026-11",
+      "table_title": "Table 28: India Oilseeds and Products Supply and Distribution",
+      "source_page": 37,
+      "required": true,
+      "status": "separate_extraction",
+      "layout": "year-columns-6",
+      "input_cells": 246,
+      "metadata_id": "a1cb994e011335c5012b477b0d8dc3d5e74992bec160e829f13be581457f5db0"
+    }
+  ],
+  "input_cells": 9081,
+  "unique_cells": 9063,
+  "duplicate_cells": 18,
+  "duplicate_evidence": [
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "1,448"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "1,448"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "1,462"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "1,462"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "1,350"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "1,350"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "550"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "550"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "476"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "476"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "575"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "575"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "250"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "250"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "365"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "365"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Canada (Aug-Jul)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 26,
+          "raw_value": "380"
+        },
+        {
+          "page": 19,
+          "line": 28,
+          "raw_value": "380"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "5"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "5"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "4"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "4"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Meal, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "10"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "10"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "85"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "85"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "80"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "80"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oil, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "100"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "100"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2024/25",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "731"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "731"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2025/26",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "1,053"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "1,053"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    },
+    {
+      "business_key": {
+        "report_family": "oilseed-trade",
+        "report_period": "2026-11",
+        "table_title": "Table 10: Soybeans and Products: World Trade",
+        "section_label": "Imports",
+        "section_product_type": "not_applicable",
+        "row_label": "Brazil (Oct-Sep)",
+        "column_commodity": "Oilseed, Soybean",
+        "indicator": "Imports",
+        "period_label": "2026/27",
+        "comparison_label": "not_applicable",
+        "unit": "Thousand Metric Tons"
+      },
+      "locations": [
+        {
+          "page": 19,
+          "line": 32,
+          "raw_value": "1,000"
+        },
+        {
+          "page": 19,
+          "line": 34,
+          "raw_value": "1,000"
+        }
+      ],
+      "reason": "Same dimensions and same displayed value repeat in original PDF; one business cell with all source occurrences retained."
+    }
+  ],
+  "excluded_lines": [
+    {
+      "page": 9,
+      "reason": "Continuation of printed table of contents; actual required numerical tables are verified separately"
+    },
+    {
+      "page": 10,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 15,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 25,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 35,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 45,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 55,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 56,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 10,
+      "line": 57,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 16,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 27,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 38,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 49,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 60,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 61,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 11,
+      "line": 62,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 17,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 29,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 41,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 53,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 12,
+      "line": 67,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 13,
+      "line": 62,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 13,
+      "line": 63,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 13,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 14,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 14,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 14,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 15,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 15,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 15,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 16,
+      "line": 62,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 16,
+      "line": 63,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 16,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 16,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 17,
+      "line": 62,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 17,
+      "line": 63,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 17,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 17,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 18,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 18,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 18,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 18,
+      "line": 67,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 19,
+      "line": 49,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 19,
+      "line": 50,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 20,
+      "line": 60,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 20,
+      "line": 61,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 21,
+      "line": 45,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 21,
+      "line": 46,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 22,
+      "line": 45,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 22,
+      "line": 46,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 23,
+      "line": 45,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 23,
+      "line": 46,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 24,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 24,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 24,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 25,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 25,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 25,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 26,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 26,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 26,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 27,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 27,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 27,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 28,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 28,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 28,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 29,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 29,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 29,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 30,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 30,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 30,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 30,
+      "line": 53,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 31,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 31,
+      "line": 51,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 31,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 31,
+      "line": 53,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 32,
+      "line": 50,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 32,
+      "line": 51,
+      "reason": "continuation of explicit marketing-year definition footnote"
+    },
+    {
+      "page": 32,
+      "line": 52,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 32,
+      "line": 53,
+      "reason": "header, source note or footer"
+    },
+    {
+      "page": 33,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 12,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 19,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 26,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 33,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 41,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 49,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 57,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 67,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 33,
+      "line": 68,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 13,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 20,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 27,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 34,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 42,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 50,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 58,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 67,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 68,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 34,
+      "line": 69,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 12,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 19,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 26,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 33,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 41,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 49,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 57,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 65,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 66,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 67,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 68,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 35,
+      "line": 69,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 13,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 21,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 28,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 35,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 44,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 53,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 62,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 63,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 36,
+      "line": 64,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 5,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 14,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 21,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 28,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 38,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 48,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 58,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 59,
+      "reason": "header, grouping label, note or footer"
+    },
+    {
+      "page": 37,
+      "line": 60,
+      "reason": "header, grouping label, note or footer"
+    }
+  ],
+  "metadata": {
+    "62e9764522be1de3f4f455c7c9cef7ad238795a4aa8d249dc701c3216177a8ef": {
+      "mapping_notes": {},
+      "title": "2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 4,
+      "layout": "trade-outlook-changes",
+      "complete_source_text": "450\n400\n350\n300\n250\nSource: International Grains Council\nSource: International Grains Council\n2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)\nCountry Commodity Attribute Previous Current Change Reason\nOilseed, Raised in line\nAlgeria Imports 2,600 2,900 300\nSoybean with prior year\nOilseed, Strong October\nArgentina Exports 6,450 6,750 300\nSoybean exports\nOilseed,\nAustralia Exports 6,000 6,500 500 Crop increase\nRapeseed\nMeal, Soybean Exports 27,100 27,300 200 Strong October\nBrazil\nOil, Soybean Exports 1,700 1,900 200 exports\nnot/$SU\nSOYBEAN MEAL EXPORT PRICES\nArgentina (Up River) Brazil (Paranagua) U.S. (Gulf)\n1,800\n1,700\n1,600\n1,500\n1,400\n1,300\n1,200\n1,100\n1,000\n900\nnot/$SU\nSOYBEAN AND PALM OIL EXPORT PRICES\nArgentina (Up River) Soy Oil Brazil (Paranagua) Soy Oil U.S. (Gulf) Soy Oil\nIndonesia Palm Oil Malaysia Palm Oil\nForeign Agricultural Service/USDA 4 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "88f5ab4b538f33c28ee522268bacbc1f7d24ba15a5cdd79d83f42e9b8694fb07": {
+      "mapping_notes": {},
+      "title": "2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 5,
+      "layout": "trade-outlook-changes",
+      "complete_source_text": "Meal, Reduced trade\nChina Imports 3,150 3,000 -150\nSunflowerseed with Russia\nIncreased\nEuropean Oilseed,\nImports 6,550 7,050 500 Australia\nUnion Rapeseed\nsupplies\nMeal,\nExports 2,800 2,550 -250 Smaller\nSunflowerseed\nRussia sunflowerseed\nOil,\nExports 5,100 4,850 -250 crop\nSunflowerseed\nMeal, Soybean Exports 1,250 1,100 -150\nSmaller soybean\nUkraine Oilseed,\nExports 2,250 1,950 -300 crop\nSoybean\nUnited Oilseed, Higher\nExports 46,130 46,811 681\nStates Soybean production\n2025/26 OUTLOOK CHANGES (All figures are in thousand metric tons) \u2013 Changes based\non trade pace to date\nCountry Commodity Attribute Previous Current Change\nOilseed,\nAlgeria Imports 2,250 2,565 315\nSoybean\nBrazil Meal, Soybean Exports 25,511 25,321 -190\nChina Meal, Rapeseed Imports 3,200 3,394 194\nOilseed,\nIndia Imports 1,000 1,200 200\nSoybean\nMeal, Soybean Imports 6,600 6,957 357\nIndonesia Oil, Coconut Exports 630 780 150\nOil, Palm Exports 23,800 25,031 1,231\nMeal, Soybean Imports 500 700 200\nIraq Oilseed,\nImports 650 475 -175\nSoybean\nOilseed,\nJapan Imports 3,200 3,374 174\nSoybean\nMeal, Palm\nExports 2,480 2,638 158\nMalaysia Kernel\nOil, Palm Exports 16,100 15,709 -391\nOilseed,\nPakistan Imports 3,200 3,367 167\nSoybean\nTurkey Meal, Soybean Imports 2,500 2,316 -184\nUnited\nMeal, Soybean Exports 18,597 18,418 -179\nStates\nOilseed,\nUruguay Exports 2,100 2,250 150\nSoybean\nForeign Agricult ural Service/USDA 5 No vember 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "c5273cf92e280e58a225d88963ad1914ec8c8ea4b1fe9419a9fdc6f5f2ff2c03": {
+      "mapping_notes": {},
+      "title": "2025/26 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "source_page": 5,
+      "layout": "trade-outlook-changes",
+      "complete_source_text": "Meal, Reduced trade\nChina Imports 3,150 3,000 -150\nSunflowerseed with Russia\nIncreased\nEuropean Oilseed,\nImports 6,550 7,050 500 Australia\nUnion Rapeseed\nsupplies\nMeal,\nExports 2,800 2,550 -250 Smaller\nSunflowerseed\nRussia sunflowerseed\nOil,\nExports 5,100 4,850 -250 crop\nSunflowerseed\nMeal, Soybean Exports 1,250 1,100 -150\nSmaller soybean\nUkraine Oilseed,\nExports 2,250 1,950 -300 crop\nSoybean\nUnited Oilseed, Higher\nExports 46,130 46,811 681\nStates Soybean production\n2025/26 OUTLOOK CHANGES (All figures are in thousand metric tons) \u2013 Changes based\non trade pace to date\nCountry Commodity Attribute Previous Current Change\nOilseed,\nAlgeria Imports 2,250 2,565 315\nSoybean\nBrazil Meal, Soybean Exports 25,511 25,321 -190\nChina Meal, Rapeseed Imports 3,200 3,394 194\nOilseed,\nIndia Imports 1,000 1,200 200\nSoybean\nMeal, Soybean Imports 6,600 6,957 357\nIndonesia Oil, Coconut Exports 630 780 150\nOil, Palm Exports 23,800 25,031 1,231\nMeal, Soybean Imports 500 700 200\nIraq Oilseed,\nImports 650 475 -175\nSoybean\nOilseed,\nJapan Imports 3,200 3,374 174\nSoybean\nMeal, Palm\nExports 2,480 2,638 158\nMalaysia Kernel\nOil, Palm Exports 16,100 15,709 -391\nOilseed,\nPakistan Imports 3,200 3,367 167\nSoybean\nTurkey Meal, Soybean Imports 2,500 2,316 -184\nUnited\nMeal, Soybean Exports 18,597 18,418 -179\nStates\nOilseed,\nUruguay Exports 2,100 2,250 150\nSoybean\nForeign Agricult ural Service/USDA 5 No vember 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "5b013272b25709124eccb87ade4ca78f6981fa178c9a8c7f8d2df830314b5ffa": {
+      "mapping_notes": {},
+      "title": "Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)",
+      "source_page": 10,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Copra 6.05 6.27 6.12 5.92 5.96 5.96\nOilseed, Cottonseed 40.31 39.53 41.24 42.18 39.77 39.54\nOilseed, Palm Kernel 19.78 19.56 20.33 21.33 20.47 20.47\nOilseed, Peanut 49.81 50.00 51.85 51.22 50.11 50.02\nOilseed, Rapeseed 89.86 89.97 86.28 96.04 99.57 100.25\nOilseed, Soybean 378.21 396.54 428.23 429.26 442.70 442.50\nOilseed, Sunflowerseed 52.78 55.93 53.01 55.34 63.62 63.16\nTotal 636.79 657.80 687.06 701.28 722.20 721.90\nnone\nImports none\nOilseed, Copra 0.08 0.08 0.09 0.13 0.10 0.11\nOilseed, Cottonseed 1.37 1.19 0.93 0.83 0.89 0.89\nOilseed, Palm Kernel 0.16 0.19 0.22 0.31 0.21 0.21\nOilseed, Peanut 4.18 4.10 3.73 3.98 4.16 4.16\nOilseed, Rapeseed 20.07 18.26 20.06 18.44 19.66 20.20\nOilseed, Soybean 168.50 178.50 179.15 189.39 190.82 191.38\nOilseed, Sunflowerseed 3.77 2.54 2.61 4.38 3.50 3.49\nTotal 198.12 204.85 206.78 217.46 219.33 220.42\nnone\nExports none\nOilseed, Copra 0.10 0.09 0.08 0.13 0.08 0.10\nOilseed, Cottonseed 1.11 1.21 0.92 1.31 0.89 0.93\nOilseed, Palm Kernel 0.06 0.09 0.17 0.15 0.11 0.11\nOilseed, Peanut 4.85 4.80 4.66 5.06 4.60 4.62\nOilseed, Rapeseed 19.84 18.56 19.81 19.35 19.98 20.56\nOilseed, Soybean 171.76 177.85 184.33 186.63 192.00 192.55\nOilseed, Sunflowerseed 4.02 2.72 3.37 4.32 3.96 3.89\nTotal 201.74 205.31 213.33 216.94 221.62 222.76\nnone\nCrush none\nOilseed, Copra 5.90 6.18 6.06 5.86 5.91 5.89\nOilseed, Cottonseed 30.21 31.43 31.27 31.24 30.00 29.80\nOilseed, Palm Kernel 19.77 19.43 20.19 21.23 20.51 20.51\nOilseed, Peanut 19.08 18.44 19.35 19.25 19.42 19.42\nOilseed, Rapeseed 82.11 84.68 84.63 90.13 93.81 94.24\nOilseed, Soybean 315.84 331.27 359.23 376.33 385.71 386.24\nOilseed, Sunflowerseed 51.36 52.26 48.26 49.99 56.53 56.18\nTotal 524.26 543.69 568.99 594.04 611.89 612.28\nnone\nEnding Stocks none\nOilseed, Copra 0.07 0.06 0.06 0.05 0.05 0.05\nOilseed, Cottonseed 1.47 1.65 1.58 1.50 1.51 1.47\nOilseed, Palm Kernel 0.29 0.32 0.32 0.43 0.31 0.32\nOilseed, Peanut 4.32 3.85 4.04 4.56 4.05 3.98\nOilseed, Rapeseed 10.91 11.87 9.94 10.96 11.60 11.84\nOilseed, Soybean 101.77 115.09 126.01 124.98 124.28 123.50\nOilseed, Sunflowerseed 4.12 3.20 2.55 3.09 4.51 4.50\nTotal 122.94 136.04 144.50 145.56 146.31 145.65\nTotals may not add due to rounding\nForeign Agricultural Service/USDA 10 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "7ec23d75b89063a83593b4fa5c0228e1c23d052dd0103a67e0f9bc9124b7f1ef": {
+      "mapping_notes": {},
+      "title": "Table 02: Major Protein Meals: World Supply and Distribution (Commodity View)",
+      "source_page": 11,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 02: Major Protein Meals: World Supply and Distribution (Commodity View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nMeal, Copra 1.96 2.05 2.01 1.92 1.97 1.96\nMeal, Cottonseed 13.92 14.46 14.41 14.35 13.75 13.65\nMeal, Fish 4.54 5.14 5.28 5.31 nr nr\nMeal, Palm Kernel 10.28 10.06 10.56 11.14 10.67 10.77\nMeal, Peanut 7.62 7.38 7.78 7.74 7.80 7.80\nMeal, Rapeseed 47.81 49.21 49.30 52.41 54.41 54.69\nMeal, Soybean 248.44 259.88 281.81 294.06 302.40 302.61\nMeal, Sunflowerseed 23.05 23.24 21.41 22.30 25.17 25.03\nTotal 357.62 371.40 392.55 409.23 416.17 416.49\nnone\nImports none\nMeal, Copra 0.61 0.55 0.56 0.56 0.56 0.56\nMeal, Cottonseed 0.20 0.19 0.23 0.22 0.19 0.19\nMeal, Fish 3.36 3.62 3.95 3.79 nr nr\nMeal, Palm Kernel 7.70 7.41 7.27 7.74 7.76 7.75\nMeal, Peanut 0.12 0.09 0.04 0.03 0.12 0.12\nMeal, Rapeseed 9.30 9.93 10.15 12.04 11.45 11.45\nMeal, Soybean 63.27 69.54 77.73 82.66 86.09 86.18\nMeal, Sunflowerseed 8.55 10.16 7.75 8.63 9.40 9.22\nTotal 93.12 101.48 107.66 115.66 115.57 115.46\nnone\nExports none\nMeal, Copra 0.56 0.54 0.53 0.55 0.60 0.62\nMeal, Cottonseed 0.30 0.32 0.37 0.34 0.27 0.27\nMeal, Fish 2.55 2.97 3.15 3.19 nr nr\nMeal, Palm Kernel 8.06 7.28 7.69 8.14 7.77 7.85\nMeal, Peanut 0.18 0.12 0.10 0.14 0.17 0.17\nMeal, Rapeseed 9.79 10.22 10.71 12.05 11.70 11.69\nMeal, Soybean 67.07 74.22 82.89 86.62 90.05 90.11\nMeal, Sunflowerseed 9.16 10.22 8.77 8.88 10.40 10.20\nTotal 97.66 105.88 114.21 119.92 120.96 120.90\nnone\nDomestic Consumption none\nMeal, Copra 2.01 2.03 2.02 1.94 1.93 1.90\nMeal, Cottonseed 13.81 14.34 14.26 14.20 13.66 13.55\nMeal, Fish 5.37 5.79 6.03 5.94 nr nr\nMeal, Palm Kernel 9.95 10.24 10.01 10.63 10.72 10.72\nMeal, Peanut 7.58 7.34 7.72 7.63 7.75 7.75\nMeal, Rapeseed 47.54 48.69 48.80 52.18 54.03 54.28\nMeal, Soybean 247.01 255.04 272.95 288.63 297.81 298.16\nMeal, Sunflowerseed 21.77 22.86 20.59 22.13 23.79 23.69\nTotal 355.03 366.33 382.38 403.27 409.69 410.05\nnone\nEnding Stocks none\nMeal, Copra 0.05 0.09 0.09 0.08 0.07 0.07\nMeal, Cottonseed 0.11 0.10 0.11 0.13 0.16 0.15\nMeal, Fish 0.25 0.24 0.29 0.27 nr nr\nMeal, Palm Kernel 0.62 0.57 0.69 0.80 0.73 0.75\nMeal, Peanut 0.02 0.03 0.03 0.02 0.03 0.03\nMeal, Rapeseed 1.26 1.50 1.43 1.64 1.77 1.80\nMeal, Soybean 14.16 14.31 18.02 19.49 19.89 20.01\nMeal, Sunflowerseed 1.81 2.13 1.93 1.85 2.20 2.21\nTotal 18.28 18.95 22.58 24.28 24.85 25.01\nTotals may not add due to rounding\nForeign Agricultural Service/USDA 11 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "7be9b5bf2ab9595385b4571b4d669bddeb091a3f634bec56a5bd979a8c265788": {
+      "mapping_notes": {},
+      "title": "Table 03: Major Vegetable Oils: World Supply and Distribution (Commodity View)",
+      "source_page": 12,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 03: Major Vegetable Oils: World Supply and Distribution (Commodity View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOil, Coconut 3.71 3.91 3.83 3.69 3.82 3.82\nOil, Cottonseed 4.56 4.74 4.71 4.72 4.51 4.48\nOil, Olive 2.53 2.44 3.37 3.27 3.25 3.25\nOil, Palm 76.78 76.06 78.91 82.10 78.92 78.92\nOil, Palm Kernel 8.76 8.59 8.92 9.43 9.08 9.11\nOil, Peanut 6.20 6.00 6.31 6.29 6.34 6.34\nOil, Rapeseed 33.25 34.39 34.28 36.65 38.10 38.25\nOil, Soybean 60.74 64.01 70.08 73.62 75.24 75.29\nOil, Sunflowerseed 21.71 22.12 20.41 21.12 23.89 23.75\nTotal 218.24 222.26 230.83 240.86 243.16 243.19\nnone\nImports none\nOil, Coconut 1.93 2.18 1.86 1.98 1.80 1.81\nOil, Cottonseed 0.09 0.08 0.07 0.09 0.08 0.08\nOil, Olive 1.08 1.11 1.24 1.32 1.28 1.28\nOil, Palm 46.65 42.36 41.38 42.14 41.40 41.40\nOil, Palm Kernel 2.69 2.72 2.70 2.64 2.59 2.60\nOil, Peanut 0.39 0.34 0.47 0.44 0.39 0.39\nOil, Rapeseed 6.90 7.50 7.10 7.40 8.57 8.48\nOil, Soybean 10.98 10.53 14.18 13.89 13.63 13.71\nOil, Sunflowerseed 12.61 13.96 12.01 11.36 14.47 14.19\nTotal 83.30 80.77 81.01 81.26 84.20 83.94\nnone\nExports none\nOil, Coconut 2.18 2.47 2.24 2.21 2.12 2.12\nOil, Cottonseed 0.08 0.06 0.06 0.08 0.06 0.06\nOil, Olive 1.21 1.17 1.35 1.45 1.39 1.39\nOil, Palm 49.37 44.41 45.02 46.76 43.75 43.75\nOil, Palm Kernel 2.97 3.09 3.17 2.95 3.13 3.13\nOil, Peanut 0.35 0.37 0.59 0.44 0.44 0.44\nOil, Rapeseed 6.53 7.50 7.13 7.90 8.95 8.86\nOil, Soybean 11.74 11.81 15.26 15.55 14.95 15.10\nOil, Sunflowerseed 14.31 15.34 13.66 13.59 15.97 15.72\nTotal 88.75 86.21 88.47 90.92 90.76 90.57\nnone\nDomestic Consumption none\nOil, Coconut 3.43 3.63 3.53 3.61 3.57 3.56\nOil, Cottonseed 4.57 4.72 4.73 4.73 4.52 4.49\nOil, Olive 2.58 2.48 3.16 3.06 3.11 3.11\nOil, Palm 73.86 75.12 76.24 77.22 78.06 78.01\nOil, Palm Kernel 8.48 8.22 8.44 8.84 8.71 8.84\nOil, Peanut 6.20 6.03 6.15 6.24 6.27 6.27\nOil, Rapeseed 32.71 34.35 34.40 35.87 37.70 37.73\nOil, Soybean 59.39 62.92 68.24 72.18 73.48 73.60\nOil, Sunflowerseed 19.55 21.07 19.10 19.06 21.90 21.77\nTotal 210.79 218.55 224.00 230.82 237.31 237.39\nnone\nEnding Stocks none\nOil, Coconut 0.89 0.89 0.82 0.67 0.63 0.61\nOil, Cottonseed 0.15 0.19 0.18 0.17 0.19 0.18\nOil, Olive 0.53 0.42 0.51 0.59 0.62 0.62\nOil, Palm 17.01 15.90 14.94 15.21 13.70 13.77\nOil, Palm Kernel 0.96 0.96 0.97 1.25 0.96 0.98\nOil, Peanut 0.39 0.33 0.37 0.41 0.42 0.42\nOil, Rapeseed 3.44 3.47 3.33 3.60 3.68 3.73\nOil, Soybean 5.88 5.69 6.45 6.24 6.85 6.53\nOil, Sunflowerseed 3.22 2.89 2.55 2.38 2.89 2.84\nTotal 32.48 30.74 30.12 30.50 29.92 29.67\nTotals may not add due to rounding\nForeign Agricultural Service/USDA 12 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "87c51931c1d2df71e94648b525c6b1f64b3d64005757d200da31512b7e8f218c": {
+      "mapping_notes": {},
+      "title": "Table 04: Major Oilseeds: World Supply and Distribution (Country View)",
+      "source_page": 13,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 04: Major Oilseeds: World Supply and Distribution (Country View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nBrazil 166.91 160.29 179.56 188.19 193.78 193.78\nUnited States 125.75 122.16 128.59 126.12 133.61 133.78\nChina 66.87 66.92 67.81 69.37 68.54 68.70\nArgentina 31.45 54.24 59.10 58.74 60.05 59.72\nIndia 42.31 41.39 42.83 41.77 41.92 41.71\nOther 203.49 212.79 209.17 217.10 224.31 224.20\nTotal 636.79 657.80 687.06 701.28 722.20 721.90\nImports none\nChina 111.71 119.13 113.51 117.43 121.23 121.23\nEuropean Union 22.34 20.70 24.27 23.32 22.39 22.89\nMexico 8.14 7.86 7.85 8.54 8.43 8.43\nArgentina 9.06 7.79 6.33 7.51 6.50 6.50\nTurkey 4.02 3.71 5.02 5.92 5.66 5.66\nJapan 5.49 5.41 5.57 5.67 5.61 5.66\nEgypt 2.00 3.33 4.56 5.03 5.03 5.03\nThailand 3.34 3.53 4.29 4.59 4.42 4.52\nPakistan 1.50 1.89 2.60 4.23 4.37 4.37\nVietnam 2.21 2.51 2.83 3.29 3.74 3.74\nOther 28.31 28.99 29.95 31.94 31.97 32.40\nTotal 198.12 204.85 206.78 217.46 219.33 220.42\nExports none\nBrazil 95.92 104.52 103.59 114.97 118.57 118.57\nUnited States 54.77 47.57 52.56 42.48 47.43 48.16\nCanada 12.22 11.73 14.99 14.30 13.60 13.60\nArgentina 5.11 6.13 9.60 11.11 8.58 8.78\nParaguay 6.50 8.00 6.43 8.21 7.36 7.36\nAustralia 7.03 6.62 5.76 6.26 6.41 6.95\nUkraine 8.37 7.28 7.39 4.12 4.95 4.65\nOther 11.81 13.47 13.04 15.51 14.73 14.70\nTotal 201.74 205.31 213.33 216.94 221.62 222.76\nCrush none\nChina 134.00 137.20 141.83 146.67 149.54 149.54\nUnited States 64.16 66.23 70.43 75.89 79.79 79.79\nBrazil 57.54 59.43 63.99 68.87 71.43 71.43\nEuropean Union 48.25 48.31 46.92 48.80 49.57 49.97\nArgentina 34.60 40.58 48.44 49.02 49.92 49.89\nIndia 34.78 35.63 35.64 34.94 35.29 35.34\nRussia 24.50 25.70 26.23 27.60 30.15 29.55\nUkraine 15.68 18.55 15.70 14.80 16.90 16.70\nCanada 11.73 12.69 13.09 14.62 15.53 15.53\nIndonesia 13.25 12.59 13.44 13.72 13.29 13.28\nMexico 8.13 7.70 7.82 8.30 8.35 8.35\nPakistan 4.01 5.10 5.16 6.77 6.95 6.95\nTurkey 6.03 5.18 6.14 6.23 6.57 6.45\nMalaysia 5.08 5.38 5.20 5.77 5.53 5.53\nEgypt 2.35 3.39 4.67 5.11 5.06 5.06\nOther 60.17 60.05 64.30 66.95 68.03 68.94\nTotal 524.26 543.69 568.99 594.04 611.89 612.28\nEnding Stocks none\nChina 36.71 48.35 48.96 48.12 48.39 48.44\nBrazil 37.00 29.97 38.05 38.31 37.71 37.71\nArgentina 18.34 25.38 25.94 24.93 25.54 25.15\nUnited States 8.85 10.81 10.23 10.76 10.35 9.87\nEuropean Union 3.49 3.93 4.23 4.57 4.14 4.23\nOther 18.55 17.60 17.09 18.87 20.18 20.26\nTotal 122.94 136.04 144.50 145.56 146.31 145.65\nMajor Oilseeds includes Copra, Cottonseed, Palm Kernel, Peanut, Rapeseed, Soybeans and Sunflowerseeds.\nForeign Agricultural Service/USDA 13 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "1da4c7067f4fc91ab4f950b37039b7ddc7e19169eee1126eb497041f958d7aaa": {
+      "mapping_notes": {},
+      "title": "Table 05: Major Protein Meals: World Supply and Distribution (Country View)",
+      "source_page": 14,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 05: Major Protein Meals: World Supply and Distribution (Country View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nChina 95.71 98.24 101.91 105.26 107.50 107.50\nUnited States 49.93 51.43 55.27 59.14 61.89 61.89\nBrazil 43.45 44.24 47.14 50.81 52.98 52.98\nArgentina 25.58 30.16 35.86 35.78 36.36 36.35\nEuropean Union 30.74 30.83 30.26 31.27 31.22 31.45\nOther 112.22 116.51 122.11 126.97 126.22 126.33\nTotal 357.62 371.40 392.55 409.23 416.17 416.49\nImports none\nEuropean Union 21.49 22.38 25.23 25.01 25.20 25.20\nVietnam 5.85 7.02 6.81 6.80 7.59 7.58\nChina 8.39 9.39 7.93 10.40 7.62 7.47\nIndonesia 5.67 5.24 6.44 7.35 7.02 7.10\nUnited States 4.31 4.29 4.95 5.52 5.38 5.38\nThailand 4.01 3.60 3.51 3.94 4.14 4.14\nUnited Kingdom 2.76 3.26 3.87 3.97 3.97 3.97\nOther 40.64 46.31 48.93 52.67 54.64 54.61\nTotal 93.12 101.48 107.66 115.66 115.57 115.46\nExports none\nArgentina 21.92 26.07 31.47 31.63 32.04 32.04\nBrazil 21.33 22.72 23.39 25.32 27.10 27.30\nUnited States 13.39 14.75 16.61 18.62 20.69 20.69\nCanada 5.70 5.98 6.17 6.67 6.83 6.83\nIndonesia 5.87 4.92 5.29 5.48 5.30 5.32\nUkraine 4.60 5.78 4.99 4.95 5.30 5.15\nRussia 3.82 4.30 4.16 4.34 4.65 4.40\nOther 21.03 21.35 22.14 22.90 19.05 19.18\nTotal 97.66 105.88 114.21 119.92 120.96 120.90\nDomestic Consumption none\nChina 103.04 106.32 108.62 113.72 113.85 113.70\nEuropean Union 49.53 50.09 52.44 53.79 54.09 54.29\nUnited States 40.78 40.90 43.65 46.13 46.58 46.50\nBrazil 21.95 22.38 23.26 24.71 25.96 25.96\nIndia 17.59 18.15 18.02 18.53 18.94 19.00\nRussia 8.93 9.36 9.83 10.36 10.95 10.95\nMexico 7.82 7.82 8.17 9.23 9.57 9.57\nVietnam 7.25 8.05 8.59 9.10 9.45 9.44\nIndonesia 6.62 6.85 7.59 8.65 8.46 8.55\nThailand 6.26 6.02 5.99 6.76 6.87 6.88\nOther 85.26 90.40 96.21 102.28 104.98 105.21\nTotal 355.03 366.33 382.38 403.27 409.69 410.05\nSME none\nChina 96.11 99.39 102.29 106.71 105.75 105.65\nEuropean Union 42.18 42.67 45.71 46.77 46.61 46.75\nUnited States 39.34 39.46 42.09 44.42 44.77 44.70\nBrazil 21.58 21.93 22.76 24.18 25.42 25.42\nIndia 14.94 15.37 15.34 15.75 16.07 16.13\nMexico 7.54 7.59 7.95 8.97 9.28 9.28\nRussia 7.26 7.62 8.01 8.43 8.83 8.83\nOther 95.10 100.54 107.47 115.42 116.79 117.12\nTotal 324.05 334.58 351.60 370.66 373.53 373.89\nEnding Stocks none\nBrazil 3.83 2.99 3.49 4.27 4.00 3.99\nArgentina 2.59 2.47 2.94 3.13 3.32 3.37\nEuropean Union 1.27 1.72 2.49 2.49 2.49 2.52\nChina 0.94 0.79 0.94 1.19 1.28 1.26\nRussia 0.71 0.75 0.83 1.01 1.17 1.17\nOther 8.94 10.24 11.90 12.20 12.59 12.71\nTotal 18.28 18.95 22.58 24.28 24.85 25.01\nMajor Protein Meals include Copra, Cottonseed, Fish, Palm Kernel, Peanut, Rapeseed, Soybean, and Sunflower Meal.\nForeign Agricultural Service/USDA 14 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "3d7b8a746b1edef48c5419f38e1b7ea0912e4c1263d112453b745f7c25b92b43": {
+      "mapping_notes": {},
+      "title": "Table 06: Major Vegetable Oils: World Supply and Distribution (Country View)",
+      "source_page": 15,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 06: Major Vegetable Oils: World Supply and Distribution (Country View)\nMillion Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nIndonesia 51.10 48.84 51.74 53.36 51.18 51.17\nChina 30.41 31.06 32.40 33.83 33.93 33.93\nMalaysia 20.59 22.03 21.61 23.08 21.96 22.01\nEuropean Union 18.33 18.48 18.29 19.07 19.48 19.64\nUnited States 13.18 13.59 14.49 15.24 16.39 16.39\nBrazil 11.94 12.57 13.56 14.60 15.15 15.15\nArgentina 7.84 9.04 10.91 11.22 11.49 11.49\nOther 64.84 66.66 67.84 70.47 73.58 73.42\nTotal 218.24 222.26 230.83 240.86 243.16 243.19\nImports none\nIndia 17.12 15.85 16.29 16.85 17.39 17.39\nChina 11.35 9.14 7.51 7.75 8.46 8.46\nEuropean Union 9.17 9.62 8.01 8.48 8.47 8.37\nUnited States 6.27 6.87 5.93 6.13 7.39 7.33\nPakistan 3.34 3.09 3.74 3.43 3.67 3.67\nTurkey 2.75 2.41 2.12 2.07 2.46 2.36\nBangladesh 2.32 2.33 2.48 2.30 2.20 2.20\nEgypt 1.64 1.81 1.80 2.32 2.10 2.10\nIran 1.75 1.34 1.74 1.28 1.52 1.52\nPhilippines 0.96 1.23 1.59 1.48 1.48 1.48\nOther 26.64 27.10 29.80 29.16 29.06 29.06\nTotal 83.30 80.77 81.01 81.26 84.20 83.94\nExports none\nIndonesia 30.25 24.46 25.49 27.16 23.73 23.73\nMalaysia 16.64 17.82 16.98 16.96 17.52 17.52\nArgentina 5.33 6.80 8.89 8.85 8.91 8.91\nRussia 6.07 6.50 6.31 6.51 7.61 7.36\nUkraine 5.99 7.04 5.48 5.06 6.20 6.15\nCanada 3.17 3.60 3.48 3.52 4.16 4.06\nEuropean Union 3.67 3.25 2.97 3.09 3.27 3.27\nOther 17.64 16.76 18.87 19.76 19.36 19.58\nTotal 88.75 86.21 88.47 90.92 90.76 90.57\nDomestic Consumption none\nChina 39.46 40.44 40.43 40.65 41.19 41.19\nIndonesia 23.23 24.89 26.51 27.21 28.10 27.76\nIndia 23.86 24.75 25.39 25.98 26.65 26.70\nEuropean Union 24.49 24.39 23.77 24.27 24.58 24.58\nUnited States 19.27 20.13 19.07 20.91 23.39 23.27\nBrazil 10.15 12.31 12.67 13.30 13.81 13.81\nMalaysia 5.40 5.26 5.59 6.10 5.73 6.21\nPakistan 4.29 4.35 4.75 4.94 5.29 5.20\nRussia 3.70 3.80 3.95 4.11 4.17 4.17\nThailand 2.98 2.97 2.99 3.34 3.51 3.51\nBangladesh 3.12 3.18 3.43 3.56 3.39 3.40\nMexico 3.17 3.13 3.18 3.24 3.34 3.34\nCanada 1.71 2.18 2.29 2.91 3.01 3.06\nEgypt 2.05 2.23 2.42 2.79 2.88 2.93\nNigeria 2.66 2.71 2.88 2.89 2.90 2.90\nOther 41.26 41.83 44.68 44.62 45.38 45.38\nTotal 210.79 218.55 224.00 230.82 237.31 237.39\nEnding Stocks none\nIndia 4.37 4.63 4.69 4.71 4.81 4.80\nIndonesia 5.64 5.28 5.13 4.27 4.39 4.16\nMalaysia 2.87 2.56 2.74 3.84 2.53 2.89\nEuropean Union 2.10 2.56 2.12 2.31 2.40 2.48\nChina 3.73 3.32 2.44 2.12 2.24 2.17\nOther 13.76 12.39 13.00 13.24 13.55 13.18\nTotal 32.48 30.74 30.12 30.50 29.92 29.67\nMajor Vegetable Oils includes Coconut, Cottonseed, Olive, Palm, Palm Kernel, Peanut, Rapeseed, Soybean, and Sunflowerseed oil.\nForeign Agricultural Service/USDA 15 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "338f7e334c23167e8d4ca7313bb06879d480e20072995246340e4d309d73a90f": {
+      "mapping_notes": {},
+      "title": "Table 07: Soybeans: World Supply and Distribution",
+      "source_page": 16,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 07: Soybeans: World Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nBrazil 162,000 154,500 172,500 180,500 186,000 186,000\nUnited States 116,221 113,273 119,047 115,966 124,147 124,478\nArgentina 25,000 48,210 51,108 49,260 50,000 50,000\nChina 20,284 20,840 20,650 20,900 21,000 21,000\nParaguay 10,250 11,000 10,200 12,100 11,100 11,100\nIndia 12,411 11,875 12,882 11,027 10,700 10,700\nRussia 5,996 6,800 7,050 9,000 8,000 8,000\nOther 26,048 30,038 34,795 30,507 31,753 31,218\nTotal 378,210 396,536 428,232 429,260 442,700 442,496\nImports none\nChina 104,500 112,000 108,000 113,000 115,000 115,000\nEuropean Union 13,127 13,550 14,709 14,000 13,700 13,700\nMexico 6,451 6,457 6,434 6,893 6,750 6,750\nArgentina 9,059 7,787 6,324 7,496 6,500 6,500\nEgypt 1,993 3,321 4,543 5,000 5,000 5,000\nTurkey 2,888 3,252 4,183 4,242 4,550 4,550\nThailand 3,238 3,428 4,190 4,483 4,300 4,400\nVietnam 1,858 2,265 2,609 3,050 3,500 3,500\nJapan 3,332 3,099 3,243 3,374 3,250 3,300\nPakistan 571 997 1,939 3,367 3,300 3,300\nOther 21,484 22,343 22,971 24,485 24,973 25,378\nTotal 168,501 178,499 179,145 189,390 190,823 191,378\nExports none\nBrazil 95,504 104,170 103,142 114,460 118,000 118,000\nUnited States 53,864 46,350 51,495 41,243 46,130 46,811\nParaguay 6,495 7,987 6,405 8,200 7,350 7,350\nArgentina 4,185 5,114 7,874 8,952 6,450 6,750\nCanada 4,240 4,861 5,551 5,287 5,700 5,700\nOther 7,473 9,363 9,863 8,486 8,365 7,940\nTotal 171,761 177,845 184,330 186,628 191,995 192,551\nCrush none\nChina 96,000 99,000 103,500 109,000 111,000 111,000\nUnited States 60,199 62,196 66,546 72,003 75,659 75,659\nBrazil 53,409 54,405 58,162 62,500 65,000 65,000\nArgentina 30,341 36,583 43,236 42,934 43,500 43,500\nEuropean Union 14,300 14,500 15,400 15,000 14,850 14,850\nIndia 10,300 11,300 11,300 10,100 10,000 10,100\nMexico 6,650 6,530 6,650 6,950 6,950 6,950\nRussia 5,400 5,900 6,225 6,600 6,350 6,350\nEgypt 2,200 3,250 4,500 4,950 5,000 5,000\nParaguay 3,450 3,000 3,700 3,800 3,600 3,600\nPakistan 650 950 1,800 3,200 3,300 3,300\nBolivia 3,300 2,600 3,250 3,100 3,250 3,250\nThailand 2,100 2,400 2,700 3,110 3,150 3,160\nTurkey 1,700 2,300 2,850 2,600 3,100 3,100\nAlgeria 1,350 1,500 1,650 2,500 2,450 2,850\nOther 24,488 24,851 27,762 27,987 28,555 28,569\nTotal 315,837 331,265 359,231 376,334 385,714 386,238\nEnding Stocks none\nChina 32,341 43,311 44,489 44,358 44,259 44,258\nBrazil 36,819 29,761 37,688 37,881 37,281 37,281\nArgentina 16,999 24,049 24,671 23,641 24,071 23,741\nUnited States 7,190 9,319 8,840 8,577 8,572 8,166\nEuropean Union 1,259 1,297 1,564 1,520 1,330 1,300\nOther 7,160 7,357 8,761 9,005 8,765 8,757\nTotal 101,768 115,094 126,013 124,982 124,278 123,503\nMost countries are on an October/September Marketing Year (MY). The United States, Mexico, and Thailand are on a September/August\nMY. Canada is on an August/July MY. Paraguay is on a Jan/Dec MY.\nForeign Agricultural Service/USDA 16 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "41ec6308f9215f0f73bf87c5591f7f4e4b1cff79fb1b75bbbd3af3648206fb0e": {
+      "mapping_notes": {},
+      "title": "Table 08: Soybean Meal: World Supply and Distribution",
+      "source_page": 17,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 08: Soybean Meal: World Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nChina 76,032 78,408 81,972 85,674 87,912 87,912\nUnited States 47,621 49,084 53,019 56,797 59,693 59,693\nBrazil 41,488 41,859 44,383 47,875 50,011 50,011\nArgentina 23,666 28,352 33,508 33,059 33,495 33,495\nEuropean Union 11,297 11,455 12,166 11,850 11,730 11,730\nIndia 8,240 9,040 9,040 8,080 8,000 8,080\nMexico 5,255 5,159 5,255 5,490 5,490 5,490\nOther 34,841 36,518 42,466 45,230 46,073 46,198\nTotal 248,440 259,875 281,809 294,055 302,404 302,609\nImports none\nEuropean Union 15,997 16,564 20,609 20,300 20,400 20,400\nIndonesia 5,434 5,055 6,179 6,957 6,900 6,980\nVietnam 4,724 6,033 5,703 5,600 6,500 6,500\nPhilippines 2,824 2,967 3,189 3,600 3,850 3,850\nThailand 3,141 2,770 2,939 3,286 3,400 3,400\nMexico 1,670 1,937 2,345 2,981 3,250 3,250\nIran 1,185 2,985 2,805 2,600 2,600 2,600\nUnited Kingdom 1,762 1,976 2,529 2,500 2,600 2,600\nColombia 1,603 1,585 2,030 2,350 2,550 2,550\nEcuador 1,771 1,891 2,268 2,400 2,550 2,550\nOther 23,161 25,778 27,137 30,085 31,490 31,496\nTotal 63,272 69,541 77,733 82,659 86,090 86,176\nExports none\nArgentina 20,764 24,891 29,780 29,697 30,000 30,000\nBrazil 21,334 22,722 23,390 25,321 27,100 27,300\nUnited States 13,196 14,564 16,396 18,418 20,593 20,593\nBolivia 2,155 1,546 2,032 2,000 2,025 2,025\nParaguay 1,992 1,683 2,176 2,200 2,000 2,000\nOther 7,625 8,817 9,114 8,980 8,335 8,190\nTotal 67,066 74,223 82,888 86,616 90,053 90,108\nDomestic Consumption none\nChina 75,050 77,150 80,850 84,550 86,850 86,850\nUnited States 34,946 35,068 37,405 39,348 40,007 39,946\nEuropean Union 26,642 27,042 31,242 31,542 31,567 31,567\nBrazil 20,000 20,000 20,500 21,800 23,000 23,000\nMexico 6,930 7,080 7,450 8,400 8,745 8,745\nVietnam 5,785 6,640 7,095 7,545 8,250 8,250\nIndia 6,625 7,075 7,185 7,155 7,100 7,175\nIndonesia 5,580 5,200 5,900 6,850 6,855 6,980\nThailand 4,750 4,575 4,800 5,450 5,700 5,710\nEgypt 2,700 3,000 3,800 4,200 4,550 4,550\nIran 3,550 4,810 5,100 4,700 4,450 4,450\nRussia 3,650 3,900 4,100 4,300 4,350 4,350\nPhilippines 2,930 3,000 3,220 3,600 3,870 3,910\nArgentina 3,450 3,500 3,525 3,600 3,650 3,650\nJapan 3,550 3,521 3,505 3,490 3,495 3,495\nOther 40,874 43,478 47,269 52,097 55,366 55,531\nTotal 247,012 255,039 272,946 288,627 297,805 298,159\nEnding Stocks none\nBrazil 3,817 2,972 3,470 4,228 3,959 3,949\nArgentina 2,297 2,259 2,741 2,879 3,021 3,074\nEuropean Union 510 836 1,717 1,625 1,588 1,588\nChina 937 794 943 1,193 1,279 1,255\nTurkey 422 466 572 561 676 717\nOther 6,174 6,984 8,576 9,004 9,365 9,425\nTotal 14,157 14,311 18,019 19,490 19,888 20,008\nMost countries are on an October/September Marketing Year (MY). The Mexico and Thailand are on a September/August MY. Canada is\non an August/July MY. Paraguay, Vietnam and the Philippines are on a January/December MY and Bolivia is on a March/February MY.\nForeign Agricultural Service/USDA 17 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "226210177ff2671a240a496ec5c9051e8c81c1e3b868631f08622dce4df5418a": {
+      "mapping_notes": {},
+      "title": "Table 09: Soybean Oil: World Supply and Distribution",
+      "source_page": 18,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 09: Soybean Oil: World Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nChina 18,240 18,810 20,100 21,800 21,556 21,556\nUnited States 11,897 12,289 13,253 13,869 14,944 14,944\nBrazil 10,580 11,055 11,842 12,756 13,267 13,267\nArgentina 5,995 7,251 8,626 8,565 8,678 8,678\nEuropean Union 2,717 2,755 2,926 2,850 2,820 2,820\nIndia 1,854 2,034 2,034 1,819 1,800 1,819\nMexico 1,227 1,205 1,227 1,282 1,282 1,282\nOther 8,228 8,614 10,070 10,675 10,894 10,920\nTotal 60,738 64,013 70,078 73,616 75,241 75,286\nImports none\nIndia 3,968 3,308 5,471 5,600 5,000 5,000\nBangladesh 703 649 943 612 800 800\nEuropean Union 641 592 757 825 650 650\nMorocco 514 488 626 600 650 650\nPeru 535 560 612 590 600 600\nCanada 147 573 550 476 575 575\nKorea, South 353 447 482 479 460 480\nAlgeria 490 485 564 450 450 450\nColombia 242 317 384 350 400 400\nVenezuela 191 247 270 340 360 360\nOther 3,192 2,865 3,525 3,567 3,685 3,745\nTotal 10,976 10,531 14,184 13,889 13,630 13,710\nExports none\nArgentina 4,137 5,533 7,099 6,809 6,750 6,750\nBrazil 2,687 1,352 1,487 1,946 1,700 1,900\nChina 111 104 318 1,080 1,000 1,000\nEuropean Union 915 659 708 750 800 800\nRussia 750 760 750 700 700 700\nParaguay 523 497 621 650 600 600\nTurkey 289 403 469 422 520 520\nOther 2,330 2,504 3,806 3,188 2,879 2,829\nTotal 11,742 11,812 15,258 15,545 14,949 15,099\nDomestic Consumption none\nChina 17,900 18,900 20,500 20,800 20,700 20,700\nUnited States 12,070 12,317 12,207 13,794 15,018 14,972\nBrazil 8,300 10,200 10,410 10,900 11,400 11,400\nIndia 5,400 5,175 6,645 7,300 6,750 6,800\nEuropean Union 2,405 2,630 3,005 2,980 2,630 2,630\nArgentina 1,660 1,770 1,980 1,980 1,990 1,990\nMexico 1,305 1,270 1,310 1,385 1,435 1,435\nBangladesh 975 1,010 1,200 1,100 1,235 1,235\nEgypt 560 510 730 885 1,000 1,000\nAlgeria 750 765 780 875 860 940\nCanada 300 675 705 680 750 750\nPakistan 360 285 620 655 745 720\nKorea, South 565 600 650 665 650 640\nMorocco 510 505 600 610 625 625\nPeru 540 550 585 595 600 600\nOther 5,794 5,762 6,316 6,972 7,095 7,167\nTotal 59,394 62,924 68,243 72,176 73,483 73,604\nEnding Stocks none\nIndia 597 748 1,581 1,665 1,677 1,669\nChina 981 1,168 746 799 802 805\nUnited States 729 703 792 661 815 770\nEuropean Union 601 659 629 574 614 614\nArgentina 719 669 323 253 400 331\nOther 2,255 1,743 2,380 2,283 2,546 2,339\nTotal 5,882 5,690 6,451 6,235 6,854 6,528\nMost countries are on an October/September Marketing Year (MY). Mexico is on a September/August MY. Paraguay and Peru are on an\nJanuary/December MY and Bolivia is on a March/February MY.\nForeign Agricultural Service/USDA 18 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "2202d85f3d5efadbae00bda51e076012a9f8fc23894a498fa38f01a6f9ff30ca": {
+      "mapping_notes": {},
+      "title": "Table 10: Soybeans and Products: World Trade",
+      "source_page": 19,
+      "layout": "year-columns-9",
+      "complete_source_text": "Table 10: Soybeans and Products: World Trade\nThousand Metric Tons\nMeal, Soybean Oil, Soybean Oilseed, Soybean\nMarketing Year 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27\nExports\nNorth America 16,709 18,810 21,024 1,289 675 356 57,046 46,530 52,521\nSouth America 57,382 59,226 61,327 9,842 9,970 9,853 121,070 134,164 135,202\nSouth Asia 1,804 1,042 1,060 32 36 17 12 20 25\nIndia (Oct-Sep) 1,781 1,000 1,000 27 35 15 12 20 25\nOther 6,993 7,538 6,697 4,095 4,864 4,873 6,202 5,914 4,803\nWorld Total 82,888 86,616 90,108 15,258 15,545 15,099 184,330 186,628 192,551\nImports\nEuropean Union (Oct-Sep) 20,609 20,300 20,400 757 825 650 14,709 14,000 13,700\nEast Asia 3,425 3,489 3,476 933 780 797 115,144 120,221 122,155\nChina (Oct-Sep) 45 150 100 296 133 150 108,000 113,000 115,000\nJapan (Oct-Sep) 1,621 1,539 1,596 1 2 2 3,243 3,374 3,300\nKorea, South (Oct-Sep) 1,725 1,718 1,720 482 479 480 1,128 1,075 1,050\nTaiwan (Oct-Sep) 34 82 60 0 1 0 2,768 2,767 2,800\nSoutheast Asia 19,910 21,453 22,880 293 310 332 10,128 11,360 11,772\nIndonesia (Oct-Sep) 6,179 6,957 6,980 34 80 100 2,439 2,987 2,925\nMalaysia (Oct-Sep) 1,426 1,400 1,500 92 90 92 727 650 750\nPhilippines (Jan-Dec) 3,189 3,600 3,850 60 60 60 136 160 165\nThailand (Sep-Aug) 2,939 3,286 3,400 0 0 0 4,190 4,483 4,400\nVietnam (Jan-Dec) 5,703 5,600 6,500 90 65 65 2,609 3,050 3,500\nNorth America 4,525 5,353 5,507 887 910 1,093 7,490 7,864 7,810\nCanada (Aug-Jul) 1,448 1,462 1,350 550 476 575 250 365 380\nUnited States (Oct-Sep) 732 910 907 164 239 318 806 606 680\nCanada (Aug-Jul) 1,448 1,462 1,350 550 476 575 250 365 380\nMexico (Sep-Aug) 2,345 2,981 3,250 173 195 200 6,434 6,893 6,750\nSouth America 8,632 9,635 10,250 1,775 1,824 1,908 8,017 9,694 8,755\nArgentina (Oct-Sep) 279 376 350 107 154 140 6,324 7,496 6,500\nBrazil (Oct-Sep) 5 4 10 85 80 100 731 1,053 1,000\nParaguay (Jan-Dec) 0 0 0 3 3 1 4 20 20\nBrazil (Oct-Sep) 5 4 10 85 80 100 731 1,053 1,000\nColombia (Oct-Sep) 2,030 2,350 2,550 384 350 400 561 630 660\nCentral America 2,056 2,262 2,510 218 217 222 320 330 330\nCaribbean 801 1,098 1,218 295 287 311 17 35 40\nMiddle East 8,194 9,061 8,970 238 350 369 9,069 7,640 8,471\nIran (Oct-Sep) 2,805 2,600 2,600 26 150 150 2,693 2,150 2,000\nIsrael (Oct-Sep) 311 320 350 2 2 5 266 320 300\nSyria (Jan-Dec) 252 200 200 7 2 2 1 1 1\nTurkey (Oct-Sep) 1,350 2,316 2,200 0 0 0 4,183 4,242 4,550\nNorth Africa 2,222 1,893 2,340 1,286 1,380 1,350 6,710 8,140 8,555\nEgypt (Oct-Sep) 395 333 650 50 275 200 4,543 5,000 5,000\nOther Europe 3,151 3,125 3,250 201 211 211 1,757 1,645 1,745\nUnited Kingdom (Oct-Sep) 2,529 2,500 2,600 190 200 200 1,079 950 1,050\nOther 4,208 4,990 5,375 7,301 6,795 6,467 5,784 8,461 8,045\nWorld Total 77,733 82,659 86,176 14,184 13,889 13,710 179,145 189,390 191,378\nForeign Agricultural Service/USDA 19 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "e7ad06c252309f9f109b9a5b02ddee3383c210d5c73283b47214cc554bd03ce6": {
+      "mapping_notes": {},
+      "title": "Table 11: Palm Oil: World Supply and Distribution",
+      "source_page": 20,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 11: Palm Oil: World Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nProduction none\nIndonesia 45,000 43,000 45,500 47,000 45,000 45,000\nMalaysia 18,389 19,710 19,380 20,558 19,600 19,600\nThailand 3,321 3,274 3,740 3,900 3,720 3,720\nColombia 1,853 1,730 1,870 2,000 2,000 2,000\nNigeria 1,400 1,500 1,500 1,500 1,500 1,500\nOther 6,818 6,845 6,924 7,142 7,101 7,101\nTotal 76,781 76,059 78,914 82,100 78,921 78,921\nImports none\nIndia 10,045 8,886 7,786 8,100 8,400 8,400\nChina 6,190 4,377 3,203 3,751 3,700 3,700\nPakistan 3,094 2,980 3,325 3,353 3,500 3,500\nEuropean Union 4,576 4,013 3,140 3,200 3,100 3,100\nUnited States 1,887 1,864 1,542 1,521 1,700 1,700\nBangladesh 1,610 1,676 1,540 1,650 1,400 1,400\nPhilippines 892 1,083 1,406 1,300 1,300 1,300\nEgypt 1,052 1,171 1,300 1,544 1,200 1,200\nKenya 848 875 811 900 950 950\nVietnam 1,112 1,071 1,076 980 940 940\nOther 15,344 14,368 16,255 15,845 15,213 15,213\nTotal 46,650 42,364 41,384 42,144 41,403 41,403\nExports none\nIndonesia 28,077 22,273 23,471 25,031 21,600 21,600\nMalaysia 15,355 16,530 15,617 15,709 16,200 16,200\nThailand 902 878 1,302 1,000 1,000 1,000\nGuatemala 883 620 566 725 850 850\nPapua New Guinea 813 669 740 820 850 850\nOther 3,337 3,440 3,322 3,471 3,247 3,247\nTotal 49,367 44,410 45,018 46,756 43,747 43,747\nDomestic Consumption none\nIndonesia 19,125 21,075 22,375 22,825 23,725 23,375\nIndia 8,900 8,990 8,800 8,350 8,800 8,800\nMalaysia 3,975 3,667 4,165 4,550 4,275 4,610\nChina 5,400 5,000 3,300 3,775 3,675 3,675\nPakistan 2,995 3,070 3,250 3,365 3,550 3,480\nEuropean Union 4,500 3,890 3,200 3,100 3,000 3,000\nThailand 2,485 2,485 2,445 2,735 2,885 2,885\nNigeria 1,790 1,840 1,940 1,890 1,915 1,915\nUnited States 1,875 1,894 1,526 1,526 1,685 1,671\nColombia 1,480 1,490 1,490 1,430 1,545 1,540\nPhilippines 1,000 1,040 1,485 1,440 1,410 1,410\nBangladesh 1,600 1,575 1,540 1,675 1,395 1,395\nEgypt 1,060 1,160 1,250 1,430 1,230 1,280\nBrazil 825 920 950 1,000 1,050 1,050\nMexico 870 935 945 915 915 915\nOther 15,981 16,088 17,582 17,218 17,004 17,010\nTotal 73,861 75,119 76,243 77,224 78,059 78,011\nEnding Stocks none\nIndonesia 5,108 4,761 4,416 3,560 3,766 3,585\nMalaysia 2,312 2,014 2,360 3,311 2,225 2,501\nIndia 2,419 2,615 1,898 1,888 1,743 1,743\nColombia 876 782 667 587 702 647\nChina 1,181 546 439 407 409 412\nOther 5,114 5,186 5,161 5,452 4,852 4,883\nTotal 17,010 15,904 14,941 15,205 13,697 13,771\nForeign Agricultural Service/USDA 20 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "638a1339cdf8b90cb0435f604919ae241749a3aa7bd4ce1a6e96f0a78eb46dba": {
+      "mapping_notes": {},
+      "title": "Table 12: Rapeseed and Products: World Supply and Distribution",
+      "source_page": 21,
+      "layout": "year-columns-9",
+      "complete_source_text": "Table 12: Rapeseed and Products: World Supply and Distribution\nThousand Metric Tons\nMeal, Rapeseed Oil, Rapeseed Oilseed, Rapeseed\nMarketing Year 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27\nProduction\nChina (Oct-Sep) 11,861 11,448 11,802 7,839 7,566 7,800 15,800 16,000 16,200\nIndia (Oct-Sep) 6,189 6,399 6,664 3,956 4,090 4,261 11,520 12,000 12,400\nCanada (Aug-Jul) 6,710 7,512 7,954 4,821 5,480 5,868 19,239 22,227 22,500\nJapan (Oct-Sep) 1,231 1,220 1,250 884 890 900 3 3 3\nEuropean Union (Jul-Jun) 13,509 14,706 14,706 9,954 10,836 10,836 17,073 20,657 19,750\nOther 9,795 11,122 12,311 6,827 7,784 8,583 22,640 25,148 29,393\nWorld Total 49,295 52,407 54,687 34,281 36,646 38,248 86,275 96,035 100,246\nImports\nChina (Oct-Sep) 2,810 3,394 2,800 2,171 1,922 2,250 4,600 3,549 5,000\nIndia (Oct-Sep) 21 6 5 26 40 40 0 0 0\nCanada (Aug-Jul) 1 5 10 16 18 20 131 109 150\nJapan (Oct-Sep) 4 3 4 23 9 15 2,138 2,100 2,150\nEuropean Union (Jul-Jun) 420 862 800 295 623 550 8,023 6,955 7,050\nOther 6,891 7,767 7,827 4,566 4,788 5,600 5,165 5,729 5,846\nWorld Total 10,147 12,037 11,446 7,097 7,400 8,475 20,057 18,442 20,196\nExports\nChina (Oct-Sep) 32 640 100 19 120 120 0 0 0\nIndia (Oct-Sep) 1,870 1,550 1,350 13 15 10 0 0 0\nCanada (Aug-Jul) 5,855 6,274 6,400 3,327 3,346 3,900 9,387 8,959 7,850\nJapan (Oct-Sep) 8 0 0 5 4 5 0 0 0\nEuropean Union (Jul-Jun) 880 939 800 576 650 600 382 642 500\nOther 2,065 2,649 3,040 3,185 3,768 4,225 10,043 9,748 12,213\nWorld Total 10,710 12,052 11,690 7,125 7,903 8,860 19,812 19,349 20,563\nDomestic Consumption\nChina (Oct-Sep) 14,639 14,202 14,502 10,350 9,700 9,900 20,925 20,225 20,825\nIndia (Oct-Sep) 4,360 4,800 5,320 4,005 4,080 4,280 11,550 11,975 12,425\nCanada (Aug-Jul) 870 1,225 1,575 1,330 1,975 2,040 11,552 13,085 14,500\nJapan (Oct-Sep) 1,221 1,287 1,246 895 902 905 2,134 2,105 2,160\nEuropean Union (Jul-Jun) 13,100 14,500 14,700 9,700 10,550 10,750 24,450 26,650 26,600\nOther 14,611 16,165 16,937 8,118 8,666 9,857 17,837 20,067 22,485\nWorld Total 48,801 52,179 54,280 34,398 35,873 37,732 88,448 94,107 98,995\nEnding Stocks\nChina (Oct-Sep) 0 0 0 1,250 918 948 4,259 3,583 3,958\nIndia (Oct-Sep) 204 259 258 357 392 403 539 564 539\nCanada (Aug-Jul) 154 172 161 730 907 855 1,597 1,889 2,189\nJapan (Oct-Sep) 89 25 33 37 30 35 194 192 185\nEuropean Union (Jul-Jun) 351 480 486 298 557 593 2,202 2,522 2,222\nOther 628 703 864 655 793 894 1,146 2,208 2,749\nWorld Total 1,426 1,639 1,802 3,327 3,597 3,728 9,937 10,958 11,842\nForeign Agricultural Service/USDA 21 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "520774349f20b18e14da3d83b2f54d3742d0af2a362cfd5404b810ff021fe9c2": {
+      "mapping_notes": {},
+      "title": "Table 13: Sunflowerseed and Products: World Supply and Distribution",
+      "source_page": 22,
+      "layout": "year-columns-9",
+      "complete_source_text": "Table 13: Sunflowerseed and Products: World Supply and Distribution\nThousand Metric Tons\nOilseed, Sunflowerseed Meal, Sunflowerseed Oil, Sunflowerseed\nMarketing Year 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27\nProduction\nArgentina (Mar-Feb) 5,592 7,614 7,800 2,145 2,536 2,690 2,120 2,521 2,674\nRussia (Sep-Aug) 16,900 17,500 20,400 6,698 6,862 7,519 6,732 6,897 7,558\nTurkey (Sep-Aug) 1,350 1,250 1,800 995 1,334 1,347 795 1,066 1,077\nUkraine (Sep-Aug) 13,000 10,700 13,000 5,080 4,337 5,204 5,290 4,515 5,418\nEuropean Union (Oct-Sep) 8,645 8,629 9,725 4,108 4,228 4,918 3,212 3,299 3,846\nOther 7,525 9,647 10,439 2,386 3,001 3,347 2,265 2,817 3,177\nWorld Total 53,012 55,340 63,164 21,412 22,298 25,025 20,414 21,115 23,750\nImports\nArgentina (Mar-Feb) 1 10 1 0 0 0 0 0 0\nRussia (Sep-Aug) 80 115 50 5 5 5 1 1 1\nTurkey (Sep-Aug) 789 1,601 1,000 1,042 887 1,075 1,236 1,168 1,500\nUkraine (Sep-Aug) 22 33 30 1 0 10 1 0 0\nEuropean Union (Oct-Sep) 582 1,425 1,200 2,567 2,300 2,700 2,411 2,300 2,600\nOther 1,135 1,196 1,208 4,130 5,441 5,425 8,357 7,892 10,092\nWorld Total 2,609 4,380 3,489 7,745 8,633 9,215 12,006 11,361 14,193\nExports\nArgentina (Mar-Feb) 626 950 900 1,657 1,900 2,000 1,686 1,925 2,050\nRussia (Sep-Aug) 200 200 600 2,400 2,300 2,550 4,200 4,200 4,850\nTurkey (Sep-Aug) 174 115 100 53 67 75 1,001 1,044 1,100\nUkraine (Sep-Aug) 68 40 100 3,418 2,861 3,300 4,744 4,036 5,000\nEuropean Union (Oct-Sep) 824 1,100 550 479 600 900 691 700 850\nOther 1,480 1,915 1,641 766 1,154 1,373 1,340 1,681 1,873\nWorld Total 3,372 4,320 3,891 8,773 8,882 10,198 13,662 13,586 15,723\nDomestic Consumption\nArgentina (Mar-Feb) 5,230 6,425 6,775 500 575 650 562 562 567\nRussia (Sep-Aug) 16,800 17,220 19,005 4,300 4,500 4,850 2,575 2,575 2,700\nTurkey (Sep-Aug) 2,027 2,652 2,700 2,000 2,125 2,300 1,090 1,215 1,415\nUkraine (Sep-Aug) 12,825 10,800 12,775 1,800 1,675 1,875 440 455 470\nEuropean Union (Oct-Sep) 8,630 8,865 10,215 6,260 5,960 6,660 5,213 4,938 5,488\nOther 7,386 8,895 9,889 5,729 7,290 7,350 9,222 9,311 11,126\nWorld Total 52,898 54,857 61,359 20,589 22,125 23,685 19,102 19,056 21,766\nEnding Stocks\nArgentina (Mar-Feb) 558 807 933 194 255 295 116 150 207\nRussia (Sep-Aug) 697 892 1,737 410 477 601 195 318 327\nTurkey (Sep-Aug) 80 164 164 171 200 247 109 84 146\nUkraine (Sep-Aug) 305 198 353 429 230 269 241 265 213\nEuropean Union (Oct-Sep) 340 429 589 393 361 419 418 379 487\nOther 570 603 720 328 326 375 1,468 1,185 1,455\nWorld Total 2,550 3,093 4,496 1,925 1,849 2,206 2,547 2,381 2,835\nForeign Agricultural Service/USDA 22 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "5e41eee1318b8dd83a9ea228c55aafe370d7c0668db6654dececa5127c9b8564": {
+      "mapping_notes": {},
+      "title": "Table 14: Minor Vegetable Oils: World Supply and Distribution",
+      "source_page": 23,
+      "layout": "year-columns-9",
+      "complete_source_text": "Table 14: Minor Vegetable Oils: World Supply and Distribution\nThousand Metric Tons\nOil, Peanut Oil, Cottonseed Oil, Olive\nMarketing Year 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27 2024/25 2025/26 2026/27\nProduction\nChina (Oct-Sep) 3,104 3,062 3,136 1,164 1,164 1,164 9 10 9\nIndia (Oct-Sep) 1,256 1,323 1,323 1,311 1,297 1,290 nr nr nr\nTurkey (Nov-Oct) 7 7 7 235 185 128 410 210 400\nUnited States (Aug-Jul) 106 137 134 131 121 122 16 14 14\nEuropean Union (Oct-Sep) 13 13 13 29 24 28 2,152 2,043 2,100\nOther 1,822 1,743 1,725 1,844 1,926 1,743 786 992 726\nWorld Total 6,308 6,285 6,338 4,714 4,717 4,475 3,373 3,269 3,249\nImports\nChina (Oct-Sep) 347 346 270 0 0 0 40 45 50\nIndia (Oct-Sep) 0 1 0 1 5 5 nr nr nr\nTurkey (Nov-Oct) 0 0 0 3 3 3 30 25 30\nUnited States (Aug-Jul) 46 9 23 1 1 1 446 427 450\nEuropean Union (Oct-Sep) 47 45 60 2 10 5 202 300 225\nOther 33 35 35 58 69 64 518 519 520\nWorld Total 473 436 388 65 88 78 1,236 1,316 1,275\nExports\nChina (Oct-Sep) 11 11 10 8 21 7 0 0 0\nIndia (Oct-Sep) 233 100 100 0 1 0 nr nr nr\nTurkey (Nov-Oct) 0 0 0 2 2 2 79 45 150\nUnited States (Aug-Jul) 6 5 5 20 18 18 8 8 10\nEuropean Union (Oct-Sep) 6 6 6 1 1 1 847 825 850\nOther 330 318 319 27 37 32 420 574 378\nWorld Total 586 440 440 58 80 60 1,354 1,452 1,388\nDomestic Consumption\nChina (Oct-Sep) 3,440 3,397 3,396 1,156 1,143 1,157 49 55 59\nIndia (Oct-Sep) 1,010 1,180 1,210 1,330 1,305 1,295 nr nr nr\nTurkey (Nov-Oct) 7 7 7 235 185 140 400 215 220\nUnited States (Aug-Jul) 143 138 152 116 107 102 454 433 454\nEuropean Union (Oct-Sep) 54 52 67 30 33 32 1,420 1,470 1,470\nOther 1,499 1,469 1,442 1,864 1,961 1,760 839 886 906\nWorld Total 6,153 6,243 6,274 4,731 4,734 4,486 3,162 3,059 3,109\nEnding Stocks\nChina (Oct-Sep) 0 0 0 0 0 0 0 0 0\nIndia (Oct-Sep) 200 244 257 28 24 24 nr nr nr\nTurkey (Nov-Oct) 0 0 0 14 15 4 60 35 95\nUnited States (Aug-Jul) 11 14 14 16 13 16 0 0 0\nEuropean Union (Oct-Sep) 4 4 4 0 0 0 269 317 322\nOther 156 147 146 120 117 132 185 236 198\nWorld Total 371 409 421 178 169 176 514 588 615\nForeign Agricultural Service/USDA 23 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "9e11f0617693dba447f64051263a6f1c785eff743d57e788fe26259051ea70e9": {
+      "mapping_notes": {},
+      "title": "Table 15: World Oilseeds and Products Supply and Distribution",
+      "source_page": 24,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 15: World Oilseeds and Products Supply and Distribution\nMillion Metric Tons\nArea Beginning Production Imports Total Exports Food Use Domestic Ending\nHarvested Stocks Supply Dom. Consumpti Stocks\nMajor Oilseeds\n2013/14 261.51 73.35 504.21 133.89 711.45 134.10 37.35 494.87 82.48\n2014/15 267.83 82.48 540.05 143.67 766.20 147.36 38.85 521.53 97.31\n2015/16 265.26 97.31 524.06 154.45 775.82 153.80 40.16 527.84 94.18\n2016/17 270.48 94.27 577.11 167.64 839.02 171.97 41.58 556.10 110.96\n2017/18 281.65 110.96 581.87 176.53 869.36 177.47 43.04 573.15 118.74\n2018/19 282.87 118.74 599.81 168.04 886.58 172.14 43.80 580.23 134.21\n2019/20 282.19 134.21 581.12 190.02 905.35 191.55 45.47 600.71 113.09\n2020/21 289.07 113.09 609.32 190.93 913.34 192.10 47.11 605.38 115.86\n2021/22 297.35 115.86 610.90 177.69 904.45 179.27 48.23 609.53 115.64\n2022/23 305.25 115.64 636.79 198.12 950.55 201.74 49.53 625.87 122.94\n2023/24 309.12 122.94 657.80 204.85 985.60 205.31 50.75 644.25 136.04\n2024/25 314.41 136.04 687.06 206.78 1,029.87 213.33 51.54 672.03 144.50\n2025/26 313.80 144.50 701.28 217.46 1,063.25 216.94 52.52 700.75 145.56\n2026/27 320.71 145.50 721.90 220.42 1,087.81 222.76 52.84 719.40 145.65\nMajor Protein Meals\n2013/14 nr 13.61 282.51 80.97 377.09 83.54 0.44 278.34 15.21\n2014/15 nr 15.21 300.66 82.94 398.81 86.61 0.45 293.85 18.36\n2015/16 nr 18.36 305.86 84.15 408.36 87.39 0.47 302.67 18.31\n2016/17 nr 18.66 320.65 85.55 424.85 89.72 0.52 315.90 19.23\n2017/18 nr 19.23 330.33 87.35 436.91 90.99 0.54 325.11 20.81\n2018/19 nr 20.81 332.15 90.23 443.19 95.29 0.61 328.32 19.57\n2019/20 nr 19.57 345.75 92.06 457.38 96.41 0.70 340.19 20.79\n2020/21 nr 20.79 349.97 93.15 463.91 97.86 0.77 346.16 19.90\n2021/22 nr 19.90 349.55 94.20 463.64 96.62 0.81 346.78 20.24\n2022/23 nr 20.24 357.62 93.12 470.98 97.66 0.81 355.03 18.28\n2023/24 nr 18.28 371.40 101.48 491.17 105.88 0.86 366.33 18.95\n2024/25 nr 18.95 392.55 107.66 519.17 114.21 0.90 382.38 22.58\n2025/26 nr 22.58 409.23 115.66 547.47 119.92 0.85 403.27 24.28\n2026/27 nr 24.01 416.49 115.46 555.96 120.90 0.82 410.05 25.01\nMajor Vegetable Oils\n2013/14 20.12 23.47 171.56 66.96 261.99 70.13 125.46 166.26 25.60\n2014/15 20.96 25.60 177.48 70.54 273.61 76.55 130.66 170.18 26.89\n2015/16 22.06 26.89 176.37 70.76 274.02 73.80 134.89 177.21 23.01\n2016/17 23.22 23.01 189.14 76.46 288.61 82.02 138.67 182.71 23.88\n2017/18 24.23 23.88 198.53 76.39 298.81 81.05 142.25 190.93 26.82\n2018/19 24.69 26.82 204.11 82.43 313.35 86.93 145.46 198.14 28.28\n2019/20 25.17 28.28 208.03 82.90 319.21 87.18 148.40 201.36 30.67\n2020/21 25.49 30.67 207.95 81.18 319.80 85.79 150.77 204.30 29.71\n2021/22 26.07 29.71 208.40 74.62 312.73 79.61 149.30 202.63 30.48\n2022/23 27.17 30.48 218.24 83.30 332.02 88.75 153.00 210.79 32.48\n2023/24 29.46 32.48 222.26 80.77 335.50 86.21 156.37 218.55 30.74\n2024/25 30.18 30.74 230.83 81.01 342.58 88.47 161.48 224.00 30.12\n2025/26 30.30 30.12 240.86 81.26 352.24 90.92 164.17 230.82 30.50\n2026/27 30.44 30.50 243.19 83.94 357.62 90.57 167.38 237.39 29.67\nBased on the aggregate of different marketing years\nForeign Agricultural Service/USDA 24 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "02495d51df05e451f5e4fda70f5e260b7d37372d22bf31147a6341e4e29e4675": {
+      "mapping_notes": {},
+      "title": "Table 16: World Soybeans and Products Supply and Distribution",
+      "source_page": 25,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 16: World Soybeans and Products Supply and Distribution\nMillion Metric Tons\nArea Beginning Production Imports Total Exports Crush Domestic Ending\nHarvested Stocks Supply Consumpti Stocks\nOilseed, Soybean\n2013/14 113.20 58.31 283.32 113.28 454.92 112.80 243.23 278.28 63.84\n2014/15 119.16 63.84 321.44 124.36 509.64 126.44 265.26 303.89 79.31\n2015/16 120.88 79.31 316.07 134.04 529.43 132.84 275.76 316.89 79.69\n2016/17 120.55 79.72 350.81 145.00 575.52 147.74 288.38 332.16 95.63\n2017/18 125.19 95.63 343.63 154.17 593.43 153.40 295.65 340.28 99.74\n2018/19 126.05 99.74 363.45 145.92 609.12 149.22 299.13 345.65 114.25\n2019/20 124.17 114.25 341.73 165.32 621.30 165.82 312.65 360.26 95.21\n2020/21 130.23 95.21 369.63 166.31 631.15 165.18 318.16 367.13 98.84\n2021/22 131.61 98.84 360.63 154.77 614.24 154.42 316.47 366.12 93.70\n2022/23 137.23 93.70 378.21 168.50 640.41 171.76 315.84 366.88 101.77\n2023/24 140.71 101.77 396.54 178.50 676.80 177.85 331.27 383.86 115.09\n2024/25 146.18 115.09 428.23 179.15 722.47 184.33 359.23 412.13 126.01\n2025/26 142.62 126.01 429.26 189.39 744.66 186.63 376.33 433.05 124.98\n2026/27 146.42 124.98 442.50 191.38 758.86 192.55 386.24 442.80 123.50\nMeal, Soybean\n2013/14 nr 10.69 190.59 58.49 259.77 60.86 243.33 187.17 11.74\n2014/15 nr 11.74 208.63 61.40 281.77 64.64 265.27 202.48 14.66\n2015/16 nr 14.66 216.34 63.35 294.34 65.85 275.77 213.75 14.73\n2016/17 nr 14.90 226.28 61.72 302.90 65.41 288.39 222.27 15.23\n2017/18 nr 15.23 232.78 62.89 310.90 65.80 295.66 228.93 16.18\n2018/19 nr 16.18 234.00 63.49 313.67 68.06 299.13 230.49 15.13\n2019/20 nr 15.13 245.31 64.29 324.73 68.25 312.65 240.38 16.10\n2020/21 nr 16.10 249.75 65.66 331.50 69.79 318.16 245.64 16.07\n2021/22 nr 16.07 247.99 67.11 331.17 68.84 316.47 245.81 16.52\n2022/23 nr 16.52 248.44 63.27 328.24 67.07 315.84 247.01 14.16\n2023/24 nr 14.16 259.88 69.54 343.57 74.22 331.27 255.04 14.31\n2024/25 nr 14.31 281.81 77.73 373.85 82.89 359.23 272.95 18.02\n2025/26 nr 18.02 294.06 82.66 394.73 86.62 376.33 288.63 19.49\n2026/27 nr 19.49 302.61 86.18 408.28 90.11 386.24 298.16 20.01\nOil, Soybean\n2013/14 nr 4.46 45.33 9.35 59.14 9.43 243.33 45.51 4.21\n2014/15 nr 4.21 49.38 10.18 63.77 11.19 265.26 47.88 4.70\n2015/16 nr 4.70 51.66 11.76 68.11 11.83 275.76 52.09 4.19\n2016/17 nr 4.21 53.95 11.23 69.39 11.45 288.38 53.58 4.36\n2017/18 nr 4.36 55.31 10.06 69.74 10.78 295.65 54.44 4.52\n2018/19 nr 4.52 56.48 10.95 71.94 11.48 299.13 55.65 4.82\n2019/20 nr 4.82 58.91 11.62 75.35 12.38 312.65 57.30 5.66\n2020/21 nr 5.66 60.06 11.76 77.49 12.61 318.16 58.94 5.94\n2021/22 nr 5.94 60.01 11.51 77.46 12.43 316.47 59.73 5.30\n2022/23 nr 5.30 60.74 10.98 77.02 11.74 315.84 59.39 5.88\n2023/24 nr 5.88 64.01 10.53 80.43 11.81 331.27 62.92 5.69\n2024/25 nr 5.69 70.08 14.18 89.95 15.26 359.23 68.24 6.45\n2025/26 nr 6.45 73.62 13.89 93.96 15.55 376.33 72.18 6.24\n2026/27 nr 6.24 75.29 13.71 95.23 15.10 386.24 73.60 6.53\nBased on the aggregate of different marketing years, primarily October through September.\nForeign Agricultural Service/USDA 25 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "edcb79756f33294adc6a05be9435a62df83be8be9704418776498bbf73c5126e": {
+      "mapping_notes": {},
+      "title": "Table 17: World Rapeseed and Products Supply and Distribution",
+      "source_page": 26,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 17: World Rapeseed and Products Supply and Distribution\nMillion Metric Tons\nArea Beginning Production Imports Total Exports Food Use Domestic Ending\nHarvested Stocks Supply Dom. Consumpti Stocks\nOilseed, Rapeseed\n2013/14 36.03 6.72 71.50 15.55 93.77 15.23 0.50 69.39 9.15\n2014/15 35.30 9.15 70.94 14.32 94.41 14.93 0.56 70.75 8.73\n2015/16 33.35 8.73 68.67 14.13 91.53 14.27 0.66 70.28 6.98\n2016/17 33.83 7.04 70.31 15.79 93.14 16.50 0.66 71.04 5.60\n2017/18 36.07 5.60 75.80 15.73 97.13 16.58 0.66 72.20 8.36\n2018/19 36.26 8.36 73.69 14.64 96.69 14.76 0.17 72.00 9.93\n2019/20 35.33 9.93 70.94 15.96 96.84 15.87 0.27 72.56 8.41\n2020/21 35.57 8.41 75.44 16.56 100.42 17.78 0.37 74.81 7.82\n2021/22 38.72 7.82 76.65 13.89 98.36 15.05 0.67 76.02 7.29\n2022/23 42.44 7.29 89.86 20.07 117.21 19.84 0.67 86.46 10.91\n2023/24 42.98 10.91 89.97 18.26 119.14 18.56 0.67 88.72 11.87\n2024/25 42.51 11.87 86.28 20.06 118.20 19.81 0.68 88.45 9.94\n2025/26 44.07 9.94 96.04 18.44 124.41 19.35 0.68 94.11 10.96\n2026/27 46.82 10.96 100.25 20.20 131.40 20.56 0.68 99.00 11.84\nMeal, Rapeseed\n2013/14 nr 0.90 38.54 6.51 45.95 6.36 0.00 38.69 0.90\n2014/15 nr 0.90 38.99 6.01 45.90 6.07 0.00 38.86 0.97\n2015/16 nr 0.97 38.84 5.71 45.52 5.70 0.00 38.67 1.15\n2016/17 nr 1.33 39.10 6.19 46.61 6.26 0.00 38.96 1.40\n2017/18 nr 1.40 39.66 6.51 47.57 6.68 0.00 39.43 1.46\n2018/19 nr 1.46 39.59 7.17 48.22 7.22 0.00 39.75 1.25\n2019/20 nr 1.25 39.93 8.01 49.19 7.77 0.00 40.02 1.40\n2020/21 nr 1.40 41.59 8.37 51.36 8.28 0.00 41.80 1.28\n2021/22 nr 1.28 41.90 7.69 50.87 7.79 0.00 41.59 1.49\n2022/23 nr 1.49 47.81 9.30 58.60 9.79 0.00 47.54 1.26\n2023/24 nr 1.26 49.21 9.93 60.40 10.22 0.00 48.69 1.50\n2024/25 nr 1.50 49.30 10.15 60.94 10.71 0.00 48.80 1.43\n2025/26 nr 1.43 52.41 12.04 65.87 12.05 0.00 52.18 1.64\n2026/27 nr 1.64 54.69 11.45 67.77 11.69 0.00 54.28 1.80\nOil, Rapeseed\n2013/14 nr 4.83 27.20 3.82 35.85 3.84 17.91 25.86 6.15\n2014/15 nr 6.15 27.62 3.96 37.73 4.06 18.88 27.08 6.59\n2015/16 nr 6.59 27.56 4.13 38.28 4.17 20.07 28.48 5.63\n2016/17 nr 5.58 27.81 4.56 37.94 4.64 20.51 29.14 4.16\n2017/18 nr 4.16 28.32 4.84 37.32 4.84 20.52 29.17 3.31\n2018/19 nr 3.31 28.04 5.18 36.54 5.26 20.24 28.39 2.89\n2019/20 nr 2.89 28.42 5.80 37.11 5.87 20.17 28.33 2.91\n2020/21 nr 2.91 29.44 6.33 38.67 6.42 20.36 28.59 3.66\n2021/22 nr 3.66 29.15 5.11 37.92 5.21 21.96 30.16 2.54\n2022/23 nr 2.54 33.25 6.90 42.69 6.53 23.32 32.71 3.44\n2023/24 nr 3.44 34.39 7.50 45.32 7.50 24.19 34.35 3.47\n2024/25 nr 3.47 34.28 7.10 44.85 7.13 24.99 34.40 3.33\n2025/26 nr 3.33 36.65 7.40 47.37 7.90 25.20 35.87 3.60\n2026/27 nr 3.60 38.25 8.48 50.32 8.86 25.97 37.73 3.73\nBased on the aggregate of different marketing years.\nForeign Agricultural Service/USDA 26 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "b86218e60dacc2c45879ee3f1a5db33d255c29895ccc49cc6dedf93e4b9c08ad": {
+      "mapping_notes": {},
+      "title": "Table 18: World Sunflower and Products Supply and Distribution",
+      "source_page": 27,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 18: World Sunflower and Products Supply and Distribution\nMillion Metric Tons\nArea Beginning Production Imports Exports Food Use Domestic Ending\nHarvested Stocks Dom. Consumpti Stocks\nOilseed, Sunflowerseed\n2013/14 24.01 2.77 41.57 1.73 2.01 1.91 40.76 3.31\n2014/15 23.09 3.31 39.25 1.63 1.68 2.01 39.55 2.95\n2015/16 23.47 2.95 40.70 2.11 2.13 2.05 40.70 2.93\n2016/17 25.95 2.93 48.35 2.46 2.68 2.06 47.40 3.65\n2017/18 25.93 3.65 47.92 2.38 2.75 2.09 48.11 3.10\n2018/19 25.66 3.10 50.33 2.89 3.19 2.07 50.34 2.79\n2019/20 25.83 2.79 53.91 3.35 3.60 2.09 53.45 3.00\n2020/21 26.77 3.00 48.87 2.72 2.95 2.08 49.23 2.41\n2021/22 28.54 2.41 56.86 3.83 3.94 2.08 51.33 7.82\n2022/23 28.30 7.82 52.78 3.77 4.02 2.12 56.23 4.12\n2023/24 27.80 4.12 55.93 2.54 2.72 2.11 56.67 3.20\n2024/25 28.26 3.20 53.01 2.61 3.37 2.05 52.90 2.55\n2025/26 30.27 2.55 55.34 4.38 4.32 2.01 54.86 3.09\n2026/27 33.09 3.09 63.16 3.49 3.89 2.16 61.36 4.50\nMeal, Sunflowerseed\n2013/14 nr 0.75 16.84 5.81 6.23 0.00 15.78 1.39\n2014/15 nr 1.39 16.17 5.56 5.87 0.00 15.73 1.52\n2015/16 nr 1.52 16.54 5.99 6.24 0.00 16.39 1.42\n2016/17 nr 1.42 19.50 7.12 7.61 0.00 18.96 1.47\n2017/18 nr 1.47 20.00 6.81 7.16 0.00 19.34 1.78\n2018/19 nr 1.78 20.98 8.11 8.18 0.00 20.69 2.00\n2019/20 nr 2.00 21.83 8.56 8.85 0.00 21.44 2.11\n2020/21 nr 2.11 20.28 7.58 8.16 0.00 20.47 1.34\n2021/22 nr 1.34 21.22 7.35 7.84 0.00 20.92 1.14\n2022/23 nr 1.14 23.05 8.55 9.16 0.00 21.77 1.81\n2023/24 nr 1.81 23.24 10.16 10.22 0.00 22.86 2.13\n2024/25 nr 2.13 21.41 7.75 8.77 0.00 20.59 1.93\n2025/26 nr 1.93 22.30 8.63 8.88 0.00 22.13 1.85\n2026/27 nr 1.85 25.03 9.22 10.20 0.00 23.69 2.21\nOil, Sunflowerseed\n2013/14 nr 2.24 15.65 7.05 7.78 13.41 14.22 2.94\n2014/15 nr 2.94 14.97 6.33 7.41 13.43 14.24 2.59\n2015/16 nr 2.59 15.40 7.32 8.21 14.16 15.07 2.04\n2016/17 nr 2.12 18.30 9.31 10.75 15.41 16.37 2.62\n2017/18 nr 2.62 18.57 9.15 10.32 16.42 17.40 2.61\n2018/19 nr 2.61 19.62 9.75 11.51 17.01 18.02 2.44\n2019/20 nr 2.44 21.21 11.75 13.49 17.90 18.91 3.00\n2020/21 nr 3.00 19.01 9.71 11.34 17.23 18.26 2.11\n2021/22 nr 2.11 19.68 9.71 11.22 16.43 17.52 2.76\n2022/23 nr 2.76 21.71 12.61 14.31 18.39 19.55 3.22\n2023/24 nr 3.22 22.12 13.96 15.34 19.89 21.07 2.89\n2024/25 nr 2.89 20.41 12.01 13.66 18.00 19.10 2.55\n2025/26 nr 2.55 21.12 11.36 13.59 17.97 19.06 2.38\n2026/27 nr 2.38 23.75 14.19 15.72 20.60 21.77 2.84\nBased on the aggregate of different marketing years, primarily September through August.\nForeign Agricultural Service/USDA 27 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "cb1fe22d27a0954d4525e3384acc6fd9841d84e6ab017fac569ab6888b659f74": {
+      "mapping_notes": {},
+      "title": "Table 19: World Palm Oil, Coconut Oil, and Fish Meal Supply and Distribution",
+      "source_page": 28,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 19: World Palm Oil, Coconut Oil, and Fish Meal Supply and Distribution\nMillion Metric Tons\nBeginning Production Imports Total Exports Industrial Food Use Domestic Ending\nStocks Supply Dom. Dom. Consumpti Stocks\nOil, Palm\n2013/14 9.50 59.20 41.48 110.18 43.09 16.21 40.58 57.43 9.66\n2014/15 9.66 62.09 44.22 115.96 47.33 14.35 42.78 57.76 10.87\n2015/16 10.87 58.75 42.10 111.73 43.75 16.41 42.16 59.27 8.70\n2016/17 8.65 65.57 45.90 120.12 48.94 16.73 43.32 60.71 10.46\n2017/18 10.46 70.59 46.28 127.33 48.73 19.88 45.01 65.57 13.03\n2018/19 13.03 74.16 50.19 137.38 51.55 22.80 47.50 70.99 14.85\n2019/20 14.85 73.37 47.13 135.34 48.36 23.18 47.20 71.08 15.90\n2020/21 15.90 73.66 46.77 136.33 48.55 23.59 48.37 72.62 15.16\n2021/22 15.16 73.32 41.92 130.40 43.88 22.98 46.08 69.71 16.81\n2022/23 16.81 76.78 46.65 140.24 49.37 25.31 47.89 73.86 17.01\n2023/24 17.01 76.06 42.36 135.43 44.41 26.36 48.13 75.12 15.90\n2024/25 15.90 78.91 41.38 136.20 45.02 26.74 48.51 76.24 14.94\n2025/26 14.94 82.10 42.14 139.19 46.76 27.56 48.88 77.22 15.21\n2026/27 15.21 78.92 41.40 135.53 43.75 28.26 49.14 78.01 13.77\nOil, Coconut\n2013/14 0.49 3.36 1.74 5.59 1.92 1.51 1.73 3.27 0.41\n2014/15 0.41 3.31 1.82 5.53 1.94 1.44 1.71 3.18 0.41\n2015/16 0.41 3.21 1.61 5.23 1.58 1.47 1.61 3.10 0.56\n2016/17 0.55 3.39 1.54 5.48 1.79 1.55 1.64 3.21 0.49\n2017/18 0.49 3.70 1.75 5.94 1.76 1.65 1.75 3.42 0.75\n2018/19 0.75 3.77 1.86 6.37 2.14 1.70 1.82 3.54 0.70\n2019/20 0.70 3.60 1.84 6.13 1.88 1.75 1.89 3.65 0.59\n2020/21 0.59 3.58 1.95 6.12 1.73 1.70 1.94 3.66 0.74\n2021/22 0.74 3.74 2.23 6.71 2.28 1.59 1.95 3.56 0.87\n2022/23 0.87 3.71 1.93 6.50 2.18 1.51 1.91 3.43 0.89\n2023/24 0.89 3.91 2.18 6.99 2.47 1.63 1.99 3.63 0.89\n2024/25 0.89 3.83 1.86 6.58 2.24 1.60 1.91 3.53 0.82\n2025/26 0.82 3.69 1.98 6.49 2.21 1.68 1.92 3.61 0.67\n2026/27 0.67 3.82 1.81 6.30 2.12 1.67 1.88 3.56 0.61\nMeal, Fish\n2012/13 0.28 4.84 2.47 7.59 2.32 0.05 0.00 4.81 0.46\n2013/14 0.46 4.45 2.73 7.64 2.47 0.05 0.00 4.94 0.23\n2014/15 0.23 4.69 2.51 7.42 2.28 0.05 0.00 4.87 0.27\n2015/16 0.27 4.51 2.44 7.21 2.21 0.05 0.00 4.73 0.27\n2016/17 0.27 4.88 3.06 8.21 2.59 0.05 0.00 5.37 0.25\n2017/18 0.25 4.80 3.05 8.10 2.69 0.05 0.00 5.17 0.25\n2018/19 0.25 4.77 3.08 8.10 2.65 0.05 0.00 5.20 0.24\n2019/20 0.24 4.65 3.09 7.98 2.67 0.08 0.00 5.05 0.26\n2020/21 0.26 4.86 3.41 8.52 2.95 0.06 0.00 5.38 0.19\n2021/22 0.19 5.03 3.59 8.82 2.93 0.07 0.00 5.62 0.27\n2022/23 0.27 4.54 3.36 8.17 2.55 0.07 0.00 5.37 0.25\n2023/24 0.25 5.14 3.62 9.00 2.97 0.08 0.00 5.79 0.24\n2024/25 0.24 5.28 3.95 9.47 3.15 0.07 0.00 6.03 0.29\n2025/26 0.29 5.31 3.79 9.40 3.19 0.07 0.00 5.94 0.27\nBased on the aggregate of different marketing years.\nForeign Agricultural Service/USDA 28 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "386cc74d29232eb0fe552681370b60ed10f24a3f88b4649976d19e232f676441": {
+      "mapping_notes": {},
+      "title": "Table 20: United States Oilseeds and Products Supply and Distribution Local Marketing Year",
+      "source_page": 29,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 20: United States Oilseeds and Products Supply and Distribution Local Marketing Year\nThousand Metric Tons\nArea Beginning Production Imports Total Exports Crush Domestic Ending\nHarvested Stocks Supply Consumpti Stocks\nMajor Oilseeds\n2013/14 35,428 5,763 98,986 3,067 107,816 45,569 51,455 58,294 3,953\n2014/15 38,991 3,953 116,050 1,851 121,854 51,109 55,108 63,989 6,756\n2015/16 38,403 6,756 115,891 1,130 123,777 53,968 55,055 62,940 6,869\n2016/17 39,247 6,869 126,942 1,502 135,313 60,084 56,257 65,628 9,601\n2017/18 42,801 9,601 131,483 1,419 142,503 59,315 60,168 69,361 13,827\n2018/19 41,317 13,827 130,709 1,116 145,652 48,861 61,034 69,815 26,976\n2019/20 36,811 26,976 106,951 1,216 135,143 47,067 63,037 71,737 16,339\n2020/21 38,809 16,339 124,544 1,205 142,088 62,781 62,655 70,668 8,639\n2021/22 41,048 8,639 131,322 1,181 141,142 59,552 63,868 72,448 9,142\n2022/23 39,909 9,142 125,753 1,524 136,419 54,774 64,161 72,795 8,850\n2023/24 37,984 8,850 122,164 1,106 132,120 47,569 66,225 73,738 10,813\n2024/25 40,113 10,813 128,594 1,300 140,707 52,555 70,430 77,920 10,232\n2025/26 37,927 10,232 126,119 1,087 137,438 42,475 75,893 84,207 10,756\n2026/27 40,346 10,756 133,780 1,243 145,779 48,163 79,792 87,743 9,873\nMajor Protein Meals\n2013/14 nr 314 39,291 3,798 43,403 10,803 51,455 32,308 292\n2014/15 nr 292 43,210 3,873 47,375 12,144 55,108 34,941 290\n2015/16 nr 290 42,773 4,070 47,133 11,178 55,055 35,680 275\n2016/17 nr 275 43,117 3,920 47,312 10,826 56,257 36,078 408\n2017/18 nr 408 47,063 3,736 51,207 13,005 60,168 37,639 563\n2018/19 nr 563 46,532 3,935 51,030 12,447 61,034 38,161 422\n2019/20 nr 422 48,770 4,121 53,313 12,825 63,037 40,102 386\n2020/21 nr 386 48,224 4,385 52,995 12,623 62,655 39,981 391\n2021/22 nr 391 49,228 3,570 53,189 12,479 63,868 40,357 353\n2022/23 nr 353 49,926 4,308 54,587 13,392 64,161 40,781 414\n2023/24 nr 414 51,425 4,292 56,131 14,749 66,225 40,895 487\n2024/25 nr 487 55,267 4,949 60,703 16,605 70,430 43,649 449\n2025/26 nr 449 59,137 5,520 65,106 18,624 75,893 46,127 355\n2026/27 nr 350 61,886 5,382 67,618 20,685 79,792 46,501 432\nMajor Vegetable Oils\n2013/14 0 1,144 10,425 4,016 15,585 1,116 51,455 13,498 971\n2014/15 0 971 10,938 4,230 16,139 1,174 55,108 13,679 1,286\n2015/16 0 1,286 11,210 4,527 17,023 1,248 55,055 14,541 1,234\n2016/17 0 1,234 11,433 4,731 17,398 1,416 56,257 14,712 1,270\n2017/18 0 1,270 12,107 4,783 18,160 1,342 60,168 15,531 1,287\n2018/19 0 1,287 12,188 4,702 18,177 1,092 61,034 15,892 1,193\n2019/20 0 1,193 12,632 4,901 18,726 1,504 63,037 16,014 1,208\n2020/21 0 1,208 12,692 4,950 18,850 1,042 62,655 16,509 1,299\n2021/22 0 1,299 13,053 5,263 19,615 1,048 63,868 17,276 1,291\n2022/23 0 1,291 13,179 6,265 20,735 335 64,161 19,271 1,129\n2023/24 0 1,129 13,591 6,867 21,587 419 66,225 20,134 1,034\n2024/25 0 1,034 14,485 5,929 21,448 1,273 70,430 19,074 1,101\n2025/26 0 1,101 15,238 6,130 22,469 605 75,893 20,914 950\n2026/27 0 950 16,386 7,329 24,665 313 79,792 23,272 1,080\nBased on the aggregate of different marketing years\nForeign Agricultural Service/USDA 29 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "f421ef11160a531b4567bca2db45f7eaf3dfd5c694865f77332760aaea26729d": {
+      "mapping_notes": {},
+      "title": "Table 21: United States Soybeans and Products Supply and Distribution (Sep-Aug)",
+      "source_page": 30,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 21: United States Soybeans and Products Supply and Distribution (Sep-Aug)\nThousand Metric Tons\nArea Beginning Production Imports Total Exports Crush Domestic Ending\nHarvested Stocks Supply Consumpti Stocks\nOilseed, Soybean\n2013/14 30,850 3,825 91,363 1,953 97,141 44,594 47,192 50,043 2,504\n2014/15 33,431 2,504 106,905 904 110,313 50,136 50,975 54,989 5,188\n2015/16 33,080 5,188 106,869 641 112,698 52,869 51,335 54,475 5,354\n2016/17 33,470 5,354 116,931 606 122,891 58,964 51,742 55,719 8,208\n2017/18 36,236 8,208 120,065 594 128,867 58,071 55,926 58,873 11,923\n2018/19 35,448 11,923 120,515 383 132,821 47,721 56,935 59,924 25,176\n2019/20 30,318 25,176 96,644 419 122,239 45,800 58,910 61,782 14,657\n2020/21 33,428 14,657 114,749 539 129,945 61,664 58,257 61,287 6,994\n2021/22 34,921 6,994 121,504 433 128,931 58,570 59,980 62,893 7,468\n2022/23 34,873 7,468 116,221 667 124,356 53,864 60,199 63,302 7,190\n2023/24 33,294 7,190 113,273 567 121,030 46,350 62,196 65,361 9,319\n2024/25 34,887 9,319 119,047 806 129,172 51,495 66,546 68,837 8,840\n2025/26 32,544 8,840 115,966 606 125,412 41,243 72,003 75,592 8,577\n2026/27 34,755 8,577 124,478 680 133,735 46,811 75,659 78,758 8,166\nMeal, Soybean\n2013/14 nr 249 36,909 347 37,505 10,504 47,192 26,774 227\n2014/15 nr 227 40,880 302 41,409 11,891 50,975 29,282 236\n2015/16 nr 236 40,525 358 41,119 10,843 51,335 30,037 239\n2016/17 nr 239 40,630 313 41,182 10,505 51,742 30,314 363\n2017/18 nr 363 44,657 438 45,458 12,717 55,926 32,237 504\n2018/19 nr 504 44,283 620 45,407 12,141 56,935 32,901 365\n2019/20 nr 365 46,358 580 47,303 12,549 58,910 34,444 310\n2020/21 nr 310 45,872 712 46,894 12,406 58,257 34,179 309\n2021/22 nr 309 47,005 594 47,908 12,303 59,980 35,323 282\n2022/23 nr 282 47,621 575 48,478 13,196 60,199 34,946 336\n2023/24 nr 336 49,084 623 50,043 14,564 62,196 35,068 411\n2024/25 nr 411 53,019 732 54,162 16,396 66,546 37,405 361\n2025/26 nr 361 56,797 910 58,068 18,418 72,003 39,348 302\n2026/27 nr 302 59,693 907 60,902 20,593 75,659 39,946 363\nOil, Soybean\n2013/14 nr 751 9,131 75 9,957 852 47,192 8,577 528\n2014/15 nr 528 9,706 120 10,354 914 50,975 8,599 841\n2015/16 nr 841 9,956 130 10,927 1,017 51,335 9,145 765\n2016/17 nr 765 10,035 145 10,945 1,159 51,742 9,010 776\n2017/18 nr 776 10,783 152 11,711 1,108 55,926 9,698 905\n2018/19 nr 905 10,976 180 12,061 880 56,935 10,376 805\n2019/20 nr 805 11,299 145 12,249 1,287 58,910 10,122 840\n2020/21 nr 840 11,350 137 12,327 786 58,257 10,574 967\n2021/22 nr 967 11,864 137 12,968 803 59,980 11,262 903\n2022/23 nr 903 11,897 170 12,970 171 60,199 12,070 729\n2023/24 nr 729 12,289 282 13,300 280 62,196 12,317 703\n2024/25 nr 703 13,253 164 14,120 1,121 66,546 12,207 792\n2025/26 nr 792 13,869 239 14,900 445 72,003 13,794 661\n2026/27 nr 661 14,944 318 15,923 181 75,659 14,972 770\nData based on Local Marketing Year (MY). Soybeans are on a September/August MY, and Soybean Meal and\nOil are on an October/September MY.\nForeign Agricultural Service/USDA 30 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "7f4b51e259fbbd1ca891c1ccc2ef3c915e12caff28b18d82388d73482a4ee61b": {
+      "mapping_notes": {},
+      "title": "Table 22: Brazil Soybeans and Products Supply and Distribution Local Marketing Years (Jan-Dec)",
+      "source_page": 31,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 22: Brazil Soybeans and Products Supply and Distribution Local Marketing Years (Jan-Dec)\nThousand Metric Tons\nArea Beginning Production Imports Total Exports Crush Domestic Ending\nHarvested Stocks Supply Consumpti Stocks\nOilseed, Soybean (Local)\n2013/14 30,100 8,946 86,200 579 95,725 45,692 37,622 40,172 9,861\n2014/15 32,100 9,861 97,100 324 107,285 54,324 40,556 43,206 9,755\n2015/16 33,300 9,755 95,700 382 105,837 51,582 39,531 42,206 12,049\n2016/17 33,900 12,049 114,900 254 127,203 68,155 41,837 44,737 14,311\n2017/18 35,150 14,311 123,400 187 137,898 83,258 43,556 46,756 7,884\n2018/19 35,900 7,884 120,500 144 128,528 74,073 43,454 46,369 8,086\n2019/20 37,400 8,086 128,500 822 137,408 82,973 46,845 49,995 4,440\n2020/21 39,800 4,440 139,500 864 144,804 86,110 47,781 51,081 7,613\n2021/22 41,800 7,613 130,500 419 138,532 78,730 50,932 54,177 5,625\n2022/23 44,600 5,625 162,000 181 167,806 101,870 54,165 57,965 7,971\n2023/24 46,150 7,971 154,500 821 163,292 98,815 55,811 59,611 4,866\n2024/25 47,400 4,866 172,500 969 178,335 108,181 58,698 62,798 7,356\n2025/26 48,500 7,356 180,500 1,000 188,856 114,500 63,000 67,300 7,056\n2026/27 50,000 7,056 186,000 1,000 194,056 118,000 65,000 69,500 6,556\nMeal, Soybean (Local)\n2013/14 nr 2,696 28,969 26 31,691 13,716 37,622 15,300 2,675\n2014/15 nr 2,675 31,228 17 33,920 14,827 40,556 15,700 3,393\n2015/16 nr 3,393 30,439 27 33,859 14,445 39,531 16,450 2,964\n2016/17 nr 2,964 32,214 36 35,214 14,179 41,837 17,000 4,035\n2017/18 nr 4,035 33,538 13 37,586 16,673 43,556 17,311 3,602\n2018/19 nr 3,602 33,460 23 37,085 16,682 43,454 17,645 2,758\n2019/20 nr 2,758 36,071 12 38,841 16,938 46,845 18,200 3,703\n2020/21 nr 3,703 36,791 18 40,512 17,149 47,781 19,000 4,363\n2021/22 nr 4,363 39,218 6 43,587 20,353 50,932 19,700 3,534\n2022/23 nr 3,534 42,292 8 45,834 22,474 54,165 20,000 3,360\n2023/24 nr 3,360 42,662 17 46,039 23,134 55,811 20,000 2,905\n2024/25 nr 2,905 44,851 5 47,761 23,273 58,698 20,500 3,988\n2025/26 nr 3,988 48,258 5 52,251 26,200 63,000 21,800 4,251\n2026/27 nr 4,251 50,011 10 54,272 27,100 65,000 23,000 4,172\nOil, Soybean (Local)\n2013/14 nr 298 7,148 0 7,446 1,305 37,622 5,750 391\n2014/15 nr 391 7,706 25 8,122 1,670 40,556 6,200 252\n2015/16 nr 252 7,511 66 7,829 1,254 39,531 6,300 275\n2016/17 nr 275 7,949 58 8,282 1,343 41,837 6,700 239\n2017/18 nr 239 8,493 35 8,767 1,415 43,556 7,100 252\n2018/19 nr 252 8,474 48 8,774 1,041 43,454 7,500 233\n2019/20 nr 233 9,135 199 9,567 1,110 46,845 7,850 607\n2020/21 nr 607 9,556 107 10,270 1,651 47,781 8,150 469\n2021/22 nr 469 10,186 24 10,679 2,596 50,932 7,700 383\n2022/23 nr 383 10,833 21 11,237 2,333 54,165 8,300 604\n2023/24 nr 604 11,341 99 12,044 1,367 55,811 10,200 477\n2024/25 nr 477 11,927 105 12,509 1,363 58,698 10,410 736\n2025/26 nr 736 12,846 80 13,662 2,200 63,000 10,900 562\n2026/27 nr 562 13,260 100 13,922 1,800 65,000 11,400 722\nData based on Brazil's local January/December Marketing Year (MY).Where January 2012 - December 2012 is\nthe 2011/12 MY.\nForeign Agricultural Service/USDA 31 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "475d04e1762a6e92610051dd0a52cfd12fe7e945f72e3bee49b7ade4247cf9b5": {
+      "mapping_notes": {},
+      "title": "Table 23: Argentina Soybeans and Products Supply and Distribution Local Marketing Years (Apr-Mar)",
+      "source_page": 32,
+      "layout": "historical-attribute-columns",
+      "complete_source_text": "Table 23: Argentina Soybeans and Products Supply and Distribution Local Marketing Years (Apr-Mar)\nThousand Metric Tons\nArea Beginning Production Imports Total Exports Crush Domestic Ending\nHarvested Stocks Supply Consumpti Stocks\nOilseed, Soybean (Local)\n2013/14 19,250 4,155 53,400 2 57,557 7,434 38,503 43,503 6,620\n2014/15 19,350 6,620 61,450 141 68,211 11,670 45,110 50,360 6,181\n2015/16 19,350 6,181 58,800 1,304 66,285 9,046 43,042 49,242 7,997\n2016/17 17,335 7,997 55,000 2,600 65,597 7,247 40,940 47,440 10,910\n2017/18 16,300 10,910 37,800 7,256 55,966 3,842 36,359 43,055 9,069\n2018/19 16,600 9,069 55,300 3,789 68,158 10,256 41,188 48,088 9,814\n2019/20 16,700 9,814 48,800 4,939 63,553 6,662 37,870 45,120 11,771\n2020/21 16,470 11,771 46,200 4,438 62,409 5,377 41,054 48,404 8,628\n2021/22 15,900 8,628 43,900 4,571 57,099 5,552 35,900 43,100 8,447\n2022/23 14,400 8,447 25,000 10,395 43,842 1,892 28,986 35,236 6,714\n2023/24 16,370 6,714 48,210 7,196 62,120 4,573 43,550 50,800 6,747\n2024/25 17,455 6,747 51,108 5,950 63,805 12,406 41,821 47,521 3,878\n2025/26 16,038 3,878 49,260 7,600 60,738 6,100 43,500 49,400 5,238\n2026/27 17,100 5,238 50,000 6,500 61,738 6,750 43,500 49,650 5,338\nMeal, Soybean (Local)\n2013/14 nr 4,561 29,528 0 34,089 27,473 38,503 2,200 4,416\n2014/15 nr 4,416 34,737 1 39,154 31,873 45,110 2,524 4,757\n2015/16 nr 4,757 33,350 0 38,107 30,981 43,042 2,759 4,367\n2016/17 nr 4,367 31,750 0 36,117 29,255 40,940 2,930 3,932\n2017/18 nr 3,932 28,270 1 32,203 25,849 36,359 3,084 3,270\n2018/19 nr 3,270 32,000 27 35,297 29,285 41,188 3,175 2,837\n2019/20 nr 2,837 29,539 1 32,377 26,584 37,870 3,217 2,576\n2020/21 nr 2,576 32,059 1 34,636 28,652 41,054 3,300 2,684\n2021/22 nr 2,684 28,002 194 30,880 24,849 35,900 3,325 2,706\n2022/23 nr 2,706 22,319 8 25,033 19,116 28,986 3,400 2,517\n2023/24 nr 2,517 33,534 1 36,052 30,146 43,550 3,500 2,406\n2024/25 nr 2,406 32,202 439 35,047 28,736 41,821 3,550 2,761\n2025/26 nr 2,761 33,495 375 36,631 30,000 43,500 3,600 3,031\n2026/27 nr 3,031 33,495 350 36,876 30,200 43,500 3,650 3,026\nOil, Soybean (Local)\n2013/14 nr 302 7,191 26 7,519 4,296 38,503 2,843 380\n2014/15 nr 380 8,753 5 9,138 6,312 45,110 2,308 518\n2015/16 nr 518 8,382 0 8,900 5,386 43,042 3,055 459\n2016/17 nr 459 7,925 0 8,384 4,721 40,940 3,290 373\n2017/18 nr 373 7,150 1 7,524 4,566 36,359 2,610 348\n2018/19 nr 348 8,044 0 8,392 5,113 41,188 2,625 654\n2019/20 nr 654 7,460 0 8,114 6,150 37,870 1,790 174\n2020/21 nr 174 8,104 15 8,293 5,480 41,054 2,395 418\n2021/22 nr 418 7,079 78 7,575 4,575 35,900 2,600 400\n2022/23 nr 400 5,725 0 6,125 4,178 28,986 1,560 387\n2023/24 nr 387 8,688 11 9,086 6,963 43,550 1,670 453\n2024/25 nr 453 8,343 163 8,959 6,758 41,821 1,880 321\n2025/26 nr 321 8,678 150 9,149 6,850 43,500 1,980 319\n2026/27 nr 319 8,678 140 9,137 6,800 43,500 1,990 347\nData based on Argentina's Local April/March Marketing Year (MY).Where April 2012 - March 2013 is the\n2011/12 MY.\nForeign Agricultural Service/USDA 32 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "edb372b7de2f31a6c86a2f63204e668432db79ebcbf5b2e627631f69a31e4b4f": {
+      "mapping_notes": {},
+      "title": "Table 24: South East Asia Oilseeds and Products Supply and Distribution",
+      "source_page": 33,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 24: South East Asia Oilseeds and Products Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Copra 4,677 4,990 4,828 4,627 4,690 4,690\nOilseed, Palm Kernel 17,094 16,704 17,429 18,376 17,512 17,512\nOilseed, Soybean 625 609 586 553 522 522\nOther 3,679 3,658 3,668 3,645 3,569 3,569\nTotal 26,075 25,961 26,511 27,201 26,293 26,293\nnone\nDomestic Consumption none\nMeal, Fish 865 947 1,055 910 nr nr\nMeal, Palm Kernel 1,978 2,431 2,230 2,447 2,561 2,566\nMeal, Soybean 21,413 21,516 23,221 25,768 27,118 27,293\nOther 2,566 2,491 2,459 2,708 2,644 2,613\nTotal 26,822 27,385 28,965 31,833 32,323 32,472\nnone\nSME none\nMeal, Fish 1,250 1,368 1,524 1,315 nr nr\nMeal, Palm Kernel 704 865 793 870 911 913\nMeal, Soybean 21,328 21,426 23,126 25,673 27,018 27,193\nOther 1,704 1,635 1,620 1,821 1,768 1,754\nTotal 24,985 25,294 27,063 29,679 29,697 29,860\nnone\nImports none\nMeal, Fish 378 365 468 395 nr nr\nMeal, Palm Kernel 998 896 765 857 956 946\nMeal, Soybean 18,151 18,554 19,910 21,453 22,800 22,880\nOther 960 804 751 1,063 1,026 1,026\nTotal 20,487 20,619 21,894 23,768 24,782 24,852\nnone\nIndustrial Dom. Cons. none\nOil, Palm 16,330 17,715 19,230 20,165 20,710 20,775\nOil, Rapeseed 0 0 0 0 0 0\nOil, Soybean 54 54 54 54 54 54\nOil, Sunflowerseed 0 0 0 0 0 0\nOther 5,028 4,917 5,032 5,437 5,362 5,497\nTotal 21,412 22,686 24,316 25,656 26,126 26,326\nnone\nFood Use Dom. Cons. none\nOil, Palm 11,690 11,935 12,657 12,755 12,957 12,857\nOil, Rapeseed 16 25 43 66 66 66\nOil, Soybean 530 538 673 693 759 816\nOil, Sunflowerseed 143 146 134 136 136 136\nOther 1,699 1,664 1,721 1,764 1,789 1,759\nTotal 14,078 14,308 15,228 15,414 15,707 15,634\nnone\nDomestic Consumption none\nOil, Palm 28,457 30,044 32,322 33,360 34,087 34,072\nOil, Rapeseed 16 25 43 66 66 66\nOil, Soybean 584 592 727 747 813 870\nOil, Sunflowerseed 143 146 134 136 136 136\nOther 6,737 6,591 6,763 7,211 7,171 7,276\nTotal 35,937 37,398 39,989 41,520 42,273 42,420\nnone\nImports none\nOil, Palm 3,822 3,168 4,069 3,809 3,546 3,546\nOil, Rapeseed 16 25 40 65 65 65\nOil, Soybean 262 274 293 310 272 332\nOil, Sunflowerseed 12 15 3 5 5 5\nOther 556 696 535 537 496 491\nTotal 4,668 4,178 4,940 4,726 4,384 4,439\nSoutheast Asia includes Brunei, Burma, Cambonia, Indonesia, Laos, Malaysia, Philippines, Singapore, Thailand, and Vietnam. SME - 44\nPercent Protein Soybean Meal Equivalent\nForeign Agricultural Service/USDA 33 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "8edc1c096a88b92d1a953b1bd57bba1d13b1665a4c1922a2818b68b621042ab1": {
+      "mapping_notes": {},
+      "title": "Table 25: Middle East Oilseeds and Products Supply and Distribution",
+      "source_page": 34,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 25: Middle East Oilseeds and Products Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Cottonseed 1,857 1,236 1,501 1,208 783 669\nOilseed, Rapeseed 470 470 475 475 475 475\nOilseed, Soybean 317 309 324 324 334 334\nOilseed, Sunflowerseed 1,946 1,595 1,399 1,299 1,849 1,849\nOther 186 200 205 200 200 200\nTotal 4,776 3,810 3,904 3,506 3,641 3,527\nnone\nDomestic Consumption none\nMeal, Cottonseed 998 682 803 668 461 398\nMeal, Soybean 9,746 11,748 12,622 12,685 13,205 13,085\nMeal, Sunflowerseed 2,252 2,435 2,190 2,476 2,545 2,545\nOther 1,250 1,075 1,137 1,238 1,089 1,089\nTotal 14,246 15,940 16,752 17,067 17,300 17,117\nnone\nSME none\nMeal, Cottonseed 809 553 651 541 374 322\nMeal, Soybean 9,744 11,748 12,622 12,685 13,205 13,085\nMeal, Sunflowerseed 1,502 1,624 1,461 1,651 1,698 1,698\nOther 924 841 862 943 705 705\nTotal 12,978 14,765 15,595 15,821 15,981 15,810\nnone\nImports none\nMeal, Cottonseed 12 32 11 17 20 20\nMeal, Soybean 5,372 8,229 8,194 9,061 8,970 8,970\nMeal, Sunflowerseed 1,059 1,519 1,198 1,202 1,280 1,280\nOther 710 629 670 846 685 685\nTotal 7,153 10,409 10,073 11,126 10,955 10,955\nnone\nImports none\nOil, Palm 3,514 3,559 3,656 3,550 3,195 3,195\nOil, Rapeseed 148 111 135 109 105 105\nOil, Soybean 523 152 238 350 369 369\nOil, Sunflowerseed 3,617 3,405 3,617 2,938 3,820 3,720\nOther 255 220 216 225 184 184\nTotal 8,057 7,447 7,862 7,172 7,673 7,573\nnone\nIndustrial Dom. Cons. none\nOil, Palm 245 240 255 255 245 245\nOil, Rapeseed 25 25 25 25 25 25\nOil, Soybean 55 50 50 55 50 50\nOil, Sunflowerseed 25 25 25 25 25 25\nOther 37 40 35 42 27 27\nTotal 387 380 390 402 372 372\nnone\nFood Use Dom. Cons. none\nOil, Palm 2,667 2,726 2,770 2,815 2,675 2,680\nOil, Rapeseed 379 320 360 355 350 350\nOil, Soybean 1,186 909 747 939 947 952\nOil, Sunflowerseed 3,073 3,505 3,285 3,175 3,655 3,605\nOther 758 637 916 682 608 593\nTotal 8,063 8,097 8,078 7,966 8,235 8,180\nnone\nDomestic Consumption none\nOil, Palm 2,912 2,966 3,025 3,070 2,920 2,925\nOil, Rapeseed 404 345 385 380 375 375\nOil, Soybean 1,246 964 827 1,024 1,027 1,032\nOil, Sunflowerseed 3,113 3,545 3,325 3,215 3,695 3,645\nOther 795 677 951 724 635 620\nTotal 8,470 8,497 8,513 8,413 8,652 8,597\nMiddle East includes Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria, Turkey, United Arab Emirates,\nand Yemen. SME - 44 Percent Protein Soybean Meal Equivalent\nForeign Agricultural Service/USDA 34 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "74bf7dbc7b792379bb685e30124121cd12e421fcec1ad935114cfe954ca2e930": {
+      "mapping_notes": {},
+      "title": "Table 26: European Union Oilseeds and Products Supply and Distribution",
+      "source_page": 35,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 26: European Union Oilseeds and Products Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Rapeseed 19,613 20,431 17,073 20,657 19,750 19,750\nOilseed, Soybean 2,610 2,811 2,911 2,851 2,730 2,700\nOilseed, Sunflowerseed 9,386 10,051 8,645 8,629 9,725 9,725\nOther 526 367 419 423 401 401\nTotal 32,135 33,660 29,048 32,560 32,606 32,576\nnone\nDomestic Consumption none\nMeal, Rapeseed 13,800 13,900 13,100 14,500 14,500 14,700\nMeal, Soybean 26,642 27,042 31,242 31,542 31,567 31,567\nMeal, Sunflowerseed 6,860 7,110 6,260 5,960 6,660 6,660\nOther 2,232 2,038 1,841 1,789 1,365 1,365\nTotal 49,534 50,090 52,443 53,791 54,092 54,292\nnone\nSME none\nMeal, Rapeseed 9,819 9,890 9,321 10,317 10,317 10,459\nMeal, Soybean 26,600 27,000 31,200 31,500 31,525 31,525\nMeal, Sunflowerseed 4,536 4,702 4,135 3,935 4,402 4,402\nOther 1,230 1,082 1,050 1,021 368 368\nTotal 42,184 42,675 45,706 46,773 46,612 46,755\nnone\nImports none\nMeal, Rapeseed 846 839 420 862 800 800\nMeal, Soybean 15,997 16,564 20,609 20,300 20,400 20,400\nMeal, Sunflowerseed 2,753 3,238 2,567 2,300 2,700 2,700\nOther 1,892 1,736 1,633 1,548 1,303 1,303\nTotal 21,488 22,377 25,229 25,010 25,203 25,203\nnone\nIndustrial Dom. Cons. none\nOil, Palm 2,200 1,850 1,300 1,300 1,300 1,300\nOil, Rapeseed 6,975 7,050 6,750 7,250 7,350 7,350\nOil, Soybean 1,100 1,150 1,400 1,250 1,200 1,200\nOil, Sunflowerseed 550 550 475 475 550 550\nOther 555 555 535 535 545 545\nTotal 11,380 11,155 10,460 10,810 10,945 10,945\nnone\nFood Use Dom. Cons. none\nOil, Palm 2,150 1,880 1,800 1,700 1,600 1,600\nOil, Rapeseed 2,900 2,850 2,900 3,250 3,250 3,350\nOil, Soybean 1,250 1,425 1,550 1,675 1,375 1,375\nOil, Sunflowerseed 4,650 4,950 4,725 4,450 5,025 4,925\nOther 1,887 1,855 2,114 2,165 2,164 2,164\nTotal 12,837 12,960 13,089 13,240 13,414 13,414\nnone\nDomestic Consumption none\nOil, Palm 4,500 3,890 3,200 3,100 3,000 3,000\nOil, Rapeseed 9,925 9,950 9,700 10,550 10,650 10,750\nOil, Soybean 2,405 2,630 3,005 2,980 2,630 2,630\nOil, Sunflowerseed 5,213 5,513 5,213 4,938 5,588 5,488\nOther 2,447 2,410 2,649 2,700 2,709 2,709\nTotal 24,490 24,393 23,767 24,268 24,577 24,577\nnone\nImports none\nOil, Palm 4,576 4,013 3,140 3,200 3,100 3,100\nOil, Rapeseed 391 463 295 623 550 550\nOil, Soybean 641 592 757 825 650 650\nOil, Sunflowerseed 2,103 3,022 2,411 2,300 2,700 2,600\nOther 1,461 1,534 1,407 1,535 1,465 1,465\nTotal 9,172 9,624 8,010 8,483 8,465 8,365\nEuropean Union includes Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany,\nGreece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain,\nand Sweden.\nForeign Agricultural Service/USDA 35 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "29b6b6d575ac0c3bce73d86a902add44c3f65d382e1966f0d70e136f92445383": {
+      "mapping_notes": {},
+      "title": "Table 27: China Oilseeds and Products Supply and Distribution",
+      "source_page": 36,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 27: China Oilseeds and Products Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Peanut 18,330 19,231 19,000 18,400 18,000 18,000\nOilseed, Rapeseed 16,317 15,800 15,800 16,000 16,200 16,200\nOilseed, Soybean 20,284 20,840 20,650 20,900 21,000 21,000\nOilseed, Sunflowerseed 1,741 1,983 1,750 2,200 2,230 2,230\nOther 10,196 9,069 10,611 11,871 11,108 11,274\nTotal 66,868 66,923 67,811 69,371 68,538 68,704\nnone\nImports none\nOilseed, Peanut 940 774 448 620 750 750\nOilseed, Rapeseed 5,335 5,486 4,600 3,549 5,000 5,000\nOilseed, Soybean 104,500 112,000 108,000 113,000 115,000 115,000\nOilseed, Sunflowerseed 266 183 132 82 130 130\nOther 665 690 332 180 350 350\nTotal 111,706 119,133 113,512 117,431 121,230 121,230\nnone\nDomestic Consumption none\nMeal, Peanut 4,005 3,973 3,885 3,830 4,018 4,018\nMeal, Rapeseed 13,512 14,519 14,639 14,202 14,502 14,502\nMeal, Soybean 75,050 77,150 80,850 84,550 86,850 86,850\nOther 10,472 10,678 9,249 11,136 8,477 8,327\nTotal 103,039 106,320 108,623 113,718 113,847 113,697\nnone\nSME none\nMeal, Peanut 4,502 4,466 4,367 4,305 4,516 4,516\nMeal, Rapeseed 9,276 9,992 10,074 9,763 9,977 9,977\nMeal, Soybean 73,900 76,000 79,700 83,400 85,700 85,700\nOther 8,435 8,936 8,147 9,246 5,562 5,462\nTotal 96,112 99,394 102,288 106,714 105,755 105,655\nnone\nFood Use Dom. Cons. none\nOil, Palm 3,100 2,800 1,800 2,375 2,275 2,275\nOil, Peanut 3,418 3,373 3,440 3,397 3,396 3,396\nOil, Rapeseed 8,800 9,700 10,350 9,700 9,900 9,900\nOil, Soybean 17,900 18,900 20,500 20,800 20,700 20,700\nOil, Sunflowerseed 1,803 1,419 717 825 1,411 1,411\nOther 1,387 1,369 1,367 1,390 1,406 1,406\nTotal 36,408 37,561 38,174 38,487 39,088 39,088\nnone\nDomestic Consumption none\nOil, Palm 5,400 5,000 3,300 3,775 3,675 3,675\nOil, Peanut 3,418 3,373 3,440 3,397 3,396 3,396\nOil, Rapeseed 8,800 9,700 10,350 9,700 9,900 9,900\nOil, Soybean 17,900 18,900 20,500 20,800 20,700 20,700\nOil, Sunflowerseed 1,803 1,419 717 825 1,411 1,411\nOther 2,134 2,051 2,121 2,148 2,106 2,106\nTotal 39,455 40,443 40,428 40,645 41,188 41,188\nnone\nImports none\nOil, Palm 6,190 4,377 3,203 3,751 3,700 3,700\nOil, Peanut 292 247 347 346 270 270\nOil, Rapeseed 1,978 2,039 2,171 1,922 2,250 2,250\nOil, Soybean 365 381 296 133 150 150\nOil, Sunflowerseed 1,555 1,207 532 599 1,150 1,150\nOther 967 884 956 996 940 940\nTotal 11,347 9,135 7,505 7,747 8,460 8,460\nSME - 44 Percent Protein Soybean Meal Equivalent\nForeign Agricultural Service/USDA 36 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    },
+    "a1cb994e011335c5012b477b0d8dc3d5e74992bec160e829f13be581457f5db0": {
+      "mapping_notes": {},
+      "title": "Table 28: India Oilseeds and Products Supply and Distribution",
+      "source_page": 37,
+      "layout": "year-columns-6",
+      "complete_source_text": "Table 28: India Oilseeds and Products Supply and Distribution\nThousand Metric Tons\nOct Nov\n2022/23 2023/24 2024/25 2025/26 2026/27 2026/27\nnone\nProduction none\nOilseed, Cottonseed 11,166 10,783 10,189 10,104 10,189 9,977\nOilseed, Peanut 6,300 6,000 7,100 7,500 7,500 7,500\nOilseed, Rapeseed 11,200 11,600 11,520 12,000 12,400 12,400\nOilseed, Soybean 12,411 11,875 12,882 11,027 10,700 10,700\nOilseed, Sunflowerseed 215 112 113 113 113 113\nOther 1,022 1,021 1,021 1,021 1,021 1,021\nTotal 42,314 41,391 42,825 41,765 41,923 41,711\nnone\nDomestic Consumption none\nMeal, Cottonseed 4,443 4,409 4,329 4,257 4,258 4,235\nMeal, Rapeseed 4,350 4,600 4,360 4,800 5,320 5,320\nMeal, Soybean 6,625 7,075 7,185 7,155 7,100 7,175\nOther 2,176 2,069 2,146 2,322 2,266 2,266\nTotal 17,594 18,153 18,020 18,534 18,944 18,996\nnone\nSME none\nMeal, Cottonseed 3,600 3,573 3,508 3,449 3,450 3,432\nMeal, Rapeseed 3,095 3,273 3,102 3,415 3,785 3,785\nMeal, Soybean 6,225 6,625 6,710 6,725 6,700 6,775\nOther 2,021 1,903 2,015 2,160 2,136 2,136\nTotal 14,941 15,373 15,335 15,750 16,071 16,128\nnone\nFood Use Dom. Cons. none\nOil, Cottonseed 1,315 1,290 1,285 1,265 1,255 1,250\nOil, Palm 8,300 8,340 8,150 7,750 8,150 8,150\nOil, Peanut 1,050 995 1,000 1,170 1,200 1,200\nOil, Rapeseed 3,600 3,900 3,925 4,000 4,200 4,200\nOil, Soybean 5,400 5,175 6,645 7,300 6,750 6,800\nOil, Sunflowerseed 2,750 3,525 2,900 3,070 3,630 3,630\nOther 400 410 395 395 390 390\nTotal 22,815 23,635 24,300 24,950 25,575 25,620\nnone\nDomestic Consumption none\nOil, Cottonseed 1,361 1,345 1,330 1,305 1,300 1,295\nOil, Palm 8,900 8,990 8,800 8,350 8,800 8,800\nOil, Peanut 1,060 1,005 1,010 1,180 1,210 1,210\nOil, Rapeseed 3,680 3,980 4,005 4,080 4,280 4,280\nOil, Soybean 5,400 5,175 6,645 7,300 6,750 6,800\nOil, Sunflowerseed 2,750 3,525 2,900 3,070 3,630 3,630\nOther 710 730 700 695 680 680\nTotal 23,861 24,750 25,390 25,980 26,650 26,695\nnone\nImports none\nOil, Cottonseed 1 0 1 5 5 5\nOil, Palm 10,045 8,886 7,786 8,100 8,400 8,400\nOil, Peanut 0 0 0 1 0 0\nOil, Rapeseed 6 6 26 40 40 40\nOil, Soybean 3,968 3,308 5,471 5,600 5,000 5,000\nOil, Sunflowerseed 2,988 3,516 2,905 3,000 3,850 3,850\nOther 111 131 98 101 95 95\nTotal 17,119 15,847 16,287 16,847 17,390 17,390\nSME - 44 Percent Protein Soybean Meal Equivalent\nForeign Agricultural Service/USDA 37 November 2026\nGlobal Market Analysis",
+      "unit_policy": "Preserve displayed quantity scale. Area columns use hectares at the table scale, yield uses the displayed yield unit, percentages and counts remain distinct. Cotton uses the report cotton-table bales denomination; no numeric conversion is applied."
+    }
+  }
+}

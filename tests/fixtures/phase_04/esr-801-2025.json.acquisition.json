@@ -1,0 +1,11 @@
+{
+  "id": "esr-801-2025",
+  "url": "https://api.fas.usda.gov/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+  "checked_at_utc": "2026-11-15T12:14:57.414403+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+  "bytes": 746131,
+  "record_count": 2637
+}

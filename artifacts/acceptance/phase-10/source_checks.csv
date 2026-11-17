@@ -1,0 +1,3 @@
+check_id,status,scope,evidence
+P10-transfer,not_applicable,"No new independent source numeric claims; exact interface and SQL preservation checks only",artifacts/acceptance/phase-10/sql_roundtrip.json
+P09-numeric,pass,"164 independently checked source cells across seven datasets",artifacts/acceptance/phase-09/source_checks.csv

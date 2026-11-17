@@ -1,0 +1,11 @@
+{
+  "id": "wap-cdn",
+  "url": "https://fas-prod.azureedge.us/data/world-agricultural-production",
+  "path": "artifacts/acceptance/phase-00/discovery/wap-cdn.html",
+  "checked_at_utc": "2026-11-12T14:30:06.695013+00:00",
+  "status": 403,
+  "final_url": "https://www.fas.usda.gov/data/search?reports%5B0%5D=report_type%3A13286",
+  "error": "HTTP 403",
+  "sha256": "8666bef7d9f973889a66db33188b1f315b236650fdb169d66d51cadef2fb1e4e",
+  "bytes": 394
+}

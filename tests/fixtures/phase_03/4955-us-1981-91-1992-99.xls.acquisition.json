@@ -1,0 +1,12 @@
+{
+  "id": "4955-us-1981-91-1992-99.xls",
+  "url": "https://www.ers.usda.gov/media/4955/us-1981-91-1992-99.xls?v=90093",
+  "path": "tests/fixtures/phase_03/4955-us-1981-91-1992-99.xls",
+  "checked_at_utc": "2026-11-15T11:12:33.350879+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4955/us-1981-91-1992-99.xls?v=90093",
+  "content_type": "application/vnd.ms-excel",
+  "last_modified": null,
+  "sha256": "661d99c3854967fe39cf904f7eb85000742e4bb42c41ca77de6397e85eb0b823",
+  "bytes": 39424
+}

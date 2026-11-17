@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/tx31qh68h/ws859g11z/sf268552w/oilseed-trade-09-11-2014.pdf",
+  "format": "pdf",
+  "path": "artifacts/acceptance/phase-09/resume/downloads/esmis-oilseed-trade-2014-09.pdf",
+  "checked_at_utc": "2026-11-16T12:20:27.124145+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Thu, 13 Sep 2018 02:41:15 GMT",
+  "sha256": "032ba6657b00e7eb67f867bdb1b77e133fa0a3608a0d4de461cf3d9f9f6cb27c",
+  "bytes": 1637152,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/tx31qh68h/ws859g11z/sf268552w/oilseed-trade-09-11-2014.pdf"
+}

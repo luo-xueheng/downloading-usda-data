@@ -1,0 +1,12 @@
+{
+  "id": "rma-dev",
+  "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2025.zip",
+  "path": "tests/fixtures/raw/rma-development.zip",
+  "checked_at_utc": "2026-11-12T14:23:11.773729+00:00",
+  "status": 200,
+  "final_url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2025.zip",
+  "content_type": "application/zip",
+  "last_modified": "Mon, 09 Nov 2026 15:35:54 GMT",
+  "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+  "bytes": 3122346
+}

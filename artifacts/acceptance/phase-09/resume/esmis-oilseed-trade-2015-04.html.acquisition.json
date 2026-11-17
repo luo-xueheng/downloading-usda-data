@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/publication/oilseeds-world-markets-and-trade?date=2015-04",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-09/resume/esmis-oilseed-trade-2015-04.html",
+  "checked_at_utc": "2026-11-16T12:16:55.788625+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Mon, 16 Nov 2026 12:16:56 GMT",
+  "sha256": "06ce670d0341ced28f7106a8c6353c80f56c3294d91f51e63bda8022f24c441f",
+  "bytes": 45712,
+  "final_url": "https://esmis.nal.usda.gov/publication/oilseeds-world-markets-and-trade"
+}

@@ -1,0 +1,42 @@
+﻿<div class="row">
+    <br /><br />
+    <div class="col-sm-2 well well-sm" style="margin-left:30px; line-height:2.0em;cursor:pointer;">
+        <div><a ng-click="vm.getCircular('Citrus')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Citrus'"></i> Citrus</a><a ng-show="vm.selectedItem === 'Citrus'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Coffee')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Coffee'"></i> Coffee</a><a ng-show="vm.selectedItem === 'Coffee'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        
+        <div><a ng-click="vm.getCircular('Cotton')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Cotton'"></i> Cotton</a><a ng-show="vm.selectedItem === 'Cotton'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Dairy')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Dairy'"></i> Dairy</a><a ng-show="vm.selectedItem === 'Dairy'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Fruit')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Fruit'"></i> Fresh Deciduous Fruits</a><a ng-show="vm.selectedItem === 'Fruit'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Grain')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Grain'"></i> Grains</a><a ng-show="vm.selectedItem === 'Grain'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Livestock_poultry')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Livestock_poultry'"></i> Livestock and Poultry</a><a ng-show="vm.selectedItem === 'Livestock_poultry'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Oilseeds')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Oilseeds'"></i> Oilseeds</a><a ng-show="vm.selectedItem === 'Oilseeds'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Raisins')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Raisins'"></i> Raisins</a><a ng-show="vm.selectedItem === 'Raisins'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        
+        <div><a ng-click="vm.getCircular('StoneFruit')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'StoneFruit'"></i> Stone Fruit</a><a ng-show="vm.selectedItem === 'StoneFruit'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('Sugar')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'Sugar'"></i> Sugar</a><a ng-show="vm.selectedItem === 'Sugar'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        <div><a ng-click="vm.getCircular('TreeNuts')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'TreeNuts'"></i> Tree Nuts</a><a ng-show="vm.selectedItem === 'TreeNuts'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+        
+        <div style="line-height:1.4em;"><a ng-click="vm.getCircular('production')"><i class="fa fa-arrow-right fa-1" aria-hidden="true" ng-if="vm.selectedItem === 'production'"></i> World Agricultural Production</a><a ng-show="vm.selectedItem === 'production'" href="{{vm.downloadUrl}}" target="_blank"><i class="glyphicon glyphicon-download pull-right" title="download"></i></a></div>
+    </div>
+
+    <div class="col-sm-9">
+        <div class="row">
+            <div class="col-sm-3">
+                <select style="width:175px;" ng-model="vm.calYear" ng-options="circularInfo.CalendarYear for circularInfo in vm.circularSetInfo.CircularSets"></select>
+            </div>
+            <div class="col-sm-3">
+                <select style="width:175px;" ng-model="vm.month" ng-options="month.Item2 for month in vm.calYear.Months"></select>
+            </div>
+            <div class="col-sm-6">
+                <a href="{{vm.downloadUrl}}" target="_blank" style="cursor:pointer;text-decoration:none">
+                    <i class="glyphicon glyphicon-download" aria-hidden="true"></i> Download {{vm.getLabel(vm.selectedItem)}} publication
+                </a>
+            </div>
+        </div><br />
+        <div class="row">
+            <div class="col-sm-12">
+                <iframe src="{{vm.circularUrl}}" width="840" height="800" style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://api.fas.usda.gov/api/esr/commodities",
+    "environment_proxy": true,
+    "authenticated_request": false,
+    "checked_at_utc": "2026-11-15T12:10:38.942930+00:00",
+    "http_status": null,
+    "error_type": "ConnectError"
+  },
+  {
+    "url": "https://api.fas.usda.gov/api/esr/commodities",
+    "environment_proxy": true,
+    "authenticated_request": true,
+    "checked_at_utc": "2026-11-15T12:10:44.029816+00:00",
+    "http_status": null,
+    "error_type": "ConnectError"
+  },
+  {
+    "url": "https://api.fas.usda.gov/api/esr/commodities",
+    "environment_proxy": false,
+    "authenticated_request": true,
+    "checked_at_utc": "2026-11-15T12:10:49.103097+00:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 3264,
+    "json_type": "list"
+  }
+]

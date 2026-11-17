@@ -1,0 +1,254 @@
+{
+  "frozen_at_utc": "2026-11-16T12:30:34.843765+00:00",
+  "frozen_before_output_comparison": true,
+  "references": [
+    {
+      "id": "rma-2018-27074",
+      "dataset": "rma-sob",
+      "source_artifact_id": "383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "raw_path": "data/raw/38/383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "source_locator": {
+        "member": "sobcov_2018.txt",
+        "line": 27074,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2018",
+        "17",
+        "IL",
+        "059",
+        "Gallatin",
+        "0051",
+        "Grain Sorghum",
+        "02",
+        "RP",
+        "A",
+        "RBUP",
+        ".7000",
+        "Acres"
+      ],
+      "commodity_year": "2018",
+      "field": "indemnity_amount",
+      "expected_value": "3243",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2018-54147",
+      "dataset": "rma-sob",
+      "source_artifact_id": "383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "raw_path": "data/raw/38/383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "source_locator": {
+        "member": "sobcov_2018.txt",
+        "line": 54147,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2018",
+        "26",
+        "MI",
+        "151",
+        "Sanilac",
+        "0039",
+        "Sugar Beets",
+        "90",
+        "APH",
+        "A",
+        "RBUP",
+        ".7500",
+        "Acres"
+      ],
+      "commodity_year": "2018",
+      "field": "indemnity_amount",
+      "expected_value": "181869",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2018-81221",
+      "dataset": "rma-sob",
+      "source_artifact_id": "383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "raw_path": "data/raw/38/383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "source_locator": {
+        "member": "sobcov_2018.txt",
+        "line": 81221,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2018",
+        "38",
+        "ND",
+        "061",
+        "Mountrail",
+        "0031",
+        "Flax",
+        "90",
+        "APH",
+        "A",
+        "RBUP",
+        ".7500",
+        "Acres"
+      ],
+      "commodity_year": "2018",
+      "field": "indemnity_amount",
+      "expected_value": "2650",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2018-108294",
+      "dataset": "rma-sob",
+      "source_artifact_id": "383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "raw_path": "data/raw/38/383df0942103b66ec6d742c6c8e3c7118f42d136ea57ba6ceb231f9d77f9e210",
+      "source_locator": {
+        "member": "sobcov_2018.txt",
+        "line": 108294,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2018",
+        "46",
+        "SD",
+        "063",
+        "Harding",
+        "0088",
+        "Pasture,Rangeland,Forage",
+        "13",
+        "RI",
+        "A",
+        "RBUP",
+        ".7000",
+        "Acres"
+      ],
+      "commodity_year": "2018",
+      "field": "indemnity_amount",
+      "expected_value": "0",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2026-35254",
+      "dataset": "rma-sob",
+      "source_artifact_id": "bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "raw_path": "data/raw/bc/bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "source_locator": {
+        "member": "sobcov_2026.txt",
+        "line": 35254,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2026",
+        "17",
+        "IL",
+        "019",
+        "Champaign",
+        "0081",
+        "Soybeans",
+        "87",
+        "ECO-YP",
+        "A",
+        "RBUP",
+        ".9500",
+        "Acres"
+      ],
+      "commodity_year": "2026",
+      "field": "indemnity_amount",
+      "expected_value": "0",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2026-70507",
+      "dataset": "rma-sob",
+      "source_artifact_id": "bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "raw_path": "data/raw/bc/bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "source_locator": {
+        "member": "sobcov_2026.txt",
+        "line": 70507,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2026",
+        "26",
+        "MI",
+        "133",
+        "Osceola",
+        "0041",
+        "Corn",
+        "32",
+        "SCO-RP",
+        "A",
+        "RBUP",
+        ".7500",
+        "Acres"
+      ],
+      "commodity_year": "2026",
+      "field": "indemnity_amount",
+      "expected_value": "0",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2026-105761",
+      "dataset": "rma-sob",
+      "source_artifact_id": "bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "raw_path": "data/raw/bc/bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "source_locator": {
+        "member": "sobcov_2026.txt",
+        "line": 105761,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2026",
+        "38",
+        "ND",
+        "051",
+        "Mcintosh",
+        "0031",
+        "Flax",
+        "32",
+        "SCO-RP",
+        "A",
+        "RBUP",
+        ".7500",
+        "Acres"
+      ],
+      "commodity_year": "2026",
+      "field": "indemnity_amount",
+      "expected_value": "0",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    },
+    {
+      "id": "rma-2026-141014",
+      "dataset": "rma-sob",
+      "source_artifact_id": "bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "raw_path": "data/raw/bc/bc61f0d5ffc76142533c488f8d19251a98482f9acc667754d3fb9aba43a86488",
+      "source_locator": {
+        "member": "sobcov_2026.txt",
+        "line": 141014,
+        "field_1_based": 27
+      },
+      "dimensions": [
+        "2026",
+        "46",
+        "SD",
+        "049",
+        "Faulk",
+        "0081",
+        "Soybeans",
+        "88",
+        "ECO-RP",
+        "A",
+        "RBUP",
+        ".9000",
+        "Acres"
+      ],
+      "commodity_year": "2026",
+      "field": "indemnity_amount",
+      "expected_value": "0",
+      "unit": "USD",
+      "method": "Independent raw-source pipe-field reading; middle/recent strata selected and frozen before any comparison to their output rows"
+    }
+  ]
+}

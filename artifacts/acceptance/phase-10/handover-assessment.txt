@@ -1,0 +1,25 @@
+{
+  "status": "blocked_external",
+  "assessed_at_utc": "2026-11-16T22:43:26.555836+00:00",
+  "acceptance_ids": {
+    "P10-A1": "pass",
+    "P10-A2": "pass",
+    "P10-A3": "pass",
+    "P10-A4": "pass",
+    "P10-A5": "pass",
+    "P10-A6": "blocked",
+    "P10-A7": "pass"
+  },
+  "offline_tests": {
+    "collected": 107,
+    "passed": 106,
+    "failed": 0,
+    "skipped_required": 1
+  },
+  "required_adapter_live_tests": 9,
+  "sql_rows": 9987892,
+  "sql_peak_rss_mib": 245.625,
+  "interface_datasets": 7,
+  "wheel_sha256": "9b5a685838ff9cad707bfaa67dccaeecf3c4c2c62d2bd8b512224c7bdf22200c",
+  "external_blocker": "Required Phase 00 RMA 2010 ZIP live recheck returns HTTP 502 through proxy and explicit direct transport; immutable historical bytes still validate offline."
+}

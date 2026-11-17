@@ -1,0 +1,13 @@
+{
+  "id": "fas-notices-search",
+  "url": "https://www.fas.usda.gov/newsroom/search?news%5B0%5D=news_type%3A10502&page=1",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-09/fas-notices-search.html",
+  "checked_at_utc": "2026-11-16T11:59:11.986471+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Mon, 16 Nov 2026 11:59:12 GMT",
+  "sha256": "1ac08a50a600bbf9374ee8883d64b39c5daa0bb24c05d971289ad96be05c5ebb",
+  "bytes": 92549,
+  "final_url": "https://www.fas.usda.gov/newsroom/search"
+}

@@ -1,0 +1,50 @@
+{
+  "691d3eee1a1b6a75eacdb4d4fd67c5ce33594f7021d5d2a3eaf4ea45c31efbe5": {
+    "id": "OIL-PRICE-2022-23-MISLABEL",
+    "table_title": "Table 31: Vegetable Oil Prices",
+    "original_year": "2021/22",
+    "occurrence": 2,
+    "normalized_year": "2022/23",
+    "matching_first_row": "Oct 1,602 1,279 1,292 1,568 2,429 2,067 1,353 2,375 1,995 901 1,370 1,105 1,442",
+    "evidence_source_artifact_id": "807f50c06b3bd83af318469e8cef313845a7069e0a18fb7c843e2c4fe9b87976",
+    "evidence_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2023/09/Oilseeds.pdf",
+    "evidence_locator": "Table 31 in September 2023 report, explicit 2022/23 header and identical 13 October quote values; visually reviewed original page",
+    "rule": "Only the exact defective artifact, repeated source header and exact full first-row match qualify; numeric values are never edited."
+  },
+  "b04b61aafd529677cc0ddfc21ee33b96579941c0322edd92337437b221cbd2c4": {
+    "id": "OIL-PRICE-2022-23-MISLABEL",
+    "table_title": "Table 31: Vegetable Oil Prices",
+    "original_year": "2021/22",
+    "occurrence": 2,
+    "normalized_year": "2022/23",
+    "matching_first_row": "Oct 1,602 1,279 1,292 1,568 2,429 2,067 1,353 2,375 1,995 901 1,370 1,105 1,442",
+    "evidence_source_artifact_id": "807f50c06b3bd83af318469e8cef313845a7069e0a18fb7c843e2c4fe9b87976",
+    "evidence_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2023/09/Oilseeds.pdf",
+    "evidence_locator": "Table 31 in September 2023 report, explicit 2022/23 header and identical 13 October quote values; visually reviewed original page",
+    "rule": "Only the exact defective artifact, repeated source header and exact full first-row match qualify; numeric values are never edited."
+  },
+  "d750092d75aa20b5557556a76c46ba03b880c04ff4ff8d959cb2b5ec95db70d5": {
+    "id": "OIL-PRICE-2022-23-MISLABEL",
+    "table_title": "Table 31: Vegetable Oil Prices",
+    "original_year": "2021/22",
+    "occurrence": 2,
+    "normalized_year": "2022/23",
+    "matching_first_row": "Oct 1,602 1,279 1,292 1,568 2,429 2,067 1,353 2,375 1,995 901 1,370 1,105 1,442",
+    "evidence_source_artifact_id": "807f50c06b3bd83af318469e8cef313845a7069e0a18fb7c843e2c4fe9b87976",
+    "evidence_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2023/09/Oilseeds.pdf",
+    "evidence_locator": "Table 31 in September 2023 report, explicit 2022/23 header and identical 13 October quote values; visually reviewed original page",
+    "rule": "Only the exact defective artifact, repeated source header and exact full first-row match qualify; numeric values are never edited."
+  },
+  "0375707f4270b03f8308fd3f6de5928ec60e48a138a63ff304849989d9cacf74": {
+    "id": "OIL-PRICE-2022-23-MISLABEL",
+    "table_title": "Table 31: Vegetable Oil Prices",
+    "original_year": "2021/22",
+    "occurrence": 2,
+    "normalized_year": "2022/23",
+    "matching_first_row": "Oct 1,602 1,279 1,292 1,568 2,429 2,067 1,353 2,375 1,995 901 1,370 1,105 1,442",
+    "evidence_source_artifact_id": "807f50c06b3bd83af318469e8cef313845a7069e0a18fb7c843e2c4fe9b87976",
+    "evidence_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2023/09/Oilseeds.pdf",
+    "evidence_locator": "Table 31 in September 2023 report, explicit 2022/23 header and identical 13 October quote values; visually reviewed original page",
+    "rule": "Only the exact defective artifact, repeated source header and exact full first-row match qualify; numeric values are never edited."
+  }
+}

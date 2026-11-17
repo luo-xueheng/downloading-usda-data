@@ -1,0 +1,11 @@
+{
+  "id": "release-0813100",
+  "url": "https://api.fas.usda.gov/api/psd/commodity/0813100/dataReleaseDates",
+  "checked_at_utc": "2026-11-15T13:25:01.680547+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "e2b819ba66dd94e81f60f59e5eb0e120c9372c8cfba559c358c827b2c2c0de71",
+  "bytes": 515161,
+  "record_count": 4770
+}

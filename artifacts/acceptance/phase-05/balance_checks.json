@@ -1,0 +1,106 @@
+[
+  {
+    "year": 2024,
+    "country": "US",
+    "formula": {
+      "left": [
+        20,
+        28,
+        57
+      ],
+      "right": [
+        86
+      ]
+    },
+    "left": "423610.0000",
+    "right": "423610.0000",
+    "tolerance": "0",
+    "status": "pass"
+  },
+  {
+    "year": 2024,
+    "country": "US",
+    "formula": {
+      "left": [
+        88,
+        125,
+        176
+      ],
+      "right": [
+        178
+      ]
+    },
+    "left": "423610.0000",
+    "right": "423610.0000",
+    "tolerance": "0",
+    "status": "pass"
+  },
+  {
+    "year": 2024,
+    "country": "US",
+    "formula": {
+      "left": [
+        86
+      ],
+      "right": [
+        178
+      ]
+    },
+    "left": "423610.0000",
+    "right": "423610.0000",
+    "tolerance": "0",
+    "status": "pass"
+  },
+  {
+    "year": 2025,
+    "country": "US",
+    "formula": {
+      "left": [
+        20,
+        28,
+        57
+      ],
+      "right": [
+        86
+      ]
+    },
+    "left": "471097.0000",
+    "right": "471097.0000",
+    "tolerance": "0",
+    "status": "pass"
+  },
+  {
+    "year": 2025,
+    "country": "US",
+    "formula": {
+      "left": [
+        88,
+        125,
+        176
+      ],
+      "right": [
+        178
+      ]
+    },
+    "left": "471097.0000",
+    "right": "471097.0000",
+    "tolerance": "0",
+    "status": "pass"
+  },
+  {
+    "year": 2025,
+    "country": "US",
+    "formula": {
+      "left": [
+        86
+      ],
+      "right": [
+        178
+      ]
+    },
+    "left": "471097.0000",
+    "right": "471097.0000",
+    "tolerance": "0",
+    "status": "pass"
+  }
+]

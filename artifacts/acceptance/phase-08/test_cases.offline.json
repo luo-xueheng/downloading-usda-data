@@ -1,0 +1,209 @@
+{
+  "collected": {
+    "tests/phase_08/test_sync.py::test_revision_B_replaces_added_changed_removed_rows": {
+      "test_id": "P08-A1",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_earlier_year_revision_same_url_is_checked": {
+      "test_id": "P08-A2",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_unchanged_checks_are_logged_without_new_snapshots": {
+      "test_id": "P08-A3",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[before_download]": {
+      "test_id": "P08-A4",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[after_normalization]": {
+      "test_id": "P08-A4",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[before_manifest_publication]": {
+      "test_id": "P08-A4",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_partial_required_job_and_resume_equals_clean_run": {
+      "test_id": "P08-A5",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_timezones_and_date_only_precision": {
+      "test_id": "P08-A6",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_saved_shifted_event_delay_and_staleness": {
+      "test_id": "P08-A7",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_api_available_while_report_pending": {
+      "test_id": "P08-A8",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_configured_dry_run_has_no_numeric_downloads": {
+      "test_id": "P08-A3",
+      "mode": "offline"
+    },
+    "tests/phase_08/test_sync.py::test_real_bounded_revision_check_and_finite_unavailable_failure": {
+      "test_id": "P08-A9",
+      "mode": "live"
+    }
+  },
+  "reports": {
+    "tests/phase_08/test_sync.py::test_revision_B_replaces_added_changed_removed_rows": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_earlier_year_revision_same_url_is_checked": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_unchanged_checks_are_logged_without_new_snapshots": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[before_download]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[after_normalization]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_failure_and_resume_never_select_partial_output[before_manifest_publication]": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_partial_required_job_and_resume_equals_clean_run": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_timezones_and_date_only_precision": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_saved_shifted_event_delay_and_staleness": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_api_available_while_report_pending": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ],
+    "tests/phase_08/test_sync.py::test_configured_dry_run_has_no_numeric_downloads": [
+      {
+        "when": "setup",
+        "outcome": "passed"
+      },
+      {
+        "when": "call",
+        "outcome": "passed"
+      },
+      {
+        "when": "teardown",
+        "outcome": "passed"
+      }
+    ]
+  },
+  "exit_code": 0
+}

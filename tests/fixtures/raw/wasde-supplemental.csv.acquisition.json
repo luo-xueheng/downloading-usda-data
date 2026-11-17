@@ -1,0 +1,12 @@
+{
+  "id": "wasde-csv",
+  "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-11.csv",
+  "path": "tests/fixtures/raw/wasde-supplemental.csv",
+  "checked_at_utc": "2026-11-12T14:30:06.695897+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-11.csv",
+  "content_type": "text/csv",
+  "last_modified": "Tue, 10 Nov 2026 17:14:17 GMT",
+  "sha256": "1a28972ac0c727ce974e0f8217b3cae9e892f6e974f6927033eaffbd5890a8da",
+  "bytes": 1004365
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4949-southeast-1975-94.xls",
+  "url": "https://www.ers.usda.gov/media/4949/southeast-1975-94.xls?v=49701",
+  "path": "tests/fixtures/phase_03/4949-southeast-1975-94.xls",
+  "checked_at_utc": "2026-11-15T11:03:10.419832+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 1] Operation not permitted>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

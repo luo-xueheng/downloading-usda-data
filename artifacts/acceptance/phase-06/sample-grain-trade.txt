@@ -1,0 +1,11 @@
+{
+  "dataset": "grain-trade",
+  "csv_path": "grain-trade/02d23e352b4e2aa4a93c8b275525c2ece8ebb72132b7805bc99d054be32a6e7b/data.csv",
+  "csv_sha256": "02d23e352b4e2aa4a93c8b275525c2ece8ebb72132b7805bc99d054be32a6e7b",
+  "rows": 8643,
+  "snapshot_ids": [
+    "69e01ee04f13013d5e0c15fb603275647766c53c1c45961af8d2def568677b36",
+    "784ffb1365632d3367e63733cac1fe3798f288023ce512ab210480505e4afc3a"
+  ],
+  "schema_path": "grain-trade/02d23e352b4e2aa4a93c8b275525c2ece8ebb72132b7805bc99d054be32a6e7b/schema.json"
+}

@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+data/
+
+artifacts/acceptance/phase-10/clean-venv/
+artifacts/acceptance/phase-10/sql/

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "psd-0440000-2024",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "expected_records": 1875,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-0440000-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "expected_records": 1875,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-2222000-2024",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "expected_records": 871,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-2222000-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "expected_records": 871,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-0813100-2024",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "expected_records": 1148,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-0813100-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "expected_records": 1148,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-4232000-2024",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "expected_records": 1014,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-4232000-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "expected_records": 1014,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "psd-2631000-2025",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "expected_records": 1500,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "world-0440000-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "expected_records": 15,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "world-2222000-2025",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "expected_records": 13,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  }
+]

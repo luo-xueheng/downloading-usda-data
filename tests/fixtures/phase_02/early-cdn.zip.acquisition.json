@@ -1,0 +1,12 @@
+{
+  "id": "early-cdn",
+  "url": "https://usda.azureedge.us/sites/default/files/documents/oce-wasde-report-data-2010-04-to-2015-12.zip",
+  "path": "tests/fixtures/phase_02/early-cdn.zip",
+  "checked_at_utc": "2026-11-15T07:11:16.019435+00:00",
+  "status": 200,
+  "final_url": "https://usda.azureedge.us/sites/default/files/documents/oce-wasde-report-data-2010-04-to-2015-12.zip",
+  "content_type": "application/zip",
+  "last_modified": "Thu, 13 May 2021 15:39:47 GMT",
+  "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+  "bytes": 2759402
+}

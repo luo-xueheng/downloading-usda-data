@@ -1,0 +1,16 @@
+[
+  {
+    "category": "Operating costs",
+    "sum": "455.79",
+    "source_total": "455.8",
+    "tolerance": "0.045",
+    "status": "pass"
+  },
+  {
+    "category": "Allocated overhead",
+    "sum": "444.72",
+    "source_total": "444.72",
+    "tolerance": "0.035",
+    "status": "pass"
+  }
+]

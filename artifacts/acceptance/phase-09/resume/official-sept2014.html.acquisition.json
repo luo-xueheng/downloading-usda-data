@@ -1,0 +1,12 @@
+{
+  "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-09112014",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-09/resume/official-sept2014.html",
+  "checked_at_utc": "2026-11-16T12:15:45.943578+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Mon, 16 Nov 2026 12:15:46 GMT",
+  "sha256": "e36649627b197fcd330bc89f1886481f3c348d919fddfab2ec3dd393fb30a5d4",
+  "bytes": 33456,
+  "final_url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-09112014"
+}

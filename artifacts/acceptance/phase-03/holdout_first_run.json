@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "artifacts": [
+    "tests/fixtures/phase_03/4928-southeast-1975-95.xls",
+    "tests/fixtures/raw/ers-holdout.csv"
+  ],
+  "historical_rows": 735,
+  "soybean_rows": 6026,
+  "missing_cells_checked": 1
+}

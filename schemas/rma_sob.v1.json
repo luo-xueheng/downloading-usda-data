@@ -1,0 +1,408 @@
+{
+  "name": "rma_sob",
+  "version": "1",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "commodity_year",
+      "type": "string",
+      "nullable": false,
+      "meaning": "commodity year",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 1",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "state_code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "state code",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 2",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "state_abbreviation",
+      "type": "string",
+      "nullable": false,
+      "meaning": "state abbreviation",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 3",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "county_code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "county code",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 4",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "county_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "county name",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 5",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "commodity_code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "commodity code",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 6",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "commodity_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "commodity name",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 7",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "insurance_plan_code",
+      "type": "string",
+      "nullable": false,
+      "meaning": "insurance plan code",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 8",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "insurance_plan_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "insurance plan name",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 9",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "coverage_category",
+      "type": "string",
+      "nullable": false,
+      "meaning": "coverage category",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 10",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "delivery_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "delivery type",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 11",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "coverage_level",
+      "type": "decimal",
+      "nullable": false,
+      "meaning": "coverage level",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 12",
+      "unit": "ratio",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "policies_sold",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "policies sold",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 13",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "policies_earning_premium",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "policies earning premium",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 14",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "policies_indemnified",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "policies indemnified",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 15",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "units_earning_premium",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "units earning premium",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 16",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "units_indemnified",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "units indemnified",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 17",
+      "unit": "count",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "quantity_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "quantity type",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 18",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "net_reported_quantity",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "net reported quantity",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 19",
+      "unit": "source quantity_type",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "endorsed_companion_acres",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "endorsed companion acres",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 20",
+      "unit": "Acres",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "liability_amount",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "liability amount",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 21",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "total_premium",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "total premium",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 22",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "subsidy_amount",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "subsidy amount",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 23",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "state_private_subsidy",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "state private subsidy",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 24",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "additional_subsidy",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "additional subsidy",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 25",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "efa_premium_discount",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "efa premium discount",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 26",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "indemnity_amount",
+      "type": "integer",
+      "nullable": true,
+      "meaning": "indemnity amount",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 27",
+      "unit": "USD",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "loss_ratio",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "loss ratio",
+      "source_mapping": "Official 1989-forward SOB coverage-level field 28",
+      "unit": "ratio",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_record",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original pipe-delimited source row, excluding line terminator",
+      "source_mapping": "raw source",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "missing_fields",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Explicit missing-value field list; zeros stay zero",
+      "source_mapping": "blank numeric fields",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "count_availability",
+      "type": "string",
+      "nullable": false,
+      "meaning": "CLIP counts unavailable per official layout; source raw values remain",
+      "source_mapping": "layout CLIP note",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_member",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original ZIP member",
+      "source_mapping": "ZIP directory",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_line",
+      "type": "integer",
+      "nullable": false,
+      "meaning": "One-based source line locator, not a key",
+      "source_mapping": "raw text record",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_date",
+      "type": "date",
+      "nullable": true,
+      "meaning": "Publication day unknown; Last-Modified is transport metadata",
+      "source_mapping": "source does not provide date",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_at_utc",
+      "type": "datetime",
+      "nullable": true,
+      "meaning": "Unknown exact source release time",
+      "source_mapping": "source metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "release_time_precision",
+      "type": "string",
+      "nullable": false,
+      "meaning": "unknown",
+      "source_mapping": "source metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "retrieved_at_utc",
+      "type": "datetime",
+      "nullable": false,
+      "meaning": "UTC artifact capture time",
+      "source_mapping": "receipt",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_artifact_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Exact ZIP bytes SHA256",
+      "source_mapping": "raw storage",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "snapshot_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Versioned normalized partition identity",
+      "source_mapping": "storage manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "vintage_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "current_revised commodity-year capture",
+      "source_mapping": "RMA source semantics",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "selected_before_implementation": true,
+  "required_policy": "All numbered appendix tables, grain appendix supply/trade tables, and every explicit trade/outlook changes table are mandatory. Narrative paragraphs, charts/maps, calendars and contact lists are not structured business tables.",
+  "tables": [
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 1: United States",
+      "required": false,
+      "source_page": 1,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 2: Planting occurred from the end of May until mid-August. The Argentina Ministry of Agriculture",
+      "required": false,
+      "source_page": 2,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 3: The wheat producing states of South Australia and Victoria have had an excellent year with timely",
+      "required": false,
+      "source_page": 3,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 4: season. While the Ministry has not yet released crop specific production data, wheat accounted for",
+      "required": false,
+      "source_page": 4,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 5: Brazil Corn: MY 2025/26 Production Increased on Updated Harvest Results",
+      "required": false,
+      "source_page": 5,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 6: Mexico corn has two seasons with the rainy spring/summer season and the dry fall/winter season.",
+      "required": false,
+      "source_page": 6,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 7: While harvested area decreased, USDA estimates an increase in yield, as the drought and above-",
+      "required": false,
+      "source_page": 7,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 8: 3.0 mha. Early-planted corn area this year is much higher than normal at almost 4.3 mha as of",
+      "required": false,
+      "source_page": 8,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 9: South Africa\u2019s Crop Estimates Committee (CEC) released a planting intentions report in late",
+      "required": false,
+      "source_page": 9,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 10: Russia Sunflowerseed: Yield Down Based on Harvest Data",
+      "required": false,
+      "source_page": 10,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 11: South Africa\u2019s Crop Estimates Committee (CEC) released a planting intentions report in late",
+      "required": false,
+      "source_page": 11,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 12: FAS/Washington and FAS/Canberra traveled through southern New South Wales on a crop",
+      "required": false,
+      "source_page": 12,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 13: Cotton and sorghum are the two main summer crops grown in eastern Australia. Cotton planting",
+      "required": false,
+      "source_page": 13,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 14: precipitation being 13 percent below the long-term average of 759.4 millimeters. According to the",
+      "required": false,
+      "source_page": 14,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 15: World Agricultural Production",
+      "required": false,
+      "source_page": 15,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 16: For further information, contact:",
+      "required": false,
+      "source_page": 16,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 17: The Foreign Agricultural Service (FAS) updates its production, supply and distribution (PSD)",
+      "required": false,
+      "source_page": 17,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Non-table page 18: FAS Reports and Databases:",
+      "required": false,
+      "source_page": 18,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 01 World Crop Production Summary",
+      "required": true,
+      "source_page": 19,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 02 Wheat Area, Yield, and Production",
+      "required": true,
+      "source_page": 20,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 03 Total Coarse Grain Area, Yield, and Production",
+      "required": true,
+      "source_page": 21,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 04 Corn Area, Yield, and Production",
+      "required": true,
+      "source_page": 22,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 05 Barley Area, Yield, and Production",
+      "required": true,
+      "source_page": 23,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 06 Oats Area, Yield, and Production",
+      "required": true,
+      "source_page": 24,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 07 Rye Area, Yield, and Production",
+      "required": true,
+      "source_page": 25,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 08 Sorghum Area, Yield, and Production",
+      "required": true,
+      "source_page": 26,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 09 Rice Area, Yield, and Production",
+      "required": true,
+      "source_page": 27,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 10 Total Oilseed Area, Yield, and Production",
+      "required": true,
+      "source_page": 28,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 11 Soybean Area, Yield, and Production",
+      "required": true,
+      "source_page": 29,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 12 Cottonseed Area, Yield, and Production",
+      "required": true,
+      "source_page": 30,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 13 Peanut Area, Yield, and Production",
+      "required": true,
+      "source_page": 31,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 14 Sunflowerseed Area, Yield, and Production",
+      "required": true,
+      "source_page": 32,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 15 Rapeseed Area, Yield, and Production",
+      "required": true,
+      "source_page": 33,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 16 Copra, Palm Kernel, and Palm Oil Production",
+      "required": true,
+      "source_page": 34,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "Table 17 Cotton Area, Yield, and Production",
+      "required": true,
+      "source_page": 35,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "world-production",
+      "table_title": "TABLE 18 Reliability of Production Projections",
+      "required": true,
+      "source_page": 36,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 1: United States Department of Agriculture Foreign Agricultural Service",
+      "required": false,
+      "source_page": 1,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 2: Record U.S. production resulted in competitive export bids, especially in the months following",
+      "required": false,
+      "source_page": 2,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 3: TABLE OF CONTENTS",
+      "required": false,
+      "source_page": 3,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 4: WHEAT",
+      "required": false,
+      "source_page": 4,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 5: Global: Since the October WASDE, wheat export quotes dropped sharply for all exporters as global",
+      "required": false,
+      "source_page": 5,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 6: MARKET FEATURE",
+      "required": false,
+      "source_page": 6,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "WHEAT | TRADE CHANGES IN 2026/27 (1,000 MT)",
+      "required": true,
+      "source_page": 7,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 8: RICE",
+      "required": false,
+      "source_page": 8,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "RICE | TRADE CHANGES IN 2027 (1,000 MT)",
+      "required": true,
+      "source_page": 9,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "RICE | TRADE CHANGES IN 2026 (1,000 MT)",
+      "required": true,
+      "source_page": 9,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 10: COARSE GRAINS",
+      "required": false,
+      "source_page": 10,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "COARSE GRAINS | TRADE CHANGES IN 2026/27 (1,000 MT)",
+      "required": true,
+      "source_page": 11,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 12: ENDNOTES",
+      "required": false,
+      "source_page": 12,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 13: OTHER NOTES",
+      "required": false,
+      "source_page": 13,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 14: European Union:",
+      "required": false,
+      "source_page": 14,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Non-table page 15: DATA TABLES",
+      "required": false,
+      "source_page": 15,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "All Grain Summary Comparison",
+      "required": true,
+      "source_page": 16,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Wheat, Flour, and Products Trade",
+      "required": true,
+      "source_page": 17,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Wheat Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 18,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Wheat Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 19,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Rice Trade",
+      "required": true,
+      "source_page": 20,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Rice Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 21,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Rice Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 22,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Coarse Grain Trade",
+      "required": true,
+      "source_page": 23,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Coarse Grains Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 24,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Coarse Grains Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 25,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Corn Trade",
+      "required": true,
+      "source_page": 26,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Corn Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 27,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Corn Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 28,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Barley Trade",
+      "required": true,
+      "source_page": 29,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Barley Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 30,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Barley Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 31,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Sorghum Trade",
+      "required": true,
+      "source_page": 32,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Sorghum Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 33,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Sorghum Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 34,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Oats Trade",
+      "required": true,
+      "source_page": 35,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Oats Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 36,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Oats Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 37,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Rye Trade",
+      "required": true,
+      "source_page": 38,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "World Rye Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 39,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "grain-trade",
+      "table_title": "Regional Rye Imports, Production, Consumption, and Stocks",
+      "required": true,
+      "source_page": 40,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 1: United States Department of Agriculture Foreign Agricultural Service",
+      "required": false,
+      "source_page": 1,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 2: Argentina became India\u2019s largest vegetable oil supplier this year fueled by demand for soybean oil.",
+      "required": false,
+      "source_page": 2,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 3: EXPORT PRICES",
+      "required": false,
+      "source_page": 3,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "2026/27 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "required": true,
+      "source_page": 4,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "2025/26 OUTLOOK CHANGES (All figures are in thousand metric tons)",
+      "required": true,
+      "source_page": 5,
+      "status": "unresolved",
+      "reason": "Numerical changes table in report body; continuation pages are part of the same table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 6: ENDNOTES",
+      "required": false,
+      "source_page": 6,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 7: OTHER NOTES",
+      "required": false,
+      "source_page": 7,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 8: Questions may be directed to:",
+      "required": false,
+      "source_page": 8,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Non-table page 9: List of Tables",
+      "required": false,
+      "source_page": 9,
+      "status": "not_applicable",
+      "reason": "Narrative, chart/map, administrative schedule or definitions; no narrative-number extraction is promised. Any continuing numerical change table is nevertheless required with its starting table."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 01: Major Oilseeds: World Supply and Distribution (Commodity View)",
+      "required": true,
+      "source_page": 10,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 02: Major Protein Meals: World Supply and Distribution (Commodity View)",
+      "required": true,
+      "source_page": 11,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 03: Major Vegetable Oils: World Supply and Distribution (Commodity View)",
+      "required": true,
+      "source_page": 12,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 04: Major Oilseeds: World Supply and Distribution (Country View)",
+      "required": true,
+      "source_page": 13,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 05: Major Protein Meals: World Supply and Distribution (Country View)",
+      "required": true,
+      "source_page": 14,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 06: Major Vegetable Oils: World Supply and Distribution (Country View)",
+      "required": true,
+      "source_page": 15,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 07: Soybeans: World Supply and Distribution",
+      "required": true,
+      "source_page": 16,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 08: Soybean Meal: World Supply and Distribution",
+      "required": true,
+      "source_page": 17,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 09: Soybean Oil: World Supply and Distribution",
+      "required": true,
+      "source_page": 18,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 10: Soybeans and Products: World Trade",
+      "required": true,
+      "source_page": 19,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 11: Palm Oil: World Supply and Distribution",
+      "required": true,
+      "source_page": 20,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 12: Rapeseed and Products: World Supply and Distribution",
+      "required": true,
+      "source_page": 21,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 13: Sunflowerseed and Products: World Supply and Distribution",
+      "required": true,
+      "source_page": 22,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 14: Minor Vegetable Oils: World Supply and Distribution",
+      "required": true,
+      "source_page": 23,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 15: World Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 24,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 16: World Soybeans and Products Supply and Distribution",
+      "required": true,
+      "source_page": 25,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 17: World Rapeseed and Products Supply and Distribution",
+      "required": true,
+      "source_page": 26,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 18: World Sunflower and Products Supply and Distribution",
+      "required": true,
+      "source_page": 27,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 19: World Palm Oil, Coconut Oil, and Fish Meal Supply and Distribution",
+      "required": true,
+      "source_page": 28,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 20: United States Oilseeds and Products Supply and Distribution Local Marketing Year",
+      "required": true,
+      "source_page": 29,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 21: United States Soybeans and Products Supply and Distribution (Sep-Aug)",
+      "required": true,
+      "source_page": 30,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 22: Brazil Soybeans and Products Supply and Distribution Local Marketing Years (Jan-Dec)",
+      "required": true,
+      "source_page": 31,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 23: Argentina Soybeans and Products Supply and Distribution Local Marketing Years (Apr-Mar)",
+      "required": true,
+      "source_page": 32,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 24: South East Asia Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 33,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 25: Middle East Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 34,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 26: European Union Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 35,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 27: China Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 36,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    },
+    {
+      "family": "oilseed-trade",
+      "table_title": "Table 28: India Oilseeds and Products Supply and Distribution",
+      "required": true,
+      "source_page": 37,
+      "status": "unresolved",
+      "reason": "All numbered/appendix numerical table families remain mandatory; parser and mappings not accepted yet."
+    }
+  ]
+}

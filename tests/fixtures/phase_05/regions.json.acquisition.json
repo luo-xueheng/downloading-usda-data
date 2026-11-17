@@ -1,0 +1,11 @@
+{
+  "id": "regions",
+  "url": "https://api.fas.usda.gov/api/psd/regions",
+  "checked_at_utc": "2026-11-15T13:20:05.581658+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "c40b473c21e427c548c34870753afef625b30f4d633f3570ccccef21142d1b1a",
+  "bytes": 742,
+  "record_count": 15
+}

@@ -1,0 +1,487 @@
+Frozen report candidates 606
+{"completed": 1, "family": "world-production", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 2, "family": "grain-trade", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 3, "family": "world-production", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 4, "family": "oilseed-trade", "period": "2026-11", "status": "succeeded", "error": null}
+{"completed": 5, "family": "grain-trade", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 6, "family": "oilseed-trade", "period": "2026-10", "status": "succeeded", "error": null}
+{"completed": 7, "family": "grain-trade", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 8, "family": "oilseed-trade", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 9, "family": "world-production", "period": "2026-09", "status": "succeeded", "error": null}
+{"completed": 10, "family": "grain-trade", "period": "2026-08", "status": "succeeded", "error": null}
+{"completed": 11, "family": "oilseed-trade", "period": "2026-08", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 12, "family": "world-production", "period": "2026-08", "status": "succeeded", "error": null}
+{"completed": 13, "family": "world-production", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 14, "family": "grain-trade", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 15, "family": "oilseed-trade", "period": "2026-07", "status": "succeeded", "error": null}
+{"completed": 16, "family": "grain-trade", "period": "2026-06", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 17, "family": "oilseed-trade", "period": "2026-06", "status": "succeeded", "error": null}
+{"completed": 18, "family": "world-production", "period": "2026-06", "status": "succeeded", "error": null}
+{"completed": 19, "family": "grain-trade", "period": "2026-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 20, "family": "oilseed-trade", "period": "2026-05", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 21, "family": "world-production", "period": "2026-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 30), ('Table 03 Total Coarse Grain Area, Yield, and Production', 31), ('Table 04 Corn Area, Yield, and Production', 32), ('Table 05 Barley Area, Yield, and Production', 33), ('Table 06 Oats Area, Yield, and Production', 34), ('Table 07 Rye Area, Yield, and Production', 35), ('Table 08 Sorghum Area, Yield, and Production', 36), ('Table 09 Rice Area, Yield, and Production', 37), ('Table 10 Total Oilseed Area, Yield, and Production', 38), ('Table 11 Soybean Area, Yield, and Production', 39), ('Table 12 Cottonseed Area, Yield, and Production', 40), ('Table 13 Peanut Area, Yield, and Production', 41), ('Table 14 Sunflowerseed Area, Yield, and Production', 42), ('Table 15 Rapeseed Area, Yield, and Production', 43), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 44), ('Table 17 Cotton Area, Yield, and Production', 45)]"}
+{"completed": 22, "family": "grain-trade", "period": "2026-04", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 23, "family": "world-production", "period": "2026-04", "status": "succeeded", "error": null}
+{"completed": 24, "family": "oilseed-trade", "period": "2026-04", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 25, "family": "grain-trade", "period": "2026-03", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 26, "family": "oilseed-trade", "period": "2026-03", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 27, "family": "world-production", "period": "2026-02", "status": "succeeded", "error": null}
+{"completed": 28, "family": "grain-trade", "period": "2026-02", "status": "succeeded", "error": null}
+{"completed": 29, "family": "oilseed-trade", "period": "2026-02", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 30, "family": "world-production", "period": "2026-03", "status": "succeeded", "error": null}
+{"completed": 31, "family": "grain-trade", "period": "2026-01", "status": "failed", "error": "Required report table coverage differs: missing={'coarse grains | trade changes in <marketing-year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 32, "family": "oilseed-trade", "period": "2026-01", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 33, "family": "world-production", "period": "2026-01", "status": "succeeded", "error": null}
+{"completed": 34, "family": "grain-trade", "period": "2025-12", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 35, "family": "oilseed-trade", "period": "2025-12", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 36, "family": "world-production", "period": "2025-11", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 37, "family": "grain-trade", "period": "2025-11", "status": "failed", "error": "Required report table coverage differs: missing={'wheat | trade changes in <marketing-year> (1,000 mt)': 1, 'rice | trade changes in <year> (1,000 mt)': 2, 'coarse grains | trade changes in <marketing-year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 38, "family": "oilseed-trade", "period": "2025-11", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 2}, unexpected_types=[]"}
+{"completed": 39, "family": "world-production", "period": "2025-09", "status": "succeeded", "error": null}
+{"completed": 40, "family": "grain-trade", "period": "2025-09", "status": "succeeded", "error": null}
+{"completed": 41, "family": "oilseed-trade", "period": "2025-09", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 42, "family": "world-production", "period": "2025-12", "status": "succeeded", "error": null}
+{"completed": 43, "family": "world-production", "period": "2025-08", "status": "succeeded", "error": null}
+{"completed": 44, "family": "grain-trade", "period": "2025-08", "status": "succeeded", "error": null}
+{"completed": 45, "family": "oilseed-trade", "period": "2025-08", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 46, "family": "grain-trade", "period": "2025-07", "status": "succeeded", "error": null}
+{"completed": 47, "family": "oilseed-trade", "period": "2025-07", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 48, "family": "world-production", "period": "2025-06", "status": "succeeded", "error": null}
+{"completed": 49, "family": "grain-trade", "period": "2025-06", "status": "succeeded", "error": null}
+{"completed": 50, "family": "oilseed-trade", "period": "2025-06", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 51, "family": "world-production", "period": "2025-07", "status": "succeeded", "error": null}
+{"completed": 52, "family": "grain-trade", "period": "2025-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 53, "family": "oilseed-trade", "period": "2025-05", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 54, "family": "world-production", "period": "2025-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 29), ('Table 03 Total Coarse Grain Area, Yield, and Production', 30), ('Table 04 Corn Area, Yield, and Production', 31), ('Table 05 Barley Area, Yield, and Production', 32), ('Table 06 Oats Area, Yield, and Production', 33), ('Table 07 Rye Area, Yield, and Production', 34), ('Table 08 Sorghum Area, Yield, and Production', 35), ('Table 09 Rice Area, Yield, and Production', 36), ('Table 10 Total Oilseed Area, Yield, and Production', 37), ('Table 11 Soybean Area, Yield, and Production', 38), ('Table 12 Cottonseed Area, Yield, and Production', 39), ('Table 13 Peanut Area, Yield, and Production', 40), ('Table 14 Sunflowerseed Area, Yield, and Production', 41), ('Table 15 Rapeseed Area, Yield, and Production', 42), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 43), ('Table 17 Cotton Area, Yield, and Production', 44)]"}
+{"completed": 55, "family": "world-production", "period": "2025-04", "status": "succeeded", "error": null}
+{"completed": 56, "family": "grain-trade", "period": "2025-04", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 57, "family": "oilseed-trade", "period": "2025-04", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 58, "family": "grain-trade", "period": "2025-03", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 59, "family": "oilseed-trade", "period": "2025-03", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 60, "family": "world-production", "period": "2025-02", "status": "succeeded", "error": null}
+{"completed": 61, "family": "grain-trade", "period": "2025-02", "status": "succeeded", "error": null}
+{"completed": 62, "family": "oilseed-trade", "period": "2025-02", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 63, "family": "world-production", "period": "2025-01", "status": "succeeded", "error": null}
+{"completed": 64, "family": "grain-trade", "period": "2025-01", "status": "succeeded", "error": null}
+{"completed": 65, "family": "oilseed-trade", "period": "2025-01", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1}, unexpected_types=[]"}
+{"completed": 66, "family": "world-production", "period": "2025-03", "status": "succeeded", "error": null}
+{"completed": 67, "family": "world-production", "period": "2024-12", "status": "succeeded", "error": null}
+{"completed": 68, "family": "grain-trade", "period": "2024-12", "status": "succeeded", "error": null}
+{"completed": 69, "family": "oilseed-trade", "period": "2024-12", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 70, "family": "grain-trade", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 71, "family": "oilseed-trade", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 72, "family": "world-production", "period": "2024-11", "status": "succeeded", "error": null}
+{"completed": 73, "family": "grain-trade", "period": "2024-10", "status": "failed", "error": "Required report table coverage differs: missing={}, unexpected_types=['coarse grains | trade changes in <marketing-year> (1,000 mt) - based on trade data']"}
+{"completed": 74, "family": "oilseed-trade", "period": "2024-10", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 75, "family": "world-production", "period": "2024-10", "status": "succeeded", "error": null}
+{"completed": 76, "family": "grain-trade", "period": "2024-09", "status": "failed", "error": "Required report table coverage differs: missing={}, unexpected_types=['coarse grains | trade changes in <marketing-year> (1,000 mt) - based on trade data']"}
+{"completed": 77, "family": "oilseed-trade", "period": "2024-09", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 78, "family": "world-production", "period": "2024-09", "status": "succeeded", "error": null}
+{"completed": 79, "family": "grain-trade", "period": "2024-08", "status": "failed", "error": "Required report table coverage differs: missing={}, unexpected_types=['coarse grains | trade changes in <marketing-year> (1,000 mt) - based on trade data']"}
+{"completed": 80, "family": "oilseed-trade", "period": "2024-08", "status": "succeeded", "error": null}
+{"completed": 81, "family": "world-production", "period": "2024-07", "status": "succeeded", "error": null}
+{"completed": 82, "family": "grain-trade", "period": "2024-07", "status": "succeeded", "error": null}
+{"completed": 83, "family": "oilseed-trade", "period": "2024-07", "status": "succeeded", "error": null}
+{"completed": 84, "family": "world-production", "period": "2024-08", "status": "succeeded", "error": null}
+{"completed": 85, "family": "grain-trade", "period": "2024-06", "status": "succeeded", "error": null}
+{"completed": 86, "family": "oilseed-trade", "period": "2024-06", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 87, "family": "world-production", "period": "2024-06", "status": "succeeded", "error": null}
+{"completed": 88, "family": "grain-trade", "period": "2024-05", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 89, "family": "oilseed-trade", "period": "2024-05", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)']"}
+{"completed": 90, "family": "world-production", "period": "2024-04", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 91, "family": "grain-trade", "period": "2024-04", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 92, "family": "oilseed-trade", "period": "2024-04", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 93, "family": "world-production", "period": "2024-03", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 94, "family": "grain-trade", "period": "2024-03", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 95, "family": "oilseed-trade", "period": "2024-03", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 96, "family": "world-production", "period": "2024-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 33), ('Table 03 Total Coarse Grain Area, Yield, and Production', 34), ('Table 04 Corn Area, Yield, and Production', 35), ('Table 05 Barley Area, Yield, and Production', 36), ('Table 06 Oats Area, Yield, and Production', 37), ('Table 07 Rye Area, Yield, and Production', 38), ('Table 08 Sorghum Area, Yield, and Production', 39), ('Table 09 Rice Area, Yield, and Production', 40), ('Table 10 Total Oilseed Area, Yield, and Production', 41), ('Table 11 Soybean Area, Yield, and Production', 42), ('Table 12 Cottonseed Area, Yield, and Production', 43), ('Table 13 Peanut Area, Yield, and Production', 44), ('Table 14 Sunflowerseed Area, Yield, and Production', 45), ('Table 15 Rapeseed Area, Yield, and Production', 46), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 47), ('Table 17 Cotton Area, Yield, and Production', 48)]"}
+{"completed": 97, "family": "grain-trade", "period": "2024-02", "status": "succeeded", "error": null}
+{"completed": 98, "family": "oilseed-trade", "period": "2024-02", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)']"}
+{"completed": 99, "family": "world-production", "period": "2024-01", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 100, "family": "grain-trade", "period": "2024-01", "status": "succeeded", "error": null}
+{"completed": 101, "family": "oilseed-trade", "period": "2024-01", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)']"}
+{"completed": 102, "family": "world-production", "period": "2024-02", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 103, "family": "grain-trade", "period": "2023-12", "status": "succeeded", "error": null}
+{"completed": 104, "family": "oilseed-trade", "period": "2023-12", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)']"}
+{"completed": 105, "family": "world-production", "period": "2023-12", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 106, "family": "grain-trade", "period": "2023-11", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 107, "family": "oilseed-trade", "period": "2023-11", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['<marketing-year> outlook changes (all figures are in thousand metric tons and reflect trade pace to date)', 'table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)']"}
+{"completed": 108, "family": "world-production", "period": "2023-10", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 109, "family": "grain-trade", "period": "2023-10", "status": "succeeded", "error": null}
+{"completed": 110, "family": "oilseed-trade", "period": "2023-10", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 111, "family": "world-production", "period": "2023-09", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 112, "family": "world-production", "period": "2023-11", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 113, "family": "grain-trade", "period": "2023-09", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 114, "family": "oilseed-trade", "period": "2023-09", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 115, "family": "grain-trade", "period": "2023-08", "status": "succeeded", "error": null}
+{"completed": 116, "family": "oilseed-trade", "period": "2023-08", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1}, unexpected_types=['<marketing-year> outlook changes (all figures are in thousand metric tons and reflect trade pace to date)', 'table 22: brazil soybeans and products supply and distribution local marketing years (feb-jan)', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 117, "family": "world-production", "period": "2023-07", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 118, "family": "grain-trade", "period": "2023-07", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 119, "family": "oilseed-trade", "period": "2023-07", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 120, "family": "world-production", "period": "2023-08", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 121, "family": "grain-trade", "period": "2023-06", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 122, "family": "oilseed-trade", "period": "2023-06", "status": "failed", "error": "Required report table coverage differs: missing={'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 123, "family": "world-production", "period": "2023-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 37), ('Table 03 Total Coarse Grain Area, Yield, and Production', 38), ('Table 04 Corn Area, Yield, and Production', 39), ('Table 05 Barley Area, Yield, and Production', 40), ('Table 06 Oats Area, Yield, and Production', 41), ('Table 07 Rye Area, Yield, and Production', 42), ('Table 08 Sorghum Area, Yield, and Production', 43), ('Table 09 Rice Area, Yield, and Production', 44), ('Table 10 Total Oilseed Area, Yield, and Production', 45), ('Table 11 Soybean Area, Yield, and Production', 46), ('Table 12 Cottonseed Area, Yield, and Production', 47), ('Table 13 Peanut Area, Yield, and Production', 48), ('Table 14 Sunflowerseed Area, Yield, and Production', 49), ('Table 15 Rapeseed Area, Yield, and Production', 50), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 51), ('Table 17 Cotton Area, Yield, and Production', 52)]"}
+{"completed": 124, "family": "grain-trade", "period": "2023-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 125, "family": "oilseed-trade", "period": "2023-05", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 126, "family": "world-production", "period": "2023-06", "status": "failed", "error": "Changed WAP numerical row width"}
+{"completed": 127, "family": "grain-trade", "period": "2023-04", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 128, "family": "oilseed-trade", "period": "2023-04", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 129, "family": "world-production", "period": "2023-04", "status": "succeeded", "error": null}
+{"completed": 130, "family": "grain-trade", "period": "2023-03", "status": "succeeded", "error": null}
+{"completed": 131, "family": "oilseed-trade", "period": "2023-03", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 132, "family": "world-production", "period": "2023-03", "status": "succeeded", "error": null}
+{"completed": 133, "family": "grain-trade", "period": "2023-02", "status": "succeeded", "error": null}
+{"completed": 134, "family": "oilseed-trade", "period": "2023-02", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 135, "family": "world-production", "period": "2023-01", "status": "succeeded", "error": null}
+{"completed": 136, "family": "grain-trade", "period": "2023-01", "status": "succeeded", "error": null}
+{"completed": 137, "family": "oilseed-trade", "period": "2023-01", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 138, "family": "world-production", "period": "2022-12", "status": "succeeded", "error": null}
+{"completed": 139, "family": "grain-trade", "period": "2022-12", "status": "succeeded", "error": null}
+{"completed": 140, "family": "oilseed-trade", "period": "2022-12", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 141, "family": "world-production", "period": "2023-02", "status": "succeeded", "error": null}
+{"completed": 142, "family": "grain-trade", "period": "2022-11", "status": "succeeded", "error": null}
+{"completed": 143, "family": "oilseed-trade", "period": "2022-11", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 144, "family": "world-production", "period": "2022-10", "status": "succeeded", "error": null}
+{"completed": 145, "family": "world-production", "period": "2022-11", "status": "succeeded", "error": null}
+{"completed": 146, "family": "oilseed-trade", "period": "2022-10", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 147, "family": "grain-trade", "period": "2022-10", "status": "succeeded", "error": null}
+{"completed": 148, "family": "grain-trade", "period": "2022-09", "status": "succeeded", "error": null}
+{"completed": 149, "family": "oilseed-trade", "period": "2022-09", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 150, "family": "world-production", "period": "2022-08", "status": "succeeded", "error": null}
+{"completed": 151, "family": "grain-trade", "period": "2022-08", "status": "succeeded", "error": null}
+{"completed": 152, "family": "oilseed-trade", "period": "2022-08", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 153, "family": "world-production", "period": "2022-07", "status": "succeeded", "error": null}
+{"completed": 154, "family": "grain-trade", "period": "2022-07", "status": "succeeded", "error": null}
+{"completed": 155, "family": "oilseed-trade", "period": "2022-07", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 156, "family": "world-production", "period": "2022-06", "status": "succeeded", "error": null}
+{"completed": 157, "family": "grain-trade", "period": "2022-06", "status": "succeeded", "error": null}
+{"completed": 158, "family": "oilseed-trade", "period": "2022-06", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 159, "family": "world-production", "period": "2022-09", "status": "succeeded", "error": null}
+{"completed": 160, "family": "grain-trade", "period": "2022-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 161, "family": "oilseed-trade", "period": "2022-05", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 162, "family": "world-production", "period": "2022-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 34), ('Table 03 Total Coarse Grain Area, Yield, and Production', 35), ('Table 04 Corn Area, Yield, and Production', 36), ('Table 05 Barley Area, Yield, and Production', 37), ('Table 06 Oats Area, Yield, and Production', 38), ('Table 07 Rye Area, Yield, and Production', 39), ('Table 08 Sorghum Area, Yield, and Production', 40), ('Table 09 Rice Area, Yield, and Production', 41), ('Table 10 Total Oilseed Area, Yield, and Production', 42), ('Table 11 Soybean Area, Yield, and Production', 43), ('Table 12 Cottonseed Area, Yield, and Production', 44), ('Table 13 Peanut Area, Yield, and Production', 45), ('Table 14 Sunflowerseed Area, Yield, and Production', 46), ('Table 15 Rapeseed Area, Yield, and Production', 47), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 48), ('Table 17 Cotton Area, Yield, and Production', 49)]"}
+{"completed": 163, "family": "grain-trade", "period": "2022-04", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 164, "family": "oilseed-trade", "period": "2022-04", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 165, "family": "world-production", "period": "2022-03", "status": "succeeded", "error": null}
+{"completed": 166, "family": "grain-trade", "period": "2022-03", "status": "succeeded", "error": null}
+{"completed": 167, "family": "oilseed-trade", "period": "2022-03", "status": "failed", "error": "Ambiguous embedded publication month"}
+{"completed": 168, "family": "world-production", "period": "2022-02", "status": "succeeded", "error": null}
+{"completed": 169, "family": "grain-trade", "period": "2022-02", "status": "succeeded", "error": null}
+{"completed": 170, "family": "oilseed-trade", "period": "2022-02", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 171, "family": "world-production", "period": "2022-04", "status": "succeeded", "error": null}
+{"completed": 172, "family": "grain-trade", "period": "2022-01", "status": "succeeded", "error": null}
+{"completed": 173, "family": "oilseed-trade", "period": "2022-01", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 1, 'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 174, "family": "world-production", "period": "2022-01", "status": "succeeded", "error": null}
+{"completed": 175, "family": "grain-trade", "period": "2021-12", "status": "succeeded", "error": null}
+{"completed": 176, "family": "oilseed-trade", "period": "2021-12", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 177, "family": "world-production", "period": "2021-12", "status": "succeeded", "error": null}
+{"completed": 178, "family": "grain-trade", "period": "2021-11", "status": "succeeded", "error": null}
+{"completed": 179, "family": "oilseed-trade", "period": "2021-11", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 180, "family": "world-production", "period": "2021-11", "status": "succeeded", "error": null}
+{"completed": 181, "family": "grain-trade", "period": "2021-10", "status": "succeeded", "error": null}
+{"completed": 182, "family": "oilseed-trade", "period": "2021-10", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 183, "family": "world-production", "period": "2021-10", "status": "succeeded", "error": null}
+{"completed": 184, "family": "grain-trade", "period": "2021-09", "status": "succeeded", "error": null}
+{"completed": 185, "family": "oilseed-trade", "period": "2021-09", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 186, "family": "world-production", "period": "2021-08", "status": "succeeded", "error": null}
+{"completed": 187, "family": "grain-trade", "period": "2021-08", "status": "succeeded", "error": null}
+{"completed": 188, "family": "oilseed-trade", "period": "2021-08", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 189, "family": "world-production", "period": "2021-09", "status": "succeeded", "error": null}
+{"completed": 190, "family": "grain-trade", "period": "2021-07", "status": "succeeded", "error": null}
+{"completed": 191, "family": "oilseed-trade", "period": "2021-07", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 192, "family": "world-production", "period": "2021-07", "status": "succeeded", "error": null}
+{"completed": 193, "family": "grain-trade", "period": "2021-06", "status": "succeeded", "error": null}
+{"completed": 194, "family": "oilseed-trade", "period": "2021-06", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 195, "family": "world-production", "period": "2021-06", "status": "succeeded", "error": null}
+{"completed": 196, "family": "grain-trade", "period": "2021-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 197, "family": "oilseed-trade", "period": "2021-05", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 198, "family": "world-production", "period": "2021-04", "status": "succeeded", "error": null}
+{"completed": 199, "family": "grain-trade", "period": "2021-04", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 200, "family": "world-production", "period": "2021-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 26), ('Table 03 Total Coarse Grain Area, Yield, and Production', 27), ('Table 04 Corn Area, Yield, and Production', 28), ('Table 05 Barley Area, Yield, and Production', 29), ('Table 06 Oats Area, Yield, and Production', 30), ('Table 07 Rye Area, Yield, and Production', 31), ('Table 08 Sorghum Area, Yield, and Production', 32), ('Table 09 Rice Area, Yield, and Production', 33), ('Table 10 Total Oilseed Area, Yield, and Production', 34), ('Table 11 Soybean Area, Yield, and Production', 35), ('Table 12 Cottonseed Area, Yield, and Production', 36), ('Table 13 Peanut Area, Yield, and Production', 37), ('Table 14 Sunflowerseed Area, Yield, and Production', 38), ('Table 15 Rapeseed Area, Yield, and Production', 39), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 40), ('Table 17 Cotton Area, Yield, and Production', 41)]"}
+{"completed": 201, "family": "oilseed-trade", "period": "2021-04", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 2, 'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['<marketing-year> outlook changes', 'table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 202, "family": "world-production", "period": "2021-03", "status": "succeeded", "error": null}
+{"completed": 203, "family": "oilseed-trade", "period": "2021-03", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 204, "family": "grain-trade", "period": "2021-03", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=['rice | trade changes in <year> (1,000 mt) - based on trade data']"}
+{"completed": 205, "family": "world-production", "period": "2021-02", "status": "succeeded", "error": null}
+{"completed": 206, "family": "grain-trade", "period": "2021-02", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=['rice | trade changes in <year> (1,000 mt) - based on trade data']"}
+{"completed": 207, "family": "oilseed-trade", "period": "2021-02", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 208, "family": "grain-trade", "period": "2021-01", "status": "succeeded", "error": null}
+{"completed": 209, "family": "world-production", "period": "2021-01", "status": "succeeded", "error": null}
+{"completed": 210, "family": "oilseed-trade", "period": "2021-01", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 211, "family": "grain-trade", "period": "2020-12", "status": "succeeded", "error": null}
+{"completed": 212, "family": "oilseed-trade", "period": "2020-12", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 213, "family": "world-production", "period": "2020-11", "status": "succeeded", "error": null}
+{"completed": 214, "family": "grain-trade", "period": "2020-11", "status": "succeeded", "error": null}
+{"completed": 215, "family": "oilseed-trade", "period": "2020-11", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 216, "family": "world-production", "period": "2020-10", "status": "succeeded", "error": null}
+{"completed": 217, "family": "grain-trade", "period": "2020-10", "status": "succeeded", "error": null}
+{"completed": 218, "family": "oilseed-trade", "period": "2020-10", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 219, "family": "world-production", "period": "2020-12", "status": "succeeded", "error": null}
+{"completed": 220, "family": "grain-trade", "period": "2020-09", "status": "succeeded", "error": null}
+{"completed": 221, "family": "oilseed-trade", "period": "2020-09", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 222, "family": "world-production", "period": "2020-09", "status": "succeeded", "error": null}
+{"completed": 223, "family": "grain-trade", "period": "2020-08", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 224, "family": "oilseed-trade", "period": "2020-08", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 225, "family": "world-production", "period": "2020-08", "status": "succeeded", "error": null}
+{"completed": 226, "family": "world-production", "period": "2020-07", "status": "succeeded", "error": null}
+{"completed": 227, "family": "grain-trade", "period": "2020-07", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 228, "family": "oilseed-trade", "period": "2020-07", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 229, "family": "grain-trade", "period": "2020-06", "status": "succeeded", "error": null}
+{"completed": 230, "family": "oilseed-trade", "period": "2020-06", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 231, "family": "world-production", "period": "2020-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 21), ('Table 03 Total Coarse Grain Area, Yield, and Production', 22), ('Table 04 Corn Area, Yield, and Production', 23), ('Table 05 Barley Area, Yield, and Production', 24), ('Table 06 Oats Area, Yield, and Production', 25), ('Table 07 Rye Area, Yield, and Production', 26), ('Table 08 Sorghum Area, Yield, and Production', 27), ('Table 09 Rice Area, Yield, and Production', 28), ('Table 10 Total Oilseed Area, Yield, and Production', 29), ('Table 11 Soybean Area, Yield, and Production', 30), ('Table 12 Cottonseed Area, Yield, and Production', 31), ('Table 13 Peanut Area, Yield, and Production', 32), ('Table 14 Sunflowerseed Area, Yield, and Production', 33), ('Table 15 Rapeseed Area, Yield, and Production', 34), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 35), ('Table 17 Cotton Area, Yield, and Production', 36)]"}
+{"completed": 232, "family": "grain-trade", "period": "2020-05", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 233, "family": "oilseed-trade", "period": "2020-05", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 234, "family": "world-production", "period": "2020-04", "status": "succeeded", "error": null}
+{"completed": 235, "family": "grain-trade", "period": "2020-04", "status": "failed", "error": "Required report table coverage differs: missing={'rice | trade changes in <year> (1,000 mt)': 1}, unexpected_types=[]"}
+{"completed": 236, "family": "oilseed-trade", "period": "2020-04", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 237, "family": "world-production", "period": "2020-03", "status": "succeeded", "error": null}
+{"completed": 238, "family": "world-production", "period": "2020-06", "status": "succeeded", "error": null}
+{"completed": 239, "family": "grain-trade", "period": "2020-03", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 240, "family": "oilseed-trade", "period": "2020-03", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 2, 'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['<marketing-year> outlook changes', 'table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 241, "family": "world-production", "period": "2020-02", "status": "succeeded", "error": null}
+{"completed": 242, "family": "grain-trade", "period": "2020-02", "status": "succeeded", "error": null}
+{"completed": 243, "family": "oilseed-trade", "period": "2020-02", "status": "failed", "error": "Required report table coverage differs: missing={'<marketing-year> outlook changes (all figures are in thousand metric tons)': 2, 'table 21: united states soybeans and products supply and distribution (sep-aug)': 1, 'table 22: brazil soybeans and products supply and distribution local marketing years (jan-dec)': 1, 'table 23: argentina soybeans and products supply and distribution local marketing years (apr-mar)': 1}, unexpected_types=['<marketing-year> outlook changes', 'table 21: united states soybeans and products supply and distribution local marketing years', 'table 22: brazil soybeans and products supply and distribution local marketing years', 'table 23: argentina soybeans and products supply and distribution local marketing years', 'table 29: oilseed prices', 'table 30: protein meal prices', 'table 31: vegetable oil prices']"}
+{"completed": 244, "family": "grain-trade", "period": "2020-01", "status": "succeeded", "error": null}
+{"completed": 245, "family": "world-production", "period": "2020-01", "status": "succeeded", "error": null}
+{"completed": 246, "family": "world-production", "period": "2019-12", "status": "succeeded", "error": null}
+{"completed": 247, "family": "grain-trade", "period": "2019-12", "status": "succeeded", "error": null}
+{"completed": 248, "family": "oilseed-trade", "period": "2020-01", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 249, "family": "oilseed-trade", "period": "2019-12", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 250, "family": "grain-trade", "period": "2019-11", "status": "succeeded", "error": null}
+{"completed": 251, "family": "world-production", "period": "2019-11", "status": "succeeded", "error": null}
+{"completed": 252, "family": "oilseed-trade", "period": "2019-11", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 253, "family": "grain-trade", "period": "2019-10", "status": "succeeded", "error": null}
+{"completed": 254, "family": "oilseed-trade", "period": "2019-10", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 255, "family": "world-production", "period": "2019-09", "status": "succeeded", "error": null}
+{"completed": 256, "family": "world-production", "period": "2019-10", "status": "succeeded", "error": null}
+{"completed": 257, "family": "oilseed-trade", "period": "2019-09", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 258, "family": "grain-trade", "period": "2019-09", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 259, "family": "world-production", "period": "2019-08", "status": "succeeded", "error": null}
+{"completed": 260, "family": "oilseed-trade", "period": "2019-08", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 261, "family": "grain-trade", "period": "2019-08", "status": "succeeded", "error": null}
+{"completed": 262, "family": "grain-trade", "period": "2019-07", "status": "succeeded", "error": null}
+{"completed": 263, "family": "oilseed-trade", "period": "2019-07", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 264, "family": "world-production", "period": "2019-07", "status": "succeeded", "error": null}
+{"completed": 265, "family": "grain-trade", "period": "2019-06", "status": "succeeded", "error": null}
+{"completed": 266, "family": "world-production", "period": "2019-06", "status": "succeeded", "error": null}
+{"completed": 267, "family": "oilseed-trade", "period": "2019-06", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 268, "family": "world-production", "period": "2019-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 15), ('Table 03 Total Coarse Grain Area, Yield, and Production', 16), ('Table 04 Corn Area, Yield, and Production', 17), ('Table 05 Barley Area, Yield, and Production', 18), ('Table 06 Oats Area, Yield, and Production', 19), ('Table 07 Rye Area, Yield, and Production', 20), ('Table 08 Sorghum Area, Yield, and Production', 21), ('Table 09 Rice Area, Yield, and Production', 22), ('Table 10 Total Oilseed Area, Yield, and Production', 23), ('Table 11 Soybean Area, Yield, and Production', 24), ('Table 12 Cottonseed Area, Yield, and Production', 25), ('Table 13 Peanut Area, Yield, and Production', 26), ('Table 14 Sunflowerseed Area, Yield, and Production', 27), ('Table 15 Rapeseed Area, Yield, and Production', 28), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 29), ('Table 17 Cotton Area, Yield, and Production', 30)]"}
+{"completed": 269, "family": "oilseed-trade", "period": "2019-05", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 270, "family": "grain-trade", "period": "2019-05", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 271, "family": "world-production", "period": "2019-04", "status": "succeeded", "error": null}
+{"completed": 272, "family": "oilseed-trade", "period": "2019-04", "status": "failed", "error": "Incomplete changes-table numeric row"}
+{"completed": 273, "family": "grain-trade", "period": "2019-04", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 274, "family": "grain-trade", "period": "2019-03", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 275, "family": "oilseed-trade", "period": "2019-03", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 276, "family": "world-production", "period": "2019-03", "status": "succeeded", "error": null}
+{"completed": 277, "family": "world-production", "period": "2019-02", "status": "succeeded", "error": null}
+{"completed": 278, "family": "grain-trade", "period": "2019-02", "status": "succeeded", "error": null}
+{"completed": 279, "family": "world-production", "period": "2019-01", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 280, "family": "grain-trade", "period": "2019-01", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 281, "family": "oilseed-trade", "period": "2019-01", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 282, "family": "oilseed-trade", "period": "2019-02", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 283, "family": "grain-trade", "period": "2018-12", "status": "succeeded", "error": null}
+{"completed": 284, "family": "world-production", "period": "2018-12", "status": "succeeded", "error": null}
+{"completed": 285, "family": "world-production", "period": "2018-11", "status": "succeeded", "error": null}
+{"completed": 286, "family": "grain-trade", "period": "2018-11", "status": "succeeded", "error": null}
+{"completed": 287, "family": "oilseed-trade", "period": "2018-12", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 288, "family": "oilseed-trade", "period": "2018-11", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 289, "family": "world-production", "period": "2018-10", "status": "succeeded", "error": null}
+{"completed": 290, "family": "grain-trade", "period": "2018-10", "status": "succeeded", "error": null}
+{"completed": 291, "family": "oilseed-trade", "period": "2018-10", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 292, "family": "grain-trade", "period": "2018-09", "status": "succeeded", "error": null}
+{"completed": 293, "family": "world-production", "period": "2018-09", "status": "succeeded", "error": null}
+{"completed": 294, "family": "oilseed-trade", "period": "2018-09", "status": "failed", "error": "Changes values have no indicator row anchors"}
+{"completed": 295, "family": "grain-trade", "period": "2018-08", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'grain-trade', 'report_period': '2018-08', 'table_title': 'COARSE GRAINS | TRADE CHANGES IN 2018/19 (1,000 MT)', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'Serbia', 'column_commodity': 'Corn', 'indicator': 'Exports', 'period_label': '2018/19', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 1600/24000"}
+{"completed": 296, "family": "world-production", "period": "2018-08", "status": "succeeded", "error": null}
+{"completed": 297, "family": "oilseed-trade", "period": "2018-08", "status": "succeeded", "error": null}
+{"completed": 298, "family": "grain-trade", "period": "2018-07", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 299, "family": "world-production", "period": "2018-07", "status": "succeeded", "error": null}
+{"completed": 300, "family": "oilseed-trade", "period": "2018-07", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 301, "family": "grain-trade", "period": "2018-06", "status": "succeeded", "error": null}
+{"completed": 302, "family": "oilseed-trade", "period": "2018-06", "status": "succeeded", "error": null}
+{"completed": 303, "family": "world-production", "period": "2018-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 15), ('Table 03 Total Coarse Grain Area, Yield, and Production', 16), ('Table 04 Corn Area, Yield, and Production', 17), ('Table 05 Barley Area, Yield, and Production', 18), ('Table 06 Oats Area, Yield, and Production', 19), ('Table 07 Rye Area, Yield, and Production', 20), ('Table 08 Sorghum Area, Yield, and Production', 21), ('Table 09 Rice Area, Yield, and Production', 22), ('Table 10 Total Oilseed Area, Yield, and Production', 23), ('Table 11 Soybean Area, Yield, and Production', 24), ('Table 12 Cottonseed Area, Yield, and Production', 25), ('Table 13 Peanut Area, Yield, and Production', 26), ('Table 14 Sunflowerseed Area, Yield, and Production', 27), ('Table 15 Rapeseed Area, Yield, and Production', 28), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 29), ('Table 17 Cotton Area, Yield, and Production', 30)]"}
+{"completed": 304, "family": "world-production", "period": "2018-06", "status": "succeeded", "error": null}
+{"completed": 305, "family": "grain-trade", "period": "2018-05", "status": "succeeded", "error": null}
+{"completed": 306, "family": "oilseed-trade", "period": "2018-05", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 307, "family": "world-production", "period": "2018-04", "status": "succeeded", "error": null}
+{"completed": 308, "family": "oilseed-trade", "period": "2018-04", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 309, "family": "world-production", "period": "2018-03", "status": "succeeded", "error": null}
+{"completed": 310, "family": "grain-trade", "period": "2018-03", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 311, "family": "grain-trade", "period": "2018-04", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 312, "family": "oilseed-trade", "period": "2018-03", "status": "succeeded", "error": null}
+{"completed": 313, "family": "grain-trade", "period": "2018-02", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 314, "family": "oilseed-trade", "period": "2018-02", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 315, "family": "world-production", "period": "2018-01", "status": "succeeded", "error": null}
+{"completed": 316, "family": "world-production", "period": "2018-02", "status": "succeeded", "error": null}
+{"completed": 317, "family": "oilseed-trade", "period": "2018-01", "status": "failed", "error": "Changes-table numeric coordinate does not match an unambiguous indicator row"}
+{"completed": 318, "family": "grain-trade", "period": "2018-01", "status": "failed", "error": "Missing merged-cell country/commodity/attribute label"}
+{"completed": 319, "family": "world-production", "period": "2017-12", "status": "succeeded", "error": null}
+{"completed": 320, "family": "oilseed-trade", "period": "2017-12", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 321, "family": "grain-trade", "period": "2017-12", "status": "succeeded", "error": null}
+{"completed": 322, "family": "world-production", "period": "2017-11", "status": "succeeded", "error": null}
+{"completed": 323, "family": "oilseed-trade", "period": "2017-11", "status": "failed", "error": "Changes table header lacks a source period/title"}
+{"completed": 324, "family": "world-production", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 325, "family": "grain-trade", "period": "2017-11", "status": "succeeded", "error": null}
+{"completed": 326, "family": "oilseed-trade", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 327, "family": "grain-trade", "period": "2017-10", "status": "succeeded", "error": null}
+{"completed": 328, "family": "world-production", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 329, "family": "oilseed-trade", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 330, "family": "grain-trade", "period": "2017-09", "status": "succeeded", "error": null}
+{"completed": 331, "family": "grain-trade", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 332, "family": "world-production", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 333, "family": "world-production", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 334, "family": "oilseed-trade", "period": "2017-08", "status": "succeeded", "error": null}
+{"completed": 335, "family": "oilseed-trade", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 336, "family": "grain-trade", "period": "2017-07", "status": "succeeded", "error": null}
+{"completed": 337, "family": "grain-trade", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 338, "family": "world-production", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 339, "family": "oilseed-trade", "period": "2017-06", "status": "succeeded", "error": null}
+{"completed": 340, "family": "world-production", "period": "2017-05", "status": "failed", "error": "Required report table produced no cells: [('Table 02 Wheat Area, Yield, and Production', 15), ('Table 03 Total Coarse Grain Area, Yield, and Production', 16), ('Table 04 Corn Area, Yield, and Production', 17), ('Table 05 Barley Area, Yield, and Production', 18), ('Table 06 Oats Area, Yield, and Production', 19), ('Table 07 Rye Area, Yield, and Production', 20), ('Table 08 Sorghum Area, Yield, and Production', 21), ('Table 09 Rice Area, Yield, and Production', 22), ('Table 10 Total Oilseed Area, Yield, and Production', 23), ('Table 11 Soybean Area, Yield, and Production', 24), ('Table 12 Cottonseed Area, Yield, and Production', 25), ('Table 13 Peanut Area, Yield, and Production', 26), ('Table 14 Sunflowerseed Area, Yield, and Production', 27), ('Table 15 Rapeseed Area, Yield, and Production', 28), ('Table 16 Copra, Palm Kernel, and Palm Oil Production', 29), ('Table 17 Cotton Area, Yield, and Production', 30)]"}
+{"completed": 341, "family": "grain-trade", "period": "2017-05", "status": "succeeded", "error": null}
+{"completed": 342, "family": "oilseed-trade", "period": "2017-05", "status": "succeeded", "error": null}
+{"completed": 343, "family": "world-production", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 344, "family": "grain-trade", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 345, "family": "oilseed-trade", "period": "2017-04", "status": "succeeded", "error": null}
+{"completed": 346, "family": "world-production", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 347, "family": "grain-trade", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 348, "family": "oilseed-trade", "period": "2017-03", "status": "succeeded", "error": null}
+{"completed": 349, "family": "world-production", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 350, "family": "grain-trade", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 351, "family": "world-production", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 352, "family": "grain-trade", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 353, "family": "oilseed-trade", "period": "2017-02", "status": "succeeded", "error": null}
+{"completed": 354, "family": "oilseed-trade", "period": "2017-01", "status": "succeeded", "error": null}
+{"completed": 355, "family": "grain-trade", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 356, "family": "oilseed-trade", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 357, "family": "world-production", "period": "2016-12", "status": "succeeded", "error": null}
+{"completed": 358, "family": "grain-trade", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 359, "family": "oilseed-trade", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 360, "family": "world-production", "period": "2016-11", "status": "succeeded", "error": null}
+{"completed": 361, "family": "grain-trade", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 362, "family": "world-production", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 363, "family": "oilseed-trade", "period": "2016-10", "status": "succeeded", "error": null}
+{"completed": 364, "family": "world-production", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 365, "family": "grain-trade", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 366, "family": "oilseed-trade", "period": "2016-09", "status": "succeeded", "error": null}
+{"completed": 367, "family": "world-production", "period": "2016-08", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 368, "family": "grain-trade", "period": "2016-08", "status": "succeeded", "error": null}
+{"completed": 369, "family": "oilseed-trade", "period": "2016-08", "status": "succeeded", "error": null}
+{"completed": 370, "family": "grain-trade", "period": "2016-07", "status": "succeeded", "error": null}
+{"completed": 371, "family": "oilseed-trade", "period": "2016-07", "status": "succeeded", "error": null}
+{"completed": 372, "family": "world-production", "period": "2016-06", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 373, "family": "world-production", "period": "2016-07", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 374, "family": "oilseed-trade", "period": "2016-06", "status": "succeeded", "error": null}
+{"completed": 375, "family": "grain-trade", "period": "2016-06", "status": "succeeded", "error": null}
+{"completed": 376, "family": "world-production", "period": "2016-05", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 377, "family": "grain-trade", "period": "2016-05", "status": "succeeded", "error": null}
+{"completed": 378, "family": "oilseed-trade", "period": "2016-05", "status": "succeeded", "error": null}
+{"completed": 379, "family": "grain-trade", "period": "2016-04", "status": "succeeded", "error": null}
+{"completed": 380, "family": "world-production", "period": "2016-04", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 381, "family": "oilseed-trade", "period": "2016-04", "status": "succeeded", "error": null}
+{"completed": 382, "family": "world-production", "period": "2016-03", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 383, "family": "oilseed-trade", "period": "2016-03", "status": "succeeded", "error": null}
+{"completed": 384, "family": "grain-trade", "period": "2016-03", "status": "succeeded", "error": null}
+{"completed": 385, "family": "world-production", "period": "2016-02", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 386, "family": "grain-trade", "period": "2016-02", "status": "succeeded", "error": null}
+{"completed": 387, "family": "oilseed-trade", "period": "2016-02", "status": "succeeded", "error": null}
+{"completed": 388, "family": "world-production", "period": "2016-01", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 389, "family": "oilseed-trade", "period": "2016-01", "status": "succeeded", "error": null}
+{"completed": 390, "family": "world-production", "period": "2015-12", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 391, "family": "grain-trade", "period": "2015-12", "status": "succeeded", "error": null}
+{"completed": 392, "family": "oilseed-trade", "period": "2015-12", "status": "succeeded", "error": null}
+{"completed": 393, "family": "grain-trade", "period": "2016-01", "status": "succeeded", "error": null}
+{"completed": 394, "family": "world-production", "period": "2015-11", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 395, "family": "oilseed-trade", "period": "2015-11", "status": "succeeded", "error": null}
+{"completed": 396, "family": "world-production", "period": "2015-10", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 397, "family": "grain-trade", "period": "2015-10", "status": "succeeded", "error": null}
+{"completed": 398, "family": "oilseed-trade", "period": "2015-10", "status": "succeeded", "error": null}
+{"completed": 399, "family": "world-production", "period": "2015-09", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 400, "family": "grain-trade", "period": "2015-11", "status": "succeeded", "error": null}
+{"completed": 401, "family": "grain-trade", "period": "2015-09", "status": "succeeded", "error": null}
+{"completed": 402, "family": "world-production", "period": "2015-08", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 403, "family": "oilseed-trade", "period": "2015-09", "status": "succeeded", "error": null}
+{"completed": 404, "family": "grain-trade", "period": "2015-08", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 405, "family": "oilseed-trade", "period": "2015-08", "status": "succeeded", "error": null}
+{"completed": 406, "family": "world-production", "period": "2015-07", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 407, "family": "grain-trade", "period": "2015-07", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 408, "family": "world-production", "period": "2015-06", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 409, "family": "grain-trade", "period": "2015-06", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 410, "family": "oilseed-trade", "period": "2015-07", "status": "succeeded", "error": null}
+{"completed": 411, "family": "oilseed-trade", "period": "2015-06", "status": "succeeded", "error": null}
+{"completed": 412, "family": "grain-trade", "period": "2015-05", "status": "failed", "error": "Source returned HTTP 404"}
+{"completed": 413, "family": "world-production", "period": "2015-05", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 414, "family": "world-production", "period": "2015-04", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 415, "family": "oilseed-trade", "period": "2015-05", "status": "succeeded", "error": null}
+{"completed": 416, "family": "grain-trade", "period": "2015-04", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 417, "family": "oilseed-trade", "period": "2015-04", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 418, "family": "world-production", "period": "2015-03", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 419, "family": "grain-trade", "period": "2015-03", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 420, "family": "world-production", "period": "2015-02", "status": "failed", "error": "Unknown WAP summary geography column layout"}
+{"completed": 421, "family": "oilseed-trade", "period": "2015-03", "status": "succeeded", "error": null}
+{"completed": 422, "family": "oilseed-trade", "period": "2015-02", "status": "failed", "error": "Required report table produced no cells: [('Table 31: Vegetable Oil Prices', 36)]"}
+{"completed": 423, "family": "grain-trade", "period": "2015-02", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 424, "family": "world-production", "period": "2015-01", "status": "succeeded", "error": null}
+{"completed": 425, "family": "oilseed-trade", "period": "2015-01", "status": "succeeded", "error": null}
+{"completed": 426, "family": "grain-trade", "period": "2015-01", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 427, "family": "world-production", "period": "2014-12", "status": "succeeded", "error": null}
+{"completed": 428, "family": "oilseed-trade", "period": "2014-12", "status": "succeeded", "error": null}
+{"completed": 429, "family": "grain-trade", "period": "2014-12", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 430, "family": "grain-trade", "period": "2014-11", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 431, "family": "oilseed-trade", "period": "2014-11", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2014-11', 'table_title': 'Table 29: Oilseed Prices', 'section_label': 'price_quotes', 'section_product_type': 'not_applicable', 'row_label': 'Source quote 1/', 'column_commodity': 'not_applicable', 'indicator': 'Price', 'period_label': '2013/14', 'comparison_label': 'Dec', 'unit': 'U.S. Dollars per Metric Ton'} values 478/None"}
+{"completed": 432, "family": "world-production", "period": "2014-11", "status": "succeeded", "error": null}
+{"completed": 433, "family": "world-production", "period": "2014-10", "status": "succeeded", "error": null}
+{"completed": 434, "family": "oilseed-trade", "period": "2014-10", "status": "failed", "error": "Source returned HTTP 404"}
+{"completed": 435, "family": "grain-trade", "period": "2014-10", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 436, "family": "grain-trade", "period": "2014-09", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 437, "family": "world-production", "period": "2014-09", "status": "succeeded", "error": null}
+{"completed": 438, "family": "oilseed-trade", "period": "2014-09", "status": "failed", "error": "Source returned HTTP 404"}
+{"completed": 439, "family": "world-production", "period": "2014-08", "status": "succeeded", "error": null}
+{"completed": 440, "family": "grain-trade", "period": "2014-08", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 441, "family": "oilseed-trade", "period": "2014-08", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 442, "family": "grain-trade", "period": "2014-07", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 443, "family": "oilseed-trade", "period": "2014-07", "status": "succeeded", "error": null}
+{"completed": 444, "family": "world-production", "period": "2014-07", "status": "succeeded", "error": null}
+{"completed": 445, "family": "grain-trade", "period": "2014-06", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 446, "family": "world-production", "period": "2014-06", "status": "succeeded", "error": null}
+{"completed": 447, "family": "oilseed-trade", "period": "2014-06", "status": "succeeded", "error": null}
+{"completed": 448, "family": "world-production", "period": "2014-05", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2014-05', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'U.S.', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2013/14', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 9.1/11.2"}
+{"completed": 449, "family": "grain-trade", "period": "2014-05", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 450, "family": "oilseed-trade", "period": "2014-05", "status": "succeeded", "error": null}
+{"completed": 451, "family": "world-production", "period": "2014-04", "status": "failed", "error": "Missing WAP summary geography header"}
+{"completed": 452, "family": "grain-trade", "period": "2014-04", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 453, "family": "oilseed-trade", "period": "2014-04", "status": "succeeded", "error": null}
+{"completed": 454, "family": "world-production", "period": "2014-03", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2014-03', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 2.3/1.7"}
+{"completed": 455, "family": "oilseed-trade", "period": "2014-03", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 456, "family": "world-production", "period": "2014-02", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2014-02', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 2.8/2.3"}
+{"completed": 457, "family": "grain-trade", "period": "2014-03", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 458, "family": "grain-trade", "period": "2014-02", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 459, "family": "world-production", "period": "2014-01", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2014-01', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 3.6/2.6"}
+{"completed": 460, "family": "grain-trade", "period": "2014-01", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 461, "family": "oilseed-trade", "period": "2014-02", "status": "succeeded", "error": null}
+{"completed": 462, "family": "oilseed-trade", "period": "2014-01", "status": "succeeded", "error": null}
+{"completed": 463, "family": "grain-trade", "period": "2013-12", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 464, "family": "world-production", "period": "2013-12", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-12', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 4.0/3.1"}
+{"completed": 465, "family": "oilseed-trade", "period": "2013-12", "status": "succeeded", "error": null}
+{"completed": 466, "family": "grain-trade", "period": "2013-11", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 467, "family": "oilseed-trade", "period": "2013-11", "status": "succeeded", "error": null}
+{"completed": 468, "family": "world-production", "period": "2013-11", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-11', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 4.2/3.4"}
+{"completed": 469, "family": "world-production", "period": "2013-10", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 470, "family": "grain-trade", "period": "2013-10", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 471, "family": "oilseed-trade", "period": "2013-10", "status": "failed", "error": "Unexpected parser/transport exception; inspect source layout and rerun with bounded diagnostic"}
+{"completed": 472, "family": "grain-trade", "period": "2013-09", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 473, "family": "oilseed-trade", "period": "2013-09", "status": "succeeded", "error": null}
+{"completed": 474, "family": "world-production", "period": "2013-08", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-08', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': '90 percent confidence interval', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 8.3/8.4"}
+{"completed": 475, "family": "world-production", "period": "2013-09", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-09', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 4.8/4.6"}
+{"completed": 476, "family": "grain-trade", "period": "2013-08", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 477, "family": "oilseed-trade", "period": "2013-08", "status": "succeeded", "error": null}
+{"completed": 478, "family": "world-production", "period": "2013-07", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-07', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'World', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 5.3/5.6"}
+{"completed": 479, "family": "grain-trade", "period": "2013-07", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 480, "family": "oilseed-trade", "period": "2013-07", "status": "succeeded", "error": null}
+{"completed": 481, "family": "grain-trade", "period": "2013-06", "status": "failed", "error": "Missing report unit caption"}
+{"completed": 482, "family": "oilseed-trade", "period": "2013-06", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 483, "family": "world-production", "period": "2013-05", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-05', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'U.S.', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 9.2/11.2"}
+{"completed": 484, "family": "world-production", "period": "2013-06", "status": "failed", "error": "Conflicting source report duplicate; classifications need investigation: {'report_family': 'world-production', 'report_period': '2013-06', 'table_title': 'TABLE 18 Reliability of Production Projections', 'section_label': 'SOYBEANS', 'section_product_type': 'not_applicable', 'row_label': 'U.S.', 'column_commodity': 'not_applicable', 'indicator': 'Root mean square error', 'period_label': '1981/82 through 2012/13', 'comparison_label': 'not_applicable', 'unit': 'Percent'} values 9.3/10.5"}
+{"completed": 485, "family": "oilseed-trade", "period": "2013-05", "status": "failed", "error": "Embedded report month differs from manifest"}
+{"completed": 486, "family": "grain-trade", "period": "2013-05", "status": "failed", "error": "Missing report unit caption"}

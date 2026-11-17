@@ -1,0 +1,26 @@
+{
+  "layout_version": "28-fields-1989-forward",
+  "supported_from": 1989,
+  "source_layout": "tests/fixtures/raw/rma-layout.pdf",
+  "source_layout_sha256": "fd62972c8219e1e6cb90c4b1ae2f7ad3ada3e759c12c007b2b379da55e606307",
+  "delimiter": "|",
+  "field_count": 28,
+  "encoding": "UTF-8/ASCII for tested source files; unknown undecodable bytes fail",
+  "unsupported_period": "1948-1988",
+  "quantity_types_observed": [
+    "# of Clams",
+    "# of Shellfish",
+    "Acres",
+    "Colonies",
+    "Not Reported",
+    "Pounds",
+    "Tons",
+    "Trees",
+    "Vines"
+  ],
+  "quantity_type_rule": "Preserve exact source label; do not silently translate all quantities to Acres",
+  "tested_years": [
+    2010,
+    2025
+  ]
+}

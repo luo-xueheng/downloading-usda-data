@@ -1,0 +1,5 @@
+grain-trade-2019-04 fail Unresolved changes-table merged labels: WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT), page=8, row=2, labels={'Country': 'European Union', 'Commodity': 'Wheat', 'Attribute': 'Exports Imports'}
+grain-trade-2019-09 pass 6726
+grain-trade-2020-07 pass 6732
+oilseed-trade-2020-08 fail Unresolved changes-table merged labels: 2019/20 OUTLOOK CHANGES, page=7, row=0, labels={'Country': '', 'Commodity': 'Oilseed, Soybean', 'Attribute': 'Imports'}
+{'fail': 2, 'pass': 2}

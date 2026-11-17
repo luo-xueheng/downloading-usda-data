@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:34:51.700512+00:00",
+  "completed_at_utc": "2026-11-16T16:34:53.703118+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/reconcile_backfill.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.002546417003032,
+  "output": "artifacts/acceptance/phase-09/complete-coverage.txt",
+  "child_peak_rss_mib": 139.5625
+}

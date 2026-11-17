@@ -1,0 +1,13 @@
+{
+  "id": "production-11102026",
+  "url": "https://www.fas.usda.gov/data/world-agricultural-production-11102026",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-06/discovery/production-11102026.html",
+  "checked_at_utc": "2026-11-16T02:14:57.442182+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Mon, 16 Nov 2026 01:00:54 GMT",
+  "sha256": "e73274fdc4553596d842c9a2ec428a9cb5554e8b55bbf403b5f6d0167d648b09",
+  "bytes": 33924,
+  "final_url": "https://www.fas.usda.gov/data/world-agricultural-production-11102026"
+}

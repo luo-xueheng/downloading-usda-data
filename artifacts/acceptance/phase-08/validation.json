@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "costs-returns",
+    "rows": 257,
+    "sha256": "50d7330e2d3cc2200b1102d84f7afbc43e6d1dc83415242847f3a06567959495",
+    "status": "pass"
+  },
+  {
+    "dataset": "export-sales",
+    "rows": 2542,
+    "sha256": "7551a5885ed5236d775c012cab9014c6ec30d702fba7ffabf572da95295fe814",
+    "status": "pass"
+  },
+  {
+    "dataset": "grain-trade",
+    "rows": 8643,
+    "sha256": "dec74cbced182040dea62656448b3bc827dc8b018a37feb087c2586cf62c5ffc",
+    "status": "pass"
+  },
+  {
+    "dataset": "oilseed-trade",
+    "rows": 9947,
+    "sha256": "bbcdf737bdfe5959b0d82cfcbbd32362b537dbeba485836ff4127b3fc51768ef",
+    "status": "pass"
+  },
+  {
+    "dataset": "world-production",
+    "rows": 7967,
+    "sha256": "ab9884439cb1dd05bb70ecef18722a0653beb4956d81b4295e2e52760f6612f2",
+    "status": "pass"
+  },
+  {
+    "dataset": "rma-sob",
+    "rows": 155676,
+    "sha256": "abd2504e72fd2e9956704d349466d867d2d767f0f106214ce9dee2918aece5ec",
+    "status": "pass"
+  },
+  {
+    "dataset": "wasde",
+    "rows": 5054,
+    "sha256": "32c1f1a5820a72617eb23f961ad513ecb2988d9de8d34eacd08dbf95beaeef70",
+    "status": "pass"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "4984-hogs-all.csv",
+  "url": "https://www.ers.usda.gov/media/4984/hogs-all.csv?v=97799",
+  "path": "tests/fixtures/phase_03/4984-hogs-all.csv",
+  "checked_at_utc": "2026-11-15T11:12:17.990861+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4984/hogs-all.csv?v=97799",
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "sha256": "8cf5560ace90f04eb70bc5c768d700a39cbeb5ca31619f25fbe5a19def82fae4",
+  "bytes": 941695
+}

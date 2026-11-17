@@ -1,0 +1,11 @@
+{
+  "id": "psd-2222000-2025",
+  "url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+  "checked_at_utc": "2026-11-15T13:24:53.933600+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+  "bytes": 127846,
+  "record_count": 871
+}

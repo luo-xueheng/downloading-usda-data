@@ -1,0 +1,298 @@
+{
+  "name": "esr_weekly_sales",
+  "version": "1",
+  "null_token": "\\N",
+  "escape": "Prefix literal backslash with another backslash",
+  "fields": [
+    {
+      "name": "commodityCode",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official ESR commodity code",
+      "source_mapping": "commodityCode",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "countryCode",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official destination/aggregate code",
+      "source_mapping": "countryCode",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "marketYear",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Marketing-year identifier supplied to the endpoint, not inferred from week date",
+      "source_mapping": "request marketYear",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "weekEndingDate",
+      "type": "date",
+      "nullable": false,
+      "meaning": "Official week ending; boundary weeks may appear in adjacent MY partitions",
+      "source_mapping": "weekEndingDate",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unitId",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official source quantity unit code",
+      "source_mapping": "unitId",
+      "unit": "not_applicable",
+      "key": true,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "commodity_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official commodity/class label",
+      "source_mapping": "commodities.commodityName",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "destination_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official country/aggregate label",
+      "source_mapping": "countries.countryDescription",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "region_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Official destination-region membership, not an extra aggregate row",
+      "source_mapping": "countries.regionId",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "region_name",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Region label",
+      "source_mapping": "regions.regionName",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "genc_code",
+      "type": "string",
+      "nullable": true,
+      "meaning": "Optional official geography code; null stays null",
+      "source_mapping": "countries.gencCode",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Source quantity scale/denomination",
+      "source_mapping": "unitsOfMeasure.unitNames",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "weeklyExports",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "weeklyExports",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "accumulatedExports",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "accumulatedExports",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "outstandingSales",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "outstandingSales",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "grossNewSales",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "grossNewSales",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "currentMYNetSales",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "currentMYNetSales",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "currentMYTotalCommitment",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "currentMYTotalCommitment",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "nextMYOutstandingSales",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "nextMYOutstandingSales",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "nextMYNetSales",
+      "type": "decimal",
+      "nullable": true,
+      "meaning": "Distinct official ESR metric; signed values retained",
+      "source_mapping": "nextMYNetSales",
+      "unit": "unit column",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "raw_metrics",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Exact lexical numeric or null representations",
+      "source_mapping": "source JSON",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_week_raw",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Original source week-ending timestamp, no timezone invented",
+      "source_mapping": "weekEndingDate",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "commodity_release_timestamp_raw",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Latest commodity-level API release metadata; not historical report publication time",
+      "source_mapping": "datareleasedates.releaseTimeStamp",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_date",
+      "type": "date",
+      "nullable": true,
+      "meaning": "Unknown historical per-partition publication date",
+      "source_mapping": "not asserted from commodity-level latest release",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_release_at_utc",
+      "type": "datetime",
+      "nullable": true,
+      "meaning": "Unknown exact historical publication instant",
+      "source_mapping": "source does not provide a zoned partition release timestamp",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "release_time_precision",
+      "type": "string",
+      "nullable": false,
+      "meaning": "unknown for historical partition publication",
+      "source_mapping": "source metadata",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "retrieved_at_utc",
+      "type": "datetime",
+      "nullable": false,
+      "meaning": "UTC response capture",
+      "source_mapping": "receipt",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "source_artifact_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Response bytes SHA256",
+      "source_mapping": "raw storage",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "snapshot_id",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Parser/schema/config/artifact identity",
+      "source_mapping": "normalized manifest",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    },
+    {
+      "name": "vintage_type",
+      "type": "string",
+      "nullable": false,
+      "meaning": "Current revised weekly historical series",
+      "source_mapping": "API source semantics",
+      "unit": "not_applicable",
+      "key": false,
+      "missing_rule": "Explicit null; zero remains zero; source markers retained separately"
+    }
+  ]
+}

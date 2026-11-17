@@ -1,0 +1,10 @@
+{
+  "id": "4922-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.xlsx",
+  "url": "https://www.ers.usda.gov/media/4922/cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.xlsx?v=94749",
+  "path": "tests/fixtures/phase_03/4922-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.xlsx",
+  "checked_at_utc": "2026-11-15T11:03:10.416819+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 1] Operation not permitted>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

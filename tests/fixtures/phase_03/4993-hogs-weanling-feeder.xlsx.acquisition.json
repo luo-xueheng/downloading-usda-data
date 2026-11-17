@@ -1,0 +1,12 @@
+{
+  "id": "4993-hogs-weanling-feeder.xlsx",
+  "url": "https://www.ers.usda.gov/media/4993/hogs-weanling-feeder.xlsx?v=17680",
+  "path": "tests/fixtures/phase_03/4993-hogs-weanling-feeder.xlsx",
+  "checked_at_utc": "2026-11-15T11:12:24.226452+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4993/hogs-weanling-feeder.xlsx?v=17680",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "sha256": "e30989dfd6df0dc4f50453a49af6b793213975b440e761d29a2f538e29012d1f",
+  "bytes": 99199
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "original-2011-xml",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/3t945q76s/bz60cw58k/tx31qj06q/wasde-05-11-2011.xml",
+    "path": "tests/fixtures/phase_02/original-wasde-05-11-2011.xml"
+  },
+  {
+    "id": "original-2011-txt",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.txt",
+    "path": "tests/fixtures/phase_02/original-wasde1126.txt"
+  },
+  {
+    "id": "original-2011-xml",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.xml",
+    "path": "tests/fixtures/phase_02/original-wasde1126.xml"
+  }
+]

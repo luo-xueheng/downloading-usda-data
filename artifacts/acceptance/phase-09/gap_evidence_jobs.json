@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fas-rescheduled-reports",
+    "url": "https://www.fas.usda.gov/newsroom/usda-reschedules-fas-reports-affected-lapse-federal-funding",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/fas-rescheduled-reports.html"
+  },
+  {
+    "id": "fas-notices-search",
+    "url": "https://www.fas.usda.gov/newsroom/search?news%5B0%5D=news_type%3A10502&page=1",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/fas-notices-search.html"
+  },
+  {
+    "id": "ers-rescheduled-reports",
+    "url": "https://www.ers.usda.gov/newsroom/trending-topics/usda-reschedules-reports-affected-by-lapse-in-federal-funding",
+    "format": "html",
+    "path": "artifacts/acceptance/phase-09/ers-rescheduled-reports.html"
+  }
+]

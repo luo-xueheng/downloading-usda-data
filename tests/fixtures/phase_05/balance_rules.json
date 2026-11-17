@@ -1,0 +1,42 @@
+{
+  "selected_before_tests": true,
+  "commodity": "0440000",
+  "country": "US",
+  "years": [
+    2024,
+    2025
+  ],
+  "formulas": [
+    {
+      "left": [
+        20,
+        28,
+        57
+      ],
+      "right": [
+        86
+      ]
+    },
+    {
+      "left": [
+        88,
+        125,
+        176
+      ],
+      "right": [
+        178
+      ]
+    },
+    {
+      "left": [
+        86
+      ],
+      "right": [
+        178
+      ]
+    }
+  ],
+  "unitId": "8",
+  "tolerance": "0",
+  "reason": "Source local marketing-year supply and distribution identity for US corn; TY imports/exports are intentionally not mixed with MY measures."
+}

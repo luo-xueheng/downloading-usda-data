@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/tinaluo/Documents/nexus实习/downloading-usda-data/scripts/reconcile_source_accounting.py", line 72, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/tinaluo/Documents/nexus实习/downloading-usda-data/scripts/reconcile_source_accounting.py", line 27, in main
+    assert independent_count==accounting['mapped_rows']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

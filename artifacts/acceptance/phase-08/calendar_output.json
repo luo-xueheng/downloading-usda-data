@@ -1,0 +1,338 @@
+{
+  "events": [
+    {
+      "dataset": "world-production",
+      "artifact_kind": "report",
+      "source_date": "2026-10-09",
+      "source_url": "https://www.fas.usda.gov/data/world-agricultural-production-10092026",
+      "verified_at_utc": "2026-11-16T02:14:58.572754+00:00",
+      "source_time": "16:15:00",
+      "source_timezone": "UTC",
+      "event_id": "world-production-2026-10",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-10-09T16:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-10-10T00:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "world-production",
+      "artifact_kind": "report",
+      "source_date": "2026-11-10",
+      "source_url": "https://www.fas.usda.gov/data/world-agricultural-production-11102026",
+      "verified_at_utc": "2026-11-16T02:14:57.442182+00:00",
+      "source_time": "17:15:00",
+      "source_timezone": "UTC",
+      "event_id": "world-production-2026-11",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-11-10T17:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-11-11T01:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact_kind": "report",
+      "source_date": "2026-10-09",
+      "source_url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-10092026",
+      "verified_at_utc": "2026-11-15T15:03:17.670428+00:00",
+      "source_time": "16:15:00",
+      "source_timezone": "UTC",
+      "event_id": "grain-trade-2026-10",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-10-09T16:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-10-10T00:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact_kind": "report",
+      "source_date": "2026-11-10",
+      "source_url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade-11102026",
+      "verified_at_utc": "2026-11-15T15:03:17.226646+00:00",
+      "source_time": "17:15:00",
+      "source_timezone": "UTC",
+      "event_id": "grain-trade-2026-11",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-11-10T17:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-11-11T01:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact_kind": "report",
+      "source_date": "2026-10-09",
+      "source_url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-10092026",
+      "verified_at_utc": "2026-11-15T15:03:18.210667+00:00",
+      "source_time": "16:15:00",
+      "source_timezone": "UTC",
+      "event_id": "oilseed-trade-2026-10",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-10-09T16:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-10-10T00:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact_kind": "report",
+      "source_date": "2026-11-10",
+      "source_url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade-11102026",
+      "verified_at_utc": "2026-11-15T15:03:17.947526+00:00",
+      "source_time": "17:15:00",
+      "source_timezone": "UTC",
+      "event_id": "oilseed-trade-2026-11",
+      "release_time_precision": "timestamp",
+      "source_release_at_utc": "2026-11-10T17:15:00+00:00",
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": "2026-11-11T01:15:00+08:00",
+      "calendar_status": "delayed"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact_kind": "estimate_file_update",
+      "source_date": "2027-05-03",
+      "source_url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+      "verified_at_utc": "2026-11-15T11:11:50.488132+00:00",
+      "source_time": null,
+      "source_timezone": null,
+      "event_id": "ers-recent-next-update-2027-05-03",
+      "release_time_precision": "date",
+      "source_release_at_utc": null,
+      "display_timezone": "Asia/Shanghai",
+      "display_release_at": null,
+      "calendar_status": "pending_date_only"
+    }
+  ],
+  "freshness": "unknown unless an artifact check confirms availability",
+  "verified_claims": [
+    {
+      "claim_id": "wasde-report",
+      "source": "wasde",
+      "artifact_kind": "report",
+      "statement": "Monthly on published annual calendar, 12:00 PM ET. November 2026 release is November 10; October release is October 9.",
+      "precision": "minute",
+      "timezone": "America/New_York",
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "artifacts/acceptance/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "2026 WASDE Release Dates (12:00pm ET); November 2026 WASDE Report",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "wasde-history",
+      "source": "wasde",
+      "artifact_kind": "historical_csv",
+      "statement": "Historical CSV updated the day after the WASDE release; exact time is not specified.",
+      "precision": "day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "artifacts/acceptance/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "Consolidated Historical WASDE Report Data",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "note": "HTTP Last-Modified is not the publication timestamp; file creation metadata can predate documented availability."
+    },
+    {
+      "claim_id": "esr-weekly",
+      "source": "fas-esr",
+      "artifact_kind": "weekly_report",
+      "statement": "Weekly summary Thursday 8:30 a.m. ET unless changed; preceding Friday/Monday national holiday moves the summary to Friday. Reporting week is Friday through Thursday.",
+      "precision": "minute",
+      "timezone": "America/New_York",
+      "status": "verified",
+      "evidence": {
+        "url": "https://fas-prod.azureedge.us/programs/export-sales-reporting-program",
+        "path": "artifacts/acceptance/phase-00/discovery/esr-program-cdn.html",
+        "sha256": "349af29e77e9f8f1cf5448f9b485826146c31871abd46481328bced9466702d9",
+        "locator": "Weekly Reporting",
+        "checked_at_utc": "2026-11-12T14:27:13.904932+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "esr-api",
+      "source": "fas-esr",
+      "artifact_kind": "api",
+      "statement": "Actual API availability relative to weekly report release has not been measured.",
+      "precision": "unknown",
+      "timezone": null,
+      "status": "unverified",
+      "evidence": null,
+      "note": "Phase 04 must check datareleasedates and real authorized responses; do not assume simultaneous availability."
+    },
+    {
+      "claim_id": "world-production-report",
+      "source": "world-production",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/production.pdf",
+        "path": "tests/fixtures/raw/world-production-development.pdf",
+        "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+        "locator": "November 2026 WAP PDF page 17, publication availability paragraph (12:00 PSD and by 12:15 circular)",
+        "checked_at_utc": "2026-11-12T14:26:36.024664+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "grain-trade-report",
+      "source": "grain-trade",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/Grain.pdf",
+        "path": "tests/fixtures/raw/grain-trade-development.pdf",
+        "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+        "locator": "November 2026 Grain PDF page 3, publication availability paragraph",
+        "checked_at_utc": "2026-11-12T14:26:36.025527+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "oilseed-trade-report",
+      "source": "oilseed-trade",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/Oilseeds.pdf",
+        "path": "tests/fixtures/raw/oilseed-trade-development.pdf",
+        "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+        "locator": "November 2026 Oilseeds PDF page 8, publication availability paragraph",
+        "checked_at_utc": "2026-11-12T14:26:49.255740+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "psd-api-convention",
+      "source": "fas-psd",
+      "artifact_kind": "api",
+      "statement": "Report notes state cotton, oilseed and grain PSD data update at 12:00 p.m. on WASDE release days; this is a documented convention, not an authenticated availability measurement.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/production.pdf",
+        "path": "tests/fixtures/raw/world-production-development.pdf",
+        "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+        "locator": "November 2026 WAP PDF page 17, publication availability paragraph (12:00 PSD and by 12:15 circular)",
+        "checked_at_utc": "2026-11-12T14:26:36.024664+00:00"
+      },
+      "note": "Phase 05/08 must verify actual API timestamps and timezone before scheduling."
+    },
+    {
+      "claim_id": "psd-directory-schedule",
+      "source": "fas-psd",
+      "artifact_kind": "public_schedule_metadata",
+      "statement": "Public PSD schedule currently lists December 10, 2026 at 12:00PM for grains, oilseeds and WAP.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnlineApi/api/downloadableData/GetReleaseSchedules?commodity=all&scheduleType=1",
+        "path": "artifacts/acceptance/phase-00/discovery/psd-schedule.json",
+        "sha256": "34e4bf3801a6ee6856633f19d11519016f0897a36cbf0aae0e1b8a6560e1ab0e",
+        "locator": "releaseDate, releaseTime and releaseDescription of the three in-scope families",
+        "checked_at_utc": "2026-11-12T14:25:32.147461+00:00"
+      },
+      "note": "Potential distinction between PSD update and report deadline: retain the raw record; do not overwrite the report by-12:15 convention."
+    },
+    {
+      "claim_id": "ers-estimates",
+      "source": "ers-costs-returns",
+      "artifact_kind": "annual_estimate",
+      "statement": "Preliminary annual estimates during first week of May; final estimates during first week of October.",
+      "precision": "week",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+        "path": "artifacts/acceptance/phase-00/discovery/ers-methodology.html",
+        "sha256": "1b24390b08d06c980da6bc0db0f3bf2eae3cae174fa4e236021ac3ba29ab9001",
+        "locator": "Overview and Scope/Coverage of Data",
+        "checked_at_utc": "2026-11-12T14:21:58.272816+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "ers-forecasts",
+      "source": "ers-costs-returns",
+      "artifact_kind": "forecast",
+      "statement": "Cost-of-production forecasts generally updated in mid-June and mid-November.",
+      "precision": "part_of_month",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+        "path": "artifacts/acceptance/phase-00/discovery/ers-methodology.html",
+        "sha256": "1b24390b08d06c980da6bc0db0f3bf2eae3cae174fa4e236021ac3ba29ab9001",
+        "locator": "Overview; Cost of Production Forecasts",
+        "checked_at_utc": "2026-11-12T14:21:58.272816+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "ers-file-dates",
+      "source": "ers-costs-returns",
+      "artifact_kind": "file_metadata",
+      "statement": "Recent files: Last Updated 2026-10-01, Next Update 2027-05-03. Forecast files: Last Updated 2026-11-10, Next Update 2027-06-17.",
+      "precision": "day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+        "path": "artifacts/acceptance/phase-00/discovery/ers.html",
+        "sha256": "0f0462136d24a7d01783baa77e4ee7077aecb48edea198b28104c692263462f6",
+        "locator": "File Downloads; per-file time elements",
+        "checked_at_utc": "2026-11-12T14:21:58.272654+00:00"
+      },
+      "note": "Next Update is a planned date, not proof of future release. No precise release time is provided."
+    },
+    {
+      "claim_id": "rma-summary-refresh",
+      "source": "rma-sob",
+      "artifact_kind": "summary_report",
+      "statement": "Most recent five years refreshed each Monday morning, covering data accepted through preceding week; older report years no longer updated.",
+      "precision": "part_of_day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.rma.usda.gov/summary-business",
+        "path": "artifacts/acceptance/phase-00/discovery/rma-summary.html",
+        "sha256": "3f0529a2ebbe54b39c8be7e7780205cf5c2e19c28141a03c230c4bb59f6515fc",
+        "locator": "Summary of Business description",
+        "checked_at_utc": "2026-11-12T14:27:13.904174+00:00"
+      },
+      "note": "Official page does not specify timezone or minute. Observed ZIP Last-Modified is separate transport metadata."
+    },
+    {
+      "claim_id": "rma-zip-refresh",
+      "source": "rma-sob",
+      "artifact_kind": "annual_zip",
+      "statement": "Annual bulk ZIP synchronization with the Monday summary-report refresh is not independently established.",
+      "precision": "unknown",
+      "timezone": null,
+      "status": "unverified",
+      "evidence": null,
+      "note": "Must be verified in Phase 07/08; do not apply summary-report rule to ZIP files as an established fact."
+    }
+  ]
+}

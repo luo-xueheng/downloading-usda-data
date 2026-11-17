@@ -1,0 +1,12 @@
+{
+  "id": "4967-peanuts.xlsx",
+  "url": "https://www.ers.usda.gov/media/4967/peanuts.xlsx?v=97580",
+  "path": "tests/fixtures/phase_03/4967-peanuts.xlsx",
+  "status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:39.273605+00:00",
+  "sha256": "99e0b79e74bf8ee4de01e7195b9cedf9d1c7c3f9f8fa003fa58f3a518665b47d",
+  "bytes": 266442,
+  "final_url": "https://www.ers.usda.gov/media/4967/peanuts.xlsx"
+}

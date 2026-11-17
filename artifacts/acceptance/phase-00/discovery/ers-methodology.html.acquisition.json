@@ -1,0 +1,12 @@
+{
+  "id": "ers-methodology",
+  "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+  "path": "artifacts/acceptance/phase-00/discovery/ers-methodology.html",
+  "checked_at_utc": "2026-11-12T14:21:58.272816+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "sha256": "1b24390b08d06c980da6bc0db0f3bf2eae3cae174fa4e236021ac3ba29ab9001",
+  "bytes": 96210
+}

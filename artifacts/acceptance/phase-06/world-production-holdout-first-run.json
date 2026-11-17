@@ -1,0 +1,10 @@
+{
+  "family": "world-production",
+  "role": "holdout",
+  "artifact": "tests/fixtures/raw/world-production-holdout.pdf",
+  "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+  "status": "pass",
+  "rows": 7589,
+  "input_cells": 7589,
+  "tables": 18
+}

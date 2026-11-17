@@ -1,0 +1,1619 @@
+[
+  {
+    "reference_id": "esr-107-2025:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "938",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "938",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "1694",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "28908",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "28908",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "883206",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "143004",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "21594",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2025:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 32,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 5830,
+      "unitId": 1,
+      "weekEndingDate": "2024-06-06T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "-228",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-107-2026:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "514",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "514",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "7136",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "7650",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "19004",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "19004",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "1108774",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "190961",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-107-2026:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "source_url": "/api/esr/exports/commodityCode/107/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 5,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 107,
+      "countryCode": 2150,
+      "unitId": 1,
+      "weekEndingDate": "2025-06-05T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "-1680",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-401-2025:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "23",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "23",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "46147",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "20482",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "367835",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "367835",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "6366018",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "1035240",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2025:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 38,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2150,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-12T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "-7500",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-401-2026:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "1878",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "1878",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "204648",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "28227",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "185534",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "185534",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "7417795",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "718348",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-401-2026:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "source_url": "/api/esr/exports/commodityCode/401/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 18,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 401,
+      "countryCode": 4700,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "-49455",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-801-2025:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "385",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "385",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "55153",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "4489",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "54668",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "54668",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "1104562",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "180466",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2025:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2025",
+    "locator": {
+      "array_index": 32,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 7210,
+      "unitId": 1,
+      "weekEndingDate": "2024-09-05T00:00:00"
+    },
+    "market_year": "2025",
+    "unit": "Metric Tons",
+    "expected_value": "-44006",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-801-2026:0:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "285",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:0:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "285",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:0:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "2713",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:0:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "727",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:0:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 1220,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:1:weeklyExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "49875",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:1:accumulatedExports",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "49875",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:1:outstandingSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "1954437",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:1:currentMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "57895",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:1:nextMYNetSales",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-801-2026:negative",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "source_url": "/api/esr/exports/commodityCode/801/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 28,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 801,
+      "countryCode": 7230,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "-811",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  },
+  {
+    "reference_id": "esr-701-2026:0:weeklyExports",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:0:accumulatedExports",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:0:outstandingSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "64203",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:0:currentMYNetSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "203",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:0:nextMYNetSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 0,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:1:weeklyExports",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "weeklyExports"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2250,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:1:accumulatedExports",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "accumulatedExports"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2250,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:1:outstandingSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "outstandingSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2250,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "52",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:1:currentMYNetSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2250,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:1:nextMYNetSales",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 1,
+      "field": "nextMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2250,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-04T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "0",
+    "method": "Independent standard-library JSON decoding and direct source field selection before production parser; exact equality"
+  },
+  {
+    "reference_id": "esr-701-2026:negative",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "source_url": "/api/esr/exports/commodityCode/701/allCountries/marketYear/2026",
+    "locator": {
+      "array_index": 11,
+      "field": "currentMYNetSales"
+    },
+    "dimensions": {
+      "commodityCode": 701,
+      "countryCode": 2010,
+      "unitId": 1,
+      "weekEndingDate": "2025-09-18T00:00:00"
+    },
+    "market_year": "2026",
+    "unit": "Metric Tons",
+    "expected_value": "-33399",
+    "method": "Independent first real cancellation/negative net-sales record; no parser import"
+  }
+]

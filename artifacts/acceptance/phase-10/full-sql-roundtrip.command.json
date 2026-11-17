@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-11-16T22:24:24.002156+00:00",
+  "completed_at_utc": "2026-11-16T22:30:57.805234+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "scripts/sql_roundtrip.py",
+    "--database",
+    "artifacts/acceptance/phase-10/sql/verified.sqlite",
+    "--output",
+    "artifacts/acceptance/phase-10/sql_roundtrip.json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 393.80812099999457,
+  "output": "artifacts/acceptance/phase-10/full-sql-roundtrip.txt",
+  "child_peak_rss_mib": 245.625
+}

@@ -1,0 +1,79 @@
+grain-trade-2012-07 pass 10608
+grain-trade-2012-08 pass 10608
+grain-trade-2012-09 pass 10608
+grain-trade-2013-10 pass 0
+grain-trade-2015-05 pass 10608
+grain-trade-2018-01 fail Unresolved changes-table merged labels: TRADE CHANGES IN 2017/18, page=8, row=0, labels={'Country': 'Algeria', 'Commodity': '', 'Attribute': 'Imports'}
+grain-trade-2018-02 fail Unresolved changes-table merged labels: TRADE CHANGES IN 2017/18 (1,000 MT), page=7, row=0, labels={'Country': 'Argentina', 'Commodity': '', 'Attribute': 'Exports'}
+grain-trade-2018-03 fail Unresolved changes-table merged labels: TRADE CHANGES IN 2017/18 (1,000 MT), page=6, row=0, labels={'Country': 'Argentina', 'Commodity': '', 'Attribute': 'Exports'}
+grain-trade-2018-04 fail Unresolved changes-table merged labels: TRADE CHANGES IN 2017/18 (1,000 MT), page=7, row=0, labels={'Country': 'Algeria', 'Commodity': '', 'Attribute': 'Imports'}
+grain-trade-2018-05 fail Incomplete changes-table numeric columns: COARSE GRAINS | TRADE CHANGES IN 2017/18 (1,000 MT), page=26, row={'top': 123.34270074516235, 'bottom': 131.9585251740624, 'values': {'Previous': '24,000', 'Current': '25,000'}}
+grain-trade-2018-06 pass 6960
+grain-trade-2018-07 fail 'NoneType' object has no attribute 'group'
+grain-trade-2018-08 fail Incomplete changes-table numeric columns: COARSE GRAINS | TRADE CHANGES IN 2017/18 (1,000 MT), page=12, row={'top': 335.49661000000003, 'bottom': 343.33941, 'values': {'Previous': '26,500', 'Current': '24,500'}}
+grain-trade-2018-09 pass 6747
+grain-trade-2018-10 pass 6723
+grain-trade-2018-11 pass 6696
+grain-trade-2019-01 pass 0
+grain-trade-2019-02 pass 6795
+grain-trade-2019-12 pass 6753
+grain-trade-2020-03 pass 6732
+grain-trade-2020-08 pass 6801
+grain-trade-2021-03 pass 6696
+grain-trade-2023-02 pass 6783
+grain-trade-2024-05 pass 6774
+oilseed-trade-2013-05 pass 10176
+oilseed-trade-2013-06 pass 10176
+oilseed-trade-2013-10 pass 0
+oilseed-trade-2014-03 pass 10176
+oilseed-trade-2014-08 pass 10176
+oilseed-trade-2014-09 pass 10176
+oilseed-trade-2014-10 pass 10176
+oilseed-trade-2014-11 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2014-11', 'table_title': 'Table 29: Oilseed Prices', 'section_label': 'price_quotes', 'section_product_type': 'not_applicable', 'row_label': 'Source quote 1/', 'column_commodity': 'not_applicable', 'indicator': 'Price', 'period_label': '2013/14', 'comparison_label': 'Nov', 'unit': 'U.S. Dollars per Metric Ton'} values 467/None
+oilseed-trade-2015-02 fail Required report table produced no cells: [('Table 31: Vegetable Oil Prices', 36)]
+oilseed-trade-2015-04 pass 10158
+oilseed-trade-2017-11 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2017-11', 'table_title': '2016/17 TRADE CHANGES', 'section_label': 'Imports', 'section_product_type': 'not_applicable', 'row_label': 'Rapeseed China Soybean', 'column_commodity': 'Oilseed', 'indicator': 'Imports', 'period_label': '2016/17', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 4150/92500
+oilseed-trade-2017-12 fail Unresolved changes-table merged labels: 2016/17 TRADE CHANGES, page=6, row=2, labels={'Country': 'China Fish Meal', 'Commodity': '', 'Attribute': 'Imports'}
+oilseed-trade-2018-02 pass 10215
+oilseed-trade-2018-07 fail Unresolved changes-table merged labels: 2018/19 OUTLOOK CHANGES, page=7, row=1, labels={'Country': '', 'Commodity': 'Meal, Soybean', 'Attribute': 'Imports'}
+oilseed-trade-2018-08 fail Unresolved changes-table merged labels: 2017/18 OUTLOOK CHANGES, page=6, row=18, labels={'Country': 'Meal, Ukraine Sunflowerseed', 'Commodity': '', 'Attribute': 'Exports'}
+oilseed-trade-2018-09 pass 10239
+oilseed-trade-2019-01 pass 0
+oilseed-trade-2019-02 pass 10233
+oilseed-trade-2019-03 pass 10239
+oilseed-trade-2019-04 fail Unresolved changes-table merged labels: 2017/18 OUTLOOK CHANGES (BASED ON TRADE TO DATE), page=6, row=0, labels={'Country': 'Oilseed, Argentina', 'Commodity': 'Peanut Exports', 'Attribute': ''}
+oilseed-trade-2019-05 pass 10239
+oilseed-trade-2019-06 pass 10209
+oilseed-trade-2019-07 pass 10281
+oilseed-trade-2019-08 pass 10260
+oilseed-trade-2019-09 pass 10260
+oilseed-trade-2019-10 pass 10302
+oilseed-trade-2019-11 pass 10296
+oilseed-trade-2019-12 pass 10245
+oilseed-trade-2020-01 pass 10230
+oilseed-trade-2020-04 pass 10299
+oilseed-trade-2020-05 fail Ambiguous repeated changes-table numeric column: 2019/20 OUTLOOK CHANGES, page=7, word={'text': '362.8', 'x0': 366.9350055568058, 'x1': 393.88387430680575, 'top': 132.68981789999998, 'doctop': 4884.6898179, 'bottom': 144.66709289999994, 'upright': True, 'height': 11.977274999999963, 'width': 26.948868749999974, 'direction': 'ltr'}, row={'top': 132.68981789999998, 'bottom': 144.66709289999994, 'values': {'Change': '362.8'}}, centers={'Country': 93.69655308183559, 'Commodity': 176.56315085566354, 'Attribute': 252.10916487265538, 'Previous': 309.92007707949233, 'Current': 354.7157849419922, 'Change': 397.2505669705073, 'Reason': 487.6587370056643}
+oilseed-trade-2022-03 pass 10312
+oilseed-trade-2022-11 pass 10261
+oilseed-trade-2022-12 pass 10261
+oilseed-trade-2023-01 pass 10255
+oilseed-trade-2023-02 pass 10300
+oilseed-trade-2023-04 pass 10306
+oilseed-trade-2023-06 pass 10273
+oilseed-trade-2023-07 pass 10435
+oilseed-trade-2023-09 fail Unresolved changes-table merged labels: 2023/24 OUTLOOK CHANGES (All figures are in thousand metric tons), page=7, row=1, labels={'Country': '', 'Commodity': 'Oil, Sunflowerseed', 'Attribute': 'Exports'}
+oilseed-trade-2024-03 pass 9066
+oilseed-trade-2024-07 pass 9072
+oilseed-trade-2024-09 pass 9096
+oilseed-trade-2024-10 fail Ambiguous repeated changes-table numeric column: 2023/24 OUTLOOK CHANGES (All figures are in thousand metric tons), page=8, word={'text': '230660', 'x0': 324.84, 'x1': 358.400496, 'top': 75.32448, 'doctop': 5619.32448, 'bottom': 86.36447999999996, 'upright': True, 'height': 11.039999999999964, 'width': 33.560496, 'direction': 'ltr'}, row={'top': 75.32448, 'bottom': 86.36447999999996, 'values': {'Previous': '230660'}}, centers={'Country': 90.280584, 'Commodity': 176.021304, 'Attribute': 278.47922399999993, 'Previous': 334.9602, 'Current': 395.695344, 'Change': 463.58088}
+oilseed-trade-2024-12 pass 9054
+oilseed-trade-2025-01 pass 9018
+oilseed-trade-2026-01 pass 9033
+world-production-2012-03 pass 8117
+world-production-2013-10 pass 0
+world-production-2014-04 pass 8165
+world-production-2016-06 fail Incomplete historical WAP numbered tables
+world-production-2016-08 pass 7473
+world-production-2019-01 pass 0
+world-production-2024-04 pass 7719
+{'pass': 60, 'fail': 18}

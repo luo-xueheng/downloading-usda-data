@@ -1,0 +1,368 @@
+form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }
+Commodity Costs and Returns | Economic Research Service
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/3782","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"dataLayer":{"page":{"nid":"3782","chartId":"","pubId":"","title":"Commodity Costs and Returns","date":"2026-11-10","type":"File Collection","series":"","authors":["Jeffrey Gillespie"],"division":"MTED","breadcrumbs":["Data Products","Commodity Costs and Returns"],"pageName":"","siteSectionSecondLevel":"","siteSectionThirdLevel":"","siteSectionFourthLevel":""}},"csp":{"nonce":"2Dm1OXx9lG0IQjil1ie9Rg"},"user":{"uid":0,"permissionsHash":"6098fea00c5b73e7308eddae5d9abb80b7227c6555765be781c5aa4f4d699378"}}
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MK4SCKB6');
+Skip to main content
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Economic Research Service
+U.S. DEPARTMENT OF AGRICULTURE
+Menu
+Topics
+Data
+Access the Data
+Access and analyze data sets, maps, charts and graphs.
+Browse All Data
+Data by Type
+Access the Data
+Charts
+Downloadable Data Files
+Queryable Data Applications
+Maps
+Data by Topic
+Explore the Data Repository
+Animal Products
+Crops
+Farm Bill
+Farm Economy
+Farm Practices & Management
+Food & Nutrition Assistance
+Food Choices & Health
+Food Markets & Prices
+Food Safety
+International Markets & U.S. Trade
+Natural Resources & Environment
+Rural Economy & Population
+Analysis
+Understand the Research
+Get insights and objective analysis from experts in the field.
+Browse All Analysis
+Research Reports
+Published Papers from ERS
+Outlook Reports
+Agricultural Outlooks and Projections
+Amber Waves
+The Economics of Food, Farming, Natural Resources, and Rural Amer…
+Charts of Note
+Fast facts on U.S. agriculture
+Newsroom
+Newsroom
+See what's new and what's trending from ERS.
+Visit the Newsroom
+Events
+Trending Topics
+Contact ERS Press Office
+Subject Specialists
+Amber Waves
+Calendar
+About
+Careers
+Contact Us
+Search
+Breadcrumb
+Home
+Data Products
+Commodity Costs and Returns
+Commodity Costs and Returns
+Updated:
+11/10/2026
+Contact:
+Jeffrey Gillespie
+In this section
+Commodity Costs and Returns
+Interactive Visualization: U.S. Commodity Costs and Returns by Region and by Commodity
+Organic Costs and Returns
+Readings
+Documentation
+Cost and return estimates are reported for the United States and major production regions for corn, soybeans, wheat, cotton, grain sorghum, rice, peanuts, oats, barley, milk, hogs, and cow-calf. The series of commodity cost and return estimates for the
+U.S. and regions
+is divided into
+Recent
+and
+Historical
+estimates. Recent estimates date back to the most recent major revision in accounting methods, account format, and regional definitions for each commodity. Historical estimates date back to when the series began.
+Cost-of-Production Forecasts
+are also available for major U.S. field crops.
+Organic Costs and Returns
+for corn, milk, wheat, and soybeans are also available.
+Also, see the ERS
+Milk Cost of Production Estimates data product
+.
+File Downloads
+Recent Cost and Returns
+Corn
+Download (XLSX, 355.88 KB)
+|
+Download (CSV, 904.4 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Cotton
+Download (XLSX, 347.87 KB)
+|
+Download (CSV, 885.79 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Barley
+Download (XLSX, 217.54 KB)
+|
+Download (CSV, 537.02 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Peanuts
+Download (XLSX, 260.2 KB)
+|
+Download (CSV, 665.64 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Rice
+Download (XLSX, 215.57 KB)
+|
+Download (CSV, 517.27 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Sorghum
+Download (XLSX, 230.89 KB)
+|
+Download (CSV, 571.82 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Oats
+Download (XLSX, 194.86 KB)
+|
+Download (CSV, 469.83 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Soybeans
+Download (XLSX, 377.58 KB)
+|
+Download (CSV, 978.64 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Wheat
+Download (XLSX, 387.39 KB)
+|
+Download (CSV, 985.71 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Milk
+Download (XLSX, 325.8 KB)
+|
+Download (CSV, 861.48 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Cow-Calf
+Download (XLSX, 479.95 KB)
+|
+Download (CSV, 1.21 MB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, All
+Download (XLSX, 350.58 KB)
+|
+Download (CSV, 919.62 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, Farrow-Finish
+Download (XLSX, 238 KB)
+|
+Download (CSV, 643.39 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, Farrow-Feeder
+Download (XLSX, 98.62 KB)
+|
+Download (CSV, 202.16 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, Feeder-Finish
+Download (XLSX, 259.03 KB)
+|
+Download (CSV, 718.43 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, Farrow-Weanling
+Download (XLSX, 52.31 KB)
+|
+Download (CSV, 68.34 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Hogs, Weanling-Feeder
+Download (XLSX, 96.87 KB)
+|
+Download (CSV, 200.23 KB)
+Last Updated 10/1/2026
+Next Update 5/3/2027
+Cost-of-Production Forecasts
+Cost-of-production forecasts for major U.S. field crops, 2026F-2027F
+Download (XLSX, 28.78 KB)
+|
+Download (CSV, 28.5 KB)
+Last Updated 11/10/2026
+Next Update 6/17/2027
+Previously Released Cost of Production Forecasts
+Download (ZIP, 355.78 KB)
+Last Updated 11/10/2026
+Next Update 6/17/2027
+Historical Costs and Returns: Corn
+U.S.: 1975-95
+Download (XLS, 34 KB)
+Last Updated 10/4/2001
+Southeast: 1975-95
+Download (XLS, 23.5 KB)
+Last Updated 10/4/2001
+Historical Costs and Returns: Soybeans
+U.S.: 1975-96
+Download (XLS, 40.5 KB)
+Last Updated 10/4/2001
+Southeast: 1975-96
+Download (XLS, 32 KB)
+Last Updated 10/4/2001
+Historical Costs and Returns: Wheat
+U.S.: 1975-88, 1989-97
+Download (XLS, 34 KB)
+Last Updated 10/4/2001
+Southeast: 1975-88, 1989-97
+Download (XLS, 33.5 KB)
+Last Updated 10/4/2001
+West: 1975-88, 1989-97
+Download (XLS, 43 KB)
+Last Updated 10/4/2001
+Historical Costs and Returns: Cotton
+U.S.: 1975-96
+Download (XLS, 35 KB)
+Last Updated 10/5/2011
+Southeast: 1975-96
+Download (XLS, 33.5 KB)
+Last Updated 10/5/2011
+West: 1975-96
+Download (XLS, 32.5 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Rice
+U.S.: 1975-99
+Download (XLS, 34.5 KB)
+Last Updated 9/4/2002
+West: 1975-99
+Download (XLS, 35.5 KB)
+Last Updated 9/4/2002
+Historical Costs and Returns: Grain sorghum
+U.S.: 1975-94
+Download (XLS, 39.5 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Barley
+U.S.: 1975-2002
+Download (XLS, 35.5 KB)
+Last Updated 4/11/2005
+West: 1975-2002
+Download (XLS, 49.5 KB)
+Last Updated 4/11/2005
+Historical Costs and Returns: Oats
+U.S.: 1975-2004
+Download (XLS, 38.5 KB)
+Last Updated 8/17/2007
+Historical Costs and Returns: Sugar Beets
+U.S. and Regional: 2000-2007
+Download (XLSX, 141.48 KB)
+Last Updated 10/1/2008
+U.S.: 1981-91, 1992-99
+Download (XLS, 38.5 KB)
+Last Updated 10/7/2004
+West: 1981-91, 1992-99
+Download (XLS, 74.5 KB)
+Last Updated 10/7/2004
+Historical Costs and Returns: Peanuts
+U.S.: 1975-94
+Download (XLS, 33 KB)
+Last Updated 10/5/2001
+Southeast: 1975-94
+Download (XLS, 51 KB)
+Last Updated 10/5/2001
+Historical Costs and Returns: Tobacco
+U.S.: 1996-2004
+Download (XLS, 63 KB)
+Last Updated 9/13/2005
+Historical Costs and Returns: Milk
+U.S.: 1980-92, 1993-99
+Download (XLS, 61 KB)
+Last Updated 5/24/2002
+Southeast: 1980-92, 1993-99
+Download (XLS, 79.5 KB)
+Last Updated 5/24/2002
+West: 1980-92, 1993-99
+Download (XLS, 62.5 KB)
+Last Updated 9/11/2002
+Historical Costs and Returns: Hogs, all
+U.S.: 1992-97
+Download (XLS, 30 KB)
+Last Updated 10/5/2011
+Southeast: 1992-97
+Download (XLS, 35 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Hogs, farrow-finish
+U.S.: 1982-91, 1992-97
+Download (XLS, 46 KB)
+Last Updated 10/5/2011
+Southeast: 1982-91, 1992-97
+Download (XLS, 45.5 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Hogs, farrow-feeder
+U.S.: 1982-91, 1992-97
+Download (XLS, 48.5 KB)
+Last Updated 10/5/2011
+Southeast: 1992-97
+Download (XLS, 35 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Hogs, feeder-finish
+U.S.: 1982-91, 1992-97
+Download (XLS, 49 KB)
+Last Updated 11/7/2011
+Southeast: 1992-97
+Download (XLS, 34.5 KB)
+Last Updated 10/5/2011
+Historical Costs and Returns: Cow-Calf
+U.S.: 1982-89, 1990-95
+Download (XLS, 42 KB)
+Last Updated 10/5/2011
+Southeast: 1982-89, 1990-95
+Download (XLS, 42 KB)
+Last Updated 10/5/2011
+West: 1982-89, 1990-95
+Download (XLS, 42 KB)
+Last Updated 10/5/2011
+We’d welcome your feedback!
+Would you be willing to answer a few quick questions about your experience?
+Yes, I’ll give feedback
+Return to top
+ERS Links
+Accessibility
+Careers
+Contact Us
+Help
+Information Quality
+Privacy Policy
+Site Map
+USDA Links
+FOIA
+Non-Discrimination Statement
+Plain Writing
+Report Fraud
+USDA.gov
+USA.gov
+White House.gov
+ERS E-newsletters
+Subscribe
+Economic Research Service

@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T22:35:25.830980+00:00",
+  "completed_at_utc": "2026-11-16T22:35:31.627493+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "artifacts/acceptance/phase-10/clean-venv/bin/python",
+    "scripts/check_readme_examples.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 5.799346291998518,
+  "output": "artifacts/acceptance/phase-10/readme-cli.txt",
+  "child_peak_rss_mib": 76.328125
+}

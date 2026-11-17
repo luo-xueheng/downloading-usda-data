@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-11-16T16:35:38.401411+00:00",
+  "completed_at_utc": "2026-11-16T16:35:41.594541+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data/.venv/bin/python",
+    "scripts/check_backfill_resume.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.193092957997578,
+  "output": "artifacts/acceptance/phase-09/complete-real-resume.txt",
+  "child_peak_rss_mib": 191.90625
+}

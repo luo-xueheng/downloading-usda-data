@@ -1,0 +1,13 @@
+[
+ {"id":"wasde","url":"https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report","path":"artifacts/acceptance/phase-00/discovery/wasde.html"},
+ {"id":"ers","url":"https://www.ers.usda.gov/data-products/commodity-costs-and-returns","path":"artifacts/acceptance/phase-00/discovery/ers.html"},
+ {"id":"ers-methodology","url":"https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation","path":"artifacts/acceptance/phase-00/discovery/ers-methodology.html"},
+ {"id":"rma","url":"https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business","path":"artifacts/acceptance/phase-00/discovery/rma.html"},
+ {"id":"wap","url":"https://www.fas.usda.gov/data/world-agricultural-production","path":"artifacts/acceptance/phase-00/discovery/wap.html"},
+ {"id":"grain","url":"https://www.fas.usda.gov/data/grain-world-markets-and-trade","path":"artifacts/acceptance/phase-00/discovery/grain.html"},
+ {"id":"oilseed","url":"https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade","path":"artifacts/acceptance/phase-00/discovery/oilseed.html"},
+ {"id":"esr","url":"https://www.fas.usda.gov/programs/export-sales-reporting-program","path":"artifacts/acceptance/phase-00/discovery/esr.html"},
+ {"id":"api-portal","url":"https://apps.fas.usda.gov/opendataweb/home","path":"artifacts/acceptance/phase-00/discovery/api-portal.html"},
+ {"id":"api-specification","url":"https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json","path":"artifacts/acceptance/phase-00/discovery/swagger.json"},
+ {"id":"api-host","url":"https://api.fas.usda.gov","path":"artifacts/acceptance/phase-00/discovery/api-host.html"}
+]

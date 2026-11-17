@@ -1,0 +1,11 @@
+{
+  "id": "unitsOfMeasure",
+  "url": "https://api.fas.usda.gov/api/esr/unitsOfMeasure",
+  "checked_at_utc": "2026-11-15T12:12:54.650913+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "afc8a7336c9a509102b131f4fdcd54fa21cba6650141b72288a7f1677e452489",
+  "bytes": 183,
+  "record_count": 5
+}

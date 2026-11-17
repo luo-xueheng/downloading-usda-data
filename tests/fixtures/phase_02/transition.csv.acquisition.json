@@ -1,0 +1,12 @@
+{
+  "id": "wasde-transition",
+  "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-05-V2.csv",
+  "path": "tests/fixtures/phase_02/transition.csv",
+  "checked_at_utc": "2026-11-15T07:10:00.535538+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-05-V2.csv",
+  "content_type": "text/csv",
+  "last_modified": "Wed, 13 May 2026 15:04:58 GMT",
+  "sha256": "95bb5b04c02c174442c399c3be5785b181bc6e9606f0cbd44cd59e45d9422973",
+  "bytes": 957471
+}

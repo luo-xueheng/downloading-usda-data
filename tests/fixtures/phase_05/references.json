@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "psd-0440000-2024:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 1726,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "44792.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 1727,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "378268.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 1728,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "550.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 1732,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "72966.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 1737,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "39404.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 196,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "7354.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 197,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "136000.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 198,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "1761.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 202,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "42011.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2024:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2024.json",
+    "sha256": "f3e004a40f9a9897e6016af315c049f020467ffc0e0219ede1180527cd37eb9a",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2024",
+    "locator": {
+      "array_index": 207,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "10604.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 1726,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "39404.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 1727,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "430896.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 1728,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "797.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 1732,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "87106.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 1737,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "53217.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 196,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "10604.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 197,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "144500.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 198,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "1700.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 202,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "38000.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0440000-2025:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0440000-2025.json",
+    "sha256": "0ae6a975fde796058332efac6d16703a75f5834a07b717d8de99502e549bcb15",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/country/all/year/2025",
+    "locator": {
+      "array_index": 207,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "15304.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 794,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "9319.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 795,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "119047.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 796,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "806.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 798,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "51495.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 803,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "8840.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 118,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "29761.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 119,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "172500.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 120,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "731.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 122,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "103142.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2024:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2024.json",
+    "sha256": "7162c3cfa271a4d7295eefaeccb1cf242bfeabfcea7723b6a25d67577b0ce1da",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2024",
+    "locator": {
+      "array_index": 127,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "37688.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 794,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "8840.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 795,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "115966.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 796,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "606.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 798,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "41243.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 803,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "8577.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 118,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "37688.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 119,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "180500.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 120,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "1053.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 122,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "114460.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2222000-2025:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-2222000-2025.json",
+    "sha256": "fd66affc5d850ff57eca316143963e91b4a487676fcabc46afce6d35444af4b6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/country/all/year/2025",
+    "locator": {
+      "array_index": 127,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "37881.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 1052,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "411.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 1053,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "53019.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 1054,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "732.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 1056,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "16396.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 1061,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "361.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 142,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "2972.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 143,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "44383.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 144,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "5.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 146,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "23390.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2024:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2024.json",
+    "sha256": "dc7d52e853c1f89c507558b0f8a6bbf054d63c7d4b54451880c53c2bc7e5c7ab",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2024",
+    "locator": {
+      "array_index": 151,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "3470.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 1052,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "361.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 1053,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "56797.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 1054,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "910.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 1056,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "18418.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 1061,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "302.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 142,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "3470.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 143,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "47875.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 144,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "4.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 146,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "25321.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-0813100-2025:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-0813100-2025.json",
+    "sha256": "21c55bb271efc705f36a2e2d627e89c63ceb45148c3e0455219e9853e814a434",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0813100/country/all/year/2025",
+    "locator": {
+      "array_index": 151,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0813100",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "4228.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 938,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "703.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 939,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "13253.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 940,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "164.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 942,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "1121.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 947,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "07",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "792.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 119,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "177.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 120,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "11842.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 121,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "85.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 123,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "1487.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2024:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2024.json",
+    "sha256": "0bb29fd1c226e8e5066f3d624151c2c5f4dd633f37426ab01f8bb93a961ac8dc",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2024",
+    "locator": {
+      "array_index": 128,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2024",
+      "calendarYear": "2026",
+      "month": "04",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "207.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:US:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 938,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "792.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:US:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 939,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "13869.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:US:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 940,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "239.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:US:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 942,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "445.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:US:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 947,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "661.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:BR:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 119,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "207.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:BR:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 120,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "12756.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:BR:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 121,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "80.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:BR:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 123,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "1946.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-4232000-2025:BR:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/psd-4232000-2025.json",
+    "sha256": "2c2f7840c4085bbf05e51f72c089168c222ee874ebe9c9b6e8b0b6efcf7dd197",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/4232000/country/all/year/2025",
+    "locator": {
+      "array_index": 128,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "4232000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "197.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:US:4",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 1404,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 4,
+      "unitId": 4
+    },
+    "expected_value": "3168.0000",
+    "expected_unit": "(1000 HA)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:US:28",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 1406,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 28,
+      "unitId": 27
+    },
+    "expected_value": "13897.0000",
+    "expected_unit": "1000 480 lb. Bales",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:US:184",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 1415,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "US",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "09",
+      "attributeId": 184,
+      "unitId": 29
+    },
+    "expected_value": "955.0000",
+    "expected_unit": "(KG/HA)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:BR:4",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 192,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 4,
+      "unitId": 4
+    },
+    "expected_value": "2090.0000",
+    "expected_unit": "(1000 HA)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:BR:28",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 194,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 28,
+      "unitId": 27
+    },
+    "expected_value": "18750.0000",
+    "expected_unit": "1000 480 lb. Bales",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "psd-2631000-2025:BR:184",
+    "role": "holdout",
+    "artifact": "tests/fixtures/phase_05/psd-2631000-2025.json",
+    "sha256": "0edbae3c74d4f5f8dc3f99ae8a28514f526ddc31facf12151ee37d4918f62be9",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2631000/country/all/year/2025",
+    "locator": {
+      "array_index": 203,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2631000",
+      "countryCode": "BR",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "10",
+      "attributeId": 184,
+      "unitId": 29
+    },
+    "expected_value": "1953.0000",
+    "expected_unit": "(KG/HA)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-0440000-2025:00:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "295690.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-0440000-2025:00:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "locator": {
+      "array_index": 2,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "1334715.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-0440000-2025:00:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "locator": {
+      "array_index": 3,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "199614.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-0440000-2025:00:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "locator": {
+      "array_index": 7,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "215361.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-0440000-2025:00:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-0440000-2025.json",
+    "sha256": "c664fb044e5f0ab81262960152b354d9ace9852e60926ddc753aedb4b1cae992",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/0440000/world/year/2025",
+    "locator": {
+      "array_index": 12,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "0440000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "308310.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-2222000-2025:00:20",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "locator": {
+      "array_index": 1,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 20,
+      "unitId": 8
+    },
+    "expected_value": "126013.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-2222000-2025:00:28",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "locator": {
+      "array_index": 2,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 28,
+      "unitId": 8
+    },
+    "expected_value": "429260.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-2222000-2025:00:57",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "locator": {
+      "array_index": 3,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 57,
+      "unitId": 8
+    },
+    "expected_value": "189390.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-2222000-2025:00:88",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "locator": {
+      "array_index": 5,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 88,
+      "unitId": 8
+    },
+    "expected_value": "186628.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  },
+  {
+    "id": "world-2222000-2025:00:176",
+    "role": "development",
+    "artifact": "tests/fixtures/phase_05/world-2222000-2025.json",
+    "sha256": "df145748bb109742655932e0a88e255ae2b2e5ea47ea644dbaf8f1ab0b4408f6",
+    "source_url": "https://api.fas.usda.gov/api/psd/commodity/2222000/world/year/2025",
+    "locator": {
+      "array_index": 10,
+      "field": "value"
+    },
+    "dimensions": {
+      "commodityCode": "2222000",
+      "countryCode": "00",
+      "marketYear": "2025",
+      "calendarYear": "2026",
+      "month": "11",
+      "attributeId": 176,
+      "unitId": 8
+    },
+    "expected_value": "124982.0000",
+    "expected_unit": "(1000 MT)",
+    "method": "Independent standard-library JSON decoding with Decimal, fixed geography/attribute selection before adapter implementation",
+    "tolerance": "0"
+  }
+]

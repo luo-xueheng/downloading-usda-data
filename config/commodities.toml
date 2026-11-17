@@ -1,0 +1,7 @@
+# Verified dictionaries expand exactly the frozen dataset/report scope.
+status = "verified_esr_and_psd_dictionaries"
+selection = "all_in_frozen_scope"
+esr_inventory = "config/esr_inventory.json"
+psd_report_scope = "config/psd_scope.json"
+esr_commodity_count = 44
+psd_commodity_union_count = 37

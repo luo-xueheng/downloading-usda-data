@@ -1,0 +1,21 @@
+{
+  "authorized_at_local": "2026-11-17T01:27:06.663282+08:00",
+  "authorization": "User requested adjusting the memory budget and determining whether Phase 09 can pass; preceding proposal was 1 GiB.",
+  "previous_budget_mib": 512,
+  "budget_mib": 1024,
+  "config_sha256_before": "eee203d7c1130826d24dd35040c2af9dc08cd590b8dc0f89eb7513d80f7d87b8",
+  "config_sha256_after": "ede8662e2a2acac4cca17917fdfa40e1497a227678f1d981f1f93c664e71cb57",
+  "scope_change": "Memory threshold only; task inventory, source cutoff and data-quality gates unchanged.",
+  "measurement_reused": true,
+  "measurement_completed_at_utc": "2026-11-16T17:18:00.561479+00:00",
+  "measured_peak_rss_mib": 689.5625,
+  "original_measurement_status": "fail",
+  "original_command_exit_code": 1,
+  "measurement_path": "full_export_memory.json",
+  "measurement_sha256": "ea99356c516b6780e8cf1f71930322a5895d29205ee9d2b8c10450d88564de04",
+  "command_receipt_sha256": "c54c1e7aa0e68c9ad32f7379b0c500dbb108c1e5f93fca8c123e3260769b96e6",
+  "checked_exports": 7,
+  "hashes_match_selected_run": true,
+  "resource_reassessment": "pass",
+  "phase_acceptance": "Determined separately by results.json after formal offline/live gates."
+}

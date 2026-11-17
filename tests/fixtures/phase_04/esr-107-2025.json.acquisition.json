@@ -1,0 +1,11 @@
+{
+  "id": "esr-107-2025",
+  "url": "https://api.fas.usda.gov/api/esr/exports/commodityCode/107/allCountries/marketYear/2025",
+  "checked_at_utc": "2026-11-15T12:14:53.692857+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+  "bytes": 701619,
+  "record_count": 2471
+}

@@ -1,0 +1,11 @@
+{
+  "id": "countries",
+  "url": "https://api.fas.usda.gov/api/psd/countries",
+  "checked_at_utc": "2026-11-15T13:20:05.166811+00:00",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "sha256": "4c2fb02322e419619461d34eb987a1c15528b989d73e3b80bd725268281e835a",
+  "bytes": 21231,
+  "record_count": 251
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wasde-transition",
+  "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-05-V2.csv",
+  "path": "tests/fixtures/phase_02/transition.csv",
+  "checked_at_utc": "2026-11-15T06:57:41.183806+00:00",
+  "status": null,
+  "error": "<urlopen error [Errno 1] Operation not permitted>",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

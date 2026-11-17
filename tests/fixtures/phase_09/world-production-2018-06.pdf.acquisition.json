@@ -1,0 +1,13 @@
+{
+  "id": "world-production-2018-06",
+  "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2018/06/production.pdf",
+  "format": "pdf",
+  "path": "tests/fixtures/phase_09/world-production-2018-06.pdf",
+  "checked_at_utc": "2026-11-16T09:44:51.722047+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 12 Jun 2018 14:57:10 GMT",
+  "sha256": "0090bfd725db7f7be19185c50da391923da31ee13c94c8ca2f1770bde2ebbcc5",
+  "bytes": 2404974,
+  "final_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2018/06/production.pdf"
+}

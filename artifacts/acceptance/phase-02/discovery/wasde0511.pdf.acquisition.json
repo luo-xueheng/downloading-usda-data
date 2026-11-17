@@ -1,0 +1,11 @@
+{
+  "id": "wasde-2011-candidate-pdf",
+  "url": "https://www.usda.gov/oce/commodity/wasde/wasde0511.pdf",
+  "path": "artifacts/acceptance/phase-02/discovery/wasde0511.pdf",
+  "checked_at_utc": "2026-11-15T07:27:50.408313+00:00",
+  "status": 404,
+  "final_url": "https://www.usda.gov/oce/commodity/wasde/wasde0511.pdf",
+  "error": "HTTP 404",
+  "sha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b",
+  "bytes": 10
+}

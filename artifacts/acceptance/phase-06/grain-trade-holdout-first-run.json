@@ -1,0 +1,9 @@
+{
+  "family": "grain-trade",
+  "role": "holdout",
+  "artifact": "tests/fixtures/raw/grain-trade-holdout.pdf",
+  "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+  "status": "fail",
+  "error_type": "ValidationError",
+  "error": "Required report table coverage differs: missing={}, unexpected={'coarse grains | trade changes in <marketing-year> (1,000 mt)': 1}"
+}

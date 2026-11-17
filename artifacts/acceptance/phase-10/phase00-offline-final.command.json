@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-11-16T22:40:20.188176+00:00",
+  "completed_at_utc": "2026-11-16T22:40:22.121793+00:00",
+  "working_directory": "/Users/tinaluo/Documents/nexus\u5b9e\u4e60/downloading-usda-data",
+  "command": [
+    ".venv/bin/python",
+    "scripts/verify_phase00.py",
+    "--mode",
+    "offline",
+    "--evidence-dir",
+    "artifacts/acceptance/phase-10/phase-00-direct"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.9336100420041475,
+  "output": "artifacts/acceptance/phase-10/phase00-offline-final.txt",
+  "child_peak_rss_mib": 98.671875
+}

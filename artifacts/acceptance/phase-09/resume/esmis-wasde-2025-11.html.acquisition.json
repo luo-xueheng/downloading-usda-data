@@ -1,0 +1,12 @@
+{
+  "url": "https://esmis.nal.usda.gov/publication/world-agricultural-supply-and-demand-estimates?date=2025-11",
+  "format": "html",
+  "path": "artifacts/acceptance/phase-09/resume/esmis-wasde-2025-11.html",
+  "checked_at_utc": "2026-11-16T15:38:23.531484+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Mon, 16 Nov 2026 15:11:10 GMT",
+  "sha256": "612e529c1ba3cdebbdc2e6022c875bfea72ec6d84763b2bd3e63d95922cb1fd3",
+  "bytes": 68926,
+  "final_url": "https://esmis.nal.usda.gov/publication/world-agricultural-supply-and-demand-estimates"
+}
