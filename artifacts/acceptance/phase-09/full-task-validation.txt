@@ -1,4 +1,0 @@
-grain-trade-full pass 1888470
-oilseed-trade-full pass 2232684
-world-production-full pass 1558008
-{'run_id': '20261116T094205-854c30ee', 'expected_tasks': 805, 'passed': 805, 'failed': 0, 'blocked': 0, 'validated_rows': 9987892, 'peak_rss_mib': 166.46875, 'chunk_size': 5000}

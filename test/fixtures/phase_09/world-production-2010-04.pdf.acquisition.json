@@ -1,0 +1,13 @@
+{
+  "id": "world-production-2010-04",
+  "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2010/04/production.pdf",
+  "format": "pdf",
+  "path": "test/fixtures/phase_09/world-production-2010-04.pdf",
+  "checked_at_utc": "2026-11-16T09:44:21.796566+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Fri, 09 Apr 2010 14:08:29 GMT",
+  "sha256": "a61855721607faeb70800084b267d18cf41d3f80b441e3a62935922140fbdd5a",
+  "bytes": 907351,
+  "final_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2010/04/production.pdf"
+}

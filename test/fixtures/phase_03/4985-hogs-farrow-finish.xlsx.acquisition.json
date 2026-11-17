@@ -1,0 +1,12 @@
+{
+  "id": "4985-hogs-farrow-finish.xlsx",
+  "url": "https://www.ers.usda.gov/media/4985/hogs-farrow-finish.xlsx?v=44650",
+  "path": "test/fixtures/phase_03/4985-hogs-farrow-finish.xlsx",
+  "checked_at_utc": "2026-11-15T11:12:18.232147+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4985/hogs-farrow-finish.xlsx?v=44650",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "sha256": "aff3148b2e957ba54dc17c82d4345a86ae76cfd7af2cdd5bb9f0b63825333c76",
+  "bytes": 243712
+}

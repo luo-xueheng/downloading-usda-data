@@ -1,0 +1,12 @@
+{
+  "id": "psd-circular-template",
+  "url": "https://apps.fas.usda.gov/psdonline/app/downloads/directives/circulars.html",
+  "path": "test/fixtures/discovery/phase-00/discovery/psd-circular-template.html",
+  "checked_at_utc": "2026-11-12T14:25:32.147651+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/psdonline/app/downloads/directives/circulars.html",
+  "content_type": "text/html",
+  "last_modified": "Tue, 26 Jan 2021 19:07:39 GMT",
+  "sha256": "155ff39473ac9e53bda32818dc4c19265e8aaf0b251d4869f2f3e6de0440506e",
+  "bytes": 5601
+}

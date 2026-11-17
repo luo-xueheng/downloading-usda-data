@@ -19,8 +19,10 @@ usda-data = "usda_data.cli:main"
 where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
-markers = ["live: read-only real-source requests; never enabled by the offline suite", "acceptance(id): mandatory acceptance-test identifier"]
+testpaths = ["test"]
+addopts = "-m 'not live and not historical'"
+pythonpath = ["src"]
+markers = ["historical: opt-in checks of an external frozen acceptance archive", "live: read-only real-source requests; never enabled by the offline suite", "acceptance(id): mandatory acceptance-test identifier"]
 
 [tool.setuptools.package-data]
 usda_data = ["sources/*.json"]

@@ -1,5 +1,8 @@
 **USDA Data Collection: Phased Execution Plan for Codex**
 
+> Repository cleanup (2026-11-17): historical `artifacts/` and full `data/` paths below refer to the external archive. See [migration and archive guide](docs/repository_cleanup.md). These saved results are not current test results.
+
+
 Document version: 1.0  
 Prepared: 2026-11-12, Asia/Shanghai  
 Status: Execution specification with recorded implementation progress; see docs/execution_status.md and per-phase acceptance evidence.  
@@ -51,7 +54,7 @@ Defaults to apply unless the user changes them:
 - `--all-history` means all available history supported by an implemented layout. It must explicitly report earlier unsupported layouts; it cannot silently imply they were downloaded.
 - Provide scheduling instructions and an executable `sync` command; do not install an actual scheduler.
 
-Freeze scope in `config/scope.json` during Phase 00. Later changes require an entry in `docs/decisions.md`, an updated expected-coverage inventory, and appropriate regression checks. Do not silently narrow scope to make tests pass.
+Freeze scope in `test/fixtures/config/scope.json` during Phase 00. Later changes require an entry in `docs/decisions.md`, an updated expected-coverage inventory, and appropriate regression checks. Do not silently narrow scope to make tests pass.
 
 **3. Phase map and execution order**
 
@@ -128,8 +131,8 @@ Commands below are target interfaces to implement, not a claim that they already
 Use the phase-specific directories specified below. Common invocation pattern:
 
 ```bash
-python -m pytest tests/phase_XX -m 'not live' -q
-python -m pytest tests/phase_XX -m live -q
+python -m pytest test/phase_XX -m 'not live' -q
+python -m pytest test/phase_XX -m live -q
 ```
 
 Live test IDs and offline test IDs must be listed separately in the phase evidence. An entire phase cannot pass by collecting zero tests. Use small live samples first; the full backfill is performed in Phase 09.
@@ -140,10 +143,10 @@ Create the package in the current repository root, adapting to existing code whe
 
 ```text
 pyproject.toml
-config/scope.json
+test/fixtures/config/scope.json
 config/datasets.toml
-config/commodities.toml
-config/report_mappings.toml
+docs/history/config/commodities.toml
+docs/history/config/report_mappings.toml
 src/usda_data/__init__.py
 src/usda_data/__main__.py
 src/usda_data/api.py
@@ -157,8 +160,8 @@ src/usda_data/sources/{wasde,fas_esr,fas_psd,ers_costs_returns,rma_sob,reports}.
 schemas/
 docs/
 scripts/verify_phase00.py
-tests/phase_01/ ... tests/phase_10/
-tests/fixtures/
+test/phase_01/ ... test/phase_10/
+test/fixtures/
 artifacts/acceptance/
 data/{raw,normalized,exports,reports,manifests}/
 ```
@@ -211,7 +214,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 6. Select initial and holdout public artifacts, preserve hashes, and create independently read reference observations. API fixtures are acquired in their respective source phases.
 7. Document how the user supplies an API key through `USDA_FAS_API_KEY`. If registration is needed, use the user's real Nexus email only when supplied and authorized; leave email verification to its owner.
 
-**Concrete deliverables:** `config/scope.json`; `docs/source_registry.md`; `docs/execution_status.md`; `docs/decisions.md`; `docs/credential_setup.md`; `tests/fixtures/catalog.json`; independently authored reference files; `scripts/verify_phase00.py` using only the Python standard library.
+**Concrete deliverables:** `test/fixtures/config/scope.json`; `docs/source_registry.md`; `docs/execution_status.md`; `docs/decisions.md`; `docs/credential_setup.md`; `test/fixtures/catalog.json`; independently authored reference files; `scripts/verify_phase00.py` using only the Python standard library.
 
 **Accuracy and acceptance tests:**
 
@@ -241,7 +244,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Implement CSV read/write helpers using explicit schemas, nullable values, and leading-zero-safe code columns.
 6. Establish offline test fixtures, mock transport, independently stored expected values, and acceptance-result recording.
 
-**Concrete deliverables:** Working `pyproject.toml`; shared modules; `.env.example` without a key; `.gitignore`; initial schema contracts; `tests/phase_01/`; install/import/help commands.
+**Concrete deliverables:** Working `pyproject.toml`; shared modules; `.env.example` without a key; `.gitignore`; initial schema contracts; `test/phase_01/`; install/import/help commands.
 
 **Accuracy and acceptance tests:**
 
@@ -272,7 +275,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Expose `download_wasde`, CLI fetch, schema, and documented economic meanings.
 6. Inventory every required structured table, including non-crop tables. Add special handling for layouts actually encountered.
 
-**Concrete deliverables:** WASDE adapter and schema; `docs/wasde.md`; sample CSV; table-coverage inventory; pinned early/recent/year-transition fixtures; `tests/phase_02/`.
+**Concrete deliverables:** WASDE adapter and schema; `docs/wasde.md`; sample CSV; table-coverage inventory; pinned early/recent/year-transition fixtures; `test/phase_02/`.
 
 **Accuracy and acceptance tests:**
 
@@ -302,7 +305,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 4. Separate Recent, Historical, and forecast observations even when commodity/year labels overlap.
 5. Implement complete-file replacement on revision, public function, CLI, and economic definitions.
 
-**Concrete deliverables:** ERS adapter and schema; `docs/costs_returns.md`; discovery manifest; sample CSVs spanning available series/layouts; `tests/phase_03/`.
+**Concrete deliverables:** ERS adapter and schema; `docs/costs_returns.md`; discovery manifest; sample CSVs spanning available series/layouts; `test/phase_03/`.
 
 **Accuracy and acceptance tests:**
 
@@ -333,7 +336,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Add public function, CLI, schema, validation, and complete-partition refresh hooks.
 6. Acquire development and holdout official responses and independent reference observations.
 
-**Concrete deliverables:** ESR adapter and schema; ESR dictionaries; `docs/export_sales.md`; successful redacted live-run evidence; sample CSV; `tests/phase_04/`.
+**Concrete deliverables:** ESR adapter and schema; ESR dictionaries; `docs/export_sales.md`; successful redacted live-run evidence; sample CSV; `test/phase_04/`.
 
 **Accuracy and acceptance tests:**
 
@@ -364,7 +367,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Implement `download_psd`, CLI support, schema, and caches shared by report datasets.
 6. Document when a world total is provided by the source versus a derived calculation. Never add a world total to its member countries.
 
-**Concrete deliverables:** PSD adapter/schema; versioned dictionaries; report-family commodity union; `docs/psd.md`; sample observations; `tests/phase_05/`.
+**Concrete deliverables:** PSD adapter/schema; versioned dictionaries; report-family commodity union; `docs/psd.md`; sample observations; `test/phase_05/`.
 
 **Accuracy and acceptance tests:**
 
@@ -396,7 +399,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Expose all three dataset IDs through `download_dataset` and the CLI; expose report manifests through `download_reports`.
 6. Create `report_coverage.csv` identifying `psd_mapped`, `separate_extraction`, `source_unavailable`, or `unresolved` for each required table family. Freeze required versus optional distinctions before final testing.
 
-**Concrete deliverables:** Three report mappings; report downloader/catalog; coverage manifest; schemas for any supplementary observations; three source-specific documentation files; `tests/phase_06/`.
+**Concrete deliverables:** Three report mappings; report downloader/catalog; coverage manifest; schemas for any supplementary observations; three source-specific documentation files; `test/phase_06/`.
 
 **Accuracy and acceptance tests:**
 
@@ -426,7 +429,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Implement a layout-supported `--all-history` boundary and explicit reporting for unsupported earlier layouts.
 6. Document safe aggregation levels; do not sum overlapping policy groups or label every quantity as acres.
 
-**Concrete deliverables:** RMA adapter/schema; layout-to-year mapping; `docs/rma_sob.md`; annual sample CSVs; quantity-type dictionary; `tests/phase_07/`.
+**Concrete deliverables:** RMA adapter/schema; layout-to-year mapping; `docs/rma_sob.md`; annual sample CSVs; quantity-type dictionary; `test/phase_07/`.
 
 **Accuracy and acceptance tests:**
 
@@ -457,7 +460,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Implement bounded retries, delayed-release status, resumable tasks, and atomic export-manifest switching.
 6. Provide a deterministic clock and mock source versions for update tests. Do not wait for a real future release to test the state machine.
 
-**Concrete deliverables:** `sync`, calendar functionality, persisted run/partition state, update documentation, recovery playbook, `tests/phase_08/`.
+**Concrete deliverables:** `sync`, calendar functionality, persisted run/partition state, update documentation, recovery playbook, `test/phase_08/`.
 
 **Accuracy and acceptance tests:**
 
@@ -493,7 +496,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 6. Repeat an unchanged check and a deliberate interruption/resume trial on a representative subset.
 7. Publish a complete export manifest only when all required partitions pass their checks.
 
-**Concrete deliverables:** Raw archives; normalized/versioned partitions; seven dataset exports; report archive; `coverage_manifest.csv`; reconciliation and gap reports; `tests/phase_09/`; complete backfill run manifest.
+**Concrete deliverables:** Raw archives; normalized/versioned partitions; seven dataset exports; report archive; `coverage_manifest.csv`; reconciliation and gap reports; `test/phase_09/`; complete backfill run manifest.
 
 **Accuracy and acceptance tests:**
 
@@ -524,7 +527,7 @@ Raw bytes identify an artifact; the parser/schema version and configuration also
 5. Document publication schedules, units, economic interpretation, revisions, version limitations, credentials, recovery, and known source gaps.
 6. Assemble the final evidence index and checklist covering all original internship requirements.
 
-**Concrete deliverables:** Installable package; README; documented Python/CLI examples; schema files; database import example; release/schedule notes; acceptance index; final dataset manifest; `tests/phase_10/`.
+**Concrete deliverables:** Installable package; README; documented Python/CLI examples; schema files; database import example; release/schedule notes; acceptance index; final dataset manifest; `test/phase_10/`.
 
 **Accuracy and acceptance tests:**
 

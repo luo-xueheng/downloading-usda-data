@@ -1,0 +1,12 @@
+{
+  "id": "4966-barley.csv",
+  "url": "https://www.ers.usda.gov/media/4966/barley.csv?v=39826",
+  "path": "test/fixtures/phase_03/4966-barley.csv",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:38.499820+00:00",
+  "sha256": "c8d1c0cde0bbcb398ca52158941693a65bdb15c6380441d26049a94bba626bb7",
+  "bytes": 549906,
+  "final_url": "https://www.ers.usda.gov/media/4966/barley.csv"
+}

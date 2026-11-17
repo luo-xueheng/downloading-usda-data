@@ -17,11 +17,11 @@ All decisions below were made on 2026-11-12 for Phase 00 only.
 | D00-11 | Treat unlisted October 2025 as an investigation item. | Missing directory entries do not establish permanent absence. Required coverage remains in scope. |
 | D00-12 | Keep the Phase 00 verifier standard-library-only and limited to inventory/evidence checks. | PDF text extraction/rendering are acquisition-time tools. Offline checks use frozen transcripts and page images; this is not a production report extractor or an adapter acceptance test. |
 
-Future scope changes require a new dated decision, updated `config/scope.json` and expected coverage inventory, and appropriate regression checks. Never change tolerances or remove inventory entries to make a test pass.
+Future scope changes require a new dated decision, updated `test/fixtures/config/scope.json` and expected coverage inventory, and appropriate regression checks. Never change tolerances or remove inventory entries to make a test pass.
 
 | D00-13 (2026-11-14) | Add a user-requested local .env credential helper and Git ignore rules after Phase 00 closure. | Explicitly authorized convenience change only. Prefer an existing nonempty environment variable, otherwise read the project-root .env; never log the key or execute file contents. The previous no-dotenv statement is superseded. Preserve the original acceptance evidence and its source-tree hash; no later phase is started. |
 
-| D01-01 (2026-11-15) | User authorizes Phases 01-10 with strict sequential gates. | Supersedes D00-01 operational authorization. Historical frozen scope/evidence remain unchanged; config/execution.json records current authority. Dataset boundaries are unchanged. |
+| D01-01 (2026-11-15) | User authorizes Phases 01-10 with strict sequential gates. | Supersedes D00-01 operational authorization. Historical frozen scope/evidence remain unchanged; docs/history/config/execution.json records current authority. Dataset boundaries are unchanged. |
 
 | D02-01 (2026-11-15) | Use official monthly/historical CSV as the numeric series, with current XML overlap checks; preserve report metadata separately. | Do not equate historical report PDF rounding to revised structured values. For the pinned May 2011 archive, repair seven missing Pork production labels and three units from independently reviewed PDF page 37. Full original records, exact source hashes, and the 3.50 CSV / 3.4 PDF discrepancy remain visible. No numerical value is overwritten. Unrecognized missing dimensions still fail. |
 
@@ -29,7 +29,7 @@ Future scope changes require a new dated decision, updated `config/scope.json` a
 
 | D04-01 (2026-11-15) | Configure FAS HTTP with trust_environment=false on this workstation. | Bounded diagnostics showed proxy ConnectError both with and without credentials, while direct authenticated TLS returned HTTP 200 JSON. Keep the choice explicit in config/datasets.toml; other source transports retain environment-proxy behavior. |
 
-| D05-01 (2026-11-15) | Freeze 37 PSD commodities from the three reports: 18 production, 9 grain and 27 oilseed/meal/oil codes with overlap deduplicated. | Include local soybean variants for local-marketing-year tables, coarse-grain components and oilseed feed/waste consumption components described by the report. Exclude unrelated coffee, dairy, meat, fruit and sugar families. Scope and evidence locators are in config/psd_scope.json. Report-only reliability and other supplementary tables remain required Phase 06 work. |
+| D05-01 (2026-11-15) | Freeze 37 PSD commodities from the three reports: 18 production, 9 grain and 27 oilseed/meal/oil codes with overlap deduplicated. | Include local soybean variants for local-marketing-year tables, coarse-grain components and oilseed feed/waste consumption components described by the report. Exclude unrelated coffee, dairy, meat, fruit and sugar families. Scope and evidence locators are in docs/history/config/psd_scope.json. Report-only reliability and other supplementary tables remain required Phase 06 work. |
 
 | D09-01 (2026-11-16) | Add exact-artifact/record repair for 210 missing Region labels in August 2018 WASDE United States reliability tables. | The source ReportTitle explicitly supplies United States. Preserve original blank fields and evidence ID; do not alter any numeric value. The earlier source checks did not cover this complete historical archive, so full-backfill gate remains unpassed until regression/reconciliation succeeds. |
 

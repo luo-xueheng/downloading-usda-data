@@ -1,0 +1,12 @@
+{
+  "id": "psd-release-template",
+  "url": "https://apps.fas.usda.gov/psdonline/app/downloads/directives/releaseSchedule.html",
+  "path": "test/fixtures/discovery/phase-00/discovery/psd-release-template.html",
+  "checked_at_utc": "2026-11-12T14:27:00.968845+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/psdonline/app/downloads/directives/releaseSchedule.html",
+  "content_type": "text/html",
+  "last_modified": "Thu, 12 Jan 2017 22:09:35 GMT",
+  "sha256": "bfa2459393af5a155cda3bbdbc59f851c8f813e79c5144850f1db2750060fa5e",
+  "bytes": 4307
+}

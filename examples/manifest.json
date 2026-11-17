@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "generated_from": "test/fixtures",
+  "generated_at_utc": "2026-11-17T12:58:17.325689+00:00",
+  "examples": [
+    {
+      "dataset": "wasde",
+      "rows": 200,
+      "request_rows": 5054,
+      "is_excerpt": true,
+      "selection": "First rows in final export order",
+      "schema": "schemas/wasde_observations.v2.json",
+      "csv_sha256": "c0f091aba68d7765600f88abac06f856755410eb031763003a4a9b078dccf496",
+      "request_csv_sha256": "3330eb88d4ddf6bee7844929a0efd5b5d7ef2c0449bd615b43ad7f2df2f3d96f",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset wasde --start 2026-11-10 --end 2026-11-10 --data-dir data",
+      "source_snapshot_ids": [
+        "483832b47869d6dc7582393dcd5cd4e329c25a574629f91185ee9c242d933327"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset wasde --start 2026-11-10 --end 2026-11-10 --rows 200 --example-output examples/wasde.csv --data-dir data",
+      "options": {
+        "start": "2026-11-10",
+        "end": "2026-11-10"
+      },
+      "file": "wasde.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "costs-returns",
+      "rows": 200,
+      "request_rows": 257,
+      "is_excerpt": true,
+      "selection": "First rows in final export order",
+      "schema": "schemas/ers_costs_returns.v1.json",
+      "csv_sha256": "7933da6a1fb11a6f4b046eeb7fb3727d3cf08c5c10221f5f354a19010685c216",
+      "request_csv_sha256": "c2243eeb3cabfe1e4af3bcdf47ae9537457b79ac6e1a1587f4eeea1eab121fb4",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset costs-returns --years 2025 --commodities Corn --data-dir data",
+      "source_snapshot_ids": [
+        "1283b9a74f19c7d6055eef45a024bc5b0b4a53dbac0cd7d7962b936842e851e2",
+        "b6bd73f596461fa8fbfcf536430d5bc8c1bdddd2e358a52091068f987bef9f69"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset costs-returns --years 2025 --commodities Corn --rows 200 --example-output examples/costs-returns.csv --data-dir data",
+      "options": {
+        "years": [
+          2025
+        ],
+        "commodities": "Corn"
+      },
+      "file": "costs-returns.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "export-sales",
+      "rows": 200,
+      "request_rows": 553,
+      "is_excerpt": true,
+      "selection": "First rows in final export order",
+      "schema": "schemas/esr_weekly_sales.v1.json",
+      "csv_sha256": "c051da4400184571ce7778edc55dc33dbe76adcba25a9b35244a1a7eed357c8c",
+      "request_csv_sha256": "4f275a3ba309d6f62c80f84a4afbb0158f213929edc296c3a25db91117e930f5",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset export-sales --commodities 701 --market-years 2026 --data-dir data",
+      "source_snapshot_ids": [
+        "61a32f014b4cb87e3320cca2a1bb56c36be64522d448cdad8da537e8930fff28"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset export-sales --commodities 701 --market-years 2026 --rows 200 --example-output examples/export-sales.csv --data-dir data",
+      "options": {
+        "commodities": [
+          "701"
+        ],
+        "market_years": [
+          2026
+        ]
+      },
+      "file": "export-sales.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "rma-sob",
+      "rows": 200,
+      "request_rows": 155676,
+      "is_excerpt": true,
+      "selection": "First rows in final export order",
+      "schema": "schemas/rma_sob.v2.json",
+      "csv_sha256": "49ec01fd02bde175cfc834c4c2e912e27e8a097fe30b5f5d66005f363dc2478d",
+      "request_csv_sha256": "df2f2f04c3eae9d066d0da3173be209c74cf0d05237d3007eff307c27daabb36",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset rma-sob --commodity-years 2025 --data-dir data",
+      "source_snapshot_ids": [
+        "a79883b3e51715d328e431b6f9c729208fce160e2c207fea2cbe41b5527a09c9"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset rma-sob --commodity-years 2025 --rows 200 --example-output examples/rma-sob.csv --data-dir data",
+      "options": {
+        "commodity_years": [
+          2025
+        ]
+      },
+      "file": "rma-sob.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "world-production",
+      "rows": 200,
+      "request_rows": 7967,
+      "is_excerpt": true,
+      "selection": "First rows per observation_kind (PSD/report)",
+      "schema": "schemas/fas_dataset_observations.v1.json",
+      "csv_sha256": "1e4f436dcde94a2189da30376ed25c37fd88f3f283317ad3b099081d3e677db4",
+      "request_csv_sha256": "9c6e28607a4cdadf022f9a68ffff493827daf42471ffb8f57d2de680e7dbed23",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset world-production --market-years 2025 --commodities 0440000 --report-start 2026-11-01 --report-end 2026-11-30 --data-dir data",
+      "source_snapshot_ids": [
+        "69e01ee04f13013d5e0c15fb603275647766c53c1c45961af8d2def568677b36",
+        "9907629d11651052ec437ac726a1402769fbca927a03e5ba622cba872e5a602c"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset world-production --market-years 2025 --commodities 0440000 --report-start 2026-11-01 --report-end 2026-11-30 --rows 200 --example-output examples/world-production.csv --data-dir data",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "0440000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "file": "world-production.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "grain-trade",
+      "rows": 200,
+      "request_rows": 8643,
+      "is_excerpt": true,
+      "selection": "First rows per observation_kind (PSD/report)",
+      "schema": "schemas/fas_dataset_observations.v1.json",
+      "csv_sha256": "d27f2c19f8bd0eddfaa46a053c607b7f4672bf2133e382a65bd5001b2468d0ea",
+      "request_csv_sha256": "c9bab539ff022eadd967376ce0a115e615b42e01404bff97a9fd78c4f5109659",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset grain-trade --market-years 2025 --commodities 0440000 --report-start 2026-11-01 --report-end 2026-11-30 --data-dir data",
+      "source_snapshot_ids": [
+        "69e01ee04f13013d5e0c15fb603275647766c53c1c45961af8d2def568677b36",
+        "f367cf6e92928b3daee115b10ea443d870ec23198d056a777120933357584a42"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset grain-trade --market-years 2025 --commodities 0440000 --report-start 2026-11-01 --report-end 2026-11-30 --rows 200 --example-output examples/grain-trade.csv --data-dir data",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "0440000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "file": "grain-trade.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "rows": 200,
+      "request_rows": 9947,
+      "is_excerpt": true,
+      "selection": "First rows per observation_kind (PSD/report)",
+      "schema": "schemas/fas_dataset_observations.v1.json",
+      "csv_sha256": "e16afb88fc9af10371affd93f1302d35a91b3ca6f1f98936b63fb1a09252cd19",
+      "request_csv_sha256": "8a99d9fd30cead537f5ddad74ae408d7446aae9cf2e796fdd01f6dfe377e94cb",
+      "fetch_command": ".venv/bin/python -m usda_data fetch --dataset oilseed-trade --market-years 2025 --commodities 2222000 --report-start 2026-11-01 --report-end 2026-11-30 --data-dir data",
+      "source_snapshot_ids": [
+        "22c33cc05e00c46b33476bcf4ee124809c7a1b28aecd6150a10eac5280a2fbde",
+        "5778fd42239b5a19851a0d3241aa663ddbd7eef1e99db8f94ce0399627d262d7"
+      ],
+      "command": ".venv/bin/python scripts/download_example.py --dataset oilseed-trade --market-years 2025 --commodities 2222000 --report-start 2026-11-01 --report-end 2026-11-30 --rows 200 --example-output examples/oilseed-trade.csv --data-dir data",
+      "options": {
+        "market_years": [
+          2025
+        ],
+        "commodities": [
+          "2222000"
+        ],
+        "report_start": "2026-11-01",
+        "report_end": "2026-11-30"
+      },
+      "file": "oilseed-trade.csv",
+      "generation_mode": "offline replay of pinned official source fixtures; not a fresh network download"
+    }
+  ]
+}

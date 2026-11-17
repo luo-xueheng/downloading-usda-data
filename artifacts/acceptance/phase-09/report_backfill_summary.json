@@ -1,1 +1,0 @@
-{"expected":606,"failed":0,"memory_budget_mib":512,"memory_measurement":"Conservative sum of parent peak and largest concurrent fresh-worker peaks","memory_within_budget":true,"parser_source_hash":"ff377c784d43fed634241df6ac8795feabbcc60724e47a22ec4923c5ec524a1e","peak_rss_mib":337.890625,"processed_this_run":606,"succeeded":606,"workers":1}

@@ -26,7 +26,7 @@ configuration; change this transport setting when using a network requiring a
 proxy. Other source transports retain their default proxy behavior.
 
 Verified dictionary fields and all 44 official commodities are frozen in
-config/esr_inventory.json. All commodities remain in scope, including wheat
+docs/history/config/esr_inventory.json. All commodities remain in scope, including wheat
 classes, oilseed products, cotton, rice, hides, beef and pork. `wheat` resolves to
 All Wheat; class-level commodities keep their own codes and must not be added to
 All Wheat. Destination dictionaries include aggregates and unknown destinations;

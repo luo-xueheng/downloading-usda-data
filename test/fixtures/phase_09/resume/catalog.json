@@ -1,0 +1,109 @@
+[
+  {
+    "family": "world-production",
+    "period": "2013-06",
+    "page": 25,
+    "path": "test/fixtures/phase_09/resume/world-production-2013-06.pdf",
+    "sha256": "3d012e735431b69262f785de94bbf017e363757563c3bf4e89240c5cff1453a3",
+    "receipt": {
+      "bytes": 1350293,
+      "content_type": "application/pdf",
+      "last_modified": "Wed, 12 Jun 2013 15:36:17 GMT",
+      "retrieved_at_utc": "2026-11-16T11:48:35.769832+00:00",
+      "source_artifact_id": "3d012e735431b69262f785de94bbf017e363757563c3bf4e89240c5cff1453a3",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2013/06/production.pdf"
+    }
+  },
+  {
+    "family": "world-production",
+    "period": "2016-05",
+    "page": 11,
+    "path": "test/fixtures/phase_09/resume/world-production-2016-05.pdf",
+    "sha256": "84e037daf660ac6608a341faba093479bf7b1619ca06ec07226665328954ad03",
+    "receipt": {
+      "bytes": 1946806,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 10 May 2016 15:56:57 GMT",
+      "retrieved_at_utc": "2026-11-16T11:41:13.283238+00:00",
+      "source_artifact_id": "84e037daf660ac6608a341faba093479bf7b1619ca06ec07226665328954ad03",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2016/05/production.pdf"
+    }
+  },
+  {
+    "family": "world-production",
+    "period": "2020-05",
+    "page": 21,
+    "path": "test/fixtures/phase_09/resume/world-production-2020-05.pdf",
+    "sha256": "cf310dcf593a14369d9abf28f7c94a956d1debae367225c7782fd0754df086ce",
+    "receipt": {
+      "bytes": 3378949,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 12 May 2020 14:51:40 GMT",
+      "retrieved_at_utc": "2026-11-16T11:26:25.378984+00:00",
+      "source_artifact_id": "cf310dcf593a14369d9abf28f7c94a956d1debae367225c7782fd0754df086ce",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2020/05/production.pdf"
+    }
+  },
+  {
+    "family": "grain-trade",
+    "period": "2023-09",
+    "page": 11,
+    "path": "test/fixtures/phase_09/resume/grain-trade-2023-09.pdf",
+    "sha256": "ae9522a90764aa971a9af31c84a929793a5dda6d2456045e6457bfab9f4ab97f",
+    "receipt": {
+      "bytes": 1515585,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 12 Sep 2023 15:54:52 GMT",
+      "retrieved_at_utc": "2026-11-16T10:52:20.713000+00:00",
+      "source_artifact_id": "ae9522a90764aa971a9af31c84a929793a5dda6d2456045e6457bfab9f4ab97f",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2023/09/Grain.pdf"
+    }
+  },
+  {
+    "family": "oilseed-trade",
+    "period": "2022-09",
+    "page": 4,
+    "path": "test/fixtures/phase_09/resume/oilseed-trade-2022-09.pdf",
+    "sha256": "fc9b029256fcdbae8e70dc70976e150b81e5b00c540a776a6332b9767d76cec7",
+    "receipt": {
+      "bytes": 1642902,
+      "content_type": "application/pdf",
+      "last_modified": "Mon, 12 Sep 2022 14:58:48 GMT",
+      "retrieved_at_utc": "2026-11-16T11:04:29.884055+00:00",
+      "source_artifact_id": "fc9b029256fcdbae8e70dc70976e150b81e5b00c540a776a6332b9767d76cec7",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2022/09/Oilseeds.pdf"
+    }
+  },
+  {
+    "family": "world-production",
+    "period": "2013-10",
+    "page": 1,
+    "path": "test/fixtures/phase_09/resume/world-production-2013-10.pdf",
+    "sha256": "ad6d194ab8a1984525fa0a947b358fcd771ca139af2362a7b107e2c18769b3a8",
+    "receipt": {
+      "bytes": 49781,
+      "content_type": "application/pdf",
+      "last_modified": "Fri, 08 Feb 2019 17:26:32 GMT",
+      "retrieved_at_utc": "2026-11-16T11:47:38.648531+00:00",
+      "source_artifact_id": "ad6d194ab8a1984525fa0a947b358fcd771ca139af2362a7b107e2c18769b3a8",
+      "status": 200,
+      "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2013/10/production.pdf"
+    }
+  },
+  {
+    "family": "world-production",
+    "period": "2011-05",
+    "page": 9,
+    "path": "test/fixtures/phase_09/resume/world-production-2011-05.pdf",
+    "sha256": "0b2e7490612c0424c4f9c4ae8733ffab2e254714c9470bb8c9837f26b0132a64",
+    "receipt": {
+      "source_artifact_id": "0b2e7490612c0424c4f9c4ae8733ffab2e254714c9470bb8c9837f26b0132a64",
+      "retrieved_at_utc": "2026-11-16T12:03:27.128455+00:00"
+    }
+  }
+]

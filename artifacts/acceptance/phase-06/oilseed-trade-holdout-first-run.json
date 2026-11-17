@@ -1,9 +1,0 @@
-{
-  "family": "oilseed-trade",
-  "role": "holdout",
-  "artifact": "tests/fixtures/raw/oilseed-trade-holdout.pdf",
-  "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
-  "status": "fail",
-  "error_type": "ValidationError",
-  "error": "Required report table produced no cells"
-}

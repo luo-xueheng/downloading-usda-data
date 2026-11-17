@@ -1,5 +1,0 @@
-grain-trade-2023-09 pass 6828
-oilseed-trade-2020-07 fail Unresolved changes-table merged labels: 2019/20 OUTLOOK CHANGES, page=6, row=1, labels={'Country': '', 'Commodity': 'Oil, Soybean', 'Attribute': 'Exports'}
-oilseed-trade-2020-08 fail Unresolved changes-table merged labels: 2020/21 OUTLOOK CHANGES, page=5, row=1, labels={'Country': '', 'Commodity': 'Oilseed, Soybean', 'Attribute': 'Imports'}
-oilseed-trade-2022-09 pass 10257
-{'pass': 2, 'fail': 2}

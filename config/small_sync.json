@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "description": "Explicit small integration acceptance sample; never a full-scope backfill configuration",
+  "description": "Small seven-dataset synchronization example; not a full historical backfill.",
   "scope_mode": "small_acceptance_sample",
-  "data_dir": "artifacts/acceptance/phase-08/sample/data",
-  "output_dir": "artifacts/acceptance/phase-08/sample/exports",
+  "data_dir": "data",
+  "output_dir": "data/exports",
   "refresh_policy": "all_configured",
   "memory_budget_mib": 512,
   "calendar": "config/calendar.json",

@@ -1,0 +1,12 @@
+{
+  "id": "oilseed-trade-holdout",
+  "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/10/Oilseeds.pdf",
+  "path": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+  "checked_at_utc": "2026-11-12T14:26:50.610593+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/10/Oilseeds.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Fri, 09 Oct 2026 15:37:06 GMT",
+  "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+  "bytes": 1221795
+}

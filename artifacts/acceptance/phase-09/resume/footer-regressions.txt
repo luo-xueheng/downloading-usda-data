@@ -1,5 +1,0 @@
-world-production-2011-05 pass 5678
-world-production-2012-05 pass 5733
-world-production-2013-05 pass 5733
-world-production-2014-05 pass 5770
-{'pass': 4}

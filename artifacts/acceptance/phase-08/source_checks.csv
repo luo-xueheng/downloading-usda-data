@@ -1,3 +1,0 @@
-test_id,status,source_kind,observed,expected
-P08-A1-P08-A8,not_applicable,explicitly_synthetic_state_and_clock_fixtures,"Revision/recovery and timezone checks use deterministic synthetic source versions; official numeric accuracy is accepted in source phases",No fake official source comparisons
-P08-A9,pass,real_authenticated_ESR,"Two real refresh runs; second confirmed unchanged; complete export schema/hash validation passed",Successful real update discovery and finite failure behavior

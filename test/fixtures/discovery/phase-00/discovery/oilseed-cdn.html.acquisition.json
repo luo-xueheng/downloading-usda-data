@@ -1,0 +1,12 @@
+{
+  "id": "oilseed-cdn",
+  "url": "https://fas-prod.azureedge.us/data/oilseeds-world-markets-and-trade",
+  "path": "test/fixtures/discovery/phase-00/discovery/oilseed-cdn.html",
+  "checked_at_utc": "2026-11-12T14:30:06.695723+00:00",
+  "status": 200,
+  "final_url": "https://fas-prod.azureedge.us/data/search?reports%5B0%5D=report_commodities%3A26&reports%5B1%5D=report_type%3A10259",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Wed, 11 Nov 2026 21:15:11 GMT",
+  "sha256": "33f208fa978e71e93dbc7e4fc09eb4892dacd8e26565060387f9221befc9624b",
+  "bytes": 140571
+}

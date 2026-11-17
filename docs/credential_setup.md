@@ -1,5 +1,8 @@
 # FAS API credentials
 
+> Repository cleanup (2026-11-17): historical `artifacts/` and full `data/` paths below refer to the external archive. See [migration and archive guide](repository_cleanup.md). These saved results are not current test results.
+
+
 ## Automatic local loading
 
 Open `.env` in the repository root and paste your own FAS/api.data.gov key after the equals sign:
@@ -13,7 +16,7 @@ The file has been created with an empty value. Do not leave the value empty when
 From the repository root, check that the key can be loaded:
 
 ```bash
-python3 scripts/fas_credentials.py
+.venv/bin/python scripts/fas_credentials.py
 ```
 
 This reads the project-root `.env` automatically, prints only whether loading succeeded, and makes no network request. It also works when launched from another directory using the script's absolute path. The file is loaded into that Python process; it does not change an already-open terminal's environment.
@@ -21,7 +24,7 @@ This reads the project-root `.env` automatically, prints only whether loading su
 Optionally check real API access with a single read-only request:
 
 ```bash
-python3 scripts/fas_credentials.py --check-api
+.venv/bin/python scripts/fas_credentials.py --check-api
 ```
 
 Success reports HTTP 200 and confirms a JSON response from the ESR commodity directory. Failure prints only the HTTP status or a generic network/format error, never the key or response headers. This convenience check is not Phase 04/05 acceptance and does not save source fixtures.
@@ -29,7 +32,7 @@ Success reports HTTP 200 and confirms a JSON response from the ESR commodity dir
 To use a different file:
 
 ```bash
-python3 scripts/fas_credentials.py --env-file /absolute/path/to/credentials.env
+.venv/bin/python scripts/fas_credentials.py --env-file /absolute/path/to/credentials.env
 ```
 
 A nonempty existing `USDA_FAS_API_KEY` environment variable takes precedence over the file. If an old terminal value is overriding a new `.env` value, run `unset USDA_FAS_API_KEY` in that terminal before launching Python again.

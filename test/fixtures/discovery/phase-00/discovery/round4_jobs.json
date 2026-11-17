@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fas-circular-inventory",
+    "url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx",
+    "path": "test/fixtures/discovery/phase-00/discovery/fas-circular-inventory.json"
+  },
+  {
+    "id": "psd-schedule",
+    "url": "https://apps.fas.usda.gov/PSDOnlineApi/api/downloadableData/GetReleaseSchedules?commodity=all&scheduleType=1",
+    "path": "test/fixtures/discovery/phase-00/discovery/psd-schedule.json"
+  },
+  {
+    "id": "psd-circular-template",
+    "url": "https://apps.fas.usda.gov/psdonline/app/downloads/directives/circulars.html",
+    "path": "test/fixtures/discovery/phase-00/discovery/psd-circular-template.html"
+  }
+]

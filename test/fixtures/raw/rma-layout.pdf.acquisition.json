@@ -1,0 +1,12 @@
+{
+  "id": "rma-layout",
+  "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Crop_with_Coverage_Level_1989_Forward.pdf",
+  "path": "test/fixtures/raw/rma-layout.pdf",
+  "checked_at_utc": "2026-11-12T14:23:14.382549+00:00",
+  "status": 200,
+  "final_url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Crop_with_Coverage_Level_1989_Forward.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Mon, 01 Jun 2026 16:40:32 GMT",
+  "sha256": "fd62972c8219e1e6cb90c4b1ae2f7ad3ada3e759c12c007b2b379da55e606307",
+  "bytes": 84719
+}

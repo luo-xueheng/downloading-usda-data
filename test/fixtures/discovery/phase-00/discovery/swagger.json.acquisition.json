@@ -1,0 +1,12 @@
+{
+  "id": "api-specification",
+  "url": "https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json",
+  "path": "test/fixtures/discovery/phase-00/discovery/swagger.json",
+  "checked_at_utc": "2026-11-12T14:22:00.159095+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json",
+  "content_type": "application/json",
+  "last_modified": "Fri, 31 May 2024 16:03:22 GMT",
+  "sha256": "1ea0231b523fe7590226030309cc1e8a9ee59436e78074f4d59eae5fb3dd1f1c",
+  "bytes": 40937
+}

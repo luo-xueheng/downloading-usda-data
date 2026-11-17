@@ -1,8 +1,0 @@
-grain-trade-2018-05 fail Unresolved changes-table merged labels: RICE | TRADE CHANGES IN 2017 (1,000 MT), page=21, row=2, labels={'Country': 'European', 'Commodity': 'Rice', 'Attribute': 'Union'}
-grain-trade-2018-07 fail Printed changes heading lacks an explicit source year: Trade changes this month were based on pace of trade
-grain-trade-2018-08 fail Incomplete changes-table numeric columns: COARSE GRAINS | TRADE CHANGES IN 2017/18 (1,000 MT), page=12, row={'top': 335.49661000000003, 'bottom': 343.33941, 'values': {'Previous': '26,500', 'Current': '24,500'}}
-oilseed-trade-2018-08 pass 10233
-oilseed-trade-2020-11 pass 10318
-oilseed-trade-2021-04 pass 10255
-world-production-2016-06 pass 6909
-{'fail': 3, 'pass': 4}

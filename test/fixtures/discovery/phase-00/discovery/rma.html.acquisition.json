@@ -1,0 +1,12 @@
+{
+  "id": "rma",
+  "url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+  "path": "test/fixtures/discovery/phase-00/discovery/rma.html",
+  "checked_at_utc": "2026-11-12T14:21:58.272961+00:00",
+  "status": 200,
+  "final_url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Thu, 12 Nov 2026 13:46:51 GMT",
+  "sha256": "0dec9bd0b5c1bfee24330c15d006a18f2228bce7d650aeaccc6438c9a5a767dd",
+  "bytes": 100334
+}

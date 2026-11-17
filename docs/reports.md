@@ -47,7 +47,7 @@ Required table scope was frozen before final parser testing: all numbered world
 production/oilseed tables, grain appendix supply/trade tables, and every explicit
 trade/outlook changes table in report bodies. Narrative paragraphs, illustrative
 charts/maps, calendars and contact lists are explicitly excluded. `config/
-report_table_inventory.json` records the decisions; `config/report_coverage.csv`
+report_table_inventory.json` records the decisions; `docs/history/config/report_coverage.csv`
 records actual extraction status by family, month and table. No available required
 table in the tested October/November 2026 layouts is left unresolved.
 

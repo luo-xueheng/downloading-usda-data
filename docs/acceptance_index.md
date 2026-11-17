@@ -1,20 +1,23 @@
 # Acceptance evidence index
 
+> Repository cleanup (2026-11-17): historical `artifacts/` and full `data/` paths below refer to the external archive. See [migration and archive guide](repository_cleanup.md). These saved results are not current test results.
+
+
 The execution ledger is the authoritative phase status. Historical phase results retain their original source-tree/configuration identities. Final suites re-exercise the mandatory tests at handover; they do not rewrite past acceptance hashes.
 
 | Phase | Evidence | Machine-readable results |
 |---|---|---|
-| 00 | [Summary](../artifacts/acceptance/phase-00/summary.md) | [Results](../artifacts/acceptance/phase-00/results.json) |
-| 01 | [Summary](../artifacts/acceptance/phase-01/summary.md) | [Results](../artifacts/acceptance/phase-01/results.json) |
-| 02 | [Summary](../artifacts/acceptance/phase-02/summary.md) | [Results](../artifacts/acceptance/phase-02/results.json) |
-| 03 | [Summary](../artifacts/acceptance/phase-03/summary.md) | [Results](../artifacts/acceptance/phase-03/results.json) |
-| 04 | [Summary](../artifacts/acceptance/phase-04/summary.md) | [Results](../artifacts/acceptance/phase-04/results.json) |
-| 05 | [Summary](../artifacts/acceptance/phase-05/summary.md) | [Results](../artifacts/acceptance/phase-05/results.json) |
-| 06 | [Summary](../artifacts/acceptance/phase-06/summary.md) | [Results](../artifacts/acceptance/phase-06/results.json) |
-| 07 | [Summary](../artifacts/acceptance/phase-07/summary.md) | [Results](../artifacts/acceptance/phase-07/results.json) |
-| 08 | [Summary](../artifacts/acceptance/phase-08/summary.md) | [Results](../artifacts/acceptance/phase-08/results.json) |
-| 09 | [Summary](../artifacts/acceptance/phase-09/summary.md) | [Results](../artifacts/acceptance/phase-09/results.json) |
-| 10 | [Summary](../artifacts/acceptance/phase-10/summary.md) | [Results](../artifacts/acceptance/phase-10/results.json) |
+| 00 | [Summary](history/acceptance/phase-00/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-00/results.json) |
+| 01 | [Summary](history/acceptance/phase-01/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-01/results.json) |
+| 02 | [Summary](history/acceptance/phase-02/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-02/results.json) |
+| 03 | [Summary](history/acceptance/phase-03/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-03/results.json) |
+| 04 | [Summary](history/acceptance/phase-04/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-04/results.json) |
+| 05 | [Summary](history/acceptance/phase-05/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-05/results.json) |
+| 06 | [Summary](history/acceptance/phase-06/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-06/results.json) |
+| 07 | [Summary](history/acceptance/phase-07/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-07/results.json) |
+| 08 | [Summary](history/acceptance/phase-08/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-08/results.json) |
+| 09 | [Summary](history/acceptance/phase-09/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-09/results.json) |
+| 10 | [Summary](history/acceptance/phase-10/summary.md) | [Results](../../downloading-usda-data-archive-20261117/original/artifacts/acceptance/phase-10/results.json) |
 
 ## Final handover evidence
 

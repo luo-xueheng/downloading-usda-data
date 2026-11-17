@@ -1,6 +1,0 @@
-
-UTC: 2026-11-17T05:42:40.267663+00:00
-Working directory: /Users/tinaluo/Documents/nexus实习/downloading-usda-data
-Command: python3 scripts/verify_phase00.py --mode offline --evidence-dir output/rma-recheck-phase00
-Interpreter: /Users/tinaluo/Documents/nexus实习/downloading-usda-data/.venv/bin/python
-Exit code: 0

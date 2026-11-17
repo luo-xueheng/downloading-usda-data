@@ -1,8 +1,0 @@
-oilseed-trade-2014-11 pass 10176
-oilseed-trade-2015-02 pass 10099
-oilseed-trade-2017-11 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'oilseed-trade', 'report_period': '2017-11', 'table_title': '2016/17 TRADE CHANGES', 'section_label': 'Imports', 'section_product_type': 'not_applicable', 'row_label': 'Rapeseed China Soybean', 'column_commodity': 'Oilseed', 'indicator': 'Imports', 'period_label': '2016/17', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 4150/92500
-oilseed-trade-2017-12 fail Unresolved changes-table merged labels: 2016/17 TRADE CHANGES, page=6, row=2, labels={'Country': 'China Fish Meal', 'Commodity': '', 'Attribute': 'Imports'}
-oilseed-trade-2019-04 fail Unresolved changes-table merged labels: 2017/18 OUTLOOK CHANGES (BASED ON TRADE TO DATE), page=6, row=0, labels={'Country': 'Oilseed, Argentina', 'Commodity': 'Peanut Exports', 'Attribute': ''}
-oilseed-trade-2020-05 pass 10248
-oilseed-trade-2024-10 pass 9069
-{'pass': 4, 'fail': 3}

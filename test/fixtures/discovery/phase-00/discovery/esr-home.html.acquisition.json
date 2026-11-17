@@ -1,0 +1,11 @@
+{
+  "id": "esr-home",
+  "url": "https://apps.fas.usda.gov/esrquery/",
+  "path": "test/fixtures/discovery/phase-00/discovery/esr-home.html",
+  "checked_at_utc": "2026-11-12T14:23:09.339617+00:00",
+  "status": 404,
+  "final_url": "https://apps.fas.usda.gov/esrquery/",
+  "error": "HTTP 404",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0
+}

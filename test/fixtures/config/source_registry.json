@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-12",
+  "sources": [
+    {
+      "source_id": "wasde",
+      "official_landing_page": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+      "landing_status": 200,
+      "landing_evidence": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "test/fixtures/discovery/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "discovery_method": "Follow landing-page current XML/XLS/PDF/TXT links and historical-page CSV/ZIP links. Canonical history page returned 403; saved USDA distribution copy supplies the file links.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "test/fixtures/discovery/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "CSV, XML, XLS, PDF, TXT, historical ZIP",
+      "coverage_limits": "Report-date vintages; structured archive begins April 2010 at file level. Per-table coverage deferred to Phase 02.",
+      "external_blocker": null
+    },
+    {
+      "source_id": "fas-esr",
+      "official_landing_page": "https://www.fas.usda.gov/programs/export-sales-reporting-program",
+      "landing_status": 403,
+      "landing_evidence": {
+        "url": "https://www.fas.usda.gov/programs/export-sales-reporting-program",
+        "path": "test/fixtures/discovery/phase-00/discovery/esr.html",
+        "sha256": "c14926c7e3d20f981e911466ed2023d1eaa4a601f46b2826c680fa25dd0eff89",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:59.738168+00:00"
+      },
+      "discovery_method": "Use ESR program page, linked ESRQS portal and official Open Data Swagger. Expand commodity, country, region and unit dictionaries in Phase 04.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://fas-prod.azureedge.us/programs/export-sales-reporting-program",
+        "path": "test/fixtures/discovery/phase-00/discovery/esr-program-cdn.html",
+        "sha256": "349af29e77e9f8f1cf5448f9b485826146c31871abd46481328bced9466702d9",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:27:13.904932+00:00"
+      },
+      "authentication": "api.data.gov key in X-Api-Key for Open Data; public program documentation",
+      "format": "API JSON; response shape unverified",
+      "coverage_limits": "Source marketing years; exact per-series historical coverage unverified until authenticated discovery.",
+      "external_blocker": "Canonical landing HTTP 403; public alternate discovery and fixtures succeeded. Not a permanent source-unavailability claim.",
+      "authenticated_verification": {
+        "date": "2026-11-15",
+        "status": "HTTP 200 JSON for real dictionary and observation requests",
+        "evidence_directory": "artifacts/acceptance/phase-04/live/",
+        "transport_note": "Explicit direct TLS for FAS; this workstation proxy returned ConnectError. Credentials never stored in evidence."
+      }
+    },
+    {
+      "source_id": "fas-psd",
+      "official_landing_page": "https://apps.fas.usda.gov/opendataweb/home",
+      "landing_status": 200,
+      "landing_evidence": {
+        "url": "https://apps.fas.usda.gov/opendataweb/home",
+        "path": "test/fixtures/discovery/phase-00/discovery/api-portal.html",
+        "sha256": "767e0489cc5617ba9d82f0df0f5144f38669a4a3edb04d4948a4eed89e30e9de",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:22:00.043008+00:00"
+      },
+      "discovery_method": "Portal redirects to opendatawebv2; inspect its official Swagger. Expand dictionaries only into the three report families in Phase 05.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json",
+        "path": "test/fixtures/discovery/phase-00/discovery/swagger.json",
+        "sha256": "1ea0231b523fe7590226030309cc1e8a9ee59436e78074f4d59eae5fb3dd1f1c",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:22:00.159095+00:00"
+      },
+      "authentication": "api.data.gov key in X-Api-Key for Open Data; PSD public report directory requires none",
+      "format": "API JSON; public PDF reports and JSON discovery metadata",
+      "coverage_limits": "Current revised observations; no promise of past monthly API vintages. Per-series dates deferred to Phase 05.",
+      "external_blocker": null,
+      "authenticated_verification": {
+        "date": "2026-11-15",
+        "status": "HTTP 200 JSON for real dictionary and observation requests",
+        "evidence_directory": "artifacts/acceptance/phase-05/live/",
+        "transport_note": "Explicit direct TLS for FAS; this workstation proxy returned ConnectError. Credentials never stored in evidence."
+      }
+    },
+    {
+      "source_id": "ers-costs-returns",
+      "official_landing_page": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+      "landing_status": 200,
+      "landing_evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+        "path": "test/fixtures/discovery/phase-00/discovery/ers.html",
+        "sha256": "0f0462136d24a7d01783baa77e4ee7077aecb48edea198b28104c692263462f6",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:58.272654+00:00"
+      },
+      "discovery_method": "Enumerate every download in Recent, Historical, current forecasts and previously released forecast ZIP. Preserve section, enterprise, dates and format.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+        "path": "test/fixtures/discovery/phase-00/discovery/ers.html",
+        "sha256": "0f0462136d24a7d01783baa77e4ee7077aecb48edea198b28104c692263462f6",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:21:58.272654+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "CSV, XLSX, historical XLS, ZIP",
+      "coverage_limits": "Observation years; coverage varies by commodity/enterprise/method; Historical discontinued commodities retained in inventory.",
+      "external_blocker": null
+    },
+    {
+      "source_id": "rma-sob",
+      "official_landing_page": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+      "landing_status": 200,
+      "landing_evidence": {
+        "url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+        "path": "test/fixtures/discovery/phase-00/discovery/rma.html",
+        "sha256": "0dec9bd0b5c1bfee24330c15d006a18f2228bce7d650aeaccc6438c9a5a767dd",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:58.272961+00:00"
+      },
+      "discovery_method": "Follow State/County/Crop/Coverage Level 1989-present annual ZIP and layout links; separately inventory earlier layout; exclude Type/Practice/Unit.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business",
+        "path": "test/fixtures/discovery/phase-00/discovery/rma.html",
+        "sha256": "0dec9bd0b5c1bfee24330c15d006a18f2228bce7d650aeaccc6438c9a5a767dd",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:21:58.272961+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "ZIP with pipe-delimited text; PDF/DOC layouts",
+      "coverage_limits": "Commodity years 1989-2027 currently listed for coverage-level product; 1948-1988 is a distinct unsupported earlier layout, not silently included.",
+      "external_blocker": null
+    },
+    {
+      "source_id": "world-production",
+      "official_landing_page": "https://www.fas.usda.gov/data/world-agricultural-production",
+      "landing_status": 403,
+      "landing_evidence": {
+        "url": "https://www.fas.usda.gov/data/world-agricultural-production",
+        "path": "test/fixtures/discovery/phase-00/discovery/wap.html",
+        "sha256": "392feb05a4cfdbd8fa80646921c6e701081b4dd361dbb33c3206bd17e22eef73",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:58.875353+00:00"
+      },
+      "discovery_method": "Use PSD Online application CircularsHandler plus circularSettings URL construction and production family code; verify PDF identity. Original FAS landing currently returns 403.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx",
+        "path": "test/fixtures/discovery/phase-00/discovery/fas-circular-inventory.json",
+        "sha256": "2ce6dd503b4816c8788c4b8738d56614490b5bd8830ed702b6dab3c2b159f138",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:25:32.146926+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "PDF; public directory JSON",
+      "coverage_limits": "Global report directory months are candidates, not proof each family attachment exists.",
+      "external_blocker": "Canonical landing HTTP 403; public alternate discovery and fixtures succeeded. Not a permanent source-unavailability claim."
+    },
+    {
+      "source_id": "grain-trade",
+      "official_landing_page": "https://www.fas.usda.gov/data/grain-world-markets-and-trade",
+      "landing_status": 403,
+      "landing_evidence": {
+        "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade",
+        "path": "test/fixtures/discovery/phase-00/discovery/grain.html",
+        "sha256": "559dc1ff7f933c62dd768422aed7a85efc308e92fc679d694cd8218959d23e0f",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:59.100866+00:00"
+      },
+      "discovery_method": "Use PSD Online application CircularsHandler plus circularSettings URL construction and Grain family code; verify PDF identity. Original FAS landing currently returns 403.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx",
+        "path": "test/fixtures/discovery/phase-00/discovery/fas-circular-inventory.json",
+        "sha256": "2ce6dd503b4816c8788c4b8738d56614490b5bd8830ed702b6dab3c2b159f138",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:25:32.146926+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "PDF; public directory JSON",
+      "coverage_limits": "Global report directory months are candidates; retain marketing-year versus trade-year distinctions.",
+      "external_blocker": "Canonical landing HTTP 403; public alternate discovery and fixtures succeeded. Not a permanent source-unavailability claim."
+    },
+    {
+      "source_id": "oilseed-trade",
+      "official_landing_page": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade",
+      "landing_status": 403,
+      "landing_evidence": {
+        "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade",
+        "path": "test/fixtures/discovery/phase-00/discovery/oilseed.html",
+        "sha256": "918f1f21c8c59e6724c05cbf5c47225dbb12fdd903824b7833ba32457d30f7fd",
+        "locator": "HTTP response and landing page",
+        "checked_at_utc": "2026-11-12T14:21:59.404988+00:00"
+      },
+      "discovery_method": "Use PSD Online application CircularsHandler plus circularSettings URL construction and Oilseeds family code; verify PDF identity. Original FAS landing currently returns 403.",
+      "access_check_date": "2026-11-12",
+      "verified_discovery": {
+        "url": "https://apps.fas.usda.gov/psdonline/CircularsHandler.ashx",
+        "path": "test/fixtures/discovery/phase-00/discovery/fas-circular-inventory.json",
+        "sha256": "2ce6dd503b4816c8788c4b8738d56614490b5bd8830ed702b6dab3c2b159f138",
+        "locator": "Saved official page / JSON content",
+        "checked_at_utc": "2026-11-12T14:25:32.146926+00:00"
+      },
+      "authentication": "Public; no authentication",
+      "format": "PDF; public directory JSON",
+      "coverage_limits": "Only oilseed, meal and oil report-family scope; other PSD circulars excluded.",
+      "external_blocker": "Canonical landing HTTP 403; public alternate discovery and fixtures succeeded. Not a permanent source-unavailability claim."
+    }
+  ],
+  "publication_claims": [
+    {
+      "claim_id": "wasde-report",
+      "source": "wasde",
+      "artifact_kind": "report",
+      "statement": "Monthly on published annual calendar, 12:00 PM ET. November 2026 release is November 10; October release is October 9.",
+      "precision": "minute",
+      "timezone": "America/New_York",
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "test/fixtures/discovery/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "2026 WASDE Release Dates (12:00pm ET); November 2026 WASDE Report",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "wasde-history",
+      "source": "wasde",
+      "artifact_kind": "historical_csv",
+      "statement": "Historical CSV updated the day after the WASDE release; exact time is not specified.",
+      "precision": "day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+        "path": "test/fixtures/discovery/phase-00/discovery/wasde.html",
+        "sha256": "fe472006ae91b39035f7c916fe18011597482e1769bfa1d535a44f1165a8a79c",
+        "locator": "Consolidated Historical WASDE Report Data",
+        "checked_at_utc": "2026-11-12T14:21:58.271508+00:00"
+      },
+      "note": "HTTP Last-Modified is not the publication timestamp; file creation metadata can predate documented availability."
+    },
+    {
+      "claim_id": "esr-weekly",
+      "source": "fas-esr",
+      "artifact_kind": "weekly_report",
+      "statement": "Weekly summary Thursday 8:30 a.m. ET unless changed; preceding Friday/Monday national holiday moves the summary to Friday. Reporting week is Friday through Thursday.",
+      "precision": "minute",
+      "timezone": "America/New_York",
+      "status": "verified",
+      "evidence": {
+        "url": "https://fas-prod.azureedge.us/programs/export-sales-reporting-program",
+        "path": "test/fixtures/discovery/phase-00/discovery/esr-program-cdn.html",
+        "sha256": "349af29e77e9f8f1cf5448f9b485826146c31871abd46481328bced9466702d9",
+        "locator": "Weekly Reporting",
+        "checked_at_utc": "2026-11-12T14:27:13.904932+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "esr-api",
+      "source": "fas-esr",
+      "artifact_kind": "api",
+      "statement": "Actual API availability relative to weekly report release has not been measured.",
+      "precision": "unknown",
+      "timezone": null,
+      "status": "unverified",
+      "evidence": null,
+      "note": "Phase 04 must check datareleasedates and real authorized responses; do not assume simultaneous availability."
+    },
+    {
+      "claim_id": "world-production-report",
+      "source": "world-production",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/production.pdf",
+        "path": "test/fixtures/raw/world-production-development.pdf",
+        "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+        "locator": "November 2026 WAP PDF page 17, publication availability paragraph (12:00 PSD and by 12:15 circular)",
+        "checked_at_utc": "2026-11-12T14:26:36.024664+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "grain-trade-report",
+      "source": "grain-trade",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/Grain.pdf",
+        "path": "test/fixtures/raw/grain-trade-development.pdf",
+        "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+        "locator": "November 2026 Grain PDF page 3, publication availability paragraph",
+        "checked_at_utc": "2026-11-12T14:26:36.025527+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "oilseed-trade-report",
+      "source": "oilseed-trade",
+      "artifact_kind": "report",
+      "statement": "Monthly circular release convention: by 12:15 p.m. after the same-day 12:00 p.m. PSD update.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/Oilseeds.pdf",
+        "path": "test/fixtures/raw/oilseed-trade-development.pdf",
+        "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+        "locator": "November 2026 Oilseeds PDF page 8, publication availability paragraph",
+        "checked_at_utc": "2026-11-12T14:26:49.255740+00:00"
+      },
+      "note": "Clock convention appears in report notes; timezone for that sentence is not explicit. Eastern timezone appears in WAP next-release notice. Scheduling reconciliation remains deferred; do not manufacture a timestamp."
+    },
+    {
+      "claim_id": "psd-api-convention",
+      "source": "fas-psd",
+      "artifact_kind": "api",
+      "statement": "Report notes state cotton, oilseed and grain PSD data update at 12:00 p.m. on WASDE release days; this is a documented convention, not an authenticated availability measurement.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnline/Circulars/2026/11/production.pdf",
+        "path": "test/fixtures/raw/world-production-development.pdf",
+        "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+        "locator": "November 2026 WAP PDF page 17, publication availability paragraph (12:00 PSD and by 12:15 circular)",
+        "checked_at_utc": "2026-11-12T14:26:36.024664+00:00"
+      },
+      "note": "Phase 05/08 must verify actual API timestamps and timezone before scheduling."
+    },
+    {
+      "claim_id": "psd-directory-schedule",
+      "source": "fas-psd",
+      "artifact_kind": "public_schedule_metadata",
+      "statement": "Public PSD schedule currently lists December 10, 2026 at 12:00PM for grains, oilseeds and WAP.",
+      "precision": "minute",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://apps.fas.usda.gov/PSDOnlineApi/api/downloadableData/GetReleaseSchedules?commodity=all&scheduleType=1",
+        "path": "test/fixtures/discovery/phase-00/discovery/psd-schedule.json",
+        "sha256": "34e4bf3801a6ee6856633f19d11519016f0897a36cbf0aae0e1b8a6560e1ab0e",
+        "locator": "releaseDate, releaseTime and releaseDescription of the three in-scope families",
+        "checked_at_utc": "2026-11-12T14:25:32.147461+00:00"
+      },
+      "note": "Potential distinction between PSD update and report deadline: retain the raw record; do not overwrite the report by-12:15 convention."
+    },
+    {
+      "claim_id": "ers-estimates",
+      "source": "ers-costs-returns",
+      "artifact_kind": "annual_estimate",
+      "statement": "Preliminary annual estimates during first week of May; final estimates during first week of October.",
+      "precision": "week",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+        "path": "test/fixtures/discovery/phase-00/discovery/ers-methodology.html",
+        "sha256": "1b24390b08d06c980da6bc0db0f3bf2eae3cae174fa4e236021ac3ba29ab9001",
+        "locator": "Overview and Scope/Coverage of Data",
+        "checked_at_utc": "2026-11-12T14:21:58.272816+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "ers-forecasts",
+      "source": "ers-costs-returns",
+      "artifact_kind": "forecast",
+      "statement": "Cost-of-production forecasts generally updated in mid-June and mid-November.",
+      "precision": "part_of_month",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation",
+        "path": "test/fixtures/discovery/phase-00/discovery/ers-methodology.html",
+        "sha256": "1b24390b08d06c980da6bc0db0f3bf2eae3cae174fa4e236021ac3ba29ab9001",
+        "locator": "Overview; Cost of Production Forecasts",
+        "checked_at_utc": "2026-11-12T14:21:58.272816+00:00"
+      },
+      "note": ""
+    },
+    {
+      "claim_id": "ers-file-dates",
+      "source": "ers-costs-returns",
+      "artifact_kind": "file_metadata",
+      "statement": "Recent files: Last Updated 2026-10-01, Next Update 2027-05-03. Forecast files: Last Updated 2026-11-10, Next Update 2027-06-17.",
+      "precision": "day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.ers.usda.gov/data-products/commodity-costs-and-returns",
+        "path": "test/fixtures/discovery/phase-00/discovery/ers.html",
+        "sha256": "0f0462136d24a7d01783baa77e4ee7077aecb48edea198b28104c692263462f6",
+        "locator": "File Downloads; per-file time elements",
+        "checked_at_utc": "2026-11-12T14:21:58.272654+00:00"
+      },
+      "note": "Next Update is a planned date, not proof of future release. No precise release time is provided."
+    },
+    {
+      "claim_id": "rma-summary-refresh",
+      "source": "rma-sob",
+      "artifact_kind": "summary_report",
+      "statement": "Most recent five years refreshed each Monday morning, covering data accepted through preceding week; older report years no longer updated.",
+      "precision": "part_of_day",
+      "timezone": null,
+      "status": "verified",
+      "evidence": {
+        "url": "https://www.rma.usda.gov/summary-business",
+        "path": "test/fixtures/discovery/phase-00/discovery/rma-summary.html",
+        "sha256": "3f0529a2ebbe54b39c8be7e7780205cf5c2e19c28141a03c230c4bb59f6515fc",
+        "locator": "Summary of Business description",
+        "checked_at_utc": "2026-11-12T14:27:13.904174+00:00"
+      },
+      "note": "Official page does not specify timezone or minute. Observed ZIP Last-Modified is separate transport metadata."
+    },
+    {
+      "claim_id": "rma-zip-refresh",
+      "source": "rma-sob",
+      "artifact_kind": "annual_zip",
+      "statement": "Annual bulk ZIP synchronization with the Monday summary-report refresh is not independently established.",
+      "precision": "unknown",
+      "timezone": null,
+      "status": "unverified",
+      "evidence": null,
+      "note": "Must be verified in Phase 07/08; do not apply summary-report rule to ZIP files as an established fact."
+    }
+  ],
+  "api_access": {
+    "environment_variable": "USDA_FAS_API_KEY",
+    "available_at_phase00": false,
+    "status": "deferred_without_credentials",
+    "dependent_phases": [
+      "04",
+      "05"
+    ],
+    "authentication_definition": {
+      "url": "https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json",
+      "path": "test/fixtures/discovery/phase-00/discovery/swagger.json",
+      "sha256": "1ea0231b523fe7590226030309cc1e8a9ee59436e78074f4d59eae5fb3dd1f1c",
+      "locator": "securityDefinitions.apiKeyHeader: type=apiKey, name=X-Api-Key, in=header",
+      "checked_at_utc": "2026-11-12T14:22:00.159095+00:00"
+    },
+    "portal_instruction": {
+      "url": "https://apps.fas.usda.gov/opendatawebV2/main.6da18f8b4fa8a2baed40.js",
+      "path": "test/fixtures/discovery/phase-00/discovery/portal-main.js",
+      "sha256": "35a52dfe016646c778b4c50dadd62e398d30a87db0b1a8be585c7a49bfd93877",
+      "locator": "Home/signup text references api.data.gov",
+      "checked_at_utc": "2026-11-12T14:23:09.339764+00:00"
+    },
+    "response_verification": "not_performed; Open Data host root 404 is not a failed data endpoint or authentication test"
+  }
+}

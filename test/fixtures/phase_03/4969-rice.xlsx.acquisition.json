@@ -1,0 +1,12 @@
+{
+  "id": "4969-rice.xlsx",
+  "url": "https://www.ers.usda.gov/media/4969/rice.xlsx?v=42187",
+  "path": "test/fixtures/phase_03/4969-rice.xlsx",
+  "status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:41.408588+00:00",
+  "sha256": "b372f8877990af5c3bad473b5a79d12abfdf66a0bc57ea9bc73028f168510f72",
+  "bytes": 220748,
+  "final_url": "https://www.ers.usda.gov/media/4969/rice.xlsx"
+}

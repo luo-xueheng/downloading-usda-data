@@ -1,0 +1,12 @@
+{
+  "id": "4923-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.csv",
+  "url": "https://www.ers.usda.gov/media/4923/cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.csv?v=63328",
+  "path": "test/fixtures/phase_03/4923-cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.csv",
+  "checked_at_utc": "2026-11-15T11:12:25.372829+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4923/cost-of-production-forecasts-for-major-us-field-crops-2026f-2027f.csv?v=63328",
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "sha256": "2763e0e9310b75fffb7efecc35d61cdc4807505f9659d9b17365dfa71f0720fd",
+  "bytes": 29180
+}

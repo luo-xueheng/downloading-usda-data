@@ -1,2 +1,0 @@
-grain-trade-2018-06 fail Conflicting source report duplicate; classifications need investigation: {'report_family': 'grain-trade', 'report_period': '2018-06', 'table_title': 'WHEAT | TRADE CHANGES IN 2018/19 (1,000 MT)', 'section_label': 'Exports', 'section_product_type': 'not_applicable', 'row_label': 'India Mexico Russia United States Venezuela', 'column_commodity': 'Wheat', 'indicator': 'Exports', 'period_label': '2018/19', 'comparison_label': 'Previous', 'unit': 'Thousand Metric Tons'} values 1000/36500
-{'fail': 1}

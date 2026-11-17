@@ -1,0 +1,12 @@
+{
+  "id": "wasde-current-discovery",
+  "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+  "path": "test/fixtures/discovery/phase-02/discovery/current.html",
+  "checked_at_utc": "2026-11-15T07:10:00.534782+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 15 Nov 2026 05:19:39 GMT",
+  "sha256": "76ef16cfda1ddcfe8e2dc61032728d2e1c85d97e08e24269a4633b0cb0a2d1b0",
+  "bytes": 159681
+}

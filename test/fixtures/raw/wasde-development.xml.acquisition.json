@@ -1,0 +1,12 @@
+{
+  "id": "wasde-dev",
+  "url": "https://www.usda.gov/oce/commodity/wasde/wasde1126.xml",
+  "path": "test/fixtures/raw/wasde-development.xml",
+  "checked_at_utc": "2026-11-12T14:23:09.588338+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/oce/commodity/wasde/wasde1126.xml",
+  "content_type": "application/xml",
+  "last_modified": "Tue, 10 Nov 2026 16:43:21 GMT",
+  "sha256": "c285bbba0e9228dfa91f255cdbdacc7612718162d264fe09fe53050ce016780a",
+  "bytes": 2052149
+}

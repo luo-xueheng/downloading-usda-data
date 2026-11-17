@@ -282,7 +282,7 @@ usda-data/
 │       └── reports.py
 ├── schemas/                    # 字段、类型、键与空值规则
 ├── docs/                       # 来源、经济含义、发布时间、使用说明
-├── tests/fixtures/             # 小型官方样本和代表性异常样本
+├── test/fixtures/             # 小型官方样本和代表性异常样本
 └── data/
     ├── raw/                    # 原始文件/响应，按来源与版本归档
     ├── normalized/             # 标准化分区及快照

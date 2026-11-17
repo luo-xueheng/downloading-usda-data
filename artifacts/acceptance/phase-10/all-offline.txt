@@ -1,5 +1,0 @@
-........................................................................ [ 67%]
-...............................s...                                      [100%]
-=========================== short test summary info ============================
-SKIPPED [1] tests/phase_10/test_handover.py:158: Required Phase 00 live recheck externally blocked: rma-holdout HTTP 502
-106 passed, 1 skipped, 9 deselected in 166.78s (0:02:46)

@@ -1,0 +1,12 @@
+{
+  "id": "psd-services",
+  "url": "https://apps.fas.usda.gov/psdonline/app/applicationServicesJs?v=05132016",
+  "path": "test/fixtures/discovery/phase-00/discovery/psd-services.js",
+  "checked_at_utc": "2026-11-12T14:24:10.662057+00:00",
+  "status": 200,
+  "final_url": "https://apps.fas.usda.gov/psdonline/app/applicationServicesJs?v=05132016",
+  "content_type": "text/javascript; charset=utf-8",
+  "last_modified": null,
+  "sha256": "2f620841069f58cac1a4b5bd2ac2c70dcc095eca5d2002cecdc2f818dda3d5dc",
+  "bytes": 10370
+}

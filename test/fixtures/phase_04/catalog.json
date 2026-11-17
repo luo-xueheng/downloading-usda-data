@@ -1,0 +1,65 @@
+[
+  {
+    "id": "esr-107-2025",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+    "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+    "expected_records": 2471,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-107-2026",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-107-2026.json",
+    "sha256": "0c35c21bebb674f04706d7f1bc30e40f1b6b2a90f3aa4e2c79d0f980a7c7253b",
+    "expected_records": 2869,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-401-2025",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-401-2025.json",
+    "sha256": "6c1823f04fbc2ada4726027aa565cfbcf455b70c430ce972fb00b61adfd2e063",
+    "expected_records": 2518,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-401-2026",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+    "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+    "expected_records": 2542,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-801-2025",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+    "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+    "expected_records": 2637,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-801-2026",
+    "role": "development",
+    "artifact": "test/fixtures/phase_04/esr-801-2026.json",
+    "sha256": "0edc31806d18fa91dcf1cde7658c1e3b516b02fcacfd5f5fd6bd1066a85f72b4",
+    "expected_records": 2303,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "id": "esr-701-2026",
+    "role": "holdout",
+    "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+    "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+    "expected_records": 553,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  }
+]

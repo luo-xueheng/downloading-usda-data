@@ -1,0 +1,12 @@
+{
+  "id": "4968-peanuts.csv",
+  "url": "https://www.ers.usda.gov/media/4968/peanuts.csv?v=28546",
+  "path": "test/fixtures/phase_03/4968-peanuts.csv",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:41.164636+00:00",
+  "sha256": "5f60b7b4738e2d72693dc5bec6f946955b8fb18b3c67e1d382b2076affd66c49",
+  "bytes": 681614,
+  "final_url": "https://www.ers.usda.gov/media/4968/peanuts.csv"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "role": "early",
+    "path": "test/fixtures/phase_02/early-cdn.zip",
+    "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+    "url": "https://usda.azureedge.us/sites/default/files/documents/oce-wasde-report-data-2010-04-to-2015-12.zip",
+    "acquisition_record": "test/fixtures/phase_02/early-cdn.zip.acquisition.json",
+    "zip_member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "role": "transition",
+    "path": "test/fixtures/phase_02/transition.csv",
+    "sha256": "95bb5b04c02c174442c399c3be5785b181bc6e9606f0cbd44cd59e45d9422973",
+    "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-05-V2.csv",
+    "acquisition_record": "test/fixtures/phase_02/transition.csv.acquisition.json",
+    "zip_member": null,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "role": "recent",
+    "path": "test/fixtures/phase_02/current.csv",
+    "sha256": "1a28972ac0c727ce974e0f8217b3cae9e892f6e974f6927033eaffbd5890a8da",
+    "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-11.csv",
+    "acquisition_record": "test/fixtures/phase_02/current.csv.acquisition.json",
+    "zip_member": null,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  },
+  {
+    "role": "holdout",
+    "path": "test/fixtures/phase_02/holdout.csv",
+    "sha256": "8695eab7454f9a445ae3c23d699c8f9bb681461839c1ea038bd15d45f7037638",
+    "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-10.csv",
+    "acquisition_record": "test/fixtures/phase_02/holdout.csv.acquisition.json",
+    "zip_member": null,
+    "selected_before_adapter": true,
+    "first_adapter_run": "not_run"
+  }
+]

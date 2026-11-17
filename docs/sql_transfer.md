@@ -1,5 +1,8 @@
 # Exact CSV and local SQL transfer
 
+> Repository cleanup (2026-11-17): historical `artifacts/` and full `data/` paths below refer to the external archive. See [migration and archive guide](repository_cleanup.md). These saved results are not current test results.
+
+
 Run from the repository after installation, selecting a **new** database path:
 
 ```bash

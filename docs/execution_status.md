@@ -1,6 +1,9 @@
 # Execution status
 
-The user authorized Phases 01-10 on 2026-11-15. Strict numerical gates apply: a phase starts only after its predecessor passes. Phase 00 authorization in the frozen scope is historical; see config/execution.json.
+> Repository cleanup (2026-11-17): historical `artifacts/` and full `data/` paths below refer to the external archive. See [migration and archive guide](repository_cleanup.md). These saved results are not current test results.
+
+
+The user authorized Phases 01-10 on 2026-11-15. Strict numerical gates apply: a phase starts only after its predecessor passes. Phase 00 authorization in the frozen scope is historical; see docs/history/config/execution.json.
 
 | Phase | Status | Started (UTC) | Completed (UTC) | Evidence | Blocker | Next action |
 |---|---|---|---|---|---|---|

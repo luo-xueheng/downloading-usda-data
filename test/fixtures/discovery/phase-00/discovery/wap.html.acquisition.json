@@ -1,0 +1,11 @@
+{
+  "id": "wap",
+  "url": "https://www.fas.usda.gov/data/world-agricultural-production",
+  "path": "test/fixtures/discovery/phase-00/discovery/wap.html",
+  "checked_at_utc": "2026-11-12T14:21:58.875353+00:00",
+  "status": 403,
+  "final_url": "https://www.fas.usda.gov/data/world-agricultural-production",
+  "error": "HTTP 403",
+  "sha256": "392feb05a4cfdbd8fa80646921c6e701081b4dd361dbb33c3206bd17e22eef73",
+  "bytes": 420
+}

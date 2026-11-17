@@ -18,7 +18,7 @@ materialize the requested result. Use `iter_wasde`, `iter_export_sales`, `iter_p
 | `oilseed-trade` | Same options, with `commodities=["2222000"]` | Same options, with `--commodities 2222000` |
 
 These are bounded interface samples, not the full scope. The executable
-`scripts/handover_examples.py` runs every row above through both interfaces and
+`test/tools/verify_examples.py` runs every row above through both interfaces and
 compares the complete typed results using pinned official fixtures. CLI requests
 also accept `--data-dir`, `--output-dir`, and `--force` (the refresh equivalent).
 

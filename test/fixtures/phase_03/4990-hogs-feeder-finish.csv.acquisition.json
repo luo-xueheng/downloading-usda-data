@@ -1,0 +1,12 @@
+{
+  "id": "4990-hogs-feeder-finish.csv",
+  "url": "https://www.ers.usda.gov/media/4990/hogs-feeder-finish.csv?v=55554",
+  "path": "test/fixtures/phase_03/4990-hogs-feeder-finish.csv",
+  "checked_at_utc": "2026-11-15T11:12:22.852527+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4990/hogs-feeder-finish.csv?v=55554",
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "sha256": "3b4514377c8cdcbc8e44b10997d6156396494e5b5fd1a747af2daacbd063eaeb",
+  "bytes": 735675
+}

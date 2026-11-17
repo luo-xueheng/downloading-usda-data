@@ -1,0 +1,12 @@
+{
+  "id": "wasde-holdout-csv",
+  "url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-10.csv",
+  "path": "test/fixtures/phase_02/holdout.csv",
+  "checked_at_utc": "2026-11-15T07:10:01.947909+00:00",
+  "status": 200,
+  "final_url": "https://www.usda.gov/sites/default/files/documents/oce-wasde-report-data-2026-10.csv",
+  "content_type": "text/csv",
+  "last_modified": "Fri, 09 Oct 2026 16:10:12 GMT",
+  "sha256": "8695eab7454f9a445ae3c23d699c8f9bb681461839c1ea038bd15d45f7037638",
+  "bytes": 998693
+}

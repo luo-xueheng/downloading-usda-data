@@ -17,7 +17,7 @@ including the separately retrieved official world series. Both interfaces retain
 raw responses, dictionary versions, release inventories and normalized snapshots;
 refresh rechecks requested partitions while retaining earlier versions.
 
-The commodity/attribute union is frozen in config/psd_scope.json and packaged with
+The commodity/attribute union is frozen in docs/history/config/psd_scope.json and packaged with
 the adapter. It contains 37 unique commodity codes: 18 required by World Agricultural
 Production, 9 by Grain: World Markets and Trade, and 27 by Oilseeds: World Markets
 and Trade, with overlap fetched once per family-union refresh operation. Coarse

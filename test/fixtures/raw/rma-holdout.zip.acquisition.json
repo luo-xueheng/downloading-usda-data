@@ -1,0 +1,12 @@
+{
+  "id": "rma-holdout",
+  "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip",
+  "path": "test/fixtures/raw/rma-holdout.zip",
+  "checked_at_utc": "2026-11-12T14:23:14.022051+00:00",
+  "status": 200,
+  "final_url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip",
+  "content_type": "application/zip",
+  "last_modified": "Wed, 09 Apr 2025 15:56:43 GMT",
+  "sha256": "bd503a5248f33305e5d4d671430dada27e4d744c0f88d8f015db0e2e6f7f2185",
+  "bytes": 2500751
+}

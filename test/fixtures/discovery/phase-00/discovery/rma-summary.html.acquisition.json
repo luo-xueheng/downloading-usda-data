@@ -1,0 +1,12 @@
+{
+  "id": "rma-summary",
+  "url": "https://www.rma.usda.gov/summary-business",
+  "path": "test/fixtures/discovery/phase-00/discovery/rma-summary.html",
+  "checked_at_utc": "2026-11-12T14:27:13.904174+00:00",
+  "status": 200,
+  "final_url": "https://www.rma.usda.gov/summary-business",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Thu, 12 Nov 2026 14:07:46 GMT",
+  "sha256": "3f0529a2ebbe54b39c8be7e7780205cf5c2e19c28141a03c230c4bb59f6515fc",
+  "bytes": 101745
+}

@@ -1,0 +1,12 @@
+{
+  "id": "4964-cotton.csv",
+  "url": "https://www.ers.usda.gov/media/4964/cotton.csv?v=13630",
+  "path": "test/fixtures/phase_03/4964-cotton.csv",
+  "status": 200,
+  "content_type": "text/csv; charset=utf-8",
+  "last_modified": null,
+  "checked_at_utc": "2026-11-15T11:48:36.126460+00:00",
+  "sha256": "aa8d7e335cf02cf36d40cfd3238ae6b24d560cd509b3ca438527906c23b2daec",
+  "bytes": 907049,
+  "final_url": "https://www.ers.usda.gov/media/4964/cotton.csv"
+}

@@ -1,0 +1,2647 @@
+{
+  "frozen_before_backfill_output": true,
+  "minimum_per_dataset": 20,
+  "status": "selection frozen; some report expectations and additional early/mid/recent geography strata still required before acceptance",
+  "selections": [
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+      "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+      "locator": {
+        "array_index": 617,
+        "field": "outstandingSales"
+      },
+      "expected_value": "34440",
+      "dimensions": {
+        "commodityCode": 107,
+        "countryCode": 2230,
+        "unitId": 1,
+        "weekEndingDate": "2024-09-19T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+      "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+      "locator": {
+        "array_index": 1235,
+        "field": "outstandingSales"
+      },
+      "expected_value": "171832",
+      "dimensions": {
+        "commodityCode": 107,
+        "countryCode": 2250,
+        "unitId": 1,
+        "weekEndingDate": "2024-12-19T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+      "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+      "locator": {
+        "array_index": 1853,
+        "field": "outstandingSales"
+      },
+      "expected_value": "565300",
+      "dimensions": {
+        "commodityCode": 107,
+        "countryCode": 5800,
+        "unitId": 1,
+        "weekEndingDate": "2025-03-13T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+      "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+      "locator": {
+        "array_index": 2470,
+        "field": "outstandingSales"
+      },
+      "expected_value": "42000",
+      "dimensions": {
+        "commodityCode": 107,
+        "countryCode": 9990,
+        "unitId": 1,
+        "weekEndingDate": "2025-06-05T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-107-2025.json",
+      "sha256": "aa986fbef6f43d7c0bd9ee1c64dc24cf6aac94ae233adfa4ebeb0b610653429b",
+      "locator": {
+        "array_index": 2469,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 107,
+        "countryCode": 7910,
+        "unitId": 1,
+        "weekEndingDate": "2025-06-05T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+      "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+      "locator": {
+        "array_index": 635,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 401,
+        "countryCode": 4750,
+        "unitId": 1,
+        "weekEndingDate": "2025-12-11T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+      "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+      "locator": {
+        "array_index": 1271,
+        "field": "outstandingSales"
+      },
+      "expected_value": "301259",
+      "dimensions": {
+        "commodityCode": 401,
+        "countryCode": 5520,
+        "unitId": 1,
+        "weekEndingDate": "2026-03-12T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+      "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+      "locator": {
+        "array_index": 1906,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 401,
+        "countryCode": 4210,
+        "unitId": 1,
+        "weekEndingDate": "2026-06-11T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+      "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+      "locator": {
+        "array_index": 2541,
+        "field": "outstandingSales"
+      },
+      "expected_value": "172500",
+      "dimensions": {
+        "commodityCode": 401,
+        "countryCode": 9990,
+        "unitId": 1,
+        "weekEndingDate": "2026-09-03T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-401-2026.json",
+      "sha256": "8f072f1020468aff1fc351cc25e72591ee60bb5b357195154128e05698ae4168",
+      "locator": {
+        "array_index": 2540,
+        "field": "outstandingSales"
+      },
+      "expected_value": "214",
+      "dimensions": {
+        "commodityCode": 401,
+        "countryCode": 7290,
+        "unitId": 1,
+        "weekEndingDate": "2026-09-03T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+      "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+      "locator": {
+        "array_index": 659,
+        "field": "outstandingSales"
+      },
+      "expected_value": "7051",
+      "dimensions": {
+        "commodityCode": 801,
+        "countryCode": 1220,
+        "unitId": 1,
+        "weekEndingDate": "2024-12-19T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+      "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+      "locator": {
+        "array_index": 1318,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 801,
+        "countryCode": 4280,
+        "unitId": 1,
+        "weekEndingDate": "2025-03-20T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+      "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+      "locator": {
+        "array_index": 1977,
+        "field": "outstandingSales"
+      },
+      "expected_value": "200",
+      "dimensions": {
+        "commodityCode": 801,
+        "countryCode": 7440,
+        "unitId": 1,
+        "weekEndingDate": "2025-06-12T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+      "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+      "locator": {
+        "array_index": 2636,
+        "field": "outstandingSales"
+      },
+      "expected_value": "165000",
+      "dimensions": {
+        "commodityCode": 801,
+        "countryCode": 9990,
+        "unitId": 1,
+        "weekEndingDate": "2025-09-04T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-801-2025.json",
+      "sha256": "70046ed54bf69eac9b6c860be83ae4286244a8b0b7cdea1eaa3ae6b9d37b0ee7",
+      "locator": {
+        "array_index": 2635,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 801,
+        "countryCode": 7910,
+        "unitId": 1,
+        "weekEndingDate": "2025-09-04T00:00:00"
+      },
+      "source_marketing_year": "2025",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+      "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+      "locator": {
+        "array_index": 138,
+        "field": "outstandingSales"
+      },
+      "expected_value": "67062",
+      "dimensions": {
+        "commodityCode": 701,
+        "countryCode": 2010,
+        "unitId": 1,
+        "weekEndingDate": "2026-01-01T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+      "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+      "locator": {
+        "array_index": 276,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 701,
+        "countryCode": 4750,
+        "unitId": 1,
+        "weekEndingDate": "2026-04-02T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+      "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+      "locator": {
+        "array_index": 414,
+        "field": "outstandingSales"
+      },
+      "expected_value": "12090",
+      "dimensions": {
+        "commodityCode": 701,
+        "countryCode": 5880,
+        "unitId": 1,
+        "weekEndingDate": "2026-06-25T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+      "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+      "locator": {
+        "array_index": 552,
+        "field": "outstandingSales"
+      },
+      "expected_value": "2794",
+      "dimensions": {
+        "commodityCode": 701,
+        "countryCode": 9990,
+        "unitId": 1,
+        "weekEndingDate": "2026-09-03T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "export-sales",
+      "artifact": "test/fixtures/phase_04/esr-701-2026.json",
+      "sha256": "20fa6d65e545db3be2e5ee3c3b610e27f1b1b1e6b9c795df0bd043a272ad820f",
+      "locator": {
+        "array_index": 551,
+        "field": "outstandingSales"
+      },
+      "expected_value": "0",
+      "dimensions": {
+        "commodityCode": 701,
+        "countryCode": 7741,
+        "unitId": 1,
+        "weekEndingDate": "2026-09-03T00:00:00"
+      },
+      "source_marketing_year": "2026",
+      "method": "Independent source JSON cell selection; frozen before full-output inspection; not parser-generated"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-development.pdf",
+      "sha256": "6a38ed331521b3f1771951f276306c9d36cb6dd75a6ba7806844929b2555f141",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "world-production",
+      "artifact": "test/fixtures/raw/world-production-holdout.pdf",
+      "sha256": "1b1bea88267db8f1c7bfb1f92946ca53ebe48c357109581b27f4a6e7112eb922",
+      "locator": {
+        "table": "Table 04 Corn Area, Yield, and Production",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-development.pdf",
+      "sha256": "89ad55b237200bf484facb5bf5f52093fceb887c90f05443f65a80e23b8fd0ff",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "grain-trade",
+      "artifact": "test/fixtures/raw/grain-trade-holdout.pdf",
+      "sha256": "a8f68f38aa1bdcc2a65b1efd56fc416407a7f2571233caa56ab970cb6df7211d",
+      "locator": {
+        "table": "World Corn Production, Consumption, and Stocks",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-development.pdf",
+      "sha256": "9764ad271e29b8b79f4a63afac08cbfb6c9f1797206b480b75a2e5402d808409",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 0,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 1,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 2,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 3,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 4,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 5,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 6,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 7,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 8,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "oilseed-trade",
+      "artifact": "test/fixtures/raw/oilseed-trade-holdout.pdf",
+      "sha256": "64c77f13ec5f976bab3a3668bab28ea2acfb331e83130e4252b3b3c0b3796998",
+      "locator": {
+        "table": "Table 11: Palm Oil: World Supply and Distribution",
+        "row_selection": 9,
+        "column": "current production"
+      },
+      "expected_value_status": "requires independent visual transcription before comparison",
+      "method": "Stratified report-table selection fixed before full-output inspection; numeric expectations not yet authored"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 202,
+        "field": "Value"
+      },
+      "expected_value": "1.00",
+      "dimensions": {
+        "WasdeNumber": "481",
+        "ReportDate": "April 2010",
+        "ReportTitle": "Reliability of April Projections",
+        "Attribute": "Production",
+        "ReliabilityProjection": "average_percent",
+        "Commodity": "Oilseed, Soybean",
+        "Region": "United States",
+        "MarketYear": "",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Percent",
+        "ReleaseDate": "2010-04-09",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2010",
+        "ForecastMonth": "4"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 15202,
+        "field": "Value"
+      },
+      "expected_value": "7.00",
+      "dimensions": {
+        "WasdeNumber": "484",
+        "ReportDate": "July 2010",
+        "ReportTitle": "U.S. Milk Supply and Use",
+        "Attribute": "Imports",
+        "ReliabilityProjection": "",
+        "Commodity": "Milk, Skim-Soild Basis",
+        "Region": "United States",
+        "MarketYear": "2008",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Billion Pounds",
+        "ReleaseDate": "2010-07-09",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2010",
+        "ForecastMonth": "7"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 30202,
+        "field": "Value"
+      },
+      "expected_value": "9.30",
+      "dimensions": {
+        "WasdeNumber": "487",
+        "ReportDate": "October 2010",
+        "ReportTitle": "U.S. Sugar Supply and Use",
+        "Attribute": "Stocks to Use Ratio",
+        "ReliabilityProjection": "",
+        "Commodity": "Sugar",
+        "Region": "United States",
+        "MarketYear": "2010/11",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "1000 Short Tons, Raw Value",
+        "ReleaseDate": "2010-10-08",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2010",
+        "ForecastMonth": "10"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 45202,
+        "field": "Value"
+      },
+      "expected_value": "67.94",
+      "dimensions": {
+        "WasdeNumber": "490",
+        "ReportDate": "January 2011",
+        "ReportTitle": "World Coarse Grain Supply and Use",
+        "Attribute": "Production",
+        "ReliabilityProjection": "",
+        "Commodity": "Coarse Grain",
+        "Region": "FSU-12",
+        "MarketYear": "2009/10",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2011-01-12",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2011",
+        "ForecastMonth": "1"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 60202,
+        "field": "Value"
+      },
+      "expected_value": ".00",
+      "dimensions": {
+        "WasdeNumber": "493",
+        "ReportDate": "April 2011",
+        "ReportTitle": "World Cotton Supply and Use",
+        "Attribute": "Production",
+        "ReliabilityProjection": "",
+        "Commodity": "Cotton",
+        "Region": "Thailand",
+        "MarketYear": "2008/09",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million 480-Pound Bales",
+        "ReleaseDate": "2011-04-08",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2011",
+        "ForecastMonth": "4"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 75202,
+        "field": "Value"
+      },
+      "expected_value": ".38",
+      "dimensions": {
+        "WasdeNumber": "496",
+        "ReportDate": "July 2011",
+        "ReportTitle": "World Rice Supply and Use  (Milled Basis)",
+        "Attribute": "Beginning Stocks",
+        "ReliabilityProjection": "",
+        "Commodity": "Rice",
+        "Region": "C. Amer & Carib",
+        "MarketYear": "2010/11",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2011-07-12",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2011",
+        "ForecastMonth": "7"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 90202,
+        "field": "Value"
+      },
+      "expected_value": ".45",
+      "dimensions": {
+        "WasdeNumber": "499",
+        "ReportDate": "October 2011",
+        "ReportTitle": "World Soybean Meal Supply and Use",
+        "Attribute": "Exports",
+        "ReliabilityProjection": "",
+        "Commodity": "Soybean Meal",
+        "Region": "EU-27",
+        "MarketYear": "2011/12",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2011-10-12",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2011",
+        "ForecastMonth": "10"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 105202,
+        "field": "Value"
+      },
+      "expected_value": "11.90",
+      "dimensions": {
+        "WasdeNumber": "502",
+        "ReportDate": "January 2012",
+        "ReportTitle": "World Soybean Supply and Use",
+        "Attribute": "Domestic Crush",
+        "ReliabilityProjection": "",
+        "Commodity": "Oilseed, Soybean",
+        "Region": "EU-27",
+        "MarketYear": "2011/12",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2012-01-12",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2012",
+        "ForecastMonth": "1"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 120202,
+        "field": "Value"
+      },
+      "expected_value": "32.64",
+      "dimensions": {
+        "WasdeNumber": "505",
+        "ReportDate": "April 2012",
+        "ReportTitle": "World Wheat Supply and Use",
+        "Attribute": "Domestic Total",
+        "ReliabilityProjection": "",
+        "Commodity": "Wheat",
+        "Region": "Sel. Mideast",
+        "MarketYear": "2011/12",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2012-04-10",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2012",
+        "ForecastMonth": "4"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 135202,
+        "field": "Value"
+      },
+      "expected_value": "23.00",
+      "dimensions": {
+        "WasdeNumber": "509",
+        "ReportDate": "August 2012",
+        "ReportTitle": "Reliability of United States August Projections",
+        "Attribute": "Ending Stocks",
+        "ReliabilityProjection": "average",
+        "Commodity": "Barley",
+        "Region": "United States",
+        "MarketYear": "",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Bushels",
+        "ReleaseDate": "2012-08-10",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2012",
+        "ForecastMonth": "8"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 150202,
+        "field": "Value"
+      },
+      "expected_value": "265.50",
+      "dimensions": {
+        "WasdeNumber": "512",
+        "ReportDate": "November 2012",
+        "ReportTitle": "U.S. Feed Grain and Corn Supply and Use",
+        "Attribute": "Domestic, Total",
+        "ReliabilityProjection": "",
+        "Commodity": "Feed Grains",
+        "Region": "United States",
+        "MarketYear": "2012/13",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2012-11-09",
+        "ReleaseTime": "08:30:00.0000000",
+        "ForecastYear": "2012",
+        "ForecastMonth": "11"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 165202,
+        "field": "Value"
+      },
+      "expected_value": "89.00",
+      "dimensions": {
+        "WasdeNumber": "515",
+        "ReportDate": "February 2013",
+        "ReportTitle": "U.S. Quarterly Prices for Animal Products",
+        "Attribute": "Prices - Low",
+        "ReliabilityProjection": "",
+        "Commodity": "Broiler",
+        "Region": "United States",
+        "MarketYear": "2013",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "III",
+        "Unit": "Cents/lb.",
+        "ReleaseDate": "2013-02-08",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2013",
+        "ForecastMonth": "2"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 180202,
+        "field": "Value"
+      },
+      "expected_value": "2903.00",
+      "dimensions": {
+        "WasdeNumber": "518",
+        "ReportDate": "May 2013",
+        "ReportTitle": "U.S. Sugar Supply and Use",
+        "Attribute": "Imports",
+        "ReliabilityProjection": "",
+        "Commodity": "Sugar",
+        "Region": "United States",
+        "MarketYear": "2012/13",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "1000 Short Tons, Raw Value",
+        "ReleaseDate": "2013-05-10",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2013",
+        "ForecastMonth": "5"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 195202,
+        "field": "Value"
+      },
+      "expected_value": "71.22",
+      "dimensions": {
+        "WasdeNumber": "521",
+        "ReportDate": "August 2013",
+        "ReportTitle": "World and U.S. Supply and Use for Oilseeds",
+        "Attribute": "Trade",
+        "ReliabilityProjection": "",
+        "Commodity": "Oilmeals",
+        "Region": "Foreign",
+        "MarketYear": "2011/12",
+        "ProjEstFlag": "",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2013-08-12",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2013",
+        "ForecastMonth": "8"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 210202,
+        "field": "Value"
+      },
+      "expected_value": "31.20",
+      "dimensions": {
+        "WasdeNumber": "524",
+        "ReportDate": "December 2013",
+        "ReportTitle": "World Coarse Grain Supply and Use",
+        "Attribute": "Ending Stocks",
+        "ReliabilityProjection": "",
+        "Commodity": "Coarse Grain",
+        "Region": "Major Importers",
+        "MarketYear": "2012/13",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2013-12-10",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2013",
+        "ForecastMonth": "12"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 225202,
+        "field": "Value"
+      },
+      "expected_value": "2.70",
+      "dimensions": {
+        "WasdeNumber": "527",
+        "ReportDate": "March 2014",
+        "ReportTitle": "World Corn Supply and Use",
+        "Attribute": "Imports",
+        "ReliabilityProjection": "",
+        "Commodity": "Corn",
+        "Region": "China",
+        "MarketYear": "2012/13",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2014-03-10",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2014",
+        "ForecastMonth": "3"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 240202,
+        "field": "Value"
+      },
+      "expected_value": "2.74",
+      "dimensions": {
+        "WasdeNumber": "530",
+        "ReportDate": "June 2014",
+        "ReportTitle": "World Cotton Supply and Use",
+        "Attribute": "Ending Stocks",
+        "ReliabilityProjection": "",
+        "Commodity": "Cotton",
+        "Region": "Pakistan",
+        "MarketYear": "2013/14",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million 480-Pound Bales",
+        "ReleaseDate": "2014-06-11",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2014",
+        "ForecastMonth": "6"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 255202,
+        "field": "Value"
+      },
+      "expected_value": "1.40",
+      "dimensions": {
+        "WasdeNumber": "533",
+        "ReportDate": "September 2014",
+        "ReportTitle": "World Rice Supply and Use  (Milled Basis)",
+        "Attribute": "Imports",
+        "ReliabilityProjection": "",
+        "Commodity": "Rice",
+        "Region": "Indonesia",
+        "MarketYear": "2013/14",
+        "ProjEstFlag": "Est.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2014-09-11",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2014",
+        "ForecastMonth": "9"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 270202,
+        "field": "Value"
+      },
+      "expected_value": "11.61",
+      "dimensions": {
+        "WasdeNumber": "536",
+        "ReportDate": "December 2014",
+        "ReportTitle": "World Soybean Meal Supply and Use",
+        "Attribute": "Exports",
+        "ReliabilityProjection": "",
+        "Commodity": "Soybean Meal",
+        "Region": "United States",
+        "MarketYear": "2014/15",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2014-12-10",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2014",
+        "ForecastMonth": "12"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "wasde",
+      "artifact": "test/fixtures/phase_02/early-cdn.zip",
+      "sha256": "7eb285818ea748e15b562fe7aa88107999c42d8d6817f692d8f9818f16fddead",
+      "locator": {
+        "member": "oce-wasde-report-data-2010-04-to-2015-12.csv",
+        "csv_record_including_header": 285202,
+        "field": "Value"
+      },
+      "expected_value": "14.28",
+      "dimensions": {
+        "WasdeNumber": "539",
+        "ReportDate": "March 2015",
+        "ReportTitle": "World Soybean Supply and Use",
+        "Attribute": "Domestic Total",
+        "ReliabilityProjection": "",
+        "Commodity": "Oilseed, Soybean",
+        "Region": "European Union",
+        "MarketYear": "2014/15",
+        "ProjEstFlag": "Proj.",
+        "AnnualQuarterFlag": "Annual",
+        "Unit": "Million Metric Tons",
+        "ReleaseDate": "2015-03-10",
+        "ReleaseTime": "12:00:00.0000000",
+        "ForecastYear": "2015",
+        "ForecastMonth": "3"
+      },
+      "method": "Independent raw CSV reading, 20 positions spanning early/middle archive; not production parser"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 102,
+        "field": "Value"
+      },
+      "expected_value": "20.72",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Taxes and insurance",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "U.S. total",
+        "Country": "United States",
+        "Year": "2025",
+        "Survey base year": "Base survey of 2021"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 352,
+        "field": "Value"
+      },
+      "expected_value": "639",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Gross value of production",
+        "Item": "Primary product, grain",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Eastern Uplands",
+        "Country": "United States",
+        "Year": "2012",
+        "Survey base year": "Base survey of 2010"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 602,
+        "field": "Value"
+      },
+      "expected_value": "266.92",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Gross value of production",
+        "Item": "Total, gross value of production",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "U.S. total",
+        "Country": "United States",
+        "Year": "2001",
+        "Survey base year": "Base survey of 2001"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 852,
+        "field": "Value"
+      },
+      "expected_value": "97.18",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Operating costs",
+        "Item": "Seed",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Heartland",
+        "Country": "United States",
+        "Year": "2019",
+        "Survey base year": "Base survey of 2016"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 1102,
+        "field": "Value"
+      },
+      "expected_value": "93.31",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Operating costs",
+        "Item": "Fertilizer  ",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Northern Great Plains",
+        "Country": "United States",
+        "Year": "2008",
+        "Survey base year": "Base survey of 2005"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 1352,
+        "field": "Value"
+      },
+      "expected_value": "30.31",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Operating costs",
+        "Item": "Chemicals",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Eastern Uplands",
+        "Country": "United States",
+        "Year": "1997",
+        "Survey base year": "Base survey of 1996"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 1602,
+        "field": "Value"
+      },
+      "expected_value": "23.79",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Opportunity cost of unpaid labor",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Heartland",
+        "Country": "United States",
+        "Year": "2003",
+        "Survey base year": "Base survey of 2001"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 1852,
+        "field": "Value"
+      },
+      "expected_value": "138.95",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Capital recovery of machinery and equipment",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Northern Crescent",
+        "Country": "United States",
+        "Year": "2021",
+        "Survey base year": "Base survey of 2021"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 2102,
+        "field": "Value"
+      },
+      "expected_value": "86.46",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Opportunity cost of land",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Prairie Gateway",
+        "Country": "United States",
+        "Year": "2010",
+        "Survey base year": "Base survey of 2010"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 2352,
+        "field": "Value"
+      },
+      "expected_value": "9.06",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Taxes and insurance",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Southern Seaboard",
+        "Country": "United States",
+        "Year": "1999",
+        "Survey base year": "Base survey of 1996"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 2602,
+        "field": "Value"
+      },
+      "expected_value": "340.02",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Allocated overhead",
+        "Item": "Total, allocated overhead",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "U.S. total",
+        "Country": "United States",
+        "Year": "2017",
+        "Survey base year": "Base survey of 2016"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 2852,
+        "field": "Value"
+      },
+      "expected_value": "417.88",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Costs listed",
+        "Item": "Total, costs listed",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Northern Crescent",
+        "Country": "United States",
+        "Year": "2006",
+        "Survey base year": "Base survey of 2005"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 3102,
+        "field": "Value"
+      },
+      "expected_value": "-8.54",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Net value",
+        "Item": "Value of production less total costs listed",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Northern Great Plains",
+        "Country": "United States",
+        "Year": "2024",
+        "Survey base year": "Base survey of 2021"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 3352,
+        "field": "Value"
+      },
+      "expected_value": "366.56",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Net value",
+        "Item": "Value of production less operating costs",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Eastern Uplands",
+        "Country": "United States",
+        "Year": "2013",
+        "Survey base year": "Base survey of 2010"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 3602,
+        "field": "Value"
+      },
+      "expected_value": "2.32",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Supporting information",
+        "Item": "Price",
+        "Units": "dollars per bushel at harvest",
+        "Size": "No specific size",
+        "Region": "U.S. total",
+        "Country": "United States",
+        "Year": "2002",
+        "Survey base year": "Base survey of 2001"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 3852,
+        "field": "Value"
+      },
+      "expected_value": "302",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Supporting information",
+        "Item": "Enterprise size",
+        "Units": "planted acres",
+        "Size": "No specific size",
+        "Region": "Heartland",
+        "Country": "United States",
+        "Year": "2020",
+        "Survey base year": "Base survey of 2016"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 4102,
+        "field": "Value"
+      },
+      "expected_value": "79",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Production practices",
+        "Item": "Dryland",
+        "Units": "percent of acres",
+        "Size": "No specific size",
+        "Region": "Northern Great Plains",
+        "Country": "United States",
+        "Year": "2009",
+        "Survey base year": "Base survey of 2005"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 4352,
+        "field": "Value"
+      },
+      "expected_value": "1",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Production practices",
+        "Item": "Irrigated",
+        "Units": "percent of acres",
+        "Size": "No specific size",
+        "Region": "Eastern Uplands",
+        "Country": "United States",
+        "Year": "2003",
+        "Survey base year": "Base survey of 2001"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 4602,
+        "field": "Value"
+      },
+      "expected_value": "22.13",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Operating costs",
+        "Item": "Fuel, lube, and electricity",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Heartland",
+        "Country": "United States",
+        "Year": "2009",
+        "Survey base year": "Base survey of 2005"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "costs-returns",
+      "artifact": "test/fixtures/phase_03/4962-corn.csv",
+      "sha256": "a42362ce2c9b8f6a5992ae11ef6cb1ed12e25ec59b694782572daea646113951",
+      "locator": {
+        "csv_record_including_header": 4852,
+        "field": "Value"
+      },
+      "expected_value": "18.24",
+      "dimensions": {
+        "Commodity": "Corn",
+        "Category": "Operating costs",
+        "Item": "Repairs",
+        "Units": "dollars per planted acre",
+        "Size": "No specific size",
+        "Region": "Northern Great Plains",
+        "Country": "United States",
+        "Year": "1998",
+        "Survey base year": "Base survey of 1996"
+      },
+      "method": "Independent raw CSV reading; positions frozen before full-output inspection"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 10001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "06",
+        "CA",
+        "113",
+        "Yolo                          ",
+        "0041",
+        "Corn                          ",
+        "87",
+        "ECO-YP    ",
+        "A    ",
+        "RBUP",
+        ".9500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 16001,
+        "field_1_based": 27
+      },
+      "expected_value": "7713",
+      "dimensions": [
+        "2025",
+        "13",
+        "GA",
+        "023",
+        "Bleckley                      ",
+        "0021",
+        "Cotton                        ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".6000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 22001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "13",
+        "GA",
+        "287",
+        "Turner                        ",
+        "0051",
+        "Grain Sorghum                 ",
+        "37",
+        "HIP-WI    ",
+        "A    ",
+        "RBUP",
+        ".9500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 28001,
+        "field_1_based": 27
+      },
+      "expected_value": "265312",
+      "dimensions": [
+        "2025",
+        "19",
+        "IA",
+        "181",
+        "Warren                        ",
+        "0041",
+        "Corn                          ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".8000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 34001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "17",
+        "IL",
+        "103",
+        "Lee                           ",
+        "0016",
+        "Oats                          ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".8000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 40001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "18",
+        "IN",
+        "089",
+        "Lake                          ",
+        "0081",
+        "Soybeans                      ",
+        "17",
+        "MP-HPO    ",
+        "A    ",
+        "RBUP",
+        ".9500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 46001,
+        "field_1_based": 27
+      },
+      "expected_value": "12656",
+      "dimensions": [
+        "2025",
+        "20",
+        "KS",
+        "081",
+        "Haskell                       ",
+        "0081",
+        "Soybeans                      ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".7000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 52001,
+        "field_1_based": 27
+      },
+      "expected_value": "2787",
+      "dimensions": [
+        "2025",
+        "20",
+        "KS",
+        "201",
+        "Washington                    ",
+        "0011",
+        "Wheat                         ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".7500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 58001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "25",
+        "MA",
+        "011",
+        "Franklin                      ",
+        "0034",
+        "Peaches                       ",
+        "90",
+        "APH       ",
+        "A    ",
+        "RBUP",
+        ".5000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 64001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "27",
+        "MN",
+        "025",
+        "Chisago                       ",
+        "0041",
+        "Corn                          ",
+        "32",
+        "SCO-RP    ",
+        "A    ",
+        "RBUP",
+        ".8000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 70001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "27",
+        "MN",
+        "155",
+        "Traverse                      ",
+        "0011",
+        "Wheat                         ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".8500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 76001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "28",
+        "MS",
+        "009",
+        "Benton                        ",
+        "0021",
+        "Cotton                        ",
+        "01",
+        "YP        ",
+        "A    ",
+        "RBUP",
+        ".5000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 82001,
+        "field_1_based": 27
+      },
+      "expected_value": "4611",
+      "dimensions": [
+        "2025",
+        "30",
+        "MT",
+        "083",
+        "Richland                      ",
+        "0016",
+        "Oats                          ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".7500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 88001,
+        "field_1_based": 27
+      },
+      "expected_value": "234",
+      "dimensions": [
+        "2025",
+        "37",
+        "NC",
+        "175",
+        "Transylvania                  ",
+        "9999",
+        "All Other Crops               ",
+        "13",
+        "RI        ",
+        "A    ",
+        "RBUP",
+        ".7500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 94001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "38",
+        "ND",
+        "061",
+        "Mountrail                     ",
+        "0078",
+        "Sunflowers                    ",
+        "01",
+        "YP        ",
+        "A    ",
+        "RBUP",
+        ".8500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 100001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "31",
+        "NE",
+        "053",
+        "Dodge                         ",
+        "0041",
+        "Corn                          ",
+        "03",
+        "RPHPE     ",
+        "A    ",
+        "RBUP",
+        ".7000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 106001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "35",
+        "NM",
+        "025",
+        "Lea                           ",
+        "0059",
+        "Silage Sorghum                ",
+        "90",
+        "APH       ",
+        "A    ",
+        "RBUP",
+        ".7500",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 112001,
+        "field_1_based": 27
+      },
+      "expected_value": "21387",
+      "dimensions": [
+        "2025",
+        "39",
+        "OH",
+        "173",
+        "Wood                          ",
+        "0081",
+        "Soybeans                      ",
+        "88",
+        "ECO-RP    ",
+        "A    ",
+        "RBUP",
+        ".9000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 118001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "42",
+        "PA",
+        "079",
+        "Luzerne                       ",
+        "0081",
+        "Soybeans                      ",
+        "02",
+        "RP        ",
+        "A    ",
+        "RBUP",
+        ".5000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    },
+    {
+      "dataset": "rma-sob",
+      "artifact": "test/fixtures/raw/rma-development.zip",
+      "sha256": "c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58",
+      "locator": {
+        "member": "sobcov_2025.txt",
+        "line": 124001,
+        "field_1_based": 27
+      },
+      "expected_value": "0",
+      "dimensions": [
+        "2025",
+        "46",
+        "SD",
+        "053",
+        "Gregory                       ",
+        "0091",
+        "Barley                        ",
+        "01",
+        "YP        ",
+        "A    ",
+        "RBUP",
+        ".5000",
+        "Acres                    "
+      ],
+      "method": "Independent raw pipe-field reading, distinct from development references"
+    }
+  ]
+}

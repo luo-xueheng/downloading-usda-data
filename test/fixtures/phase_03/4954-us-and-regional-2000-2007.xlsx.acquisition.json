@@ -1,0 +1,12 @@
+{
+  "id": "4954-us-and-regional-2000-2007.xlsx",
+  "url": "https://www.ers.usda.gov/media/4954/us-and-regional-2000-2007.xlsx?v=46364",
+  "path": "test/fixtures/phase_03/4954-us-and-regional-2000-2007.xlsx",
+  "checked_at_utc": "2026-11-15T11:12:33.012440+00:00",
+  "status": 200,
+  "final_url": "https://www.ers.usda.gov/media/4954/us-and-regional-2000-2007.xlsx?v=46364",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": null,
+  "sha256": "ef620d466432706b68a9f0ad47a858820c6ee22ee96958b13a5c7d5ee80ccc33",
+  "bytes": 144877
+}

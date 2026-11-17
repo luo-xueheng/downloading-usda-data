@@ -1,8 +1,0 @@
-{
-  "url": "https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/sobcov_2010.zip",
-  "status": 502,
-  "bytes": 122,
-  "sha256": "880c929020d4b79bf1995656d21d9a6859aab3a9460f941eb0b1a6e5502ee4cc",
-  "transport": "httpx explicit trust_env=False",
-  "executed_at_utc": "2026-11-16T22:32:40.514615+00:00"
-}

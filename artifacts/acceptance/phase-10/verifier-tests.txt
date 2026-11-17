@@ -1,1 +1,0 @@
-9 verifier self-checks passed, including offline network prohibition and deliberate evidence corruption.

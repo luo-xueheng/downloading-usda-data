@@ -1,0 +1,12 @@
+{
+  "id": "original-2011-txt",
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.txt",
+  "path": "test/fixtures/phase_02/original-wasde1126.txt",
+  "checked_at_utc": "2026-11-15T10:36:22.694700+00:00",
+  "status": 200,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/796142/wasde1126.txt",
+  "content_type": "text/plain",
+  "last_modified": "Tue, 10 Nov 2026 17:00:36 GMT",
+  "sha256": "178fe439ae1686a29cfce894950f3024e49772cdc8293eadcfeef31a67b22058",
+  "bytes": 122379
+}

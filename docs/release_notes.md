@@ -15,7 +15,7 @@ is the user-approved 1 GiB, superseding the earlier 512 MiB experiment.
 ## Publication timing and availability
 
 These are the saved official rules and observations; they are not a continuously
-updated release service. Evidence resides in `config/source_registry.json`,
+updated release service. Evidence resides in `test/fixtures/config/source_registry.json`,
 `config/calendar.json`, and the source registry. Calendar events carry verification
 dates and are labeled stale when appropriate. Never infer source release times
 from retrieval timestamps or HTTP Last-Modified.

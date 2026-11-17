@@ -13,3 +13,8 @@ data/
 
 artifacts/acceptance/phase-10/clean-venv/
 artifacts/acceptance/phase-10/sql/
+
+# Generated runtime and verification output
+.cache/
+artifacts/
+output/

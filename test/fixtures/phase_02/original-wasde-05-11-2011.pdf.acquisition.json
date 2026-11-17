@@ -1,0 +1,12 @@
+{
+  "id": "original-2011-pdf",
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/3t945q76s/bz60cw58k/p8418n56z/wasde-05-11-2011.pdf",
+  "path": "test/fixtures/phase_02/original-wasde-05-11-2011.pdf",
+  "checked_at_utc": "2026-11-15T10:50:04.327169+00:00",
+  "status": 200,
+  "final_url": "https://esmis.nal.usda.gov/sites/default/release-files/3t945q76s/bz60cw58k/p8418n56z/wasde-05-11-2011.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Thu, 13 Sep 2018 00:12:00 GMT",
+  "sha256": "973698586a6510a7a62110057c897949e717deda850b8224d6988b76fdcdccf7",
+  "bytes": 168278
+}
