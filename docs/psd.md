@@ -1,6 +1,6 @@
 # Shared FAS PSD observations
 
-> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/psd.md)**。下面保留原有英文技术说明。
+> Reading guide: **[Data meaning, column-by-column explanations, and actual examples](fields/psd.md)**. The original English technical documentation is retained below.
 
 
 ```python

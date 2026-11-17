@@ -1,58 +1,58 @@
-# 2026-11-17 仓库整理与迁移
+# Repository cleanup and migration on 2026-11-17
 
-本次整理将下载处理代码、测试、七份 CSV 示例和文档分开。没有永久丢弃原有数据；在更改前已备份全部 2,012 个 Git 跟踪文件并逐个校验 SHA-256。
+This cleanup separates download and processing code, tests, seven CSV examples, and documentation. No original data was permanently discarded; all 2,012 Git-tracked files were backed up before changes, and each SHA-256 hash was verified.
 
-## 归档位置
+## Archive location
 
-本机归档位于仓库同级：
+The local archive is next to the repository:
 
 ```text
 ../downloading-usda-data-archive-20261117/
-├── archive_manifest.json   # 迁移前的 Git HEAD、文件大小及 SHA-256
-├── data_migration.json     # 完整数据移动的验证记录
+├── archive_manifest.json   # Git HEAD, file sizes, and SHA-256 hashes before migration
+├── data_migration.json     # Verification record for the complete data move
 └── original/
-    ├── data/              # 完整下载数据、版本、源文件和运行状态
-    ├── artifacts/         # 原阶段验收记录
-    ├── output/            # 原网络排障记录
-    ├── scripts/           # 迁移前全部脚本
-    ├── tests/             # 迁移前测试和素材
-    └── ...                # 其余原 Git 跟踪文件
+    ├── data/              # Complete downloaded data, versions, source files, and runtime state
+    ├── artifacts/         # Original phase acceptance records
+    ├── output/            # Original network troubleshooting records
+    ├── scripts/           # All scripts before migration
+    ├── tests/             # Tests and fixtures before migration
+    └── ...                # Other originally Git-tracked files
 ```
 
-完整数据目录通过同文件系统原子重命名移动，核对了全部 31,013 个文件的相对路径、大小和 inode，共约 34.87 GiB。移动减少了工作区内的数据量，**没有释放这部分磁盘空间**。归档仍占用磁盘，也不会随仓库推送或克隆自动复制。
+The complete data directory was moved with an atomic rename on the same filesystem. Relative paths, sizes, and inodes were checked for all 31,013 files, totaling approximately 34.87 GiB. The move reduced the amount of data inside the workspace but **did not free that disk space**. The archive still occupies disk space and is not automatically copied when the repository is pushed or cloned.
 
-本地 `.env`、`.venv` 和 `.git` 未移动；凭证不包含在归档中。
+The local `.env`, `.venv`, and `.git` were not moved; credentials are not included in the archive.
 
-## 当前内容
+## Current contents
 
-- `src/` 保留全部下载、解析、版本存储、同步及 CSV／SQL 代码和六个运行必需 JSON。
-- `scripts/` 保留通用公开采集、凭证检查、任务规划、聚合、SQL 转换和示例生成工具。
-- `test/` 统一放置测试、固定素材、性能及验证工具。功能测试按模块／数据集归类，生成结果使用临时目录。
-- `examples/` 恰好包含七份 CSV，每份 200 行，并保存下载命令、节选规则、实际完整请求行数和哈希。
-- `config/` 只保留运行配置、冻结全量配置、小范围同步示例和 Schema 迁移规则。
-- `schemas/` 保留当前接口及聚合输出的定义。RMA 直接接口为 v2，聚合可迁移为 v3，两者都保留。
-- 所有既有 Markdown 文档保留；原 `artifacts/` 内 Markdown 已迁到 `docs/history/acceptance/`。原 README、批量下载说明另存历史副本。
+- `src/` retains all download, parsing, versioned storage, synchronization, and CSV/SQL code, plus six JSON files required at runtime.
+- `scripts/` retains general public-source acquisition, credential checks, task planning, aggregation, SQL transfer, and example-generation tools.
+- `test/` centralizes tests, fixed fixtures, performance tools, and verification tools. Functional tests are organized by module/dataset, and generated outputs use temporary directories.
+- `examples/` contains exactly seven CSVs with 200 rows each, along with download commands, excerpt rules, actual full-request row counts, and hashes.
+- `config/` retains only runtime configuration, the frozen full-backfill configuration, a small-scope synchronization example, and schema migration rules.
+- `schemas/` retains definitions for current interfaces and aggregate outputs. The direct RMA interface uses v2, and aggregation can migrate to v3; both are retained.
+- All existing Markdown documents are retained; Markdown formerly in `artifacts/` has moved to `docs/history/acceptance/`. Historical copies of the original README and batch-download guide are stored separately.
 
-165 个失败下载残留已从测试素材中移出，原字节保存在归档。旧日志、命令记录、逐月份验收结果、一次性阶段结束脚本和网络诊断均保存在归档。测试实际依赖的发现网页和清单已提取到 `test/fixtures/`。
+165 remnants of failed downloads were removed from the test fixtures; their original bytes remain in the archive. Old logs, command records, monthly acceptance results, one-off phase-closing scripts, and network diagnostics are retained in the archive. Discovery pages and manifests actually required by tests were extracted into `test/fixtures/`.
 
-历史配置及旧 Schema 保存在 `docs/history/config/`、`docs/history/schemas/`。包内 PSD 范围和报告表清单是运行时维护来源；旧配置副本明确作为历史记录保存，不再参与运行。
+Historical configurations and old schemas are retained in `docs/history/config/` and `docs/history/schemas/`. The PSD scope and report table inventories in the package are the maintained runtime sources; the old configuration copies are explicitly retained as historical records and no longer participate in execution.
 
-## 文件定位与恢复
+## Finding and restoring files
 
-[完整文件映射](repository_migration_map.json)列出迁移前每个 Git 跟踪文件在当前仓库或外部归档中的对应位置。当前文档中的历史验收路径仍是原运行的证据标识；不要把历史日志当作本次测试结果。
+The [complete file mapping](repository_migration_map.json) lists the current repository or external archive location of every file tracked by Git before migration. Historical acceptance paths in current documentation remain evidence identifiers for the original runs; do not treat historical logs as results of the current tests.
 
-如需恢复某一文件，从归档的 `original/` 中按原相对路径复制即可。恢复完整历史运行时，应将 `data/` 的原始文件、标准化快照、导出和 manifests 一起保留；只复制最终 CSV 无法恢复旧检查点。
+To restore a file, copy it from `original/` in the archive using its original relative path. When restoring a complete historical run, retain the raw files, normalized snapshots, exports, and manifests in `data/` together; copying only the final CSV cannot restore old checkpoints.
 
-当前下载工具通过 `--data-dir`、`--output-dir` 指定位置，不需要把历史数据搬回仓库。运行旧交付检查的方式见 [测试说明](../test/README.md)。
+Current download tools accept `--data-dir` and `--output-dir`, so historical data does not need to be moved back into the repository. See the [testing guide](../test/README.md) for how to run historical delivery checks.
 
-旧文档中引用但整理前就缺失的示例目录没有补造。本次新示例明确注明来自固定官方素材离线重放，不声称是重新联网获取的数据。
+Example directories referenced by old documents but already missing before the cleanup were not fabricated. The new examples explicitly state that they come from offline replay of fixed official fixtures and do not claim to be freshly downloaded data.
 
-## 本次验证结果
+## Verification results for this cleanup
 
-- 默认离线测试：96 项通过，25 项联网／历史验收用例按配置排除。
-- 七个主数据集的固定素材重放：Python 与 CLI 的完整输出逐字段一致。
-- 七份 CSV 示例：Schema、行数、精确回读及 SHA-256 均通过检查；报告示例覆盖两种来源。
-- 聚合工具：RMA v2 迁移和已为 v3 的输入均验证通过；损坏输入不能替换原成功指针。
-- 安装：离线构建 wheel，安装到独立目录，确认包和所有必需元数据可加载。
-- 所有本地 Markdown 链接及 2,012 条原文件映射均可解析；原有 39 份 Markdown 全部保留。
-- `src/` 下载与解析实现未改动。本次未联网重下载、未重跑完整历史性能检查，也未将历史验收结果视为当前通过证据。
+- Default offline tests: 96 passed, with 25 live/historical acceptance tests excluded by configuration.
+- Fixed-fixture replay for the seven primary datasets: full Python and CLI outputs matched field by field.
+- Seven CSV examples: schema, row count, exact round-trip reading, and SHA-256 checks passed; report examples cover both source types.
+- Aggregation tool: both RMA v2 migration and inputs already at v3 passed verification; corrupted inputs cannot replace the previous successful pointer.
+- Installation: built a wheel offline, installed it in an isolated directory, and confirmed that the package and all required metadata load.
+- All local Markdown links and 2,012 original file mappings resolve; all 39 original Markdown documents are retained.
+- Download and parsing implementations in `src/` were unchanged. This cleanup did not redownload data online, rerun full historical performance checks, or treat historical acceptance results as current passing evidence.

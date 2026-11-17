@@ -1,78 +1,78 @@
-# 农业保险业务（RMA）：中文字段说明
+# Agricultural insurance business (RMA): field guide
 
-[返回字段说明入口](../field_dictionary.md) · [通用读法与空值](common.md) · [机器可读字段定义](../../schemas/rma_sob.v2.json)
+[Back to the field guide](../field_dictionary.md) · [Common conventions and nulls](common.md) · [Machine-readable field definitions](../../schemas/rma_sob.v2.json)
 
-## 这个数据集在说什么
+## What this dataset describes
 
-按作物保险年度、州、县、作物、保险计划和保障条件汇总的保险业务数据。一行是一个条件组合的汇总，包含保单／保险单元计数、承保数量、保费、补贴和赔款；不是一张个体保单，也不是一个农户。直接下载为 Schema v2，聚合可升级为 v3，两版的列、类型及 CSV 数值一致。
+Insurance business data summarized by crop insurance year, state, county, crop, insurance plan, and coverage conditions. Each row summarizes one combination of conditions, including policy/insurance-unit counts, insured quantities, premiums, subsidies, and indemnities; it is neither an individual policy nor an individual farmer. Direct downloads use schema v2, while aggregation can upgrade to v3; columns, types, and CSV values are identical in both versions.
 
-## 一行数据怎么读
+## How to read one row
 
-在 [rma-sob.csv](../../examples/rma-sob.csv) 的第一行，2025 年阿拉斯加 Southeast Fairbanks 的“其他作物”、APH 计划、50% 保障水平下，净报送数量是 **200 英亩**，补贴前保费 **1449 美元**，赔款 **29930 美元**，赔付率 **20.66 倍**。不能把它读成赔付率 20.66%，也不能将 2 份售出保单当作 2 个独立农户。
+In the first row of [rma-sob.csv](../../examples/rma-sob.csv), for "All Other Crops" in Southeast Fairbanks, Alaska, in 2025 under the APH plan at 50% coverage, the net reported quantity is **200 acres**, the premium before subsidies is **$1449**, indemnities are **$29930**, and the loss ratio is **20.66 times**. Do not read this as a 20.66% loss ratio or treat the 2 policies sold as 2 distinct farmers.
 
-## 先看哪些列
+## Which columns to inspect first
 
-先确定 `commodity_year`、州县、作物、保险计划及 `coverage_level`。承保数量看 `net_reported_quantity` 和 `quantity_type`；金额看各金额列；计数要先检查 `count_availability`。
+First identify `commodity_year`, state/county, crop, insurance plan, and `coverage_level`. For insured quantities, use `net_reported_quantity` and `quantity_type`; for monetary amounts, use the respective amount columns; for counts, check `count_availability` first.
 
-下面逐列覆盖当前 40 个字段。例值来自仓库固定示例，可能取自不同记录，不能把整列例值拼成一条记录；长 JSON／编号用省略号显示。字段的类型、是否允许为空和完整复合键以导出旁的 `schema.json` 为准。
+The table below covers all 40 current fields. Values come from fixed repository examples and may be drawn from different records; do not combine the example-value column into a single record. Long JSON strings and identifiers are abbreviated with ellipses. The `schema.json` beside the export is authoritative for types, nullability, and the complete composite key.
 
-## 业务字段与核对字段
+## Business and verification fields
 
-| CSV 列名 | 中文含义 | 示例中的实际值 | 如何理解 |
+| CSV column | Meaning | Actual example value | Interpretation |
 |---|---|---|---|
-| `commodity_year` | 作物／保险年度 | `2025` | 通常对应作物正常收获年份，并指明提供保障的保单年度。不是保险数据发布或下载年份。 |
-| `state_code` | 州 FIPS 代码 | `02` | 被保险农场所在州的两位代码，02 为阿拉斯加。保留前导零；单独的州代码不是全国唯一农场编号。 |
-| `state_abbreviation` | 州缩写 | `AK` | 美国邮政州缩写，例如 AK（阿拉斯加）、AL（阿拉巴马）。 |
-| `county_code` | 县 FIPS／汇总代码 | `240` | 三位县代码，要与 state_code 合用。999 为 All Other Counties 等特殊汇总，不能自动当作普通县。 |
-| `county_name` | 县或县级汇总名称 | `Southeast Fairbanks` | 例如 Southeast Fairbanks；All Other Counties 是其他县的合计标签。 |
-| `commodity_code` | RMA 农产品代码 | `9999` | 保险业务使用的四位作物／产品代码，例如 0041 为示例中的玉米。与 ESR、PSD 代码不能直接关联。 |
-| `commodity_name` | 保险农产品名称 | `All Other Crops` | 保单对应的作物／产品，All Other Crops 表示源表的其他作物合计，不是具体作物品种。 |
-| `insurance_plan_code` | 保险计划代码 | `90` | 所选保险保障计划的官方代码，不是保障比例。用 insurance_plan_name 辅助识别。 |
-| `insurance_plan_name` | 保险计划简称 | `APH` | 例如 APH（实际生产历史类）、RP（收入保障类）、WFRP（整场收入保障类）。计划不同，保障水平的适用基数也不同。 |
-| `coverage_category` | 保障类别 | `A` | A＝Buyup（加购保障），C＝CAT（灾害保障），E＝Existing Coverage Policy（已有保障保单），L＝Limited Coverage（有限保障）。是类别代码，不是评级。 |
-| `delivery_type` | 保险承办／再保险类别 | `RBUP` | RBUP＝再保险加购保障，RCAT＝再保险灾害保障，FBUP＝联邦加购保障，FCAT＝联邦灾害保障。保留原代码，避免与 coverage_category 混淆。 |
-| `coverage_level` | 保障水平 | `0.5000` | 十进制比例，例如 0.5000＝50%。适用基数随计划变化，可能是产量、收入、金额或存量，不能一律理解为固定产量保障。 |
-| `policies_sold` | 已销售保单数 | `2` | 报告给 RMA 的售出保单数量。不是投保农户去重人数；CLIP 计划无法提供这类计数时保存为空。 |
-| `policies_earning_premium` | 形成保费的保单数 | `1` | 官方口径为已向 RMA 报送面积的保单数，并不是“实际收到保费付款”的保单数。 |
-| `policies_indemnified` | 报告损失的保单数 | `1` | 官方口径为已向 RMA 报送损失的保单数量，不应简单按 indemnity_amount > 0 自行重算。 |
-| `units_earning_premium` | 形成保费的保险单元数 | `1` | 已报送面积的保险单元数量。unit 是保险业务中的单元，不是 unit 计量单位，也不是农户数。 |
-| `units_indemnified` | 报告损失的保险单元数 | `1` | 已报送损失的保险单元数量，与保单数不同，一份保单可能涉及多个单元。 |
-| `quantity_type` | 承保数量的单位／类型 | `Acres` | 例如 Acres（英亩）、Tons（吨）、Pounds（磅）、Trees（树株）。Not Reported 表示未说明类型，不能默认换成英亩。 |
-| `net_reported_quantity` | 按投保权益份额调整的数量 | `200` | 报送种植数量乘以投保人的权益份额等调整后的净数量；必须与 quantity_type 一起使用。不是所有行都表示面积。 |
-| `endorsed_companion_acres` | 附加保障／配套选项英亩数 | `0` | 通过附加条款或配套选项承保的面积，单位固定为英亩。可能与基础保障面积重叠，不能直接相加当作去重面积。 |
-| `liability_amount` | 保险责任金额 | `45100` | 此记录对应的最高保险保障金额，单位美元。不是已经赔付的金额。 |
-| `total_premium` | 补贴前总保费 | `1449` | 在应用补贴之前的保费金额，单位美元；不能当成投保人最终自付保费。 |
-| `subsidy_amount` | 保费补贴金额 | `971` | 该记录的补贴保费金额，单位美元。其他补贴字段另外保留，不在这里擅自合并。 |
-| `state_private_subsidy` | 州／私人机构补贴 | `0` | 州政府或私人机构提供的补贴金额，单位美元，与一般补贴字段区分。 |
-| `additional_subsidy` | 额外项目补贴 | `0` | 某个项目或其他流程产生的额外补贴，单位美元。官方布局说明：2021、2022 年此项为 Pandemic Cover Crop Program 金额；不能把这一解释套用到所有年份。 |
-| `efa_premium_discount` | EFA 保费折扣金额 | `0` | 单位美元。官方 2026-05-28 布局列出了名称，但定义栏留空；本仓库没有足够依据进一步展开 EFA 的含义，按原字段保留。 |
-| `indemnity_amount` | 赔款／损失金额 | `29930` | 该记录的赔款金额，单位美元。来源允许带符号的调整，负数不能自动改成零。 |
-| `loss_ratio` | 赔付率（比值） | `20.66` | indemnity_amount ÷ total_premium。1 表示赔款等于保费，0.5 表示约 50%；20.66 表示约 20.66 倍，不是 20.66%。保留源表值，不逐行重算覆盖。 |
-| `raw_record` | 原始管道符记录 | `2025&#124;02&#124;AK&#124;240&#124;Southeast Fairbanks           &#124;9999&#124;All Other Crop…` | 保留源 TXT 的整行，字段以竖线分隔。源 NUL 字符为 SQL 可读性写成字面 Unicode 转义，原始精确字节仍在源 ZIP。 |
-| `missing_fields` | 哪些字段缺失 | `[]` | JSON 数组，列出原来没有数值或按规则无法提供的字段；[] 表示没有列出缺失项。应与 count_availability 一起看。 |
-| `count_availability` | 保单／单元计数是否可用 | `reported_source_values` | reported_source_values 表示保留源计数；CLIP 计数不可用时记录对应状态并将这些计数字段置空，不补成零。 |
-| `source_member` | ZIP 中的源 TXT 文件名 | `sobcov_2025.txt` | 例如 sobcov_2025.txt，用来定位原始文件。 |
-| `source_line` | 源 TXT 行号 | `1` | 从 1 开始的原始行号，用来核对出处；不是保单编号，也不能代替业务字段识别记录。 |
+| `commodity_year` | Crop/insurance year | `2025` | Usually corresponds to the crop's normal harvest year and identifies the policy year providing coverage. It is not the year the insurance data were published or downloaded. |
+| `state_code` | State FIPS code | `02` | Two-digit code for the state containing the insured farm; 02 is Alaska. Preserve leading zeros; a state code alone is not a nationally unique farm identifier. |
+| `state_abbreviation` | State abbreviation | `AK` | U.S. postal state abbreviation, such as AK (Alaska) or AL (Alabama). |
+| `county_code` | County FIPS/aggregate code | `240` | Three-digit county code, used together with state_code. 999 denotes special aggregates such as All Other Counties and must not automatically be treated as an ordinary county. |
+| `county_name` | County or county-level aggregate name | `Southeast Fairbanks` | For example, Southeast Fairbanks; All Other Counties is an aggregate label for other counties. |
+| `commodity_code` | RMA commodity code | `9999` | Four-digit crop/product code used in insurance business, such as 0041 for corn in the examples. It cannot be joined directly to ESR or PSD codes. |
+| `commodity_name` | Insured commodity name | `All Other Crops` | Crop/product covered by the policy. All Other Crops is the source table's aggregate for other crops, not a specific crop variety. |
+| `insurance_plan_code` | Insurance plan code | `90` | Official code for the selected insurance coverage plan, not a coverage proportion. Use insurance_plan_name to help identify it. |
+| `insurance_plan_name` | Insurance plan abbreviation | `APH` | Examples include APH (Actual Production History), RP (Revenue Protection), and WFRP (Whole-Farm Revenue Protection). The basis to which the coverage level applies varies by plan. |
+| `coverage_category` | Coverage category | `A` | A means Buyup, C means CAT (catastrophic coverage), E means Existing Coverage Policy, and L means Limited Coverage. These are category codes, not ratings. |
+| `delivery_type` | Insurance delivery/reinsurance category | `RBUP` | RBUP means reinsured buyup, RCAT means reinsured catastrophic coverage, FBUP means federal buyup, and FCAT means federal catastrophic coverage. Original codes are retained to avoid confusion with coverage_category. |
+| `coverage_level` | Coverage level | `0.5000` | Decimal proportion, such as 0.5000 for 50%. The basis varies by plan and may be production, revenue, an amount, or inventory; it cannot always be interpreted as fixed production coverage. |
+| `policies_sold` | Policies sold | `2` | Number of policies sold as reported to RMA, not a deduplicated count of insured farmers. Stored as null when these counts are unavailable for CLIP plans. |
+| `policies_earning_premium` | Policies earning premium | `1` | Officially defined as policies for which acreage has been reported to RMA, not policies for which premium payment has actually been received. |
+| `policies_indemnified` | Policies with reported losses | `1` | Officially defined as policies for which losses have been reported to RMA; do not simply recalculate it using indemnity_amount > 0. |
+| `units_earning_premium` | Insurance units earning premium | `1` | Number of insurance units with reported acreage. Here, unit means an insurance unit, not a unit of measurement or a farmer count. |
+| `units_indemnified` | Insurance units with reported losses | `1` | Number of insurance units with reported losses. This differs from policy counts, since one policy may involve multiple units. |
+| `quantity_type` | Insured quantity unit/type | `Acres` | Examples include Acres, Tons, Pounds, and Trees. Not Reported means the type was not specified; do not default to acres. |
+| `net_reported_quantity` | Quantity adjusted for the insured share | `200` | Net quantity after adjustments such as multiplying reported planted quantity by the policyholder's interest share; must be used with quantity_type. Not all rows represent area. |
+| `endorsed_companion_acres` | Endorsement/companion-option acres | `0` | Acreage insured through endorsements or companion options, always measured in acres. May overlap with base coverage acreage and cannot be added directly to obtain unique acreage. |
+| `liability_amount` | Insurance liability amount | `45100` | Maximum insurance coverage amount for this record, in dollars. It is not an amount already paid as indemnities. |
+| `total_premium` | Total premium before subsidies | `1449` | Premium amount before subsidies, in dollars; not the policyholder's final out-of-pocket premium. |
+| `subsidy_amount` | Premium subsidy amount | `971` | Subsidized premium amount for this record, in dollars. Other subsidy fields are retained separately and are not arbitrarily merged here. |
+| `state_private_subsidy` | State/private subsidy | `0` | Subsidy amount supplied by a state government or private entity, in dollars; distinct from the general subsidy field. |
+| `additional_subsidy` | Additional program subsidy | `0` | Additional subsidy from a program or another process, in dollars. The official layout states that in 2021 and 2022 this field contains Pandemic Cover Crop Program amounts; do not apply that interpretation to every year. |
+| `efa_premium_discount` | EFA premium discount amount | `0` | In dollars. The official 2026-05-28 layout lists the name but leaves the definition blank; the repository lacks sufficient evidence to expand EFA further and retains the original field. |
+| `indemnity_amount` | Indemnity/loss amount | `29930` | Indemnity amount for this record, in dollars. The source allows signed adjustments; do not automatically replace negative values with zero. |
+| `loss_ratio` | Loss ratio | `20.66` | indemnity_amount ÷ total_premium. 1 means indemnities equal premiums, 0.5 means approximately 50%, and 20.66 means approximately 20.66 times, not 20.66%. The source value is retained rather than recalculated and overwritten row by row. |
+| `raw_record` | Original pipe-delimited record | `2025&#124;02&#124;AK&#124;240&#124;Southeast Fairbanks           &#124;9999&#124;All Other Crop…` | Preserves the entire source TXT line, with fields separated by vertical bars. Source NUL characters are written as literal Unicode escapes for SQL readability; exact original bytes remain in the source ZIP. |
+| `missing_fields` | Missing fields | `[]` | JSON array listing fields whose values were originally absent or unavailable under the rules; [] means no missing fields are listed. Read with count_availability. |
+| `count_availability` | Availability of policy/unit counts | `reported_source_values` | reported_source_values means source counts are retained; when CLIP counts are unavailable, the corresponding status is recorded and these count fields are set to null, not zero. |
+| `source_member` | Source TXT filename inside the ZIP | `sobcov_2025.txt` | For example, sobcov_2025.txt; used to locate the original file. |
+| `source_line` | Source TXT line number | `1` | Original line number, starting at 1, for source verification; not a policy number and not a substitute for business fields when identifying records. |
 
 
-## 时间、来源与版本字段
+## Time, provenance, and version fields
 
-| CSV 列名 | 中文含义 | 示例中的实际值 | 如何理解 |
+| CSV column | Meaning | Actual example value | Interpretation |
 |---|---|---|---|
-| `source_release_date` | 来源发布日期 | `\N` | 来源明确提供的发布或更新日期。它不是数据所描述的年份，也不是你下载文件的日期；不同数据集的具体含义见本页说明。 |
-| `source_release_at_utc` | 来源发布时刻（UTC） | `\N` | 有依据的完整发布时间，统一为 UTC。只有日期、月份或没有时区时不能补造时刻，通常保存为 \N。 |
-| `release_time_precision` | 发布时间精度 | `unknown` | 说明来源发布时间知道得有多细：timestamp 精确时刻，date/day 到日，month 到月，unknown 无法确认。不是数值的小数精度。 |
-| `retrieved_at_utc` | 本地获取时间（UTC） | `2026-11-17T12:57:06.466884+00:00` | 该快照关联的源文件首次获取／导入本地缓存的时间。离线重放素材时也会生成本地导入回执；不能用它推断数据何时首次公开。 |
-| `source_artifact_id` | 原始文件指纹 | `c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58` | 原始响应、CSV、PDF 或 ZIP 的 SHA-256，用于找到和核对源文件。不是商品、地区、报表行的编号。 |
-| `snapshot_id` | 处理结果版本编号 | `a79883b3e51715d328e431b6f9c729208fce160e2c207fea2cbe41b5527a09c9` | 标识源文件与解析器、字段定义、配置共同形成的一次标准化版本。同一来源重新处理可能产生新版本；不能把它当经济时间或业务主键。 |
-| `vintage_type` | 数据版本性质 | `current_revised` | report_vintage：保留某期报告当时的数值；current_revised：下载时可见、可能已修订的历史序列；forecast_vintage：保留某次发布的预测版本。 |
+| `source_release_date` | Source release date | `\N` | The publication or update date explicitly provided by the source. It is neither the year described by the data nor the date you downloaded the file; see this page for its dataset-specific meaning. |
+| `source_release_at_utc` | Source release timestamp (UTC) | `\N` | A complete, evidence-backed release timestamp normalized to UTC. Do not invent a time when only a date or month is known, or when the timezone is unavailable; this is usually stored as \N. |
+| `release_time_precision` | Release time precision | `unknown` | How precisely the source release time is known: timestamp for an exact instant, date/day for a day, month for a month, and unknown when it cannot be established. This is not numeric decimal precision. |
+| `retrieved_at_utc` | Local retrieval time (UTC) | `2026-11-17T12:57:06.466884+00:00` | When the source file associated with this snapshot was first retrieved or imported into the local cache. Offline fixture replay also generates a local import receipt; this timestamp cannot establish when the data first became public. |
+| `source_artifact_id` | Raw file fingerprint | `c66d887d099c437327780238c9679ca1d1fd1350ab1dd42107ecee9382e74a58` | SHA-256 of the raw response, CSV, PDF, or ZIP, used to locate and verify the source file. It is not a commodity, region, or report-row identifier. |
+| `snapshot_id` | Processed version identifier | `a79883b3e51715d328e431b6f9c729208fce160e2c207fea2cbe41b5527a09c9` | Identifies a normalized version produced from the source file together with the parser, field definitions, and configuration. Reprocessing the same source may produce a new version; do not treat it as economic time or a business key. |
+| `vintage_type` | Data vintage type | `current_revised` | report_vintage preserves values as published in a specific report; current_revised is the historical series available at download time, possibly revised; forecast_vintage preserves a specific forecast release. |
 
-## 单位、空值和汇总
+## Units, nulls, and aggregation
 
-- 各金额列单位均为美元；`coverage_level` 和 `loss_ratio` 是比例／比值，不是美元。
-- 保单数与保险单元数不是同一件事；CLIP 计划的计数不可用时保持空值，不能当零，也不能用其他字段补算。
-- `quantity_type` 为树株、磅、吨等时，`net_reported_quantity` 就不是面积。附加保障英亩可能与基础保障重叠。
-- 对多个分组计算整体赔付率，应先确认分组互不重叠和数据口径，再用合计赔款／合计保费；不能把各行 `loss_ratio` 相加。总保费为零时不要强行计算比率。
-- 当前源没有足够依据给出每个年度文件的精确发布日期；网络 Last-Modified 也不是已验证的发布日。
+- All monetary columns are in dollars; `coverage_level` and `loss_ratio` are proportions/ratios, not dollar amounts.
+- Policy counts and insurance-unit counts are different. When CLIP counts are unavailable, keep them null; do not treat them as zero or derive substitutes from other fields.
+- When `quantity_type` is Trees, Pounds, Tons, or similar, `net_reported_quantity` is not an area. Endorsement acreage may overlap with base coverage.
+- To calculate an overall loss ratio across groups, first confirm that the groups do not overlap and use consistent definitions, then divide total indemnities by total premiums; do not sum row-level `loss_ratio` values. Do not force a ratio calculation when total premiums are zero.
+- The current source does not provide sufficient evidence for the exact release date of each annual file; HTTP Last-Modified is not a verified release date either.
 
-字段 1–28 的业务含义对照仓库保存的 [官方布局说明（2026-05-28）](../../test/fixtures/raw/rma-layout.pdf)。其中 EFA 定义栏为空，因此本页明确保留未知。更多细节：[RMA 技术说明](../rma_sob.md)。
+The business meanings of fields 1–28 were checked against the [official layout (2026-05-28)](../../test/fixtures/raw/rma-layout.pdf) retained in the repository. Its EFA definition is blank, so this page explicitly leaves it unknown. For more details, see the [RMA technical guide](../rma_sob.md).

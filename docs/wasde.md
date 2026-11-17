@@ -1,6 +1,6 @@
 # WASDE observations
 
-> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/wasde.md)**。下面保留原有英文技术说明。
+> Reading guide: **[Data meaning, column-by-column explanations, and actual examples](fields/wasde.md)**. The original English technical documentation is retained below.
 
 
 `download_wasde(start, end, *, data_dir="data", refresh=False)` returns an exact-value

@@ -1,6 +1,6 @@
 # RMA Summary of Business with coverage level
 
-> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/rma_sob.md)**。下面保留原有英文技术说明。
+> Reading guide: **[Data meaning, column-by-column explanations, and actual examples](fields/rma_sob.md)**. The original English technical documentation is retained below.
 
 
 ```python

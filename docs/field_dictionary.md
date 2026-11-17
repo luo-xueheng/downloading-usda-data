@@ -1,52 +1,52 @@
-# CSV 字段说明：从一行数据开始读
+# CSV field guide: start with one row
 
-这里解释 CSV 每一列在业务上是什么意思、数值的单位是什么，以及容易读错的地方。字段名保留代码原样，解释使用中文；示例取自仓库现有 CSV，不是另外编造的数据。
+This guide explains the business meaning of each CSV column, the units of its values, and common interpretation pitfalls. Field names are kept exactly as they appear in the code, with explanations in English; examples come from existing repository CSVs, not invented data.
 
-如果只是想看懂数据，先选下面的数据集，再看“**一行数据怎么读**”和“**先看哪些列**”；需要精确的类型、允许空值、复合键时，再查看配套 Schema。
+To understand the data, choose a dataset below, then read "**How to read one row**" and "**Which columns to inspect first**"; consult the accompanying schema for precise types, nullability, and composite keys.
 
-## 按数据集查找
+## Find a dataset
 
-| 数据集 | 一行大致表示什么 | 中文说明与全部字段 |
+| Dataset | What one row generally represents | Guide and complete field definitions |
 |---|---|---|
-| WASDE | 某期报告对某地区、商品、时期和指标给出的一个值 | [30 列中文字段定义](fields/wasde.md) |
-| 出口销售 | 某商品向某目的地、某市场年度、某周的八项销售／装运指标 | [29 列中文字段定义](fields/export_sales.md) |
-| 成本收益 | 某地区、经营类型、年份和方法下的一项成本／收益指标 | [29 列中文字段定义](fields/costs_returns.md) |
-| 世界农业生产 | 一个当前 PSD 指标或一个原报告生产／可靠性表单元格 | [如何读数据](fields/world_production.md) · [全部 35 列](fields/report_fields.md) |
-| 谷物贸易 | 一个当前 PSD 指标或一个原报告谷物供需／贸易表单元格 | [如何读数据](fields/grain_trade.md) · [全部 35 列](fields/report_fields.md) |
-| 油籽贸易 | 一个当前 PSD 指标或一个原报告油籽／粕／油表单元格 | [如何读数据](fields/oilseed_trade.md) · [全部 35 列](fields/report_fields.md) |
-| RMA 保险业务 | 某州县、作物、年度、保险计划和保障条件组合的汇总 | [40 列中文字段定义](fields/rma_sob.md) |
+| WASDE | One value for a region, commodity, period, and attribute in a specific report release | [Definitions of all 30 columns](fields/wasde.md) |
+| Export Sales | Eight sales/shipment measures for a commodity, destination, marketing year, and week | [Definitions of all 29 columns](fields/export_sales.md) |
+| Costs and Returns | One cost/return measure for a region, enterprise type, year, and methodology | [Definitions of all 29 columns](fields/costs_returns.md) |
+| World Agricultural Production | One current PSD measure or a cell in an original production/reliability report table | [How to read the data](fields/world_production.md) · [All 35 columns](fields/report_fields.md) |
+| Grain Trade | One current PSD measure or a cell in an original grain supply/use/trade report table | [How to read the data](fields/grain_trade.md) · [All 35 columns](fields/report_fields.md) |
+| Oilseed Trade | One current PSD measure or a cell in an original oilseed/meal/oil report table | [How to read the data](fields/oilseed_trade.md) · [All 35 columns](fields/report_fields.md) |
+| RMA Summary of Business | A summary for a combination of state/county, crop, year, insurance plan, and coverage conditions | [Definitions of all 40 columns](fields/rma_sob.md) |
 
-三个报告数据集的列名一致，因此共用一份完整字段表；各自另有业务读法和真实行示例。独立 PSD 辅助接口的 27 列见 [PSD 字段说明](fields/psd.md)。仅 PDF 表格解析层的 26 列，是报告共用字段表中从 `report_family` 到 `vintage_type` 的部分。
+The three report datasets share column names and therefore use one complete field table, with separate business explanations and actual row examples for each. For the 27 columns in the standalone auxiliary PSD interface, see the [PSD field guide](fields/psd.md). The PDF-table parsing layer alone has 26 columns, corresponding to the section from `report_family` through `vintage_type` in the shared report field table.
 
-## 最容易混淆的几个字段
+## Fields that are easy to confuse
 
-| 字段 | 人话解释 |
+| Field | Plain-language explanation |
 |---|---|
-| `weeklyExports` | 这一周实际已经装运出口的数量 |
-| `outstandingSales` | 截至这一周，约定在当前市场年度交付、但还没有装运的销售承诺余额 |
-| `currentMYNetSales` | 这一周归属于当前市场年度的净销售变化；可因取消或调整而为负 |
-| `marketYear`／`MarketYear` | 数据源的市场年度编号／标签，不等同于报告发布年，也不能跨来源直接对齐 |
-| `comparison_label=Change` | 这一行是变化量，例如预测下调，而不是产量或出口量本身 |
-| `total_premium` | RMA 的补贴前总保费，不是投保人自付保费 |
-| `loss_ratio` | 赔款除以保费的比值；1.5 表示 150%，不是 1.5% |
-| `retrieved_at_utc` | 文件进入当前本地缓存的时间，不是市场数据的发生时间 |
+| `weeklyExports` | Quantity actually shipped for export during this week |
+| `outstandingSales` | Unshipped sales commitments as of this week, scheduled for delivery in the current marketing year |
+| `currentMYNetSales` | This week's net change in sales for the current marketing year; may be negative because of cancellations or adjustments |
+| `marketYear`/`MarketYear` | The source's marketing-year code/label; it is not the report publication year and cannot be aligned directly across sources |
+| `comparison_label=Change` | This row is a change, such as a downward forecast revision, rather than production or export volume itself |
+| `total_premium` | RMA total premium before subsidies, not the policyholder's out-of-pocket premium |
+| `loss_ratio` | Indemnities divided by premiums; 1.5 means 150%, not 1.5% |
+| `retrieved_at_utc` | When the file entered the current local cache, not when the market data occurred |
 
-完整的空值、数量级、年份和版本读法见 **[通用说明](fields/common.md)**。
+For a full explanation of nulls, scales, years, and versions, see the **[common guide](fields/common.md)**.
 
-## 阅读顺序
+## Suggested reading order
 
-1. 确认这一行描述什么对象、地区和指标。
-2. 确认时期：市场年度、自然年、保险年度，还是某期报告的预测版本。
-3. 把数值与单位一起读，尤其区分吨／千吨／百万吨、百分数／比例。
-4. 处理空值前看状态；`\N`、零、不适用、未公布是不同情况。
-5. 合并或求和前检查是否混入地区合计、重复发布版本、不同来源或不同产品。
+1. Identify the entity, region, and measure described by the row.
+2. Identify the period: marketing year, calendar year, insurance year, or a forecast vintage from a particular report release.
+3. Read the value together with its unit, especially distinguishing tons/thousand tons/million tons and percentages/ratios.
+4. Check the status before handling nulls; `\N`, zero, not applicable, and not published are different cases.
+5. Before joining or summing rows, check for regional totals, repeated release vintages, different sources, or different products.
 
-## 这些说明依据什么
+## Basis for these explanations
 
-中文说明逐列对照当前代码、`schemas/` 和示例 CSV。RMA 的原始 28 个字段另对照了仓库保存的[官方布局 PDF（2026-05-28）](../test/fixtures/raw/rma-layout.pdf)；该文档没有解释的 EFA 缩写，本说明明确标为未知。
+The explanations were checked column by column against the current code, `schemas/`, and example CSVs. The 28 original RMA fields were also checked against the [official layout PDF (2026-05-28)](../test/fixtures/raw/rma-layout.pdf) retained in the repository; the abbreviation EFA, which that document does not explain, is explicitly marked as unknown here.
 
-- [七份 CSV 与对应下载命令](../examples/README.md)
-- [字段类型、空值和复合键定义](../schemas/)
-- [原有英文 Schema 展开表](history/field_dictionary.schema-reference.md)：作为技术历史参考保留，不再作为主要阅读入口。
+- [Seven CSVs and their download commands](../examples/README.md)
+- [Field types, nullability, and composite key definitions](../schemas/)
+- [Original expanded English schema reference](history/field_dictionary.schema-reference.md): retained as a historical technical reference, no longer the main reading entry point.
 
-RMA 直接下载当前为 v2，聚合输出可为 v3；两版业务列和数值解释一致。读取任意历史导出时，以该文件旁的 `schema.json` 为准。
+Direct RMA downloads currently use v2, while aggregate outputs may use v3; business columns and value interpretations are identical in both versions. When reading any historical export, use the `schema.json` beside that file as the authority.

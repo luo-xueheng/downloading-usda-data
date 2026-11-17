@@ -1,77 +1,77 @@
-# 先读这页：数值、单位、年份和来源
+# Read this first: values, units, years, and provenance
 
-[返回字段说明入口](../field_dictionary.md)
+[Back to the field guide](../field_dictionary.md)
 
-## 一行不一定是一笔交易
+## A row is not necessarily a transaction
 
-| 数据集 | 一行代表什么 |
+| Dataset | What one row represents |
 |---|---|
-| WASDE | 某期报告中，某商品、地区、时期、指标的一个数值单元格 |
-| 成本收益 | 某生产经营类型、地区、年份和方法下的一项成本、收益或生产指标 |
-| 出口销售 | 某商品向某目的地、某市场年度、某统计周的一组销售／装运指标 |
-| 世界农业生产／谷物贸易／油籽贸易 | 一个 PSD 指标或一个原报告表格单元格；先用 observation_kind 区分 |
-| RMA | 某州县、作物、年度、保险计划和保障条件组合的业务汇总，不是一张个体保单 |
+| WASDE | One numeric cell for a commodity, region, period, and attribute in a specific report release |
+| Costs and Returns | One cost, return, or production measure for an enterprise type, region, year, and methodology |
+| Export Sales | A set of sales/shipment measures for a commodity, destination, marketing year, and reporting week |
+| World Agricultural Production / Grain Trade / Oilseed Trade | One PSD measure or one original report-table cell; distinguish them first using observation_kind |
+| RMA | A business summary for a combination of state/county, crop, year, insurance plan, and coverage conditions, not an individual policy |
 
-代码判断一行是否重复时，使用多个业务字段共同组成的“复合键”。例如只用“商品＋年份”去重，会误删不同地区、指标、报告版本或保险条件的记录。确切的键字段在各 CSV 配套 `schema.json` 的 `key: true` 中。
+The code identifies duplicate rows using a "composite key" made up of multiple business fields. Deduplicating by only "commodity + year," for example, would incorrectly remove records for different regions, measures, report vintages, or insurance conditions. Exact key fields are marked with `key: true` in the `schema.json` accompanying each CSV.
 
-## 空白、零和特殊文字分别是什么意思
+## What blanks, zeros, and special labels mean
 
-| 看到的内容 | 怎么理解 | 不应该怎么处理 |
+| What you see | Interpretation | What to avoid |
 |---|---|---|
-| `\N` | CSV 编码中的真正空值；来源未知、不可用等可能造成空值 | 不自动改成 0 |
-| `0`、`0.00` | 有意义的零值，仍需结合状态和来源理解 | 不当作缺失 |
-| 空字符串 | 某个文字字段没有内容，例如独立 CSV 没有 ZIP 内文件名 | 不默认与 `\N` 等价 |
-| `not_applicable` | 该分类不适用于此行，例如 API 记录没有 PDF 报告期次 | 不补成一个猜测的年份／类别 |
-| `unknown` | 没有足够信息确认，例如无法确定是估计还是最终值 | 不当成已经确认的“最终数据” |
-| `not_labelled`、`not_specified` | 源文件未标注／未指定此分类 | 不理解为数值为零 |
-| `reported` | 正常提供的数值状态 | 不自动理解为已经最终定稿 |
-| `missing` | 原数字缺失或为空 | 不自动补零 |
-| `unavailable`、`not_reported` | 来源未提供／未公布该数值 | 不理解为实际没有产出／交易 |
-| `suppressed` | 来源用保留／隐藏标记代替数字 | 不猜测被隐藏的值 |
-| `included_elsewhere` | 此项已计入其他项目，见相关表的脚注 | 不再次计入总成本，也不假定为零 |
+| `\N` | A true null in the CSV encoding; it may result from unknown or unavailable source information | Do not automatically replace it with 0 |
+| `0`, `0.00` | A meaningful zero, still subject to the status and source context | Do not treat it as missing |
+| Empty string | A text field has no content, such as a standalone CSV with no ZIP member filename | Do not assume it is equivalent to `\N` |
+| `not_applicable` | This classification does not apply to the row, such as an API record with no PDF report issue | Do not fill it with a guessed year/category |
+| `unknown` | There is insufficient information, such as whether a value is estimated or final | Do not treat it as confirmed final data |
+| `not_labelled`, `not_specified` | The source file did not label/specify this classification | Do not interpret it as a numeric zero |
+| `reported` | A normally reported value status | Do not automatically interpret it as finalized |
+| `missing` | The original number is missing or blank | Do not automatically fill it with zero |
+| `unavailable`, `not_reported` | The source did not provide/publish this value | Do not interpret it as no actual production/transactions |
+| `suppressed` | The source replaced the number with a withholding/suppression marker | Do not guess the hidden value |
+| `included_elsewhere` | This item is included in another item; see the relevant table footnotes | Do not count it again in total costs or assume it is zero |
 
-不是每个数据集都使用全部状态。WASDE、ERS 和报告表可通过 `value_status` 解释数值空缺；出口销售的原始空值在 `raw_metrics` 中，RMA 还需看 `missing_fields` 和 `count_availability`。
+Not every dataset uses every status. WASDE, ERS, and report tables use `value_status` to explain absent numbers; original Export Sales nulls are retained in `raw_metrics`, while RMA also requires checking `missing_fields` and `count_availability`.
 
-以反斜杠开头的真实文字会转义，因此字面文本 `\N` 与真正的空值可区分。需要无损读取时使用代码提供的 `Schema.read_csv` 或 `Schema.read_csv_chunks`，不要依靠电子表格软件的自动类型推断。
+Actual text beginning with a backslash is escaped, so the literal text `\N` can be distinguished from a true null. For lossless reading, use the provided `Schema.read_csv` or `Schema.read_csv_chunks` rather than automatic type inference in spreadsheet software.
 
-## 先看单位，再看大小
+## Check units before interpreting magnitude
 
-| 单位写法 | 中文含义 | 读数举例 |
+| Unit notation | Meaning | Reading example |
 |---|---|---|
-| `Metric Tons`、`MT` | 公吨 | 100 表示 100 公吨 |
-| `(1000 MT)`、`Thousand Metric Tons` | 千公吨 | 100 表示 100,000 公吨 |
-| `Million Metric Tons` | 百万公吨 | 100 表示 1 亿公吨 |
-| `(1000 HA)` | 千公顷 | 100 表示 100,000 公顷 |
-| `Million Hectares` | 百万公顷 | 按百万倍理解面积 |
-| `(MT/HA)` | 公吨／公顷，即单产 | 6.2148 表示每公顷 6.2148 公吨 |
-| `dollars per planted acre` | 美元／种植英亩 | 162.2 表示每种植英亩 162.2 美元，不是总支出 |
-| `Percent` | 百分数 | 2.5 表示 2.5%，不是 250% |
-| RMA 的 `coverage_level` | 比例 | 0.5000 表示 50% |
-| RMA 的 `loss_ratio` | 赔款／保费比值 | 1.50 表示 1.5 倍，即 150% |
+| `Metric Tons`, `MT` | Metric tons | 100 means 100 metric tons |
+| `(1000 MT)`, `Thousand Metric Tons` | Thousand metric tons | 100 means 100,000 metric tons |
+| `Million Metric Tons` | Million metric tons | 100 means 100 million metric tons |
+| `(1000 HA)` | Thousand hectares | 100 means 100,000 hectares |
+| `Million Hectares` | Million hectares | Interpret the area with a multiplier of one million |
+| `(MT/HA)` | Metric tons per hectare, i.e. yield | 6.2148 means 6.2148 metric tons per hectare |
+| `dollars per planted acre` | Dollars per planted acre | 162.2 means $162.2 per planted acre, not total spending |
+| `Percent` | Percentage | 2.5 means 2.5%, not 250% |
+| RMA `coverage_level` | Proportion | 0.5000 means 50% |
+| RMA `loss_ratio` | Indemnities-to-premiums ratio | 1.50 means 1.5 times, or 150% |
 
-这些是常见单位的阅读方法，不是全部来源的统一单位字典。棉花、畜产品、价格表可能使用棉包、磅、件、每英担等其他单位。不要只改单位文字而不换算数值，也不要把不同单位的行直接相加。
+These are examples of how to read common units, not a unified unit dictionary for all sources. Cotton, livestock products, and price tables may use other units, such as bales, pounds, pieces, or amounts per hundredweight. Do not change a unit label without converting its value, or directly sum rows with different units.
 
-## 四种时间不要混在一起
+## Keep four kinds of time separate
 
-| 时间概念 | 常见字段 | 回答的问题 |
+| Time concept | Common fields | Question answered |
 |---|---|---|
-| 数据所描述的时期 | `MarketYear`、`marketYear`、`period_label`、`year`、`commodity_year` | 这项产量／成本／保险业务属于什么时候？ |
-| 报告或预测发布版本 | `report_period`、`ReleaseDate`、`forecast_vintage` | 我看到的是哪次发布的估计？ |
-| 源记录更新信息 | `calendarYear`、`source_calendar_year`、`month`、`source_month` | API 说这条记录在哪个月更新？ |
-| 本地获取／导入时间 | `retrieved_at_utc` | 这份文件什么时候进入当前缓存？ |
+| Period described by the data | `MarketYear`, `marketYear`, `period_label`, `year`, `commodity_year` | When does this production/cost/insurance activity belong? |
+| Report or forecast vintage | `report_period`, `ReleaseDate`, `forecast_vintage` | Which release of the estimate am I looking at? |
+| Source record update information | `calendarYear`, `source_calendar_year`, `month`, `source_month` | In which month does the API say this record was updated? |
+| Local retrieval/import time | `retrieved_at_utc` | When did this file enter the current cache? |
 
-市场年度的起止随数据源、商品、地区或指标变化，不能把 `2025/26` 简化成“2025 自然年”，也不能认为 ESR 和 PSD 中相同的年度编号必然代表完全相同的期间。
+Marketing-year boundaries vary by source, commodity, region, or measure. Do not simplify `2025/26` to "calendar year 2025" or assume that identical year identifiers in ESR and PSD necessarily refer to exactly the same period.
 
-## 什么叫版本性质 vintage_type
+## What vintage_type means
 
-- **`report_vintage`：原报告版本。** 例如十一月报告对下一年的预测，保留十一月当时的值。
-- **`current_revised`：当前修订版本。** 现在查询 API 得到的某个历史年度数值，可能已经修订，未必等于当年首次公布值。
-- **`forecast_vintage`：某次预测发布版本。** 同一年目标值可以有六月、十二月等不同预测，不能只按目标年份去重。
+- **`report_vintage`: original report vintage.** For example, a November report's forecast for the following year retains the value known that November.
+- **`current_revised`: current revised vintage.** A value for a historical year returned by the API today may have been revised and may differ from its first publication.
+- **`forecast_vintage`: a specific forecast release.** The same target year can have different forecasts issued in June, December, and other months; do not deduplicate using only the target year.
 
-例如“2025/26 年产量”在不同发布版本里出现不同数值，并不必然是代码错误。比较时要明确自己比较的是同一年度的不同预测，还是同一发布版本中的不同年度。
+For example, different values for "2025/26 production" across releases do not necessarily indicate a code error. Make clear whether you are comparing different forecasts for the same year or different years within one release vintage.
 
-## 来源字段为什么这么长
+## Why provenance fields are so long
 
-`source_artifact_id` 是原始文件指纹，`snapshot_id` 是处理结果版本编号。分析业务趋势时一般不用把它们当筛选维度；核对来源、区分修订、排查差异时很有用。它们不能代替商品、地区、指标和时期。
+`source_artifact_id` is the raw file fingerprint, and `snapshot_id` is the processed version identifier. They are generally not filtering dimensions for business-trend analysis, but are useful for checking sources, distinguishing revisions, and investigating discrepancies. They cannot replace commodity, region, measure, and period.
 
-表内 JSON 字符串，如 `source_locations`、`source_extra`、`raw_metrics`，是把一组附加信息装在一个 CSV 单元格中；不是需要继续横向拆出的另一个数据表，也不表示多笔业务金额。
+JSON strings in cells, such as `source_locations`, `source_extra`, and `raw_metrics`, package additional information into one CSV cell; they are not another data table that must be expanded horizontally, nor do they represent multiple business amounts.

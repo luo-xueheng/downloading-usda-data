@@ -1,84 +1,84 @@
-**USDA 数据采集项目：完整实施计划**
+**USDA Data Acquisition Project: Complete Implementation Plan**
 
-版本：v1.0  
-调研日期：2026-11-12（Asia/Shanghai）  
-适用范围：本次截图列出的 7 项数据  
-文档性质：实施方案。函数、命令、目录和字段名为拟定设计；尚未完成 API 鉴权测试、样本解析或下载器开发。
+Version: v1.0  
+Research date: 2026-11-12 (Asia/Shanghai)  
+Scope: the 7 datasets listed in the supplied screenshot  
+Document status: implementation proposal. Functions, commands, directories, and field names are proposed designs; API authentication tests, sample parsing, and downloader development have not yet been completed.
 
-**1. 项目目标与交付标准**
+**1. Project Goals and Delivery Criteria**
 
-建立可重复运行的 Python 数据采集包，完成“官方数据发现 → 下载 → 原始文件归档 → 清洗和校验 → DataFrame/CSV 输出 → 后续更新”。
+Build a rerunnable Python data acquisition package covering "official data discovery → download → raw-file archiving → cleaning and validation → DataFrame/CSV output → subsequent updates."
 
-| 实习要求 | 本项目的具体交付 | 完成标准 |
+| Internship requirement | Concrete project deliverable | Completion criterion |
 |---|---|---|
-| 了解发布时间 | 发布规则、官方日历入口、时区与抓取策略 | 区分报告发布时间、数据更新时间和实际抓取时间 |
-| 优先使用 API | FAS ESR、PSD API 下载器；其他来源使用官方结构化文件 | API 鉴权与真实请求通过；文件下载可自动发现链接 |
-| 理解经济含义 | 数据说明、指标字典、单位与口径说明 | 能解释每列含义、每行粒度和主要使用限制 |
-| 提供 Python 公开函数 | 可导入的下载函数 | 返回 pandas DataFrame，不要求调用者使用终端 |
-| 提供 CLI | 统一 `usda-data` 命令 | 参数控制数据集、范围、输出及更新方式 |
-| 模块化 | 公共网络、存储、校验模块，以及独立数据源模块 | 单个来源变化不要求改写全部下载器 |
-| 方便 SQL 入库 | 固定字段、类型、唯一键、CSV 和 schema 文件 | CSV 按声明类型重新读取后，数值、空值和代码保持一致 |
+| Understand release timing | Release rules, official calendar entry points, timezones, and retrieval strategies | Distinguish report release time, data update time, and actual retrieval time |
+| Prefer APIs | FAS ESR and PSD API downloaders; official structured files for other sources | Authentication and real API requests pass; file download links can be discovered automatically |
+| Understand economic meaning | Dataset documentation, measure dictionaries, units, and measurement definitions | Explain every column, row granularity, and main usage limitations |
+| Provide public Python functions | Importable download functions | Return pandas DataFrames without requiring callers to use a terminal |
+| Provide a CLI | A unified `usda-data` command | Parameters control dataset, scope, output, and update behavior |
+| Modularize | Shared networking, storage, and validation modules, plus separate source modules | A change in one source does not require rewriting every downloader |
+| Support SQL ingestion | Fixed fields, types, unique keys, CSVs, and schema files | Values, nulls, and codes remain consistent when CSVs are read back using declared types |
 
-本期范围是数据采集和交付，不包含生产数据库部署、交易策略、可视化网站或实际上线定时任务。提供调度说明和可被调度器调用的命令。
+This phase covers data acquisition and delivery, not production database deployment, trading strategies, visualization websites, or actually deployed scheduled jobs. It provides scheduling documentation and commands that schedulers can invoke.
 
-**2. 数据范围与默认决策**
+**2. Data Scope and Default Decisions**
 
-| 用户指定项目 | 内部数据集名称 | 底层下载模块 | 输出形式 |
+| User-requested item | Internal dataset name | Underlying download module | Output form |
 |---|---|---|---|
-| WASDE | `wasde` | `wasde` | 供需观测表、原始 CSV/Excel/XML |
-| Export Sales | `export-sales` | `fas_esr` | 周度出口销售表、原始 JSON |
-| World Agricultural Production | `world-production` | `fas_psd` + `reports` | PSD 生产指标视图、月报原件、报告目录 |
-| Grain: World Markets and Trade | `grain-trade` | `fas_psd` + `reports` | PSD 谷物指标视图、月报原件、报告目录 |
-| Oilseeds: World Markets and Trade | `oilseed-trade` | `fas_psd` + `reports` | PSD 油籽/油粕/植物油指标视图、月报原件、报告目录 |
-| Commodity Costs & Returns | `costs-returns` | `ers_costs_returns` | 成本收益长表、原始 CSV/XLSX |
-| RMA Summary of Business | `rma-sob` | `rma_sob` | 保险业务汇总表、原始 ZIP、字段布局文件 |
+| WASDE | `wasde` | `wasde` | Supply/use observations and original CSV/Excel/XML files |
+| Export Sales | `export-sales` | `fas_esr` | Weekly export sales table and original JSON |
+| World Agricultural Production | `world-production` | `fas_psd` + `reports` | PSD production-measure view, original monthly reports, and report catalog |
+| Grain: World Markets and Trade | `grain-trade` | `fas_psd` + `reports` | PSD grain-measure view, original monthly reports, and report catalog |
+| Oilseeds: World Markets and Trade | `oilseed-trade` | `fas_psd` + `reports` | PSD oilseed/meal/vegetable-oil measure view, original monthly reports, and report catalog |
+| Commodity Costs & Returns | `costs-returns` | `ers_costs_returns` | Long-format costs and returns table and original CSV/XLSX files |
+| RMA Summary of Business | `rma-sob` | `rma_sob` | Insurance business summary table, original ZIPs, and record-layout files |
 
-采用 **5 类数值数据下载器 + 1 个共用报告归档模块**。三份 FAS 月报共用 PSD 下载结果，通过配置生成各自的数据视图；同一条 PSD 记录不重复下载、重复入库。
+Use **5 types of numeric-data downloaders + 1 shared report-archiving module**. The three FAS monthly reports share PSD download results and produce their respective views through configuration; the same PSD record is not downloaded or inserted into the database multiple times.
 
-默认决策如下，实施前可修改配置，不作为启动工作的阻碍：
+The following defaults can be changed in configuration before implementation and do not block starting work:
 
-- 首次验收回填范围：2010 年起至运行时可获取的最新数据；WASDE 历史 CSV 从 2010 年 4 月起。[S01][S02]
-- `--all-history` 扩展到各来源实际可获取的最早年份，输出覆盖清单；不承诺所有来源拥有相同历史长度。
-- 正式采集覆盖配置范围内全部商品和地区。玉米、大豆、小麦仅作为第一轮联调样例，不能代替完整交付。
-- WASDE 覆盖所选官方文件中的可解析结构化表；首个联调样例可从作物表开始，最终记录畜产品等其他表的覆盖情况。
-- ERS 范围包含主产品页面的 Recent、Historical 成本收益与成本预测文件，保留企业类型等细分；另行链接的 Organic 产品暂不扩展。
-- RMA 本期选择 State/County/Crop/Coverage Level 文件。Cause of Loss、FSA 受阻播种及 RMA 更细的 Type/Practice/Unit 文件暂不纳入。
-- 已完成的 NASS Crop Progress & Condition、Crop Production 不重复开发。
-- 保留原始数据和后续抓取版本；对无法取得的历史发布版本明确标记，不把最新修订值包装成当时已知值。
+- Initial acceptance backfill: from 2010 through the latest data available at runtime; historical WASDE CSV coverage starts in April 2010.[S01][S02]
+- `--all-history` extends to the earliest year actually available from each source and produces a coverage manifest; identical historical depth across sources is not promised.
+- Formal acquisition covers all commodities and regions within the configured scope. Corn, soybeans, and wheat are only initial integration samples, not substitutes for complete delivery.
+- WASDE covers parsable structured tables in the selected official files; initial integration may start with crop tables, but final coverage must document livestock and other tables as well.
+- ERS scope includes Recent and Historical costs and returns and cost-forecast files on the main product page, retaining subdivisions such as enterprise types; separately linked Organic products are excluded for now.
+- RMA uses the State/County/Crop/Coverage Level files in this phase. Cause of Loss, FSA prevented planting, and more detailed RMA Type/Practice/Unit files are excluded for now.
+- Previously completed NASS Crop Progress & Condition and Crop Production work will not be redeveloped.
+- Retain raw data and versions from subsequent retrievals; explicitly mark unavailable historical release vintages rather than presenting the latest revised values as values known at the time.
 
-**3. 已确认事实与待验证事项**
+**3. Confirmed Facts and Items Requiring Verification**
 
-下列官方资料已查阅；来源编号见文末。已经确认下载入口，不等于下载器已经运行成功。
+The following official materials have been reviewed; source identifiers appear at the end. Confirming a download entry point does not mean the downloader has already run successfully.
 
-| 项目 | 已确认 | 实施时仍需验证 |
+| Item | Confirmed | Still to verify during implementation |
 |---|---|---|
-| WASDE | 官方提供合并历史 CSV、当期结构化文件；月度发布 [S01] | 各年份表头、脚注、合并单元格和特殊值；当期文件与历史 CSV 的映射 |
-| ESR | 当前门户要求 api.data.gov Key，接口文档提供商品、国家、单位和数据路径 [S03][S04] | 用真实 Key 验证响应字段、历史覆盖、空响应含义和限流 |
-| PSD | 支持按商品、国家、营销年度获取指标 [S04] | 报告表格与 API 指标覆盖关系；各商品的历史长度与发布时间信息粒度 |
-| FAS 月报 | 官方列出三份报告的发布安排 [S06] | 历史附件链接发现；哪些表可由 PSD 精确重建 |
-| ERS | 主页面提供 CSV/XLSX；说明文档给出发布节奏 [S08][S09] | 历史与近期口径衔接、每份文件单位、预测文件布局 |
-| RMA | 官方提供年度 ZIP、分隔文本、字段布局 [S10][S11][S12] | ZIP 实际成员、字段数、编码、各年份布局适用性 |
+| WASDE | Official consolidated historical CSV and current structured files; monthly releases [S01] | Headers, footnotes, merged cells, and special values across years; mapping between current files and the historical CSV |
+| ESR | The current portal requires an api.data.gov key; API documentation provides commodity, country, unit, and data paths [S03][S04] | Response fields, historical coverage, empty-response meaning, and rate limits using a real key |
+| PSD | Supports measures by commodity, country, and marketing year [S04] | Coverage relationship between report tables and API measures; historical depth and release-time information precision for each commodity |
+| FAS monthly reports | Official release schedules list all three reports [S06] | Discovery of historical attachment links; which tables PSD can reconstruct exactly |
+| ERS | The main page provides CSV/XLSX files; documentation describes release frequency [S08][S09] | Alignment of historical and recent definitions, units in each file, and forecast-file layouts |
+| RMA | Official annual ZIPs, delimited text, and record layouts are available [S10][S11][S12] | Actual ZIP members, field counts, encoding, and layout applicability across years |
 
-本轮未确认 WASDE、ERS 本产品或 RMA SOB 有更合适的专用公开 API，计划优先使用已确认的官方结构化文件；这不等同于断言它们不存在 API。
+This research did not establish a more suitable dedicated public API for WASDE, this ERS product, or RMA SOB. The plan prioritizes the confirmed official structured files; this is not a claim that no APIs exist.
 
-**4. 发布日历与抓取时间设计**
+**4. Release Calendar and Retrieval Timing Design**
 
-官方时间统一按 `America/New_York` 解释，数据库时间统一保存 UTC，面向使用者可显示 `Asia/Shanghai`。精确时刻未知时保存日期与精度标记，不补造 00:00 或固定分钟。
+Interpret official times using `America/New_York`, store database timestamps in UTC, and optionally display `Asia/Shanghai` to users. When the exact time is unknown, retain the date and a precision flag rather than inventing 00:00 or a fixed minute.
 
-| 数据/文件 | 官方发布规律 | 本项目建议检查策略 | 依据 |
+| Data/file | Official release pattern | Proposed checking strategy | Basis |
 |---|---|---|---|
-| WASDE 当期报告 | 按官方月历，12:00 ET | 发布后 5 分钟开始检查；失败或旧文件按退避策略复查 | [S01] |
-| WASDE 合并历史 CSV | 报告发布次日更新，具体分钟未说明 | 次日开始检查；内容未变保持等待，超过预期窗口告警 | [S01] |
-| ESR | 通常周四 08:30 ET，公告与节假日可能调整 | 读取官方安排，发布后检查 API 更新标记与数据 | [S05] |
-| PSD 谷物、油籽等 | 官方生产月报说明相关 PSD 数据在 WASDE 日 12:00 ET 更新 | 12:00 后检查对应商品的更新元数据；不推定所有商品同步 | [S07] |
-| 三份 FAS 月报 | 当前官方日历安排为 12:15 ET | 独立检查报告附件，不能用 PSD 成功代替报告归档成功 | [S06] |
-| ERS 年度成本收益 | 5 月第一周初步估计、10 月第一周最终估计 | 优先读取各文件的 Next Update；计划日检查，并保留低频巡检 | [S08][S09] |
-| ERS 成本预测 | 通常 6 月中旬、11 月中旬 | 与年度估计分开跟踪；确切日期以文件页面为准 | [S09] |
-| RMA SOB | 最近五年通常每周一上午刷新，无明确分钟 | 周一中午 ET 开始检查；先核实批量 ZIP 是否同步更新 | [S10] |
+| Current WASDE report | Official monthly calendar, 12:00 ET | Start checking 5 minutes after release; retry failures or stale files with backoff | [S01] |
+| Consolidated historical WASDE CSV | Updated the day after the report release; exact minute unspecified | Start checking the next day; keep waiting if content is unchanged, and alert after the expected window | [S01] |
+| ESR | Usually Thursday at 08:30 ET; announcements and holidays may change this | Read the official schedule, then check API update markers and data after release | [S05] |
+| PSD grains, oilseeds, etc. | The official production report states that relevant PSD data update at 12:00 ET on WASDE release days | After 12:00, check update metadata for the relevant commodities; do not assume every commodity updates together | [S07] |
+| Three FAS monthly reports | The current official calendar schedules them for 12:15 ET | Check report attachments independently; successful PSD retrieval does not establish successful report archiving | [S06] |
+| ERS annual costs and returns | Preliminary estimates in the first week of May; final estimates in the first week of October | Prefer each file's Next Update; check on the planned date and retain low-frequency polling | [S08][S09] |
+| ERS cost forecasts | Usually mid-June and mid-November | Track separately from annual estimates; use file pages for exact dates | [S09] |
+| RMA SOB | The most recent five years usually refresh on Monday mornings, with no exact minute | Start checking at noon ET on Mondays; first verify whether bulk ZIPs update at the same time | [S10] |
 
-上表中的“发布后 5 分钟”“中午检查”是工程配置，不是 USDA 对可用性的保证。报告上网、文件替换和 API 更新可能不同步；应验证内容与版本。
+"Five minutes after release" and "check at noon" above are engineering settings, not USDA availability guarantees. Report posting, file replacement, and API updates may occur at different times; verify content and versions.
 
-建立 `release_calendar` 表，至少包含：
+Create a `release_calendar` table with at least:
 
 ```text
 source, dataset, artifact_kind, event_id,
@@ -86,37 +86,37 @@ expected_release_date, expected_release_at_utc, source_timezone,
 time_precision, calendar_url, checked_at_utc, status
 ```
 
-`artifact_kind` 区分 report、api、historical_csv。`status` 区分 scheduled、available、delayed、cancelled、unknown。日历抓取失败时保留旧记录并标记过期，不能编造下一次发布日期。
+`artifact_kind` distinguishes report, api, and historical_csv. `status` distinguishes scheduled, available, delayed, cancelled, and unknown. If calendar retrieval fails, retain old records and mark them stale; do not invent the next release date.
 
-**5. 各来源的下载实施方案**
+**5. Source-Specific Download Implementation Plans**
 
 **5.1 WASDE**
 
-主要用途：整理各期报告的供需估计，支持分析产量、使用、贸易、期末库存及其修订。指标解释应按具体商品和表格编写。[S01][S02]
+Primary use: organize supply/use estimates from successive releases to support analysis of production, use, trade, ending stocks, and revisions. Write measure explanations for each commodity and table.[S01][S02]
 
-实施步骤：
+Implementation steps:
 
-1. 从官方主页面发现历史 CSV 与当期文件链接，保存原始页面、最终下载地址和文件哈希。
-2. 用合并历史 CSV 建立历史主表，保留报告期、数据所属年度、表格标识和全部分组维度。
-3. 增加当期 Excel/XML 解析器，实现发布当日获取；选择样本验证更稳定的格式作为主路径。
-4. 次日历史 CSV 到达后与当期结果核对。保留差异和来源，不静默覆盖两个来源的不一致数值。
-5. PDF 保存为参考原件；只有发现关键表没有结构化来源时，再为该表评估专用提取。
+1. Discover historical CSV and current-file links from the official main page; save the original page, final download URL, and file hash.
+2. Build the historical master table from the consolidated CSV, retaining report issue, data year, table identifier, and all grouping dimensions.
+3. Add current Excel/XML parsers for release-day acquisition; test samples and choose the more stable format as the primary path.
+4. When the historical CSV arrives the next day, compare it with current-file results. Retain discrepancies and provenance rather than silently overwriting conflicting values from the two sources.
+5. Save PDFs as reference originals; evaluate dedicated extraction for a table only if a key table has no structured source.
 
-WASDE 历史文件保存报告发布时的值；PSD 历史序列可能包含后续修订，两者不能互相替换。[S02]
+Historical WASDE files retain values as published in each report, while PSD historical series may include subsequent revisions; they are not interchangeable.[S02]
 
-验收：选择近期、较早年份、年度切换三类报告；各抽查至少 10 个数据点。记录数、表清单和解析失败单元格均有报告。任何未覆盖表必须在覆盖清单说明，不能标记为“全报告完成”。
+Acceptance: select recent, older-year, and year-transition reports, checking at least 10 data points in each category. Report record counts, table inventories, and cells that failed to parse. Explain every uncovered table in the coverage manifest; do not mark the entire report complete when coverage is incomplete.
 
-**5.2 Export Sales：FAS ESR API**
+**5.2 Export Sales: FAS ESR API**
 
-主要用途：分别跟踪销售合同、实际出口和未交付订单。净销售、当周出口、累计出口属于不同指标，不能用未交付订单直接代替最终出口预测。[S05][S13]
+Primary use: separately track sales contracts, actual exports, and outstanding orders. Net sales, weekly exports, and accumulated exports are different measures; outstanding orders cannot directly substitute for a final export forecast.[S05][S13]
 
-鉴权：使用实习生的 Nexus 公司邮箱，通过 FAS 官方入口申请 api.data.gov Key；本人完成邮箱验证。程序从环境变量 `USDA_FAS_API_KEY` 读取，不写入源码、日志或样例 CSV。[S03]
+Authentication: use the intern's Nexus company email to request an api.data.gov key through the official FAS entry point; the intern completes email verification. The program reads `USDA_FAS_API_KEY` from the environment and never writes it into source code, logs, or sample CSVs.[S03]
 
-核心请求路径已经在官方 Swagger 中确认：[S04]
+Core request paths have been confirmed in the official Swagger:[S04]
 
 ```text
 Host: https://api.fas.usda.gov
-Header: X-Api-Key: <从环境变量读取>
+Header: X-Api-Key: <read from the environment variable>
 
 GET /api/esr/commodities
 GET /api/esr/countries
@@ -125,27 +125,27 @@ GET /api/esr/datareleasedates
 GET /api/esr/exports/commodityCode/{commodityCode}/allCountries/marketYear/{marketYear}
 ```
 
-实施步骤：缓存字典 → 构建商品与营销年度任务 → 按任务下载所有目的地 → 保存原始 JSON → 标准化字段 → 校验并发布分区。
+Implementation steps: cache dictionaries → build commodity/marketing-year tasks → download all destinations per task → save original JSON → normalize fields → validate and publish partitions.
 
-增量策略：商品的更新标记变化后，重新获取配置范围内该商品的所有营销年度。官方说明修订可能涉及多个年度，仅追加最新一周会漏数据。[S04] 后续如需优化，必须保留定期全范围核对与明确的修订延迟指标。
+Incremental strategy: when a commodity's update marker changes, refetch all configured marketing years for that commodity. Official documentation states that revisions may span multiple years; appending only the latest week would miss changes.[S04] Any later optimization must retain periodic full-scope reconciliation and explicit revision-lag metrics.
 
-营销年度、报告周结束日、发布日期分开保存；商品年度起点根据官方定义配置，不统一假定为自然年。允许净销售为负值；其他负值按具体字段定义判断。
+Store marketing year, reporting week end date, and release date separately. Configure commodity-year start dates from official definitions rather than assuming calendar years. Allow negative net sales; evaluate other negative values according to their field definitions.
 
-验收：至少 3 个商品、多个目的地、营销年度切换样例；抽查与官方查询结果一致；历史修订与取消销售不会被错误删除或置零。
+Acceptance: at least 3 commodities, multiple destinations, and marketing-year transition samples; spot checks match official query results; historical revisions and cancelled sales are not incorrectly deleted or set to zero.
 
-**5.3 三份 FAS 月报：PSD 数值 + 报告原件**
+**5.3 Three FAS Monthly Reports: PSD Values + Original Reports**
 
-按三份报告的业务范围建立配置：
+Create configurations matching the business scope of each report:
 
-| 视图 | 初始指标范围 | 解释重点 |
+| View | Initial measure scope | Interpretation focus |
 |---|---|---|
-| `world-production` | 面积、产量、单产，按报告逐项匹配 | 供应变化来自面积还是单产变化 |
-| `grain-trade` | 谷物的生产、供给、消费、贸易、库存 | 不同国家和营销年度的供需结构 |
-| `oilseed-trade` | 油籽、油粕、植物油的生产、加工、消费、贸易、库存 | 区分原料、加工产品与不同单位 |
+| `world-production` | Area, production, and yield, matched item by item to the report | Whether supply changes come from changes in area or yield |
+| `grain-trade` | Grain production, supply, consumption, trade, and stocks | Supply/use structures across countries and marketing years |
+| `oilseed-trade` | Oilseed, meal, and vegetable-oil production, processing, consumption, trade, and stocks | Distinguish raw materials, processed products, and different units |
 
-以上是项目拟覆盖指标，最终以 API 字典和报告表格核对结果为准，不能假定某个指标对所有商品都存在。
+These are proposed measures; final coverage depends on checking API dictionaries against report tables. Do not assume every measure exists for every commodity.
 
-核心路径：[S04]
+Core paths:[S04]
 
 ```text
 GET /api/psd/commodities
@@ -157,100 +157,100 @@ GET /api/psd/commodity/{commodityCode}/world/year/{marketYear}
 GET /api/psd/commodity/{commodityCode}/dataReleaseDates
 ```
 
-实施步骤：
+Implementation steps:
 
-1. 获取字典，生成商品、地区、指标、单位映射；ESR 与 PSD 代码分别命名，不能假定相同。
-2. 按“商品 × 营销年度”获取一次数据，三个报告视图共享缓存。
-3. 世界、区域、国家记录区分聚合层级；不将区域汇总和其成员国家重复求和。
-4. 每次来源变化保存当前快照；同步报告原件及目录。
-5. 为三份报告建立 `report_coverage.csv`：报告日期、表名、指标、PSD 映射、匹配状态、差异原因。
-6. PSD 无法对应的数值表，优先寻找官方可下载表格；必要时实现专用提取。只归档 PDF 不能宣称该数值表已经结构化。
+1. Retrieve dictionaries and build commodity, region, measure, and unit mappings; namespace ESR and PSD codes separately rather than assuming they match.
+2. Retrieve each "commodity × marketing year" once, with the three report views sharing the cache.
+3. Distinguish aggregation levels for world, regional, and country records; do not double-count regional totals and their member countries.
+4. Save a current snapshot whenever the source changes; synchronize original reports and the catalog.
+5. Build `report_coverage.csv` for the three reports, including report date, table name, measure, PSD mapping, match status, and discrepancy reason.
+6. For numeric tables without a PSD match, first look for official downloadable tables; implement dedicated extraction if needed. Archiving a PDF alone does not establish that its numeric tables have been structured.
 
-PSD 提供的当前历史序列不能自动恢复过去每月的发布版本。首次回填标记为“当前修订序列”；后续运行积累本地快照。要求精确历史发布版本时，需要另建报告档案提取任务。[S02]
+The current historical series from PSD cannot automatically reconstruct past monthly release vintages. Mark the initial backfill as a "current revised series" and accumulate local snapshots in subsequent runs. Exact historical release vintages require a separate report-archive extraction task.[S02]
 
-验收：三份报告各选至少 2 期，各抽查至少 10 个可映射数据点。因时间、单位、年度定义或修订产生的差异必须能解释；关键数值表未覆盖则该报告适配器不算完成。
+Acceptance: select at least 2 issues of each of the three reports and check at least 10 mappable data points per report. Explain discrepancies due to timing, units, year definitions, or revisions; a report adapter is incomplete if key numeric tables remain uncovered.
 
 **5.4 ERS Commodity Costs & Returns**
 
-主要用途：比较生产成本构成与收益。应区分成本项、收益项、产量、价格，以及每英亩、每单位产品等口径。官方区分 Recent、Historical 与预测系列，历史方法和区域定义存在变化。[S08][S09]
+Primary use: compare production-cost components and returns. Distinguish cost items, return items, output, and prices, as well as per-acre and per-unit-of-product bases. Official sources distinguish Recent, Historical, and forecast series, with changes in historical methodologies and regional definitions.[S08][S09]
 
-实施步骤：
+Implementation steps:
 
-1. 从产品页面枚举下载文件，记录商品、子系列、格式、Last Updated、Next Update。
-2. 优先解析 CSV，必要时使用 XLSX 对照；预测文件若只有 Excel，就使用对应解析器。
-3. 将以年份展开的列整理成长表；若原文件已经是长表，直接按字段映射标准化。
-4. 保留商品、企业类型、区域、年份、核算项目、单位、方法时期及数据状态。
-5. Recent/Historical 重叠期分别保留，不因同一年同商品而直接去重。
-6. 每次文件变化重处理完整文件，保留上个版本，输出新增、修改、删除记录的数量。
+1. Enumerate download files from the product page, recording commodity, subseries, format, Last Updated, and Next Update.
+2. Prefer CSV parsing and cross-check with XLSX when needed; if a forecast is only available in Excel, use the corresponding parser.
+3. Reshape year columns into long format; if the source is already long-format, normalize it directly through field mappings.
+4. Retain commodity, enterprise type, region, year, accounting item, unit, methodology period, and data status.
+5. Retain overlapping Recent/Historical periods separately; do not deduplicate solely because year and commodity match.
+6. Reprocess the complete file whenever it changes, retain the previous version, and report counts of added, modified, and deleted records.
 
-`series_family` 区分 recent、historical、forecast；`estimate_status` 另行区分 preliminary、final、unknown。不能把 recent 误当作“预测”，也不能仅凭今天的月份推断某行已经是最终值。
+`series_family` distinguishes recent, historical, and forecast; `estimate_status` separately distinguishes preliminary, final, and unknown. Do not interpret recent as "forecast" or infer that a row is final solely from the current month.
 
-验收：覆盖主页面全部纳入范围的文件；抽查作物、畜牧、历史方法、预测和不同企业类型；单位及空值正确；只有在官方定义明确可加总时才检查总成本关系。
+Acceptance: cover all in-scope files on the main page; spot-check crops, livestock, historical methodologies, forecasts, and different enterprise types; preserve correct units and nulls; check total-cost relationships only where official definitions explicitly support addition.
 
 **5.5 RMA Summary of Business**
 
-主要用途：观察保险参与、保费、保障责任和赔付情况。数量字段可能代表面积、重量或其他数量；必须结合 Quantity Type 解释。[S12]
+Primary use: examine insurance participation, premiums, liability, and indemnities. Quantity fields may represent area, weight, or another quantity; interpret them together with Quantity Type.[S12]
 
-实施步骤：
+Implementation steps:
 
-1. 从官方页面发现 State/County/Crop/Coverage Level 年度 ZIP 和对应 Record Layout。
-2. 保存 ZIP、字段布局版本和哈希；按 `|` 分隔符及布局解析，不把文件当作逗号分隔 CSV。[S11]
-3. 根据布局明确年份、州县代码、作物、保险计划、保障类别、交付类型和保障水平等维度。[S12]
-4. 金额、数量、保单数分开处理；保留原始缺失标记和数量类型。
-5. 先实现 1989 年以来布局；默认回填 2010 年以来，`--all-history` 扩到该布局可用起点。1948—1988 布局另列历史扩展，不与新布局直接拼接。[S11]
-6. 常规更新刷新官方所述最近五年，并检测新出现的年度文件；更早年度低频检查。[S10]
+1. Discover annual State/County/Crop/Coverage Level ZIPs and their Record Layouts from the official page.
+2. Save the ZIP, layout version, and hashes; parse using the `|` delimiter and layout rather than treating the file as comma-separated CSV.[S11]
+3. Use the layout to identify dimensions such as year, state/county codes, crop, insurance plan, coverage category, delivery type, and coverage level.[S12]
+4. Handle monetary amounts, quantities, and policy counts separately; retain original missing-value markers and quantity types.
+5. Implement the layout for 1989 onward first; backfill from 2010 by default, with `--all-history` extending to the earliest year available under that layout. Treat the 1948–1988 layout as a separate historical extension, not directly concatenated with the newer layout.[S11]
+6. Routine updates refresh the most recent five years specified by the official source and detect newly available annual files; check older years less frequently.[S10]
 
-官方网页的“周一更新”说明针对 SOB 产品。实施时必须确认 ZIP 的更新时间和内容变化；若批量文件延迟，记录实际延迟，不将网页刷新时间冒充文件发布时间。
+The official page's "Monday update" statement refers to the SOB product. Implementation must verify ZIP update timing and content changes; if bulk files lag, record the actual delay rather than presenting a page refresh time as a file release time.
 
-验收：抽查近期、较早年度和不同保险计划；核对字段数与汇总口径；保留州县前导零；不把所有数量都改名为 acres。官方布局允许赔款金额带符号，因此不能设置一刀切的“所有数值必须非负”规则。[S12]
+Acceptance: spot-check recent and older years and different insurance plans; verify field counts and aggregation definitions; preserve leading zeros in state/county codes; do not rename all quantities to acres. The official layout allows signed indemnity amounts, so a blanket "all numbers must be nonnegative" rule is inappropriate.[S12]
 
-**6. DataFrame 与未来 SQL 表结构**
+**6. DataFrame and Future SQL Table Design**
 
-以下是设计字段，不是官方原字段。阶段 A 获取样本后，补齐逐字段映射、类型、可空性、单位、枚举和来源。字段缺失时不能凭空填充含义不确定的值。
+The following are proposed fields, not original official fields. After obtaining samples in Phase A, complete the field-by-field mappings, types, nullability, units, enumerations, and provenance. Do not invent values with uncertain meaning to fill missing fields.
 
-**6.1 通用约定**
+**6.1 Common Conventions**
 
-| 字段/约定 | 设计 |
+| Field/convention | Design |
 |---|---|
-| 命名 | 英文 `snake_case`；中文解释放入字段字典 |
-| 代码 | 使用字符串；保留前导零及各来源命名空间 |
-| 年度 | 分别使用 `marketing_year`、`calendar_year`、`commodity_year`，避免一个 `year` 混用 |
-| 日期 | `YYYY-MM-DD`；精确时间为带 UTC 标记的 ISO 8601 |
-| 数值 | 保留 `raw_value` 与可空数值列；金额精度依据源文件，小数不经不必要舍入 |
-| 缺失 | 缺失与零分开；`value_status` 记录 unavailable、suppressed、not_applicable 等已确认含义 |
-| 单位 | `unit_code`、`unit_label`，必要时附数量级；换算只产生新增列 |
-| 来源 | `source`、`source_artifact_id`、`schema_version` |
-| 版本 | `snapshot_id`、`content_hash`、`retrieved_at_utc` |
-| 发布时间 | `source_release_date`、可空的 `source_release_at_utc`、`release_time_precision` |
-| 来源版本属性 | `vintage_type` 区分 published_report、current_revised、captured_snapshot |
+| Naming | English `snake_case`; explanatory text belongs in the field dictionary |
+| Codes | Use strings; preserve leading zeros and source-specific namespaces |
+| Years | Use `marketing_year`, `calendar_year`, and `commodity_year` separately rather than overloading one `year` field |
+| Dates | `YYYY-MM-DD`; exact timestamps use ISO 8601 with a UTC indicator |
+| Values | Retain `raw_value` and nullable numeric columns; derive monetary precision from source files and avoid unnecessary decimal rounding |
+| Missing values | Keep missing values distinct from zero; use `value_status` for established meanings such as unavailable, suppressed, and not_applicable |
+| Units | `unit_code`, `unit_label`, and scale where needed; conversions create additional columns only |
+| Provenance | `source`, `source_artifact_id`, `schema_version` |
+| Versions | `snapshot_id`, `content_hash`, `retrieved_at_utc` |
+| Release time | `source_release_date`, nullable `source_release_at_utc`, `release_time_precision` |
+| Source vintage type | `vintage_type` distinguishes published_report, current_revised, and captured_snapshot |
 
-DataFrame 使用可空字符串、整数、数值及明确时间类型。未来 SQL 类型在 schema 中声明为 TEXT、INTEGER/BIGINT、NUMERIC/DOUBLE、DATE、TIMESTAMP 等逻辑类型，并补充目标数据库适配说明。CSV 本身不携带类型，因此必须配套 schema 文件和读取示例。
+DataFrames use nullable string, integer, and numeric types and explicit temporal types. Declare future SQL types in schemas as logical types such as TEXT, INTEGER/BIGINT, NUMERIC/DOUBLE, DATE, and TIMESTAMP, with target-database adaptation notes. CSVs do not carry types themselves, so accompanying schema files and reading examples are required.
 
-**6.2 业务表粒度与候选唯一键**
+**6.2 Business Table Granularity and Candidate Unique Keys**
 
-| 表 | 每行粒度 | 核心业务字段 | 候选唯一键，不含版本 |
+| Table | Row granularity | Core business fields | Candidate unique key, excluding version |
 |---|---|---|---|
-| `wasde_observations` | 一期报告中一个完整分组下的指标 | 报告日期、表标识、商品、地区、年度、指标、分类、数值、单位、脚注 | 报告日期 + 表标识 + 商品 + 地区 + 年度 + 指标 + 全部分类维度 + 单位 |
-| `esr_weekly_sales` | 一个报告周、商品、目的地、营销年度 | 周结束日、商品代码、国家代码、营销年度、单位、销售/出口各指标 | 商品 + 国家 + 营销年度 + 周结束日 + 单位，附样本中的其他真实分组字段 |
-| `psd_observations` | 一个地区、商品、营销年度、指标 | 商品代码、地区代码、地区层级、营销年度、指标代码、数值、单位 | 商品 + 地区 + 地区层级 + 营销年度 + 指标 + 单位 |
-| `ers_costs_returns` | 一个核算口径下的年度项目 | 商品、企业类型、区域、年份、系列、方法时期、核算项目、数值、单位 | 商品 + 企业类型 + 区域 + 年份 + 系列 + 方法时期 + 核算项目 + 单位 |
-| `rma_sob` | 官方完整分组下的一条保险汇总 | 作物年度、州县、作物、保险计划、保障类别、交付类型、保障水平、数量类型、各项金额及数量 | 年度 + 州县 + 作物 + 保险计划 + 保障类别 + 交付类型 + 保障水平 + 数量类型，按布局校验 |
+| `wasde_observations` | A measure within a fully specified grouping in one report issue | Report date, table identifier, commodity, region, year, measure, classifications, value, unit, footnotes | Report date + table identifier + commodity + region + year + measure + all classification dimensions + unit |
+| `esr_weekly_sales` | A reporting week, commodity, destination, and marketing year | Week end date, commodity code, country code, marketing year, unit, sales/export measures | Commodity + country + marketing year + week end date + unit, plus any other actual grouping fields found in samples |
+| `psd_observations` | A region, commodity, marketing year, and measure | Commodity code, region code, geographic level, marketing year, measure code, value, unit | Commodity + region + geographic level + marketing year + measure + unit |
+| `ers_costs_returns` | An annual item under one accounting basis | Commodity, enterprise type, region, year, series, methodology period, accounting item, value, unit | Commodity + enterprise type + region + year + series + methodology period + accounting item + unit |
+| `rma_sob` | One insurance summary under the complete official grouping | Crop year, state/county, crop, insurance plan, coverage category, delivery type, coverage level, quantity type, amounts, and quantities | Year + state/county + crop + insurance plan + coverage category + delivery type + coverage level + quantity type, verified against the layout |
 
-主键在样本确认后冻结。若候选键有冲突，优先寻找遗漏的业务维度；不能直接 `drop_duplicates()` 或用行号掩盖问题。归档表唯一键为“完整业务键 + snapshot_id”。可建立稳定的 `observation_key` 哈希，但必须保留组成哈希的原始维度。
+Freeze primary keys after sample verification. If a candidate key conflicts, first look for missing business dimensions; do not hide the issue with `drop_duplicates()` or row numbers. The archive table's unique key is "complete business key + snapshot_id." A stable `observation_key` hash may be created, but retain the original dimensions used to construct it.
 
-ESR 拟标准化指标包括净销售、当周出口、累计出口、未交付销售及官方响应提供的相关指标；逐列意义由样本和官方说明验证。RMA 拟保留保单数、数量类型及净申报数量、责任金额、保费、补贴、赔款等字段，完整映射按布局实施。[S12][S13]
+Proposed standardized ESR measures include net sales, weekly exports, accumulated exports, outstanding sales, and related measures supplied by official responses; verify each column's meaning using samples and official documentation. RMA will retain policy counts, quantity types and net reported quantities, liability, premiums, subsidies, indemnities, and related fields, with complete mappings based on the layout.[S12][S13]
 
-**6.3 辅助表**
+**6.3 Supporting Tables**
 
-- `source_artifacts`：下载地址、文件类型、文件哈希、原始路径、抓取时间、HTTP 元数据、官方日期及精度。
-- `report_documents`：报告类型、报告日期、标题、附件地址、本地路径、哈希。
-- `report_coverage`：报告表到数值字段的映射和覆盖状态。
-- `download_runs`：任务、参数、开始结束时间、状态、行数、失败分区、版本。
-- `coverage_manifest`：预期与实际商品/年度/地区分区，最早和最新日期、缺口及原因。
-- `release_calendar`：见第 4 节。
-- 商品、地区、指标、单位字典：按来源分别存储，跨来源对应关系另建映射。
+- `source_artifacts`: Download URL, file type, file hash, raw path, retrieval time, HTTP metadata, official date, and precision.
+- `report_documents`: Report type, report date, title, attachment URL, local path, and hash.
+- `report_coverage`: Mappings from report tables to numeric fields and coverage status.
+- `download_runs`: Tasks, parameters, start/end times, status, row counts, failed partitions, and versions.
+- `coverage_manifest`: Expected and actual commodity/year/region partitions, earliest and latest dates, gaps, and reasons.
+- `release_calendar`: See Section 4.
+- Commodity, region, measure, and unit dictionaries: store separately by source, with separate mappings for cross-source relationships.
 
-**7. 模块与目录设计**
+**7. Module and Directory Design**
 
 ```text
 usda-data/
@@ -263,14 +263,14 @@ usda-data/
 │   ├── commodities.toml
 │   └── report_mappings.toml
 ├── src/usda_data/
-│   ├── __init__.py              # 导出公开函数
+│   ├── __init__.py              # Export public functions
 │   ├── __main__.py              # python -m usda_data
-│   ├── api.py                   # 对外调用及参数验证
-│   ├── cli.py                   # CLI 参数解析
+│   ├── api.py                   # Public interface and parameter validation
+│   ├── cli.py                   # CLI argument parsing
 │   ├── config.py
-│   ├── http.py                  # 超时、限流、重试、脱敏
-│   ├── storage.py               # 文件、CSV、原子发布
-│   ├── state.py                 # 下载清单、断点与更新水位
+│   ├── http.py                  # Timeouts, rate limits, retries, and redaction
+│   ├── storage.py               # Files, CSV, and atomic publication
+│   ├── state.py                 # Download manifests, checkpoints, and update watermarks
 │   ├── validation.py
 │   ├── calendar.py
 │   └── sources/
@@ -280,24 +280,24 @@ usda-data/
 │       ├── ers_costs_returns.py
 │       ├── rma_sob.py
 │       └── reports.py
-├── schemas/                    # 字段、类型、键与空值规则
-├── docs/                       # 来源、经济含义、发布时间、使用说明
-├── test/fixtures/             # 小型官方样本和代表性异常样本
+├── schemas/                    # Fields, types, keys, and null rules
+├── docs/                       # Sources, economic meaning, release times, and usage guides
+├── test/fixtures/             # Small official samples and representative exceptional cases
 └── data/
-    ├── raw/                    # 原始文件/响应，按来源与版本归档
-    ├── normalized/             # 标准化分区及快照
-    ├── exports/                # 面向使用者的 CSV
-    ├── reports/                # 月报原件
-    └── manifests/              # 覆盖、校验和运行记录
+    ├── raw/                    # Original files/responses archived by source and version
+    ├── normalized/             # Normalized partitions and snapshots
+    ├── exports/                # User-facing CSVs
+    ├── reports/                # Original monthly reports
+    └── manifests/              # Coverage, validation, and run records
 ```
 
-依赖方案：以 pandas 为 DataFrame 接口，选定一种 HTTP 客户端，CLI 优先使用标准库 `argparse`；按已验证格式引入 Excel/XML 解析依赖。阶段 A 固定经过验证的 Python 与依赖版本，提供安装说明，避免同时维护多套网络或 CLI 框架。
+Dependency approach: use pandas for the DataFrame interface, choose one HTTP client, and prefer standard-library `argparse` for the CLI; add Excel/XML parsing dependencies based on verified formats. Pin verified Python and dependency versions in Phase A and provide installation instructions, avoiding simultaneous maintenance of multiple networking or CLI frameworks.
 
-每个来源模块负责 `discover → fetch → parse → normalize → validate`。网络重试、日志、CSV 输出和版本管理由公共模块负责。CLI 只处理参数、调用公开函数和展示结果。
+Each source module owns `discover → fetch → parse → normalize → validate`. Shared modules handle network retries, logging, CSV output, and versioning. The CLI only handles arguments, calls public functions, and displays results.
 
-**8. Python 公开函数与 CLI 契约**
+**8. Public Python Functions and CLI Contract**
 
-以下接口是拟实现契约，当前不能执行。
+The following interfaces are proposed contracts and are not yet executable.
 
 ```python
 from usda_data import (
@@ -310,23 +310,23 @@ from usda_data import (
     download_reports,
 )
 
-# 返回标准化 pandas.DataFrame；起止日期包含边界。
+# Return a normalized pandas.DataFrame; start and end dates are inclusive.
 df = download_wasde(start="2020-01-01", end="2026-11-12")
 
-# 商品名称由配置映射到 ESR 官方代码；market_years 不是发布日期。
+# Map commodity names to official ESR codes through configuration; market_years are not release dates.
 esr = download_export_sales(
     commodities=["corn", "soybeans"],
     market_years=[2024, 2025, 2026],
     countries="all",
 )
 
-# 三份月报视图通过同一 PSD 数据层生成。
+# Generate the three monthly report views through the same PSD data layer.
 production = download_dataset(
     "world-production",
     market_years=[2024, 2025, 2026],
 )
 
-# 返回报告目录 DataFrame，附件保存到 output_dir。
+# Return a report-catalog DataFrame and save attachments to output_dir.
 reports = download_reports(
     "grain-trade", start="2026-01-01", end="2026-11-12",
     output_dir="data/reports",
@@ -335,172 +335,172 @@ reports = download_reports(
 df.to_csv("data/exports/wasde.csv", index=False, encoding="utf-8")
 ```
 
-每个公开函数文档必须包含参数类型、时间范围含义、返回字段、鉴权方式、缓存与落盘行为、异常类型以及最小示例。默认使用共享本地缓存并归档原始响应，返回标准化 DataFrame；通过配置控制根目录。大范围任务按分区处理，另提供迭代接口，CLI 不要求把全部历史加载进一个 DataFrame。
+Documentation for every public function must include parameter types, time-range semantics, returned fields, authentication, caching and disk-write behavior, exception types, and a minimal example. By default, use a shared local cache, archive raw responses, and return normalized DataFrames; control the root directory through configuration. Process large scopes by partition and also provide an iterator interface; the CLI must not require loading all history into one DataFrame.
 
-设计的 CLI：
+Proposed CLI:
 
 ```bash
-# 查看帮助与来源配置
+# View help and source configuration
 usda-data --help
 usda-data list-datasets
 usda-data calendar --dataset wasde
 
-# 查看计划下载范围，不抓取全部数值数据
+# Preview the planned download scope without retrieving all numeric data
 usda-data fetch --dataset all --config config/datasets.toml --dry-run
 
-# 按报告发布日期获取 WASDE
+# Fetch WASDE by report release date
 usda-data fetch --dataset wasde --start 2020-01-01 --end 2026-11-12 --output-dir data/exports
 
-# 按营销年度获取 ESR
+# Fetch ESR by marketing year
 usda-data fetch --dataset export-sales --commodities corn,soybeans --market-years 2024,2025,2026 --output-dir data/exports
 
-# 从 PSD 获取月报视图，同时归档该时间段的报告附件
+# Retrieve a monthly report view from PSD and archive report attachments for the specified period
 usda-data fetch --dataset grain-trade --market-years 2024,2025,2026 --with-reports --report-start 2026-01-01 --report-end 2026-11-12
 
-# 按观测年份获取 ERS，按作物年度获取 RMA
+# Fetch ERS by observation year and RMA by crop year
 usda-data fetch --dataset costs-returns --years 2020:2026
 usda-data fetch --dataset rma-sob --commodity-years 2020:2026
 
-# 按配置处理全部来源；支持失败分区恢复
+# Process all sources using configuration; support recovery of failed partitions
 usda-data fetch --dataset all --config config/datasets.toml --resume
 usda-data sync --dataset all --config config/datasets.toml
 usda-data validate --input-dir data/normalized
 ```
 
-参数语义：年份区间包含两端；`--start/--end` 仅用于定义明确的发布日期范围，不能在不同来源里悄悄改为营销年度。`--dataset all` 用配置分别定义各来源范围。未实现或不适用的参数必须报错。`--all-history` 扩展覆盖范围，`--force` 允许重新请求但不删除原始归档。
+Parameter semantics: year ranges include both endpoints; `--start/--end` are used only for clearly defined release-date ranges and must not silently mean marketing years for different sources. `--dataset all` uses configuration to define each source's scope separately. Unimplemented or inapplicable parameters must raise errors. `--all-history` extends coverage; `--force` allows refetching but does not delete raw archives.
 
-CLI 与 Python 调用必须使用同一数据流程。退出码约定：`0` 全部成功或明确无更新，`1` 至少一个任务失败，`2` 参数/配置错误。运行摘要列出 succeeded、unchanged、not_yet_available、failed，不能用空 CSV 掩盖鉴权失败。
+CLI and Python calls must use the same data pipeline. Exit-code conventions: `0` for complete success or explicitly no updates, `1` for at least one failed task, and `2` for argument/configuration errors. Run summaries list succeeded, unchanged, not_yet_available, and failed; empty CSVs must not conceal authentication failures.
 
-**9. 原始归档、更新、修订和断点续传**
+**9. Raw Archives, Updates, Revisions, and Resume**
 
-采用三层数据：
+Use three data layers:
 
 ```text
-raw：官方原始文件/JSON → normalized：带版本的标准化数据 → exports：最新完整分区的 CSV
+raw: official original files/JSON → normalized: versioned normalized data → exports: CSVs of the latest complete partitions
 ```
 
-1. 首次回填先生成任务清单，每个商品/年度/文件一个可恢复任务，记录 expected、downloaded、validated、published 状态。
-2. 原始文件保存 SHA-256、来源和时间。相同内容可以复用文件，但每次检查记录独立保留。
-3. 下载成功后写临时文件；格式、字段和分区校验通过后，才原子发布并更新水位。
-4. 每个变化分区保存完整新快照。最新视图整体替换该分区，避免仅 upsert 导致已被来源删除的行残留。
-5. 新旧分区比较并统计新增、变更、删除；历史快照不覆盖。
-6. 若部分分区失败，成功分区可保留，整次任务标记 partial 并返回非零退出码；完整导出版本只在覆盖检查通过后发布。
-7. `--resume` 只续做失败或未完成任务。重新运行同一内容不会制造重复业务记录。
-8. 对 ESR/PSD 的跨年修订，本期优先完整刷新变化商品的已配置历史年度；通过限流和断点任务控制成本。
-9. 更新端点、ETag、Last-Modified 作为提示，内容哈希与业务检查作为最终证据；文件地址不变不等于内容未变。
+1. Generate a task manifest before the initial backfill, with one resumable task per commodity/year/file and expected, downloaded, validated, and published states.
+2. Save SHA-256, provenance, and timestamps for raw files. Identical content may reuse a file, but retain a separate record of each check.
+3. After successful download, write a temporary file; publish atomically and update the watermark only after format, field, and partition validation passes.
+4. Save a complete new snapshot for each changed partition. Replace that entire partition in the latest view to avoid leaving behind rows deleted by the source, as an upsert-only approach would.
+5. Compare old and new partitions and count additions, modifications, and deletions; do not overwrite historical snapshots.
+6. If some partitions fail, successful partitions may be retained, but mark the overall run partial and return a nonzero exit code; publish a complete export version only after coverage checks pass.
+7. `--resume` continues only failed or unfinished tasks. Rerunning identical content must not create duplicate business records.
+8. For ESR/PSD revisions across years, this phase prioritizes fully refreshing configured historical years for changed commodities; control costs with rate limits and resumable tasks.
+9. Treat update endpoints, ETag, and Last-Modified as hints, with content hashes and business checks as the final evidence; an unchanged URL does not imply unchanged content.
 
-`as_of` 只允许基于真实的发布档案或已捕获快照进行查询。抓取时间晚于报告日期时，二者分别保存；从当前接口回填的历史数据不能伪称为历史时点可得。
+Allow `as_of` queries only against actual release archives or captured snapshots. When retrieval occurs after the report date, retain both times separately; historical data backfilled from current interfaces must not be misrepresented as available at historical points in time.
 
-**10. 错误处理与运行日志**
+**10. Error Handling and Run Logs**
 
-- 网络超时、临时 5xx 和 429 使用有限次数指数退避；遵守 `Retry-After`。初始并发采用保守配置，再依据实际限流调整。
-- 401/403 单独报告鉴权或访问问题；不进行无限重试，不将 HTML 错误页交给表格解析器。
-- 未找到文件时区分“尚未发布”“链接变化”“该年确实无数据”。不能把所有 404 视为合法空数据。
-- 校验响应状态、内容类型、文件签名、JSON/ZIP 可解析性；ZIP 成员数量、解压大小及路径受控。
-- 字段变化或未知布局停止相关分区发布，保留原始响应，输出差异清单。
-- 日志记录来源、任务参数、耗时、行数、版本、重试次数、错误类别；过滤 API Key 和鉴权头。
-- 每次运行生成机器可读 JSON 摘要及便于阅读的简短摘要。
+- Use bounded exponential backoff for network timeouts, temporary 5xx responses, and 429 responses; honor `Retry-After`. Start with conservative concurrency and adjust based on observed rate limits.
+- Report 401/403 authentication or access issues separately; do not retry indefinitely or pass HTML error pages to table parsers.
+- When files are not found, distinguish "not yet released," "link changed," and "genuinely no data for that year." Do not treat every 404 as valid empty data.
+- Validate response status, content type, file signatures, and JSON/ZIP parsability; bound ZIP member counts, uncompressed size, and extraction paths.
+- On field changes or unknown layouts, stop publication of affected partitions, retain raw responses, and output a discrepancy list.
+- Log source, task parameters, elapsed time, row counts, versions, retry counts, and error categories; redact API keys and authentication headers.
+- Produce a machine-readable JSON summary and a short human-readable summary for each run.
 
-**11. 验证方案与质量门槛**
+**11. Verification Plan and Quality Gates**
 
-测试围绕会造成漏数、错数或不可恢复状态的风险，不为简单文件包装重复编写测试。
+Tests focus on risks that could cause missing data, incorrect values, or unrecoverable state, rather than duplicating tests for simple file wrappers.
 
-| 验证类别 | 具体检查 | 通过标准 |
+| Verification category | Specific check | Pass criterion |
 |---|---|---|
-| 官方抽查 | 按来源抽样比较值、单位、年度和地区 | 与同一版本官方数值一致；差异有可验证解释 |
-| 主键 | 同一快照完整业务键唯一 | 0 个无法解释的重复 |
-| 字典 | 商品、地区、指标代码有映射 | 未识别值进入明确异常清单，不能静默丢弃 |
-| 覆盖 | 商品/年度/报告表与计划清单对比 | 必需分区全部成功，真实无数据有证据 |
-| 空值 | 0、空白、抑制值、无适用项分别处理 | 不把缺失自动填为 0 |
-| 单位 | 各来源单位与数量级保留 | 无跨单位直接求和或比较 |
-| 修订 | 用新旧样本模拟改值、删行 | 最新分区正确，历史仍可追溯 |
-| 中断恢复 | 下载或写出阶段失败后重跑 | 不发布半个文件，不重复记录 |
-| 日期 | 夏令时、年末、营销年度切换 | 发布时间与数据时期不混淆 |
-| CSV 往返 | 按 schema 导出、读回 | 前导零、数值精度、日期、空值符合约定 |
-| SQL 可用性 | 用本地临时数据库验证典型表和键约束 | 无嵌套对象、无类型冲突；不连接生产库 |
-| CLI/函数一致 | 同一配置使用两个入口 | 排序标准化后数据一致 |
+| Official spot checks | Sample values, units, years, and regions by source | Match official values from the same vintage; discrepancies have verifiable explanations |
+| Primary keys | Complete business keys are unique within a snapshot | 0 unexplained duplicates |
+| Dictionaries | Commodity, region, and measure codes have mappings | Unrecognized values enter an explicit exception list rather than being silently discarded |
+| Coverage | Compare commodity/year/report-table coverage with the planned manifest | All required partitions succeed; genuine absence of data is supported by evidence |
+| Nulls | Handle zero, blanks, suppressed values, and not-applicable cases separately | Missing values are not automatically filled with 0 |
+| Units | Retain each source's units and scales | No direct summing or comparison across incompatible units |
+| Revisions | Simulate changed values and deleted rows with old/new samples | The latest partition is correct and history remains traceable |
+| Interruption recovery | Rerun after failures during download or output | No partially published files or duplicate records |
+| Dates | Daylight saving time, year end, and marketing-year transitions | Release times are not confused with data periods |
+| CSV round trip | Export and read back according to the schema | Leading zeros, numeric precision, dates, and nulls follow the contract |
+| SQL usability | Verify representative tables and key constraints in a local temporary database | No nested objects or type conflicts; no connection to production databases |
+| CLI/function consistency | Use both interfaces with the same configuration | Data match after normalizing sort order |
 
-若测试涉及供需平衡关系，只对文档明确适用的同一地区、年度、单位与分类执行；残差项、四舍五入和贸易年度差异必须考虑。RMA 保单数不能未经验证跨重叠保障层级直接相加。
+Apply supply/use balance tests only where documentation explicitly supports them for the same region, year, unit, and classification; account for residuals, rounding, and trade-year differences. RMA policy counts must not be added across overlapping coverage levels without verification.
 
-**12. 分阶段工作安排**
+**12. Phased Work Schedule**
 
-以下为单人开发的估计，不包含等待邮箱验证、官方故障或大规模历史 PDF 提取。样本验证后更新工期。每阶段完成均应有可运行或可检查的产物。
+These are estimates for one developer, excluding email-verification waits, official outages, and large-scale historical PDF extraction. Update estimates after sample validation. Every phase must produce runnable or inspectable outputs.
 
-| 阶段 | 工作内容 | 产物与退出条件 | 预计有效工作日 |
+| Phase | Work | Outputs and exit conditions | Estimated effective workdays |
 |---|---|---|---|
-| A：来源与样本 | 获取各源样本、核实范围、申请 Key、建立字段映射与发布规则 | 每个来源有原始样本；未解决问题和覆盖边界明确 | 1–2 |
-| B：基础与 WASDE | 项目结构、HTTP/存储/状态、历史 CSV、当期文件、公开函数/CLI | WASDE 完成一次端到端回填及重复运行验证 | 2–3 |
-| C：ERS | 文件发现、系列分类、长表、单位与历史口径 | 所选 ERS 文件可统一导出，口径不混合 | 1–2 |
-| D：ESR | 鉴权、字典、年度任务、周数据和修订 | 真实请求通过；历史更新、跨年、负销售样本验证 | 1–2 |
-| E：PSD 与月报 | 共用 PSD 下载、三份视图、报告归档、覆盖核对 | 三份报告各有数值输出、原件与覆盖清单 | 2–3 |
-| F：RMA | 年度 ZIP、布局、数量/金额/完整维度 | 多年度下载与校验通过，周更新策略明确 | 1–2 |
-| G：回填与交付 | 全范围任务、断点恢复、CSV/SQL 校验、文档和演示 | 所有验收项完成，缺口有明确状态 | 2–3 |
+| A: Sources and samples | Obtain source samples, verify scope, request a key, and establish field mappings and release rules | Raw samples for every source; explicit unresolved issues and coverage boundaries | 1–2 |
+| B: Foundation and WASDE | Project structure, HTTP/storage/state, historical CSVs, current files, and public functions/CLI | One end-to-end WASDE backfill and repeat-run verification completed | 2–3 |
+| C: ERS | File discovery, series classification, long format, units, and historical definitions | Selected ERS files export consistently without mixing measurement bases | 1–2 |
+| D: ESR | Authentication, dictionaries, annual tasks, weekly data, and revisions | Real requests pass; historical updates, year transitions, and negative-sales samples verified | 1–2 |
+| E: PSD and monthly reports | Shared PSD downloads, three views, report archiving, and coverage checks | Numeric outputs, original reports, and coverage manifests for all three reports | 2–3 |
+| F: RMA | Annual ZIPs, layouts, quantities/amounts, and complete dimensions | Multi-year downloads and validation pass; weekly update strategy is explicit | 1–2 |
+| G: Backfill and delivery | Full-scope tasks, resume, CSV/SQL validation, documentation, and demonstrations | All acceptance items completed; gaps have explicit statuses | 2–3 |
 
-合计约 **10–17 个有效工作日**。如果报告存在较多 PSD 无法覆盖的关键表格，额外提取工作单独估算，不能通过省略这些表格来宣称已经完成。
+Total: approximately **10–17 effective workdays**. If reports contain many key tables not covered by PSD, estimate additional extraction work separately; omitting those tables does not justify claiming completion.
 
-依赖安排：A 完成样本确认后进入 B；Key 尚未收到时继续 B、C、F；D/E 的真实 API 验证依赖有效 Key；G 依赖全部来源模块完成。开发过程先用小样本通过验证，再扩大历史范围。
+Dependencies: begin B after sample confirmation in A; continue B, C, and F while waiting for the key; real API verification in D/E requires a valid key; G depends on completion of every source module. Validate small samples first, then expand historical scope.
 
-**13. 最终交付清单**
+**13. Final Delivery Checklist**
 
-- [ ] 可安装的 Python 包与依赖配置。
-- [ ] 5 类数值下载器、共用月报归档模块、7 个数据集入口。
-- [ ] 所有数据集具备 Python 调用和 CLI 调用方式。
-- [ ] 默认历史范围的完整 DataFrame/CSV 输出及覆盖清单。
-- [ ] 原始文件、原始响应和报告附件归档。
-- [ ] 每个表的字段说明、类型、单位、空值规则和唯一键。
-- [ ] 各数据经济含义、时间口径、修订与历史版本说明。
-- [ ] 官方发布规则、日历来源、时区和调度使用说明。
-- [ ] 脱敏的配置模板、API Key 配置说明。
-- [ ] 首次回填、增量更新、断点恢复和异常处理说明。
-- [ ] 官方抽查结果、关键测试结果、CSV 往返及本地入库验证。
-- [ ] README：从安装到下载一个样例的完整步骤。
-- [ ] 示例 Notebook 或短 Python 示例，展示导入函数得到 DataFrame。
-- [ ] 三份 FAS 月报的表格覆盖清单，未覆盖项及原因透明可见。
-- [ ] 已知限制清单，不把未验证、失败或部分完成写成完成。
+- [ ] Installable Python package and dependency configuration.
+- [ ] 5 types of numeric-data downloaders, a shared monthly-report archiving module, and 7 dataset entry points.
+- [ ] Python and CLI access for every dataset.
+- [ ] Complete DataFrame/CSV outputs and coverage manifests for the default historical scope.
+- [ ] Archives of raw files, raw responses, and report attachments.
+- [ ] Field descriptions, types, units, null rules, and unique keys for every table.
+- [ ] Documentation of economic meaning, time definitions, revisions, and historical vintages for each dataset.
+- [ ] Official release rules, calendar sources, timezones, and scheduling instructions.
+- [ ] Redacted configuration templates and API key setup instructions.
+- [ ] Instructions for initial backfill, incremental updates, resume, and exception handling.
+- [ ] Official spot-check results, key test results, CSV round trips, and local database-ingestion verification.
+- [ ] README with complete steps from installation to downloading one example.
+- [ ] Example notebook or short Python example showing function imports and DataFrame results.
+- [ ] Table coverage manifests for the three FAS monthly reports, with uncovered items and reasons clearly visible.
+- [ ] Known limitations, without describing unverified, failed, or partial work as complete.
 
-**14. 开始开发前的默认值与需要补充的信息**
+**14. Defaults and Information Needed Before Development**
 
-| 项目 | 当前默认值 | 何时需要补充 |
+| Item | Current default | When additional information is needed |
 |---|---|---|
-| Nexus 邮箱与 Key | 不虚构账号；由实习生用公司邮箱申请 | ESR/PSD 真实鉴权联调前 |
-| 历史跨度 | 2010 年起；支持扩展 | 导师有更长历史要求时修改配置 |
-| 商品/地区范围 | 纳入来源全部支持项；先用 3 个商品联调 | 有明确业务限制时缩小配置 |
-| 历史版本 | WASDE 发布档案 + 其他来源当前历史值及后续快照 | 要求完整历史时点回测时另评估档案提取 |
-| 更新及时性 | 支持按发布检查；不承诺秒级 | 导师指定延迟指标时调整调度与监控 |
-| RMA 产品 | State/County/Crop/Coverage Level SOB | 需要损失原因或受阻播种时另加数据源 |
-| SQL 目标 | 输出类型明确的 CSV/schema，做本地验证 | 生产接入前确认 PostgreSQL/MySQL 等目标 |
+| Nexus email and key | Do not invent an account; the intern applies using the company email | Before real ESR/PSD authentication integration tests |
+| Historical span | From 2010 onward, with extension support | Change configuration if the supervisor requests a longer history |
+| Commodity/region scope | All supported in-scope items; start integration with 3 commodities | Narrow configuration when explicit business constraints exist |
+| Historical vintages | WASDE release archives + current historical values and subsequent snapshots for other sources | Separately assess archive extraction if complete historical point-in-time backtesting is required |
+| Update timeliness | Support checks around releases; no second-level guarantee | Adjust scheduling and monitoring if the supervisor specifies latency targets |
+| RMA product | State/County/Crop/Coverage Level SOB | Add separate sources if causes of loss or prevented planting are needed |
+| SQL target | Typed CSV/schema outputs with local verification | Confirm PostgreSQL/MySQL or another target before production integration |
 
-首先实施阶段 A 和 B：建立来源清单、取得样本、确定字段映射，再用 WASDE 跑通一条完整数据链路。
+Implement Phases A and B first: establish the source inventory, obtain samples, and determine field mappings, then complete one end-to-end data pipeline with WASDE.
 
-**15. 官方资料与引用索引**
+**15. Official Materials and Reference Index**
 
-访问核对日期：2026-11-12。正文 `[Sxx]` 对应以下来源。URL 使用代码格式保存，方便复制，也使 Markdown 文件脱离聊天界面后仍能追溯。
+Access and verification date: 2026-11-12. In-text `[Sxx]` identifiers refer to the sources below. URLs are stored as code for easy copying and traceability when the Markdown file is viewed outside the chat interface.
 
-- [S01] USDA：WASDE 主页面，发布日期、当期格式、历史 CSV 更新安排。官方页面本次可通过官方分发域名读取。  
+- [S01] USDA: WASDE main page, release dates, current formats, and historical CSV update schedule. During this research, the official page was accessible through an official distribution domain.  
   `https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report`  
   `https://usda.azureedge.us/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report`
-- [S02] USDA NASS 2021 Spring Data Users’ Meeting：说明 WASDE 发布历史与 PSD 修订历史的区别。本次从官方文档的搜索索引读取说明，原 PDF 直接访问返回 404；实施时需从官方历史数据页面重新发现可用链接。  
+- [S02] USDA NASS 2021 Spring Data Users’ Meeting: explains the difference between WASDE release history and PSD revised history. The explanation was read from the official document's search index during this research; direct access to the original PDF returned 404. Rediscover a working link from the official historical-data page during implementation.  
   `https://www.nass.usda.gov/Education_and_Outreach/Meeting/2021/2021-spring-questionandanswer.pdf`
-- [S03] FAS Open Data 门户：API Key 注册和访问说明。  
+- [S03] FAS Open Data portal: API key registration and access instructions.  
   `https://apps.fas.usda.gov/opendataweb/home`
-- [S04] FAS 官方 Swagger：ESR/PSD 路径、参数、更新端点及 `X-Api-Key` 定义。接口文档没有完整列出响应字段，字段契约须通过样本确认。  
+- [S04] Official FAS Swagger: ESR/PSD paths, parameters, update endpoints, and the `X-Api-Key` definition. The API documentation does not fully enumerate response fields; verify the field contract using samples.  
   `https://apps.fas.usda.gov/opendatawebv2/assets/swagger/swagger.json`
-- [S05] FAS Export Sales Reporting Program：周报安排和报告定义。  
+- [S05] FAS Export Sales Reporting Program: weekly-report schedule and report definitions.  
   `https://fas-prod.azureedge.us/programs/export-sales-reporting-program`
-- [S06] FAS 报告发布日历与 World Agricultural Production 发布页：三份月报的 12:15 ET 安排。  
+- [S06] FAS report release calendar and World Agricultural Production release page: the 12:15 ET schedule for the three monthly reports.  
   `https://fas.usda.gov/`  
   `https://fas-prod.azureedge.us/report-release-announcement/world-agricultural-production-71`
-- [S07] FAS World Agricultural Production 报告说明：相关 PSD 12:00 更新、月报 12:15 发布。以下是动态报告链接，实施时应保存实际获取的版本及哈希。  
+- [S07] FAS World Agricultural Production report notes: relevant PSD updates at 12:00 and monthly report release at 12:15. The following report link is dynamic; save the actual retrieved version and hash during implementation.  
   `https://apps.fas.usda.gov/psdonline/circulars/production.pdf`
-- [S08] ERS Commodity Costs and Returns 产品页：文件、系列、Last Updated 与 Next Update。  
+- [S08] ERS Commodity Costs and Returns product page: files, series, Last Updated, and Next Update.  
   `https://www.ers.usda.gov/data-products/commodity-costs-and-returns`
-- [S09] ERS Commodity Costs and Returns Documentation：更新规律、估计口径及历史方法。  
+- [S09] ERS Commodity Costs and Returns Documentation: update patterns, estimation definitions, and historical methodologies.  
   `https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation`
-- [S10] RMA Summary of Business：最近五年周一上午更新的说明。  
+- [S10] RMA Summary of Business: states that the most recent five years update on Monday mornings.  
   `https://www.rma.usda.gov/summary-business`
-- [S11] RMA State/County/Crop Summary of Business：年度 ZIP、分隔格式和布局下载。  
+- [S11] RMA State/County/Crop Summary of Business: annual ZIPs, delimiter format, and layout downloads.  
   `https://www.rma.usda.gov/tools-reports/summary-of-business/state-county-crop-summary-business`
-- [S12] RMA Crop Insurance Experience with Coverage Level，1989 Forward Record Layout，版本日期 2026-05-28。  
+- [S12] RMA Crop Insurance Experience with Coverage Level, 1989 Forward Record Layout, version dated 2026-05-28.  
   `https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/state_county_crop/SOB_State_County_Crop_with_Coverage_Level_1989_Forward.pdf`
-- [S13] FAS Export Sales Query System 用户手册：报告定义、查询方式和营销年度切换。  
+- [S13] FAS Export Sales Query System user manual: report definitions, query methods, and marketing-year transitions.  
   `https://apps.fas.usda.gov/esrqs/assets/ESRQS_UserManual_PublicUser.pdf`

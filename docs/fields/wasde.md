@@ -1,66 +1,66 @@
-# WASDE：中文字段说明
+# WASDE: field guide
 
-[返回字段说明入口](../field_dictionary.md) · [通用读法与空值](common.md) · [机器可读字段定义](../../schemas/wasde_observations.v2.json)
+[Back to the field guide](../field_dictionary.md) · [Common conventions and nulls](common.md) · [Machine-readable field definitions](../../schemas/wasde_observations.v2.json)
 
-## 这个数据集在说什么
+## What this dataset describes
 
-WASDE 是每期发布的农产品供需估计报告。CSV 通常把原表中的一个数值单元格展开为一行：某期报告对某个地区、商品、市场年度、指标给出了多少。它同时含价格和预测可靠性等表，所以不能把所有 `Value` 都理解成产量。
+WASDE is a periodically released report of agricultural supply and demand estimates. The CSV usually expands each numeric cell in an original table into one row: the value a specific release gives for a region, commodity, marketing year, and attribute. It also includes price and forecast-reliability tables, so not every `Value` represents production.
 
-## 一行数据怎么读
+## How to read one row
 
-在 [wasde.csv](../../examples/wasde.csv) 中，第 677 期、2026-11-10 发布的报告，对墨西哥糖的 2025/26 市场年度列出 `Beginning Stocks`（期初库存）为 `1123.00`，单位为千公吨（实际重量）。读作 **期初库存 112.3 万公吨**，不是 1123 吨；`Est.` 表示估计值。
+In [wasde.csv](../../examples/wasde.csv), report number 677, released on 2026-11-10, lists `Beginning Stocks` of `1123.00` for Mexican sugar in marketing year 2025/26, in thousand metric tons (actual weight). Read this as **beginning stocks of 1.123 million metric tons**, not 1123 tons; `Est.` indicates an estimate.
 
-## 先看哪些列
+## Which columns to inspect first
 
-先筛选 `ReportTitle`、`Commodity`、`Region`、`MarketYear` 和 `Attribute`，再看 `Value` 与 `Unit`。需要比较不同期预测时，再保留 `source_release_date`，不要只按市场年度去重。
+Filter by `ReportTitle`, `Commodity`, `Region`, `MarketYear`, and `Attribute` first, then examine `Value` and `Unit`. When comparing forecasts across releases, also retain `source_release_date`; do not deduplicate solely by marketing year.
 
-下面逐列覆盖当前 30 个字段。例值来自仓库固定示例，可能取自不同记录，不能把整列例值拼成一条记录；长 JSON／编号用省略号显示。字段的类型、是否允许为空和完整复合键以导出旁的 `schema.json` 为准。
+The table below covers all 30 current fields. Values come from fixed repository examples and may be drawn from different records; do not combine the example-value column into a single record. Long JSON strings and identifiers are abbreviated with ellipses. The `schema.json` beside the export is authoritative for types, nullability, and the complete composite key.
 
-## 业务字段与核对字段
+## Business and verification fields
 
-| CSV 列名 | 中文含义 | 示例中的实际值 | 如何理解 |
+| CSV column | Meaning | Actual example value | Interpretation |
 |---|---|---|---|
-| `WasdeNumber` | 报告期号 | `677` | USDA 对这期 WASDE 的编号。677 表示第 677 期，不是年份。 |
-| `ReportDate` | 报告月份标签 | `November 2026` | 原始报告的月份文字，例如 November 2026。它告诉你是哪期报告；精确发布日期另看 ReleaseDate。 |
-| `ReportTitle` | 原表标题 | `Mexico Sugar Supply and Use and High Fructose Corn Syrup Consumption` | 这一行来自报告中的哪张表。相同商品可同时出现在供需表、价格表、预测可靠性表，必须连同标题理解。 |
-| `Attribute` | 统计指标 | `Beginning Stocks` | 这一行测量什么，例如 Beginning Stocks＝期初库存、Production＝产量、Ending Stocks＝期末库存。不能只看 Value 判断指标。 |
-| `ReliabilityProjection` | 预测可靠性统计类别 | `not_applicable` / `above_final` | 仅可靠性／误差表使用，例如 average（平均差异统计）、above_final（预测高于最终结果的年数类别）。其他表为 not_applicable。必须结合原表和 Unit 解释，不能把误差统计当产量。 |
-| `Commodity` | 商品或产品类别 | `Sugar` | 原表统计的商品，例如 Sugar（糖）、Corn（玉米）。保留原来的品种／细分类，不统一改成大类。 |
-| `Region` | 统计地区或汇总范围 | `Mexico` | 例如 Mexico（墨西哥）、United States（美国）、World（世界）。也可能是汇总组，不能默认每个名称都代表一个独立国家。 |
-| `MarketYear` | 数据所属市场年度 | `2025/26` | 例如 2025/26：按该商品的市场年度统计，不等于报告发布年份。可靠性表等没有单一年度时为 not_applicable。 |
-| `ProjEstFlag` | 估计／预测标记 | `Est.` | Est.＝估计值，Proj.＝预测值；not_labelled 表示原表未标注。不能因为年份已过去就自行认定是最终值。 |
-| `AnnualQuarterFlag` | 年度／季度口径 | `Annual` | 原表给出的年度或季度统计标签。Annual 表示全年口径；季度记录与全年记录不能混合求和。 |
-| `Value` | 该指标的数值 | `1123.00` | 与 Attribute、Commodity、Region、MarketYear 和 Unit 一起使用。数值本身不含单位，也未统一换算成吨。 |
-| `Unit` | 单位和数量级 | `1000 Metric Tons, Actual Weight` | 例如 1000 Metric Tons, Actual Weight＝千公吨、实际重量口径；1123.00 表示 1,123,000 公吨。其他表可能是价格、年数或百分比。 |
-| `ReleaseDate` | 原始发布日期文字 | `2026-11-10` | 源 CSV 中的发布日期，例如 2026-11-10。source_release_date 是据此解析出的日期字段；两者都不是 MarketYear。 |
-| `ReleaseTime` | 原始发布钟点 | `12:00:00.0000000` | 源 CSV 中保留的时间文字。没有独立确认时区时，不把它直接当作 UTC，也不据此填写 source_release_at_utc。 |
-| `ForecastYear` | 预测／报告批次年份 | `2026` | 源 CSV 标识这次预测批次的年份；不要把它当作数值所属市场年度，后者看 MarketYear。 |
-| `ForecastMonth` | 预测／报告批次月份 | `11` | 源 CSV 标识这次预测批次的月份，11 为十一月；与 ForecastYear 一起识别批次，不代表作物收获月份。 |
-| `raw_value` | 源文件中的原值 | `1123.00` | 保存原来看到的数字文字或缺失标记，用来核对 value；正常分析使用解析后的数值。历史 Excel 的原值是读取器读到的存储值，不一定等于界面显示的四舍五入值。 |
-| `value_status` | 数值状态 | `reported` | 解释数值是正常公布、缺失、不适用、未公布等。先看此列再决定如何处理空值；只有 reported 才表示正常数值，零仍然可以是 reported。 |
-| `raw_optional_dimensions` | 可选分类的原始写法 | `{"MarketYear": "2025/26", "ProjEstFlag": "Est.", "ReliabilityProj…` | JSON 字符串，保留 MarketYear、ProjEstFlag、ReliabilityProjection 的原始空白或标签。便于检查 not_applicable 等是如何填入的。 |
-| `source_member` | ZIP 内文件名 | 空字符串 | 来源是 ZIP 时记录内部 CSV 文件名；直接下载的独立 CSV 通常是空字符串。 |
-| `source_dimension_repair` | 维度修正依据编号 | 空字符串 | 只有命中经过核对的特定源文件缺陷时才填写。空字符串表示未修正；这不是自动修改数值的记录。 |
-| `source_original_dimensions` | 修正前的字段内容 | `{}` | JSON 字符串，记录维度修正前的原始内容。{} 表示没有需记录的修正内容。 |
-| `source_conflict` | 已知跨格式差异 | 空字符串 | 记录同一位置的 CSV／XML 与 PDF 已知数值差异及依据。空字符串表示未记录此类差异；发生已登记差异时 CSV 数值仍按所选结构化来源保留。 |
+| `WasdeNumber` | Report issue number | `677` | USDA's number for this WASDE issue. 677 means the 677th issue, not a year. |
+| `ReportDate` | Report month label | `November 2026` | The original report's month text, such as November 2026. It identifies the report issue; see ReleaseDate for the exact publication date. |
+| `ReportTitle` | Original table title | `Mexico Sugar Supply and Use and High Fructose Corn Syrup Consumption` | Identifies the report table containing this row. The same commodity may appear in supply/use, price, and forecast-reliability tables, so interpret it together with the title. |
+| `Attribute` | Statistical measure | `Beginning Stocks` | What this row measures, such as Beginning Stocks, Production, or Ending Stocks. The measure cannot be determined from Value alone. |
+| `ReliabilityProjection` | Forecast-reliability statistic category | `not_applicable` / `above_final` | Used only in reliability/error tables, such as average (average difference statistics) or above_final (the category for years when the projection exceeded the final result). Other tables use not_applicable. Interpret it with the original table and Unit; do not treat error statistics as production. |
+| `Commodity` | Commodity or product category | `Sugar` | The commodity measured in the original table, such as Sugar or Corn. Original varieties/subcategories are preserved rather than collapsed into broad categories. |
+| `Region` | Statistical region or aggregate scope | `Mexico` | Examples include Mexico, United States, and World. It can also be an aggregate group; do not assume every name represents an individual country. |
+| `MarketYear` | Marketing year described by the data | `2025/26` | For example, 2025/26 follows the commodity's marketing year, not the report publication year. It is not_applicable when there is no single year, as in some reliability tables. |
+| `ProjEstFlag` | Estimate/projection flag | `Est.` | Est. means estimated, Proj. means projected, and not_labelled means the original table did not label it. Do not assume a value is final merely because its year has passed. |
+| `AnnualQuarterFlag` | Annual/quarterly basis | `Annual` | The annual or quarterly statistical label supplied by the original table. Annual denotes a full year; quarterly and full-year records must not be summed together. |
+| `Value` | Value of the measure | `1123.00` | Use with Attribute, Commodity, Region, MarketYear, and Unit. The number itself does not contain a unit and has not been universally converted to tons. |
+| `Unit` | Unit and scale | `1000 Metric Tons, Actual Weight` | For example, 1000 Metric Tons, Actual Weight means thousand metric tons on an actual-weight basis; 1123.00 represents 1,123,000 metric tons. Other tables may contain prices, numbers of years, or percentages. |
+| `ReleaseDate` | Original release date text | `2026-11-10` | The release date in the source CSV, such as 2026-11-10. source_release_date is parsed from it; neither field is MarketYear. |
+| `ReleaseTime` | Original release clock time | `12:00:00.0000000` | Time text retained from the source CSV. Without independently confirmed timezone information, it is neither treated directly as UTC nor used to populate source_release_at_utc. |
+| `ForecastYear` | Forecast/report batch year | `2026` | The year identifying this forecast batch in the source CSV; do not treat it as the marketing year of the value, which is given by MarketYear. |
+| `ForecastMonth` | Forecast/report batch month | `11` | The month identifying this forecast batch in the source CSV; 11 means November. Together with ForecastYear it identifies the batch, not the crop harvest month. |
+| `raw_value` | Original source value | `1123.00` | Preserves the original numeric text or missing-value marker for checking value; use the parsed number for normal analysis. For historical Excel files, this is the stored value read by the reader, which may differ from the rounded value displayed in the interface. |
+| `value_status` | Value status | `reported` | Indicates whether the value is reported normally, missing, not applicable, not reported, or another status. Check this column before handling nulls; only reported denotes a normally reported number, and zero can still be reported. |
+| `raw_optional_dimensions` | Original optional classifications | `{"MarketYear": "2025/26", "ProjEstFlag": "Est.", "ReliabilityProj…` | JSON string retaining original blanks or labels for MarketYear, ProjEstFlag, and ReliabilityProjection. Useful for checking how values such as not_applicable were assigned. |
+| `source_member` | Filename inside the ZIP | Empty string | Records the internal CSV filename when the source is a ZIP; usually an empty string for directly downloaded standalone CSVs. |
+| `source_dimension_repair` | Dimension repair evidence identifier | Empty string | Populated only for a specific, verified source-file defect. An empty string means no repair was applied; this is not a record of automatic numeric changes. |
+| `source_original_dimensions` | Field contents before repair | `{}` | JSON string recording original contents before a dimension repair. {} means there are no repair details to record. |
+| `source_conflict` | Known cross-format discrepancy | Empty string | Records known numeric discrepancies between CSV/XML and PDF at the same location, with supporting evidence. An empty string means none is recorded; for registered discrepancies, CSV values still follow the selected structured source. |
 
 
-## 时间、来源与版本字段
+## Time, provenance, and version fields
 
-| CSV 列名 | 中文含义 | 示例中的实际值 | 如何理解 |
+| CSV column | Meaning | Actual example value | Interpretation |
 |---|---|---|---|
-| `source_release_date` | 来源发布日期 | `2026-11-10` | 来源明确提供的发布或更新日期。它不是数据所描述的年份，也不是你下载文件的日期；不同数据集的具体含义见本页说明。 |
-| `source_release_at_utc` | 来源发布时刻（UTC） | `\N` | 有依据的完整发布时间，统一为 UTC。只有日期、月份或没有时区时不能补造时刻，通常保存为 \N。 |
-| `release_time_precision` | 发布时间精度 | `date` | 说明来源发布时间知道得有多细：timestamp 精确时刻，date/day 到日，month 到月，unknown 无法确认。不是数值的小数精度。 |
-| `retrieved_at_utc` | 本地获取时间（UTC） | `2026-11-17T12:57:06.172384+00:00` | 该快照关联的源文件首次获取／导入本地缓存的时间。离线重放素材时也会生成本地导入回执；不能用它推断数据何时首次公开。 |
-| `source_artifact_id` | 原始文件指纹 | `1a28972ac0c727ce974e0f8217b3cae9e892f6e974f6927033eaffbd5890a8da` | 原始响应、CSV、PDF 或 ZIP 的 SHA-256，用于找到和核对源文件。不是商品、地区、报表行的编号。 |
-| `snapshot_id` | 处理结果版本编号 | `483832b47869d6dc7582393dcd5cd4e329c25a574629f91185ee9c242d933327` | 标识源文件与解析器、字段定义、配置共同形成的一次标准化版本。同一来源重新处理可能产生新版本；不能把它当经济时间或业务主键。 |
-| `vintage_type` | 数据版本性质 | `report_vintage` | report_vintage：保留某期报告当时的数值；current_revised：下载时可见、可能已修订的历史序列；forecast_vintage：保留某次发布的预测版本。 |
+| `source_release_date` | Source release date | `2026-11-10` | The publication or update date explicitly provided by the source. It is neither the year described by the data nor the date you downloaded the file; see this page for its dataset-specific meaning. |
+| `source_release_at_utc` | Source release timestamp (UTC) | `\N` | A complete, evidence-backed release timestamp normalized to UTC. Do not invent a time when only a date or month is known, or when the timezone is unavailable; this is usually stored as \N. |
+| `release_time_precision` | Release time precision | `date` | How precisely the source release time is known: timestamp for an exact instant, date/day for a day, month for a month, and unknown when it cannot be established. This is not numeric decimal precision. |
+| `retrieved_at_utc` | Local retrieval time (UTC) | `2026-11-17T12:57:06.172384+00:00` | When the source file associated with this snapshot was first retrieved or imported into the local cache. Offline fixture replay also generates a local import receipt; this timestamp cannot establish when the data first became public. |
+| `source_artifact_id` | Raw file fingerprint | `1a28972ac0c727ce974e0f8217b3cae9e892f6e974f6927033eaffbd5890a8da` | SHA-256 of the raw response, CSV, PDF, or ZIP, used to locate and verify the source file. It is not a commodity, region, or report-row identifier. |
+| `snapshot_id` | Processed version identifier | `483832b47869d6dc7582393dcd5cd4e329c25a574629f91185ee9c242d933327` | Identifies a normalized version produced from the source file together with the parser, field definitions, and configuration. Reprocessing the same source may produce a new version; do not treat it as economic time or a business key. |
+| `vintage_type` | Data vintage type | `report_vintage` | report_vintage preserves values as published in a specific report; current_revised is the historical series available at download time, possibly revised; forecast_vintage preserves a specific forecast release. |
 
-## 容易误读的地方
+## Common pitfalls
 
-- 同一个市场年度会在多期报告中出现，是不同发布版本，不是重复下载造成的重复行。
-- `Beginning Stocks`、`Ending Stocks` 是库存；`Production`、`Exports` 是期间指标；预测可靠性表的误差和年数不能当供需量相加。
-- 本接口按 `ReleaseDate` 确认发布日；源钟点没有足够时区依据时，UTC 发布时刻保持空值。
+- The same marketing year can appear in multiple reports; these are different release vintages, not duplicate rows caused by repeated downloads.
+- `Beginning Stocks` and `Ending Stocks` are stocks; `Production` and `Exports` measure flows over a period. Errors and counts of years in forecast-reliability tables must not be added to supply/use quantities.
+- This interface determines the release date from `ReleaseDate`; the UTC release timestamp remains null when there is insufficient timezone evidence for the source clock time.
 
-更多来源与处理细节：[WASDE 技术说明](../wasde.md)。
+For more source and processing details, see the [WASDE technical guide](../wasde.md).
