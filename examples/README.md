@@ -14,7 +14,7 @@
 | 谷物贸易 | [grain-trade.csv](grain-trade.csv) | 200 / 8,643 | [fas_dataset_observations.v1.json](../schemas/fas_dataset_observations.v1.json) |
 | 油籽贸易 | [oilseed-trade.csv](oilseed-trade.csv) | 200 / 9,947 | [fas_dataset_observations.v1.json](../schemas/fas_dataset_observations.v1.json) |
 
-字段中文阅读入口：[字段字典](../docs/field_dictionary.md)。各数据集的单位、年份、汇总边界及来源限制见 [README](../README.md) 中的对应说明。
+**字段中文阅读入口：[每列是什么意思、单位是什么、一行数据怎么读](../docs/field_dictionary.md)。**各数据集的单位、年份、汇总边界及来源限制见 [README](../README.md) 中的对应说明。
 
 ## 一条命令生成一个示例
 

@@ -1,5 +1,8 @@
 # RMA Summary of Business with coverage level
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/rma_sob.md)**。下面保留原有英文技术说明。
+
+
 ```python
 from usda_data import download_rma_sob, iter_rma_sob
 frame = download_rma_sob([2025], data_dir="data")

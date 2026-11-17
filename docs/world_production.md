@@ -1,5 +1,8 @@
 # World Agricultural Production
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/world_production.md)**。下面保留原有英文技术说明。
+
+
 See reports.md for shared interfaces, exact source keys and revision policy.
 The production report includes 18 numbered table families in the tested layout:
 world crop production; area, yield and production by crop; copra/palm-kernel/palm-oil

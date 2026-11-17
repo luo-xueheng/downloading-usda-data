@@ -49,7 +49,7 @@ for chunk in schema.read_csv_chunks(root / selected["csv_path"], chunk_size=1000
 | `costs-returns` | [成本收益](docs/costs_returns.md) | [costs-returns.csv](examples/costs-returns.csv) |
 | `rma-sob` | [RMA](docs/rma_sob.md) | [rma-sob.csv](examples/rma-sob.csv) |
 
-各列含义见[字段字典](docs/field_dictionary.md)，完整参数和 Python API 见[接口说明](docs/interfaces.md)。`psd` 作为辅助接口单独提供，三个报告数据集已包含对应的 PSD 数据及原始报告表格。
+各列的中文解释、单位和真实行示例见[CSV 字段说明](docs/field_dictionary.md)，完整参数和 Python API 见[接口说明](docs/interfaces.md)。`psd` 作为辅助接口单独提供，三个报告数据集已包含对应的 PSD 数据及原始报告表格。
 
 ## 批量下载、更新及导出
 

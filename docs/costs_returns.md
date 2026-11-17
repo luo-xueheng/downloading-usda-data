@@ -1,5 +1,8 @@
 # ERS commodity costs and returns
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/costs_returns.md)**。下面保留原有英文技术说明。
+
+
 `download_costs_returns(years, *, commodities="all", data_dir="data", refresh=False)`
 returns an exact-value pandas DataFrame. `iter_costs_returns` yields one complete
 source-file partition at a time, selecting the requested observation years from it.

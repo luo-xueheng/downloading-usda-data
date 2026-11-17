@@ -1,5 +1,8 @@
 # Oilseeds: World Markets and Trade
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/oilseed_trade.md)**。下面保留原有英文技术说明。
+
+
 See reports.md for shared interfaces and precision/vintage policy. All 28 numbered
 table families and body outlook-change tables are required in the tested layout.
 The PSD union covers 27 oilseed, meal and oil codes, including local soybean/meal/oil

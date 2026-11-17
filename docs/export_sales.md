@@ -1,5 +1,8 @@
 # FAS export sales
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/export_sales.md)**。下面保留原有英文技术说明。
+
+
 ```python
 from usda_data import download_export_sales
 frame = download_export_sales(["corn", "soybeans", "wheat"], [2026], data_dir="data")

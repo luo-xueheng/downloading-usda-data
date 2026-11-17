@@ -1,5 +1,8 @@
 # Grain: World Markets and Trade
 
+> 中文阅读入口：**[数据含义、逐列解释和真实示例](fields/grain_trade.md)**。下面保留原有英文技术说明。
+
+
 See reports.md for shared interfaces and source/version semantics. The tested
 appendix contains 25 numerical supply/trade table families. Body trade-change tables
 are also required, including older-year changes when present. Nine PSD grain codes
